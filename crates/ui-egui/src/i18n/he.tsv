@@ -109,7 +109,7 @@
 	Auto	אוטומטי
 	Continuous scrolling	גלילה רציפה
 	Show gaps between pages	הצגת רווחים בין העמודים
-	Hide gaps to join page edges. Margins inside the PDF remain unchanged.	הסתרה רווחים ל join עמוד קצוות. שוליים בתוך ה PDF remain ללא שינוי.
+	Hide gaps to join page edges. Margins inside the PDF remain unchanged.	הסתרת הרווחים כדי להצמיד את קצוות העמודים. השוליים בתוך קובץ ה־PDF לא ישתנו.
 	Single page	עמוד יחיד
 	Two-page view	תצוגת שני עמודים
 	Show cover page in two-page view	הצגת עמוד שער בתצוגת שני עמודים
@@ -255,8 +255,8 @@ key	Space	רווח
 	Toggle fit page / fit width	מעבר בין התאמה לעמוד להתאמה לרוחב
 	Next page	העמוד הבא
 	Previous page	העמוד הקודם
-	Current page — type a page number or label (such as iv) and press Enter	נוכחי עמוד — סוג  עמוד מספר או תווית (such כמו iv) ו press Enter
-	Zoom — type a percentage and press Enter	שינוי גודל התצוגה — סוג  אחוז ו press Enter
+	Current page — type a page number or label (such as iv) and press Enter	העמוד הנוכחי — הקלד מספר עמוד או תווית (למשל iv) ולחץ על Enter
+	Zoom — type a percentage and press Enter	שינוי גודל התצוגה — הקלד אחוזים ולחץ על Enter
 	Welcome to PdfCraft	ברוכים הבאים ל־PdfCraft
 	An open-source PDF workbench — local, private, and scriptable.	סביבת עבודה לקובצי PDF בקוד פתוח — מקומית, פרטית וניתנת להפעלה באמצעות סקריפטים.
 	Join the ArtCraft community	הצטרפות לקהילת ArtCraft
@@ -596,7 +596,7 @@ key	Space	רווח
 	The order saved in the PDF needs tidying	צריך לסדר מחדש את סדר החישוב שנשמר בקובץ ה־PDF.
 	Moves only what must move	מזיז רק את מה שחייבים להזיז
 	Every field calculates after the fields it reads.	כל שדה מחושב לאחר השדות שמהם הוא קורא נתונים.
-	Every field outside a loop calculates after the fields it reads.	כל שדה מחוץ  loop calculates אחרי ה שדות זה reads.
+	Every field outside a loop calculates after the fields it reads.	כל שדה שאינו חלק מתלות מעגלית מחושב אחרי השדות שמהם הוא קורא נתונים.
 	{field} reads its own value	{field} קורא את הערך של עצמו
 	{fields} read each other	השדות {fields} קוראים זה מזה
 	No order can fix a loop. Change one of the formulas.	אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר. שנה אחת מהנוסחאות.
@@ -605,7 +605,7 @@ key	Space	רווח
 	Script	סקריפט
 	Links on page	קישורים על עמוד
 	Show on the page which fields each field reads	הצגת השדות שכל שדה קורא מהם נתונים על גבי העמוד
-	Drag a field to move it, or select it and press {up} or {down}.	גרירה  שדה ל העברה זה, או בחירה זה ו press {up} או {down}.
+	Drag a field to move it, or select it and press {up} or {down}.	גרור שדה כדי להזיז אותו, או בחר אותו ולחץ על {up} או {down}.
 	From:	מ:
 	To:	ל:
 	High Resolution	רזולוציה גבוהה
@@ -614,7 +614,7 @@ key	Space	רווח
 	Set Page Boxes	הגדרת תיבות העמוד
 	Signature panel	חתימה לוח
 	{month} {day}, {y}	{day} ב{month} {y}
-	The document's security settings don't allow filling in form fields	ה מסמך's אבטחה הגדרות don't allow filling ב שדות טופס
+	The document's security settings don't allow filling in form fields	הגדרות האבטחה של המסמך אינן מאפשרות למלא שדות בטופס
 	{name} is read-only	הקובץ {name} הוא לקריאה בלבד
 	{name} has no action	ל־{name} אין פעולה
 	Previous month	הקודם חודש
@@ -633,7 +633,7 @@ key	Space	רווח
 	December	דצמבר
 	Done	סיום
 	This certificate is in your list of trusted certificates.	האישור הדיגיטלי הזה נמצא ברשימת האישורים המהימנים שלך.
-	This certificate is trusted through a certificate above it in the chain.	זה אישור דיגיטלי הוא מהימן דרך  אישור דיגיטלי above זה ב ה chain.
+	This certificate is trusted through a certificate above it in the chain.	האישור הזה מהימן בזכות אישור אחר שמופיע לפניו בשרשרת האישורים.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	האישור הדיגיטלי הזה אינו מהימן. חתימות שנוצרו באמצעותו יוצגו עם זהות לא ידועה.
 	Add to Trusted Certificates	הוספה ל מהימן אישורים דיגיטליים
 	Export…	ייצוא…
@@ -893,7 +893,7 @@ key	Space	רווח
 	Insert Page Number	הוספה עמוד מספר
 	Insert Date	הוספה תאריך
 	Start page number	עמוד התחלה מספר
-	Shrink the page content to make room for the header and footer	Shrink ה עמוד תוכן ל יצירה room עבור ה כותרת עליונה ו כותרת תחתונה
+	Shrink the page content to make room for the header and footer	הקטנת תוכן העמוד כדי לפנות מקום לכותרת העליונה והתחתונה
 	Source	מקור
 	Fit to page	התאמה ל עמוד
 	Rotation	סיבוב
@@ -949,11 +949,11 @@ key	Space	רווח
 	The labels are in English: the signature's font can't draw them in this language.	התוויות באנגלית: הגופן של החתימה אינו יכול להציג אותן בשפה זו.
 	No digital IDs yet.	עדיין אין מזהים דיגיטליים.
 	Configure New Digital ID	הגדרת מזהה דיגיטלי חדש
-	Remove "{name}" from this list? The file itself is not deleted.	הסרה "{name}" מ זה list? ה קובץ itself הוא לא נמחק.
+	Remove "{name}" from this list? The file itself is not deleted.	להסיר את "{name}" מהרשימה הזאת? הקובץ עצמו לא יימחק.
 	Continue	המשך
 	Configure a Digital ID for Signing	הגדרת מזהה דיגיטלי לחתימה
 	Use a Digital ID from a file	שימוש במזהה דיגיטלי מקובץ
-	Create a new Digital ID (self-signed, saved to a password-protected file)	יצירה  חדש Digital ID (self-חתום, נשמר ל  סיסמה-מוגן קובץ)
+	Create a new Digital ID (self-signed, saved to a password-protected file)	יצירת מזהה דיגיטלי חדש (חתימה עצמית, נשמר בקובץ המוגן בסיסמה)
 	Name	שם
 	Organizational Unit	יחידה ארגונית
 	Organization Name	שם הארגון
@@ -1002,7 +1002,7 @@ key	Space	רווח
 	Show certificate…	הצגה אישור דיגיטלי…
 	Export certificate…	ייצוא אישור דיגיטלי…
 	Certificate Viewer	מציג האישורים הדיגיטליים
-	This dialog shows the details of a certificate and its chain.	זה חלון דו־שיח shows ה פרטים של  אישור דיגיטלי ו שלו chain.
+	This dialog shows the details of a certificate and its chain.	חלון זה מציג את פרטי האישור הדיגיטלי ואת שרשרת האישורים שלו.
 	Trust	אמון
 	Issued to	הונפק עבור
 	Valid from	תקין מ
@@ -1061,8 +1061,8 @@ key	Space	רווח
 	Old file:	ישן קובץ:
 	Open the older version first	יש לפתוח תחילה את הגרסה הקודמת
 	New file:	חדש קובץ:
-	Text is compared word by word; the differences are shown on the new file.	טקסט הוא compared מילה על ידי מילה; ה הבדלים הם shown על ה חדש קובץ.
-	Compare this file with an older version: Compare files… in All tools.	השוואה זה קובץ עם  older גרסה: השוואה קבצים… ב כל הכלים.
+	Text is compared word by word; the differences are shown on the new file.	הטקסט מושווה מילה במילה; ההבדלים יוצגו בקובץ החדש.
+	Compare this file with an older version: Compare files… in All tools.	השוואת הקובץ הזה לגרסה קודמת: בחר ״השוואת קבצים…״ ב״כל הכלים״.
 	No differences in the text.	אין הבדלים ב ה טקסט.
 	{n} {kind}	{n} {kind}
 	Inserted	הוכנס
@@ -1080,26 +1080,26 @@ key	Space	רווח
 	Alternate text	טקסט חלופי
 	Describe the figure	תיאור האיור
 	Decorative figure	איור דקורטיבי
-	Previous figure	הקודם figure
-	Next figure	הבא figure
+	Previous figure	האיור הקודם
+	Next figure	האיור הבא
 	Save & Close	שמירה & סגירה
 	Accessibility Checker Options	בודק נגישות אפשרויות
 	Report Options	דוח אפשרויות
 	Create accessibility report	יצירה נגישות דוח
-	Page Range	עמוד Range
+	Page Range	טווח עמודים
 	All pages in document	כל עמודים ב מסמך
-	Checking Options ({on} of 32 in all categories)	Checking אפשרויות ({on} של 32 ב כל categories)
-	Show this dialog when the Checker starts	הצגה זה חלון דו־שיח כאשר ה Checker starts
+	Checking Options ({on} of 32 in all categories)	אפשרויות הבדיקה ({on} מתוך 32 בכל הקטגוריות)
+	Show this dialog when the Checker starts	הצגת חלון זה כאשר בודק הנגישות מופעל
 	Select All	בחירת הכול
 	Clear All	ניקוי כל
-	Start Checking	התחלה Checking
-	This document hasn't been checked yet.	זה מסמך hasn't היה checked yet.
+	Start Checking	התחלת הבדיקה
+	This document hasn't been checked yet.	המסמך הזה עדיין לא נבדק.
 	No issues found	אין בעיות נמצא
 	1 issue	1 בעיה
 	{n} issues	{n} בעיות
-	{label} (1 issue)	{label} (1 בעיה)
+	{label} (1 issue)	{label} (בעיה אחת)
 	{label} ({n} issues)	{label} ({n} בעיות)
-	Check again	Check שוב
+	Check again	בדיקה חוזרת
 	Report	דוח
 	Show the accessibility report	הצגה ה נגישות דוח
 	Collapse	צמצום
@@ -1107,94 +1107,94 @@ key	Space	רווח
 	{rule} - {status}	{rule} - {status}
 	Passed	עבר
 	Failed	נכשל
-	Needs manual check	Needs ידני check
+	Needs manual check	דורש בדיקה ידנית
 	Skipped	דולג
 	Fix	תיקון
 	Skip Rule	דילוג על כלל
 	Explain	הסבר
-	Check Again	Check שוב
+	Check Again	בדיקה חוזרת
 	Show Report	הצגה דוח
 	Options…	אפשרויות…
 	Go to the page	Go ל ה עמוד
 	Page Content	עמוד תוכן
 	Forms	צורות
-	Alternate Text	Alternate טקסט
+	Alternate Text	טקסט חלופי
 	Tables	טבלאות
 	Lists	רשימות
 	Headings	כותרות
-	Accessibility permission flag	נגישות הרשאה flag
-	Accessibility permission flag is set	נגישות הרשאה flag הוא set
+	Accessibility permission flag	דגל הרשאת נגישות
+	Accessibility permission flag is set	דגל הרשאת הנגישות מוגדר
 	Security settings must allow assistive technology to read the content ("Enable text access for screen reader devices"). Change the document's security to allow it.	הגדרות האבטחה חייבות לאפשר לטכנולוגיות מסייעות לקרוא את התוכן ("Enable text access for screen reader devices"). שנה את אבטחת המסמך כדי לאפשר זאת.
 	Image-only PDF	תמונה-רק PDF
 	Document is not image-only PDF	מסמך הוא לא תמונה-רק PDF
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	אי אפשר להקריא או לחפש בעמודים שמכילים תמונות של טקסט בלבד. הפעל זיהוי טקסט (OCR) כדי להוסיף שכבת טקסט.
-	Document is tagged PDF	מסמך הוא tagged PDF
+	Document is tagged PDF	המסמך הוא PDF מתויג
 	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	תגים מעניקים למסמך מבנה לוגי שטכנולוגיות מסייעות יכולות לעקוב אחריו. תייג את המסמך (Automatically tag PDF).
 	Logical Reading Order	סדר קריאה לוגי
 	Document structure provides a logical reading order	מבנה המסמך מספק סדר קריאה לוגי.
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	בדוק שהתגים נקראים בסדר שבו אדם שרואה היה קורא אותם. השתמש בכלי Reading Order או בלוח התגים כדי לתקן זאת.
-	Primary language	Primary שפה
-	Text language is specified	טקסט שפה הוא specified
+	Primary language	שפה ראשית
+	Text language is specified	שפת הטקסט מוגדרת
 	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	קוראי מסך בוחרים את הקול לפי שפת המסמך. הגדר אותה דרך Document Properties > Advanced > Language.
-	Document title is showing in title bar	מסמך כותרת הוא showing ב כותרת bar
+	Document title is showing in title bar	כותרת המסמך מוצגת בשורת הכותרת
 	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	על החלון להציג כותרת משמעותית במקום את שם הקובץ. הגדר כותרת ובחר Initial View > Show: Document Title.
-	Bookmarks are present in large documents	סימניות הם present ב large מסמכים
+	Bookmarks are present in large documents	יש סימניות במסמכים ארוכים
 	Documents of more than 20 pages need bookmarks for navigation. Add bookmarks for the main sections.	מסמכים בני יותר מ־20 עמודים זקוקים לסימניות לניווט. הוסף סימניות למקטעים הראשיים.
-	Color contrast	צבע contrast
-	Document has appropriate color contrast	מסמך יש appropriate צבע contrast
+	Color contrast	ניגודיות צבעים
+	Document has appropriate color contrast	ניגודיות הצבעים במסמך מתאימה
 	Text must contrast enough with its background for people with low vision. Check the colours by eye or with a contrast tool.	הטקסט צריך להיות בעל ניגודיות מספקת מול הרקע עבור אנשים עם ראייה חלשה. בדוק את הצבעים חזותית או באמצעות כלי לבדיקת ניגודיות.
-	Tagged content	Tagged תוכן
-	All page content is tagged	כל עמוד תוכן הוא tagged
+	Tagged content	תוכן מתויג
+	All page content is tagged	כל תוכן העמוד מתויג
 	Everything on a page must be tagged or marked as an artifact (decoration, headers, footers). Tag the untagged content.	יש לתייג כל דבר בעמוד או לסמן אותו כארטיפקט (קישוט, כותרת עליונה או תחתונה). תייג את התוכן שטרם תויג.
 	Tagged annotations	הערות מתויגות
-	All annotations are tagged	כל annotations הם tagged
+	All annotations are tagged	כל ההערות מתויגות
 	Comments, links and fields must be in the tag tree to be announced. Tag the annotations.	תגובות, קישורים ושדות חייבים להופיע בעץ התגים כדי שיוכרזו. תייג את ההערות.
-	Tab order	לשונית order
-	Tab order is consistent with structure order	לשונית order הוא consistent עם מבנה order
+	Tab order	סדר מעבר בין שדות
+	Tab order is consistent with structure order	סדר המעבר בין השדות תואם לסדר המבני
 	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	הניווט באמצעות Tab בעמודים עם קישורים, תגובות או שדות צריך לפעול לפי סדר המבנה. התיקון מגדיר בכל עמוד את סדר Tab ל־Use Document Structure.
-	Character encoding	תו encoding
-	Reliable character encoding is provided	Reliable תו encoding הוא provided
+	Character encoding	קידוד תווים
+	Reliable character encoding is provided	סופק קידוד תווים אמין
 	Fonts must map their characters to Unicode so text can be read and copied. Fix the fonts or recreate the PDF.	גופנים צריכים למפות את התווים שלהם ל־Unicode כדי שאפשר יהיה לקרוא ולהעתיק את הטקסט. תקן את הגופנים או צור מחדש את קובץ ה־PDF.
 	Tagged multimedia	מולטימדיה מתויגת
-	All multimedia objects are tagged	כל multimedia אובייקטים הם tagged
+	All multimedia objects are tagged	כל אובייקטי המולטימדיה מתויגים
 	Video, sound and rich media must be tagged to be announced. Tag the multimedia annotations.	יש לתייג וידאו, שמע ומדיה עשירה כדי שיוכרזו. תייג את ההערות של רכיבי המולטימדיה.
-	Screen flicker	מסך flicker
-	Page will not cause screen flicker	עמוד יבצע לא cause מסך flicker
+	Screen flicker	הבהוב מסך
+	Page will not cause screen flicker	העמוד לא יגרום להבהוב מסך
 	Animation that flashes can cause seizures. Check scripts and media for flicker.	הנפשה מהבהבת עלולה לגרום להתקפים. בדוק אם יש הבהובים בסקריפטים ובמדיה.
 	Scripts	סקריפטים
-	No inaccessible scripts	אין inaccessible scripts
+	No inaccessible scripts	אין סקריפטים שאינם נגישים
 	Timed responses	תגובות מוגבלות בזמן
-	Page does not require timed responses	עמוד מבצע לא require timed responses
+	Page does not require timed responses	העמוד אינו דורש תגובות בתוך זמן מוגבל
 	People may need more time to respond. Check that nothing has a time limit.	ייתכן שאנשים יזדקקו לזמן נוסף כדי להגיב. בדוק שאין מגבלת זמן.
 	Navigation links	ניווט קישורים
-	Navigation links are not repetitive	ניווט קישורים הם לא repetitive
+	Navigation links are not repetitive	קישורי הניווט אינם חוזרים על עצמם
 	Repeated navigation links should be skippable. Check links that appear on every page.	צריך לאפשר לדלג על קישורי ניווט שחוזרים על עצמם. בדוק קישורים שמופיעים בכל עמוד.
-	Tagged form fields	Tagged שדות טופס
-	All form fields are tagged	כל שדות טופס הם tagged
+	Tagged form fields	שדות טופס מתויגים
+	All form fields are tagged	כל שדות הטופס מתויגים
 	Form fields must be in the tag tree (Form tags) to be announced. Tag the form fields.	שדות טופס צריכים להופיע בעץ התגים (תגי Form) כדי שיוכרזו. תייג את שדות הטופס.
-	Field descriptions	שדה descriptions
+	Field descriptions	תיאורי שדות
 	All form fields have description	כל שדות טופס יש תיאור
 	Each field needs a tooltip that says what to enter. Add one in Field Properties > General > Tooltip.	כל שדה צריך תיאור צף שמסביר מה יש להזין. הוסף אותו דרך Field Properties > General > Tooltip.
-	Figures alternate text	Figures alternate טקסט
-	Figures require alternate text	Figures require alternate טקסט
+	Figures alternate text	טקסט חלופי לאיורים
+	Figures require alternate text	איורים מחייבים טקסט חלופי
 	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	תמונות צריכות טקסט חלופי שמתאר אותן, או סימון שהן קישוטיות. הוסף טקסט חלופי לכל איור.
-	Nested alternate text	Nested alternate טקסט
-	Alternate text that will never be read	Alternate טקסט זה יבצע never להיות קריאה
+	Nested alternate text	טקסט חלופי מקונן
+	Alternate text that will never be read	טקסט חלופי שלעולם לא ייקרא
 	Alternate text inside an element that already has alternate text is never read. Remove the inner alternate text.	טקסט חלופי בתוך רכיב שכבר מוגדר לו טקסט חלופי לא יוקרא. הסר את הטקסט החלופי הפנימי.
-	Associated with content	Associated עם תוכן
-	Alternate text must be associated with some content	Alternate טקסט חייב להיות associated עם כמה תוכן
+	Associated with content	משויך לתוכן
+	Alternate text must be associated with some content	טקסט חלופי חייב להיות משויך לתוכן כלשהו
 	Alternate text on an element without page content is never reached. Remove it or attach the element to content.	לא מגיעים לטקסט חלופי של רכיב שאינו מכיל תוכן בעמוד. הסר אותו או קשר את הרכיב לתוכן.
 	Hides annotation	מסתיר הערה
-	Alternate text should not hide annotation	Alternate טקסט צריך לא הסתרה annotation
+	Alternate text should not hide annotation	טקסט חלופי לא אמור להסתיר הערה
 	Alternate text on an element that contains a link or field hides that annotation from assistive technology. Move the alternate text.	טקסט חלופי של רכיב שמכיל קישור או שדה מסתיר את ההערה הזאת מטכנולוגיות מסייעות. העבר את הטקסט החלופי.
-	Other elements alternate text	אחר elements alternate טקסט
-	Other elements that require alternate text	אחר elements זה require alternate טקסט
+	Other elements alternate text	טקסט חלופי של רכיבים אחרים
+	Other elements that require alternate text	רכיבים אחרים שדורשים טקסט חלופי
 	Formulas and similar non-text elements need alternate text. Add alternate text to them.	נוסחאות ורכיבים דומים שאינם טקסט צריכים טקסט חלופי. הוסף להם טקסט חלופי.
 	Rows	שורות
-	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות צאצא של Table, THead, TBody או TFoot.
+	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות צאצא של Table, THead, TBody או TFoot
 	Table cells belong in a row. Fix the table's tags.	תאי טבלה צריכים להימצא בתוך שורה. תקן את התגים של הטבלה.
 	Headers	כותרות עליונות
-	Tables should have headers	טבלאות צריך יש headers
+	Tables should have headers	לטבלאות צריכות להיות כותרות
 	Header cells (TH) tell listeners what each column or row holds. Mark the header cells.	תאי כותרת (TH) מסבירים למאזינים מה מכילה כל שורה או עמודה. סמן את תאי הכותרת.
 	Regularity	סדירות
 	Tables must contain the same number of columns in each row and rows in each column	בכל שורות הטבלה צריך להיות אותו מספר עמודות, ובכל עמודותיה אותו מספר שורות.
@@ -1202,54 +1202,54 @@ key	Space	רווח
 	Summary	סיכום
 	Tables must have a summary	טבלאות חייב יש  סיכום
 	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	סיכום מתאר את מטרת הטבלה ואת הפריסה שלה. הוסף מאפיין Summary לכל טבלה.
-	List items	List פריטים
-	LI must be a child of L	LI חייב להיות  child של L
+	List items	פריטי רשימה
+	LI must be a child of L	LI חייב להיות צאצא של L
 	List items belong in a list. Fix the list's tags.	פריטי רשימה צריכים להימצא בתוך רשימה. תקן את התגים של הרשימה.
-	Lbl and LBody	Lbl ו LBody
-	Lbl and LBody must be children of LI	Lbl ו LBody חייב להיות children של LI
+	Lbl and LBody	Lbl ו־LBody
+	Lbl and LBody must be children of LI	Lbl ו־LBody חייבים להיות צאצאים של LI
 	List labels and bodies belong in a list item. Fix the list's tags.	תוויות וגופי רשימה צריכים להימצא בתוך פריט רשימה. תקן את התגים של הרשימה.
 	Appropriate nesting	קינון מתאים
 	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	רמות הכותרות לא אמורות לדלג (למשל H1 ואחריה H3). תייג מחדש את הכותרות.
 	TH and TD	TH ו TD
-	TH and TD must be children of TR	TH ו TD חייב להיות children של TR
-	Mark Page Range	Mark עמוד Range
+	TH and TD must be children of TR	TH ו־TD חייבים להיות צאצאים של TR
+	Mark Page Range	סימון טווח עמודים
 	Pages from	עמודים מ
-	Single word or phrase	Single מילה או phrase
+	Single word or phrase	מילה או ביטוי יחידים
 	Text to find	טקסט ל חיפוש
 	Patterns	תבניות
-	Phone Numbers	Phone מספרים
-	Email Addresses	דוא"ל Addresses
+	Phone Numbers	מספרי טלפון
+	Email Addresses	כתובות דוא״ל
 	Credit Cards	כרטיסי אשראי
-	Social Security Numbers	Social אבטחה מספרים
+	Social Security Numbers	מספרי ביטוח לאומי (SSN)
 	Dates	תאריכים
-	Text in images isn't found; recognise text (OCR) first.	טקסט ב תמונות isn't נמצא; recognise טקסט (OCR) ראשון.
+	Text in images isn't found; recognise text (OCR) first.	לא נמצא טקסט בתמונות; תחילה יש לזהות את הטקסט באמצעות OCR.
 	No matches.	אין התאמות.
-	{n} match(es) marked for redaction.	{n} התאמה(es) marked עבור השחרת מידע.
+	{n} match(es) marked for redaction.	סומנו {n} התאמות להשחרת מידע.
 	Redaction Tool Properties	השחרת מידע כלי מאפיינים
-	Redacted area fill colour:	Redacted שטח fill צבע:
-	Use overlay text	Use overlay טקסט
+	Redacted area fill colour:	צבע המילוי של האזור המושחר:
+	Use overlay text	שימוש בטקסט שכבה
 	Custom text:	מותאם אישית טקסט:
-	Redaction code:	השחרת מידע code:
+	Redaction code:	קוד השחרת מידע:
 	Font:	גופן:
 	Font size:	גודל גופן:
 	Font size	גודל גופן
-	Auto-size text to fit redaction region	אוטומטי-גודל טקסט ל התאמה השחרת מידע region
+	Auto-size text to fit redaction region	התאמה אוטומטית של גודל הטקסט לאזור ההשחרה
 	Font colour:	גופן צבע:
-	Repeat overlay text	Repeat overlay טקסט
+	Repeat overlay text	חזרה על טקסט השכבה
 	Text alignment:	טקסט יישור:
 	Center	מרכז
-	Apply redactions	החלה redactions
+	Apply redactions	החלת השחרת המידע
 	You are about to apply 1 redaction mark. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	עומדים להחיל סימון השחרה אחד. הטקסט, התמונות והציורים שמתחת לסימונים, וכן תגובות ושדות טופס החופפים להם, יוסרו לצמיתות.
 	You are about to apply {n} redaction marks. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	עומדים להחיל {n} סימוני השחרה. הטקסט, התמונות והציורים שמתחת לסימונים, וכן תגובות ושדות טופס החופפים להם, יוסרו לצמיתות.
 	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	שמור את המסמך לאחר מכן: השמירה משכתבת את הקובץ כולו כדי שלא יישאר בו זכר לתוכן שהוסר.
 	Select the items to remove from this document.	בחירה ה פריטים ל הסרה מ זה מסמך.
 	Metadata	נתוני מטא
 	File attachments	קובץ קבצים מצורפים
-	Comments and markups	תגובות ו markups
+	Comments and markups	תגובות וסימונים
 	Hidden text	מוסתר טקסט
 	Hidden layers	מוסתר שכבות
-	Links, actions and JavaScripts	קישורים, פעולות ו JavaScripts
-	Private data of other applications	Private נתונים של אחר applications
+	Links, actions and JavaScripts	קישורים, פעולות וסקריפטים של JavaScript
+	Private data of other applications	נתונים פרטיים של יישומים אחרים
 	None found	ללא נמצא
 	Form fields are flattened: their values stay visible. Saving rewrites the whole file.	שדות הטופס משוטחים, ולכן הערכים שלהם נשארים גלויים. השמירה משכתבת את הקובץ כולו.
 	Remove	הסרה
@@ -1260,80 +1260,80 @@ key	Space	רווח
 	{name} (default)	{name} (ברירת מחדל)
 	Copies:	עותקים:
 	Collate	איסוף לפי סדר
-	Print in grayscale	הדפסה ב grayscale
-	Two-sided:	שניים-sided:
+	Print in grayscale	הדפסה בגווני אפור
+	Two-sided:	דו־צדדי:
 	Off	כבוי
-	Flip on long edge	Flip על long קצה
-	Flip on short edge	Flip על short קצה
+	Flip on long edge	היפוך לאורך הקצה הארוך
+	Flip on short edge	היפוך לאורך הקצה הקצר
 	Printer default	מדפסת ברירת מחדל
 	Paper:	נייר:
 	Pages to Print	עמודים ל הדפסה
 	More options:	אפשרויות נוספות:
-	All pages in range	כל עמודים ב range
-	Odd pages only	Odd עמודים רק
-	Even pages only	Even עמודים רק
-	Reverse pages	Reverse עמודים
-	Page Sizing & Handling	עמוד Sizing & Handling
+	All pages in range	כל העמודים בטווח
+	Odd pages only	עמודים אי־זוגיים בלבד
+	Even pages only	עמודים זוגיים בלבד
+	Reverse pages	היפוך סדר העמודים
+	Page Sizing & Handling	גודל עמוד ואופן הטיפול בו
 	Size	גודל
 	Poster	פוסטר
 	Multiple	מרובה
 	Booklet	חוברת
 	Fit	התאמה
-	Shrink oversized pages	Shrink oversized עמודים
+	Shrink oversized pages	הקטנת עמודים גדולים מדי
 	Custom scale:	מותאם אישית קנה מידה:
-	Tile scale:	Tile קנה מידה:
+	Tile scale:	קנה מידה של אריחים:
 	Overlap:	חפיפה:
-	Cut marks	גזירה marks
-	Pages per sheet:	עמודים per גיליון:
-	Page order:	עמוד order:
+	Cut marks	סימני חיתוך
+	Pages per sheet:	עמודים בכל גיליון:
+	Page order:	סדר העמודים:
 	Horizontal	אופקי
-	Horizontal reversed	אופקי reversed
+	Horizontal reversed	אופקי בסדר הפוך
 	Vertical	אנכי
-	Vertical reversed	אנכי reversed
+	Vertical reversed	אנכי בסדר הפוך
 	Print page border	הדפסה עמוד מסגרת
 	Auto-rotate pages	אוטומטי-סיבוב עמודים
 	Booklet subset:	טווח החוברת:
-	Both sides	שניהם sides
-	Front side only	Front side רק
-	Back side only	חזרה side רק
+	Both sides	שני הצדדים
+	Front side only	הצד הקדמי בלבד
+	Back side only	הצד האחורי בלבד
 	Binding:	כריכה:
 	Left	שמאל
 	Right	ימין
 	Orientation:	כיוון:
-	Auto portrait/landscape	אוטומטי portrait/landscape
+	Auto portrait/landscape	בחירה אוטומטית לאורך או לרוחב
 	Portrait	לאורך
 	Landscape	לרוחב
 	Comments & Forms	תגובות & צורות
 	Document	מסמך
-	Document and markups	מסמך ו markups
-	Document and stamps	מסמך ו stamps
+	Document and markups	המסמך והסימונים
+	Document and stamps	המסמך והחותמות
 	Form fields only	שדות טופס רק
 	Previous sheet	הקודם גיליון
 	Next sheet	הבא גיליון
-	No sheets	אין sheets
+	No sheets	אין גיליונות
 	Sheet {s} of {n}	גיליון {s} של {n}
 	Removed 1 hidden item. Save to remove them from the file.	הוסר 1 מוסתר פריט. שמירה ל הסרה אותם מ ה קובץ.
 	Removed {n} hidden items. Save to remove them from the file.	הוסר {n} מוסתר פריטים. שמירה ל הסרה אותם מ ה קובץ.
-	Document sanitized. Save to finish: saving rewrites the whole file.	מסמך sanitized. שמירה ל סיום: בשמירה rewrites ה whole קובץ.
-	Applied 1 redaction mark. Save to remove the content from the file.	Applied 1 השחרת מידע mark. שמירה ל הסרה ה תוכן מ ה קובץ.
-	Applied {n} redaction marks. Save to remove the content from the file.	Applied {n} השחרת מידע marks. שמירה ל הסרה ה תוכן מ ה קובץ.
+	Document sanitized. Save to finish: saving rewrites the whole file.	המסמך נוקה ממידע מוסתר. לסיום, שמור אותו; השמירה כותבת מחדש את הקובץ כולו.
+	Applied 1 redaction mark. Save to remove the content from the file.	הוחל סימון השחרה אחד. שמור כדי להסיר את התוכן מהקובץ.
+	Applied {n} redaction marks. Save to remove the content from the file.	הוחלו {n} סימוני השחרה. שמור כדי להסיר את התוכן מהקובץ.
 	JavaScript Console	מסוף JavaScript
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript כבוי (העדפות ▸ JavaScript).
-	Output appears here.	פלט appears here.
-	Script Name:	Script שם:
-	This document has no document-level scripts.	זה מסמך יש אין מסמך-level scripts.
-	No form fields were detected	אין שדות טופס היו detected
-	Detected 1 form field	Detected 1 טופס שדה
-	Detected {n} form fields	Detected {n} שדות טופס
+	Output appears here.	הפלט יופיע כאן.
+	Script Name:	שם הסקריפט:
+	This document has no document-level scripts.	במסמך הזה אין סקריפטים ברמת המסמך.
+	No form fields were detected	לא זוהו שדות טופס
+	Detected 1 form field	זוהה שדה טופס אחד
+	Detected {n} form fields	זוהו {n} שדות טופס
 	{field}: {e}	{field}: {e}
 	Current page	נוכחי עמוד
 	Selected pages	נבחר עמודים
 	Document language	מסמך שפה
 	Output	פלט
-	Searchable Image (Exact)	Searchable תמונה (Exact)
-	Adds invisible text over each word; the page image is not changed	Adds invisible טקסט מעל כל מילה; ה עמוד תמונה הוא לא השתנה
-	Downsample to	Downsample ל
-	Also recognize pages that already have text	גם זיהוי עמודים זה already יש טקסט
+	Searchable Image (Exact)	תמונה ניתנת לחיפוש (מדויק)
+	Adds invisible text over each word; the page image is not changed	מוסיף טקסט בלתי נראה מעל כל מילה; תמונת העמוד אינה משתנה
+	Downsample to	הקטנת רזולוציה ל־
+	Also recognize pages that already have text	זיהוי גם של עמודים שכבר מכילים טקסט
 	Pictures on those pages are recognized too; words already in the page's text are not added again	גם תמונות בעמודים האלה מזוהות; מילים שכבר מופיעות בטקסט העמוד לא יתווספו שוב.
 	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	זיהוי טקסט אינו מותקן: קובצי המודלים חסרים. התקן מחדש את PdfCraft או הגדר את PDFCRAFT_MODELS לתיקייה שמכילה אותם.
 	Settings	הגדרות
