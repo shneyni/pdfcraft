@@ -58,6 +58,11 @@ fn plural_none(_: u64) -> usize {
     0
 }
 
+/// Hebrew counts: one (1), two (2), and other (0, 3+).
+fn plural_hebrew(n: u64) -> usize {
+    match n { 1 => 0, 2 => 1, _ => 2 }
+}
+
 /// Romanian (CLDR `ro`): 1 is `one`; 0 and numbers whose last two digits are 1–19 (2, 19, 101,
 /// 119) are `few`; everything else (20, 100, 120) is `other`, the form with "de" ("20 de pagini").
 fn plural_ro(n: u64) -> usize {
@@ -159,7 +164,7 @@ fn plural_sl(n: u64) -> usize {
 }
 
 /// The registry. English first: it is the fallback and the source language.
-pub static LANGUAGES: [LangInfo; 34] = [
+pub static LANGUAGES: [LangInfo; 35] = [
     LangInfo { code: "en", name: "English", source: "", plural: plural_one_other, rtl: false, catalog: OnceLock::new() },
     LangInfo { code: "ja", name: "日本語", source: include_str!("ja.tsv"), plural: plural_none, rtl: false, catalog: OnceLock::new() },
     // Simplified Chinese; `zh`, `zh-CN`, `zh-SG` and `zh-Hans-*` locales resolve here (see `candidates`).
@@ -210,6 +215,8 @@ pub static LANGUAGES: [LangInfo; 34] = [
     // Arabic (Modern Standard, Western digits); every `ar-*` locale (`ar-MA`, `ar-EG`, `ar-SA` ...)
     // resolves here. Right to left: see `LangInfo::rtl`.
     LangInfo { code: "ar", name: "العربية", source: include_str!("ar.tsv"), plural: plural_arabic, rtl: true, catalog: OnceLock::new() },
+    // Hebrew has one, two and other count forms and uses the RTL display-order path.
+    LangInfo { code: "he", name: "עברית", source: include_str!("he.tsv"), plural: plural_hebrew, rtl: true, catalog: OnceLock::new() },
     // Central Kurdish (Sorani); every `ckb-*` locale (`ckb-IQ`, `ckb-IR`) resolves here. Right to
     // left like Arabic: see `LangInfo::rtl`. CLDR `ckb` counts have two forms (one, other).
     LangInfo {
