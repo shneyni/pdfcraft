@@ -258,14 +258,14 @@ key	Space	רווח
 	Current page — type a page number or label (such as iv) and press Enter	נוכחי עמוד — סוג  עמוד מספר או תווית (such כמו iv) ו press Enter
 	Zoom — type a percentage and press Enter	שינוי גודל התצוגה — סוג  אחוז ו press Enter
 	Welcome to PdfCraft	ברוכים הבאים ל־PdfCraft
-	An open-source PDF workbench — local, private, and scriptable.	 פתיחה-מקור PDF workbench — מקומי, private, ו scriptable.
+	An open-source PDF workbench — local, private, and scriptable.	סביבת עבודה לקובצי PDF בקוד פתוח — מקומית, פרטית וניתנת להפעלה באמצעות סקריפטים.
 	Join the ArtCraft community	הצטרפות לקהילת ArtCraft
-	Get help, share feedback and follow development on Discord.	Get עזרה, שיתוף משוב ו follow development על Discord.
+	Get help, share feedback and follow development on Discord.	קבל עזרה, שתף משוב ועקוב אחר הפיתוח ב־Discord.
 	Recommended tools	כלים מומלצים
 	Use now	שימוש כעת
 	Open file	פתיחת קובץ
 	Recent	אחרונים
-	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	קבצים אתה פתיחה ב PdfCraft appear here. שחרור  PDF anywhere ל פתיחה זה.
+	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	הקבצים שתפתח ב־PdfCraft יופיעו כאן. גרור קובץ PDF לכל מקום כדי לפתוח אותו.
 	Privacy	פרטיות
 	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft פועל גם ללא חיבור לרשת. אין איסוף נתוני שימוש, אין צורך בחשבון ואין עיבוד בענן אלא אם הוספת ספק.
 	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	סקריפטים פועלים בסביבה מבודדת ללא גישה לקבצים או לרשת. גם כאשר JavaScript כבוי, פונקציות format, validate ו־calculate הסטנדרטיות של Acrobat ממשיכות לפעול.
@@ -582,7 +582,7 @@ key	Space	רווח
 	Earlier in calculation order	Earlier ב חישוב order
 	Later in calculation order	Later ב חישוב order
 	Too early	Too early
-	Reads {name}, which calculates later, so it shows an old value.	Reads {name}, איזה calculates later, so זה shows  ישן ערך.
+	Reads {name}, which calculates later, so it shows an old value.	הוא קורא את {name}, שמחושב בהמשך, ולכן מוצג ערך ישן.
 	Loop	Loop
 	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	תלוי ב־{names}, שתלויים בו בחזרה. אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר; יש לשנות אחת מהנוסחאות.
 	Not in order	לא ב order
@@ -593,13 +593,13 @@ key	Space	רווח
 	{field} reads no other field	{field} reads אין אחר שדה
 	{field} reads {fields}	{field} reads {fields}
 	No field reads it	אין שדה reads זה
-	The order saved in the PDF needs tidying	ה order נשמר ב ה PDF needs tidying
+	The order saved in the PDF needs tidying	צריך לסדר מחדש את סדר החישוב שנשמר בקובץ ה־PDF.
 	Moves only what must move	Moves רק מה חייב העברה
 	Every field calculates after the fields it reads.	כל שדה calculates אחרי ה שדות זה reads.
 	Every field outside a loop calculates after the fields it reads.	כל שדה מחוץ  loop calculates אחרי ה שדות זה reads.
 	{field} reads its own value	{field} reads שלו own ערך
 	{fields} read each other	{fields} קריאה כל אחר
-	No order can fix a loop. Change one of the formulas.	אין order יכול fix  loop. שינוי אחד של ה formulas.
+	No order can fix a loop. Change one of the formulas.	אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר. שנה אחת מהנוסחאות.
 	Edit {field}'s formula	עריכה {field}'s formula
 	Order · top calculates first	Order · עליון calculates ראשון
 	Script	Script
@@ -665,7 +665,7 @@ key	Space	רווח
 	Discard all object data (file attachments)	התעלמות כל אובייקט נתונים (קובץ קבצים מצורפים)
 	Discard private data of other applications	התעלמות private נתונים של אחר applications
 	Discard hidden text	התעלמות מוסתר טקסט
-	Use Flate to encode streams that are not encoded	Use Flate ל encode streams זה הם לא encoded
+	Use Flate to encode streams that are not encoded	השתמש ב־Flate כדי לקודד זרמים שעדיין אינם מקודדים.
 	Remove invalid links and bookmarks	הסרה לא תקין קישורים ו סימניות
 	Remove unreferenced named destinations	הסרה unreferenced named destinations
 	Compress document structure (object streams)	Compress מסמך מבנה (אובייקט streams)
@@ -759,7 +759,7 @@ key	Space	רווח
 	Social Security Number	Social אבטחה מספר
 	Arbitrary Mask	Arbitrary Mask
 	Mask:	Mask:
-	9 digit, A letter, O letter or digit, X any character	9 digit,  letter, O letter או digit, X כלשהו תו
+	9 digit, A letter, O letter or digit, X any character	9 מציין ספרה, A אות, O אות או ספרה, ו־X כל תו.
 	Example: {sample}	Example: {sample}
 	Field value is not validated	שדה ערך הוא לא validated
 	Field value is in range:	שדה ערך הוא ב range:
@@ -827,7 +827,7 @@ key	Space	רווח
 	Exclude images smaller than	Exclude תמונות smaller מאשר
 	No limit	אין limit
 	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	כל תמונה נשמרת פעם אחת בשם המבוסס על המסמך והעמוד. תמונות JPEG נשמרות ללא שינוי; שאר התמונות נשמרות כ־PNG.
-	Plain text in reading order; pages are separated by form feeds.	פשוט טקסט ב reading order; עמודים הם separated על ידי טופס feeds.
+	Plain text in reading order; pages are separated by form feeds.	טקסט פשוט לפי סדר הקריאה; העמודים מופרדים באמצעות מעברי עמוד.
 	Create {what}	יצירה {what}
 	initials	initials
 	signature	חתימה
@@ -931,12 +931,12 @@ key	Space	רווח
 	Go to a page view	Go ל  עמוד תצוגה
 	Type the web address.	סוג ה אינטרנט כתובת.
 	This document has no signatures.	זה מסמך יש אין חתימות.
-	The Keychain's digital IDs couldn't be listed: {e}	ה Keychain's digital IDs לא ניתן להיות listed: {e}
+	The Keychain's digital IDs couldn't be listed: {e}	לא ניתן להציג את המזהים הדיגיטליים שב־Keychain: {e}
 	Signed and saved to {path}	חתום ו נשמר ל {path}
 	Couldn't open revision {n}: {e}	לא ניתן פתיחה revision {n}: {e}
 	Couldn't open the signed version: {e}	לא ניתן פתיחה ה חתום גרסה: {e}
 	Sign with a Digital ID	חתימה עם  Digital ID
-	Choose the digital ID that you want to use for signing:	בחירה ה digital ID זה אתה want ל use עבור signing:
+	Choose the digital ID that you want to use for signing:	בחר את המזהה הדיגיטלי שבו ברצונך להשתמש לחתימה:
 	Keychain  ·  	Keychain  ·  
 	Windows store  ·  	Windows store  ·  
 	Issued by: 	Issued על ידי: 
@@ -1131,7 +1131,7 @@ key	Space	רווח
 	Document is tagged PDF	מסמך הוא tagged PDF
 	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	תגים מעניקים למסמך מבנה לוגי שטכנולוגיות מסייעות יכולות לעקוב אחריו. תייג את המסמך (Automatically tag PDF).
 	Logical Reading Order	Logical Reading Order
-	Document structure provides a logical reading order	מסמך מבנה provides  logical reading order
+	Document structure provides a logical reading order	מבנה המסמך מספק סדר קריאה לוגי.
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	בדוק שהתגים נקראים בסדר שבו אדם שרואה היה קורא אותם. השתמש בכלי Reading Order או בלוח התגים כדי לתקן זאת.
 	Primary language	Primary שפה
 	Text language is specified	טקסט שפה הוא specified
@@ -1165,7 +1165,7 @@ key	Space	רווח
 	No inaccessible scripts	אין inaccessible scripts
 	Timed responses	Timed responses
 	Page does not require timed responses	עמוד מבצע לא require timed responses
-	People may need more time to respond. Check that nothing has a time limit.	People עשוי need עוד שעה ל respond. Check זה nothing יש  שעה limit.
+	People may need more time to respond. Check that nothing has a time limit.	ייתכן שאנשים יזדקקו לזמן נוסף כדי להגיב. בדוק שאין מגבלת זמן.
 	Navigation links	ניווט קישורים
 	Navigation links are not repetitive	ניווט קישורים הם לא repetitive
 	Repeated navigation links should be skippable. Check links that appear on every page.	צריך לאפשר לדלג על קישורי ניווט שחוזרים על עצמם. בדוק קישורים שמופיעים בכל עמוד.
@@ -1191,8 +1191,8 @@ key	Space	רווח
 	Other elements that require alternate text	אחר elements זה require alternate טקסט
 	Formulas and similar non-text elements need alternate text. Add alternate text to them.	נוסחאות ורכיבים דומים שאינם טקסט צריכים טקסט חלופי. הוסף להם טקסט חלופי.
 	Rows	שורות
-	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות  child של טבלה, THead, TBody, או TFoot
-	Table cells belong in a row. Fix the table's tags.	טבלה cells belong ב  שורה. Fix ה table's תגים.
+	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות צאצא של Table, THead, TBody או TFoot.
+	Table cells belong in a row. Fix the table's tags.	תאי טבלה צריכים להימצא בתוך שורה. תקן את התגים של הטבלה.
 	Headers	Headers
 	Tables should have headers	טבלאות צריך יש headers
 	Header cells (TH) tell listeners what each column or row holds. Mark the header cells.	תאי כותרת (TH) מסבירים למאזינים מה מכילה כל שורה או עמודה. סמן את תאי הכותרת.
@@ -1204,10 +1204,10 @@ key	Space	רווח
 	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	סיכום מתאר את מטרת הטבלה ואת הפריסה שלה. הוסף מאפיין Summary לכל טבלה.
 	List items	List פריטים
 	LI must be a child of L	LI חייב להיות  child של L
-	List items belong in a list. Fix the list's tags.	List פריטים belong ב  list. Fix ה list's תגים.
+	List items belong in a list. Fix the list's tags.	פריטי רשימה צריכים להימצא בתוך רשימה. תקן את התגים של הרשימה.
 	Lbl and LBody	Lbl ו LBody
 	Lbl and LBody must be children of LI	Lbl ו LBody חייב להיות children של LI
-	List labels and bodies belong in a list item. Fix the list's tags.	List תוויות ו bodies belong ב  list פריט. Fix ה list's תגים.
+	List labels and bodies belong in a list item. Fix the list's tags.	תוויות וגופי רשימה צריכים להימצא בתוך פריט רשימה. תקן את התגים של הרשימה.
 	Appropriate nesting	Appropriate nesting
 	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	רמות הכותרות לא אמורות לדלג (למשל H1 ואחריה H3). תייג מחדש את הכותרות.
 	TH and TD	TH ו TD
@@ -1318,7 +1318,7 @@ key	Space	רווח
 	Applied 1 redaction mark. Save to remove the content from the file.	Applied 1 השחרת מידע mark. שמירה ל הסרה ה תוכן מ ה קובץ.
 	Applied {n} redaction marks. Save to remove the content from the file.	Applied {n} השחרת מידע marks. שמירה ל הסרה ה תוכן מ ה קובץ.
 	JavaScript Console	JavaScript Console
-	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript הוא turned off (העדפות ▸ JavaScript).
+	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript כבוי (העדפות ▸ JavaScript).
 	Output appears here.	פלט appears here.
 	Script Name:	Script שם:
 	This document has no document-level scripts.	זה מסמך יש אין מסמך-level scripts.
@@ -1339,8 +1339,8 @@ key	Space	רווח
 	Settings	הגדרות
 	Optional	רשות
 	Planned · {m}	Planned · {m}
-	Planned for milestone {m} — open to see what it will include	Planned עבור milestone {m} — פתיחה ל see מה זה יבצע include
-	Coming in milestone {m}. Items marked Ready work today.	Coming ב milestone {m}. פריטים marked מוכן work היום.
+	Planned for milestone {m} — open to see what it will include	מתוכנן לאבן הדרך {m} — פתח כדי לראות מה היא תכלול.
+	Coming in milestone {m}. Items marked Ready work today.	יגיע באבן הדרך {m}. פריטים שמסומנים Ready זמינים כבר עכשיו.
 	1 mark	1 mark
 	{n} marks	{n} marks
 	Dynamic	Dynamic
@@ -1359,7 +1359,7 @@ key	Space	רווח
 	Search comments	חיפוש תגובות
 	Add a comment	הוספה  תגובה
 	No comments yet.	אין תגובות yet.
-	Pick a tool in the quick bar, or type above.	Pick  כלי ב ה quick bar, או סוג above.
+	Pick a tool in the quick bar, or type above.	בחר כלי בסרגל המהיר או הקלד בשדה שלמעלה.
 	No comments match.	אין תגובות התאמה.
 	Unknown author	לא ידוע מחבר
 	No colour	אין צבע
@@ -1460,8 +1460,8 @@ key	Space	רווח
 	Weak	Weak
 	Advanced Options {chevron}	מתקדם אפשרויות {chevron}
 	Compatibility	Compatibility
-	Acrobat X and later (256-bit AES)	Acrobat X ו later (256-bit AES)
-	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ו later (128-bit AES)
+	Acrobat X and later (256-bit AES)	Acrobat X ואילך (AES באורך 256 סיביות).
+	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ואילך (AES באורך 128 סיביות).
 	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 ו later (128-bit RC4)
 	Acrobat 3.0 and later (40-bit RC4)	Acrobat 3.0 ו later (40-bit RC4)
 	Encrypt	הצפנה
@@ -1472,13 +1472,13 @@ key	Space	רווח
 	Changes allowed	שינויים מותר
 	Inserting, deleting, and rotating pages	Inserting, deleting, ו rotating עמודים
 	Filling in form fields and signing existing signature fields	Filling ב שדות טופס ו signing existing חתימה שדות
-	Commenting, filling in form fields, and signing existing signature fields	Commenting, filling ב שדות טופס, ו signing existing חתימה שדות
+	Commenting, filling in form fields, and signing existing signature fields	הוספת תגובות, מילוי שדות טופס וחתימה בשדות חתימה קיימים.
 	Any except extracting pages	כלשהו except extracting עמודים
 	Enable copying of text, images, and other content	הפעלה copying של טקסט, תמונות, ו אחר תוכן
-	Enable text access for screen reader devices for the visually impaired	הפעלה טקסט גישה עבור מסך reader devices עבור ה visually impaired
+	Enable text access for screen reader devices for the visually impaired	הפעלת גישה לטקסט עבור קוראי מסך המשמשים אנשים עם לקות ראייה.
 	Type a password.	סוג  סיסמה.
 	The passwords don't match.	ה סיסמאות don't התאמה.
-	This compatibility level supports only plain ASCII passwords.	זה compatibility level supports רק פשוט ASCII סיסמאות.
+	This compatibility level supports only plain ASCII passwords.	רמת תאימות זו תומכת בסיסמאות ASCII פשוטות בלבד.
 	Anyone opening the document will need this password. It's applied when you save.	כל מי שיפתח את המסמך יזדקק לסיסמה הזאת. היא תחול בעת השמירה.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	אפשר לפתוח את המסמך בלי סיסמה; סיסמה זו נדרשת לשינוי ההגבלות. היא תחול בעת השמירה.
 	Recover unsaved documents?	Recover unsaved מסמכים?
@@ -1776,7 +1776,7 @@ key	Space	רווח
 	Couldn't open the result: {e}	לא ניתן פתיחה ה תוצאה: {e}
 	Importing data arrives on the web with file pickers for data files	Importing נתונים arrives על ה אינטרנט עם קובץ pickers עבור נתונים קבצים
 	Exported to {path}	Exported ל {path}
-	Merging data files needs the desktop app	Merging נתונים קבצים needs ה desktop app
+	Merging data files needs the desktop app	מיזוג קובצי נתונים דורש את אפליקציית שולחן העבודה.
 	Merged 1 file into {path}	מוזג 1 קובץ אל תוך {path}
 	Merged {n} files into {path}	מוזג {n} קבצים אל תוך {path}
 	Combined {n} files	משולב {n} קבצים
@@ -1906,7 +1906,7 @@ key	Space	רווח
 	{0}: {1}	{0}: {1}
 	the text recognition models are not installed (reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them)	מודלי זיהוי הטקסט אינם מותקנים (התקן מחדש את PdfCraft או הגדר את PDFCRAFT_MODELS לתיקייה שמכילה אותם).
 	the image is empty	ה תמונה הוא ריק
-	this file isn't XFDF, FDF, XML or text form data	זה קובץ isn't XFDF, FDF, XML או טקסט טופס נתונים
+	this file isn't XFDF, FDF, XML or text form data	הקובץ אינו נתוני טופס מסוג XFDF, FDF, XML או טקסט.
 	nothing in the file matches this document	nothing ב ה קובץ התאמות זה מסמך
 	This page couldn't be displayed.\\n{e}	זה עמוד לא ניתן להיות displayed.\\n{e}
 	Go to page {p}	Go ל עמוד {p}
@@ -1930,18 +1930,18 @@ key	Space	רווח
 	The document has no XMP metadata	ה מסמך יש אין XMP נתוני מטא
 	The title in the metadata and the document information differ	ה כותרת ב ה נתוני מטא ו ה מסמך מידע differ
 	The document is encrypted	ה מסמך הוא מוצפן
-	Device colour is used, but there is no PDF/A output intent	Device צבע הוא used, but יש הוא אין PDF/ פלט intent
-	DeviceCMYK is used: it needs a CMYK output intent (not added automatically)	DeviceCMYK הוא used: זה needs  CMYK פלט intent (לא נוסף automatically)
+	Device colour is used, but there is no PDF/A output intent	נעשה שימוש בצבע Device, אך לא הוגדרה כוונת פלט עבור PDF/A.
+	DeviceCMYK is used: it needs a CMYK output intent (not added automatically)	נעשה שימוש ב־DeviceCMYK: נדרשת כוונת פלט מסוג CMYK (היא אינה מתווספת אוטומטית).
 	The document has additional actions (/AA)	ה מסמך יש additional פעולות (/AA)
 	The document has document-level JavaScript	ה מסמך יש מסמך-level JavaScript
-	The form asks viewers to make appearances (NeedAppearances)	ה טופס asks viewers ל יצירה appearances (NeedAppearances)
+	The form asks viewers to make appearances (NeedAppearances)	הטופס מבקש ממציגי PDF ליצור את המראה של השדות (NeedAppearances).
 	A form field has additional actions	 טופס שדה יש additional פעולות
 	A stream uses LZW compression	 stream uses LZW דחיסה
 	A stream refers to an external file	 stream refers ל  חיצוני קובץ
 	An image asks to be interpolated	 תמונה asks ל להיות interpolated
 	An image has alternates or OPI information	 תמונה יש alternates או OPI מידע
 	PostScript XObjects aren't allowed	PostScript XObjects aren't מותר
-	Embedded files must be PDF/A files themselves (use PDF/A-3 for others)	מוטמע קבצים חייב להיות PDF/ קבצים themselves (use PDF/-3 עבור others)
+	Embedded files must be PDF/A files themselves (use PDF/A-3 for others)	קבצים מוטמעים חייבים להיות קובצי PDF/A בעצמם (לקבצים אחרים השתמש ב־PDF/A-3).
 	An embedded file has no AFRelationship	 מוטמע קובץ יש אין AFRelationship
 	Select Icon	בחירה Icon
 	Choose images	בחירה תמונות
@@ -2065,7 +2065,7 @@ key	Space	רווח
 	Export measurements	ייצוא measurements
 	Open a PDF to measure it.	פתיחה  PDF ל מדידה זה.
 	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	לחץ על הקודקודים. לחיצה על Enter או לחיצה כפולה מסיימת מדידת היקף או שטח. לחץ על הנקודה הראשונה כדי לסגור שטח.
-	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	Shift constrains ל 45 degrees. מקש Backspace removes  vertex. Escape cancels.
+	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	Shift מגביל את הזווית למרווחים של 45 מעלות. Backspace מסיר קודקוד. Escape מבטל.
 	Angle	זווית
 	Click the first point to begin.	Click ה ראשון point ל begin.
 	Snap to drawing	Snap ל ציור
@@ -2087,12 +2087,12 @@ key	Space	רווח
 	Midpoint	Midpoint
 	Intersection	Intersection
 	Path	נתיב
-	This drawing exceeds the snapping limit; only the first paths are used.	זה ציור exceeds ה snapping limit; רק ה ראשון paths הם used.
+	This drawing exceeds the snapping limit; only the first paths are used.	הציור חורג ממגבלת ההצמדה; נעשה שימוש בנתיבים הראשונים בלבד.
 	Some page content couldn't be read; snapping uses the rest.	כמה עמוד תוכן לא ניתן להיות קריאה; snapping uses ה rest.
 	Unsupported measurements	Unsupported measurements
 	Label	תווית
 	{n} measurements use an unsupported format and are left out.	{n} measurements use  unsupported תבנית ו הם שמאל מחוץ.
-	This area has too many overlapping paths; intersection snapping is limited.	זה שטח יש too רבים overlapping paths; intersection snapping הוא limited.
+	This area has too many overlapping paths; intersection snapping is limited.	באזור זה יש יותר מדי נתיבים חופפים; הצמדה לנקודות חיתוך מוגבלת.
 	This measurement needs at least {n} points.	זה מדידה needs ב הכי פחות {n} points.
 	Change {what}	שינוי {what}
 	Cut and stack	גזירה ו stack
@@ -2112,12 +2112,12 @@ key	Space	רווח
 	Create PDF from images	יצירה PDF מ תמונות
 	Selected image files: {count}	נבחר תמונה קבצים: {count}
 	Use image resolution	Use תמונה רזולוציה
-	Use each image's embedded DPI; use 72 DPI when it is absent.	Use כל תמונה's מוטמע DPI; use 72 DPI כאשר זה הוא absent.
-	Use 72 DPI (one point per pixel)	Use 72 DPI (אחד point per פיקסל)
+	Use each image's embedded DPI; use 72 DPI when it is absent.	השתמש בערך ה־DPI המוטמע בכל תמונה; אם אין ערך כזה, השתמש ב־72 DPI.
+	Use 72 DPI (one point per pixel)	השתמש ב־72 DPI (נקודה אחת לכל פיקסל).
 	Use custom DPI	Use מותאם אישית DPI
 	DPI sets the printed page size without resampling the image.	DPI sets ה הודפס גודל עמוד ללא resampling ה תמונה.
 	Create	יצירה
-	Dynamic XFA form laid out from its template: {pages}, {fields}.	Dynamic XFA טופס laid מחוץ מ שלו תבנית: {pages}, {fields}.
+	Dynamic XFA form laid out from its template: {pages}, {fields}.	טופס XFA דינמי שנפרס לפי התבנית שלו: {pages}, {fields}.
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	This form's scripts are turned off because one ran too long. Reopen the document to run them again.
 	XFA form: its fields and its XFA data are kept in step, so other viewers show what you fill in.	טופס XFA: השדות ונתוני ה־XFA נשמרים מסונכרנים, כך שמציגים אחרים יראו את מה שמילאת.
 	Switch to two-page view first to show the cover page	Switch ל תצוגת שני עמודים ראשון ל הצגה ה cover עמוד
@@ -2176,7 +2176,7 @@ key	Space	רווח
 	% of all commits	% של כל commits
 	Lines +/−	שורות +/−
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}
-	None of those files can be made into a PDF; use PDFs, images or .txt files	ללא של אלה קבצים יכול להיות made אל תוך  PDF; use PDFs, תמונות או .txt קבצים
+	None of those files can be made into a PDF; use PDFs, images or .txt files	אי אפשר ליצור PDF מאף אחד מהקבצים האלה; השתמש בקובצי PDF, תמונות או קובצי ‎.txt.
 	About	אודות
 	Contributors	תורמים
 	Models	Models
@@ -2214,8 +2214,8 @@ calendar date	December	דצמבר
 	The document changed while you were choosing a file, so nothing was changed.	המסמך השתנה בזמן שבחרת קובץ, ולכן לא בוצעו שינויים.
 	The document was closed before it could be saved.	ה מסמך היה נסגר לפני זה יכול להיות נשמר.
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	העמודים חולצו אך לא נמחקו, משום שהמסמך השתנה בזמן בחירת התיקייה.
-	That didn't work: an internal error stopped it ({m}).	זה didn't work:  internal שגיאה stopped זה ({m}).
-	The Windows store's digital IDs couldn't be listed: {e}	ה Windows store's digital IDs לא ניתן להיות listed: {e}
+	That didn't work: an internal error stopped it ({m}).	הפעולה נכשלה בגלל שגיאה פנימית ({m}).
+	The Windows store's digital IDs couldn't be listed: {e}	לא ניתן להציג את המזהים הדיגיטליים שבמאגר Windows: {e}
 	Align fields	יישור שדות
 	Distribute fields	Distribute שדות
 	Match field sizes	התאמה שדה sizes
@@ -2313,7 +2313,7 @@ certificate	Subject	נושא האישור
 	Unsigned signature field: {name}	לא חתום שדה חתימה: {name}
 	Rev. {rev}: Signed by {name}	Rev. {rev}: חתום על ידי {name}
 	Rev. {rev}: Signed by an unknown signer	Rev. {rev}: חתום על ידי  לא ידוע חותם
-	Rev. {rev}: Certified by {name}	Rev. {rev}: Certified על ידי {name}
+	Rev. {rev}: Certified by {name}	מהדורה {rev}: אושר על ידי {name}.
 	Rev. {rev}: Certified by an unknown signer	Rev. {rev}: Certified על ידי  לא ידוע חותם
 	{who}, certificate issued by {issuer}.	{who}, אישור דיגיטלי issued על ידי {issuer}.
 	{who}, certificate issued by an unknown issuer.	{who}, אישור דיגיטלי issued על ידי  לא ידוע issuer.
@@ -2331,11 +2331,11 @@ certificate	Subject	נושא האישור
 	Enter a page number	Enter  עמוד מספר
 	Enter a URL	Enter  URL
 	Enter the field names	Enter ה שדה שמות
-	Cut and stack needs Two-sided: Off. Print single-sided sheets.	גזירה ו stack needs שניים-sided: Off. הדפסה single-sided sheets.
+	Cut and stack needs Two-sided: Off. Print single-sided sheets.	פעולת גזירה וערימה מחייבת Two-sided: Off. הדפס על גיליונות חד־צדדיים.
 	Panel layout could not be restored: {error}	לוח פריסה יכול לא להיות שוחזר: {error}
 	Panel move was not applied: {error}	לוח העברה היה לא applied: {error}
 	Rendering…	Rendering…
-	Still rendering — this page is unusually complex…	Still rendering — זה עמוד הוא unusually complex…
+	Still rendering — this page is unusually complex…	העיבוד עדיין נמשך — העמוד הזה מורכב במיוחד…
 	English	אנגלית
 	Appearance mode	מצב מראה
 	Light	בהיר
@@ -2343,7 +2343,7 @@ certificate	Subject	נושא האישור
 	Active	פעיל
 	Dark theme	ערכת נושא כהה
 	Appearance settings…	הגדרות מראה…
-	Scroll speed (mouse wheel and arrow keys)	Scroll speed (mouse wheel ו מקשי החצים)
+	Scroll speed (mouse wheel and arrow keys)	מהירות הגלילה (גלגלת העכבר ומקשי החצים).
 scroll speed	Slow	Slow
 scroll speed	Normal	Normal
 scroll speed	Fast	Fast
@@ -2362,7 +2362,7 @@ animation effects	Off	כבוי
 	PDF page: {size}	PDF עמוד: {size}
 	Match page at 100%	התאמה עמוד ב 100%
 	PDF scale: {scale}%	PDF קנה מידה: {scale}%
-	Printer paper and scaling may differ. Check driver settings.	מדפסת נייר ו scaling עשוי differ. Check driver הגדרות.
+	Printer paper and scaling may differ. Check driver settings.	גודל הנייר ושינוי קנה המידה עשויים להיות שונים. בדוק את הגדרות מנהל ההתקן.
 	Drawing scale changes. Use Actual size for full-scale plans.	ציור קנה מידה שינויים. Use גודל בפועל עבור מלא-קנה מידה plans.
 	Enter permissions password…	Enter הרשאות סיסמה…
 	Permissions password	הרשאות סיסמה
@@ -2383,7 +2383,7 @@ animation effects	Off	כבוי
 	Page background	עמוד רקע
 	Only change the colour of black text or line art	רק שינוי ה צבע של שחור טקסט או קו art
 	Change the colour of line art as well as text	שינוי ה צבע של קו art כמו well כמו טקסט
-	Colours are remapped while rendering; the document itself never changes.	Colours הם remapped while rendering; ה מסמך itself never שינויים.
+	Colours are remapped while rendering; the document itself never changes.	הצבעים ממופים מחדש בזמן התצוגה; המסמך עצמו אינו משתנה.
 	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…
 	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.	This field's font can't draw “{c}” ({code}), so PdfCraft shows ? in its place. The value is saved, and other PDF viewers redraw the field from it.
 	The fonts PdfCraft writes with can't draw “{c}” ({code}), so it shows as ? in every PDF viewer. The text is saved.	הגופנים שבהם PdfCraft משתמש אינם יכולים להציג את “{c}” ({code}), ולכן הוא יוצג כסימן ? בכל מציג PDF. הטקסט יישמר.
@@ -2435,9 +2435,9 @@ animation effects	Off	כבוי
 	Other colour…	אחר צבע…
 	Recent colours	אחרונים colours
 	Couldn't follow linked PDF: {reason}	לא ניתן follow linked PDF: {reason}
-	The linked PDF opened, but its named destination was not applied.	ה linked PDF נפתח, but שלו named destination היה לא applied.
-	The linked PDF opened, but its page destination was out of range.	ה linked PDF נפתח, but שלו עמוד destination היה מחוץ של range.
-	Local cross-PDF links require the desktop app	מקומי cross-PDF קישורים require ה desktop app
+	The linked PDF opened, but its named destination was not applied.	קובץ ה־PDF המקושר נפתח, אך היעד ששמו צוין לא הוחל.
+	The linked PDF opened, but its page destination was out of range.	קובץ ה־PDF המקושר נפתח, אך יעד העמוד נמצא מחוץ לטווח.
+	Local cross-PDF links require the desktop app	קישורים מקומיים בין קובצי PDF דורשים את אפליקציית שולחן העבודה.
 	Cut Image	גזירה תמונה
 	Redact Image	השחרת מידע תמונה
 	Create Link…	יצירה קישור…
@@ -2498,11 +2498,11 @@ animation effects	Off	כבוי
 	Use it when a printer skips text, shading or transparency. The print is no longer searchable text; with Print in grayscale, the pictures are grey.	השתמש בכך כשהמדפסת מדלגת על טקסט, הצללה או שקיפות. הפלט כבר אינו טקסט שניתן לחיפוש; במצב הדפסה בגווני אפור, התמונות יהיו אפורות.
 	Crop Image	חיתוך תמונה
 	Remove Crop	הסרה חיתוך
-	Trim the picture with its handles; Enter or Done applies	Trim ה picture עם שלו handles; Enter או סיום applies
+	Trim the picture with its handles; Enter or Done applies	חתוך את התמונה באמצעות ידיות האחיזה; Enter או ״סיום״ מחילים את השינוי.
 	Redaction mark appearance	השחרת מידע mark מראה
 	Outline colour:	מתאר צבע:
 	Fill colour:	Fill צבע:
-	Shown while the pointer is over a mark.	Shown while ה pointer הוא מעל  mark.
+	Shown while the pointer is over a mark.	מוצג כאשר הסמן נמצא מעל סימון.
 	Opacity:	אטימות:
 	Make properties default	יצירה מאפיינים ברירת מחדל
 	Pages selected	עמודים נבחר
@@ -2533,14 +2533,14 @@ animation effects	Off	כבוי
 	Create links	יצירה קישורים
 	Detailed Report	מפורט דוח
 	DeviceCMYK is used, but the PDF/A output intent isn't a CMYK profile	DeviceCMYK הוא used, but ה PDF/ פלט intent isn't  CMYK profile
-	DeviceRGB is used, but the PDF/A output intent isn't an RGB profile	DeviceRGB הוא used, but ה PDF/ פלט intent isn't  RGB profile
+	DeviceRGB is used, but the PDF/A output intent isn't an RGB profile	נעשה שימוש ב־DeviceRGB, אך כוונת הפלט של PDF/A אינה פרופיל RGB.
 	Field "{}" on page {p} has no description (tooltip)	שדה "{}" על עמוד {p} יש אין תיאור (tooltip)
 	Filename	Filename
 	Flatten Fill & Sign	Flatten מילוי וחתימה
-	Font (unnamed) on page {p} doesn't map its characters to Unicode	גופן (unnamed) על עמוד {p} doesn't map שלו תווים ל Unicode
+	Font (unnamed) on page {p} doesn't map its characters to Unicode	גופן (ללא שם) בעמוד {p} אינו ממפה את התווים שלו ל־Unicode.
 	Font {} on page {p} doesn't map its characters to Unicode	גופן {} על עמוד {p} doesn't map שלו תווים ל Unicode
 	Form field on page {p} isn't tagged	טופס שדה על עמוד {p} isn't tagged
-	H{n} follows an H{d}; headings should not skip levels	H{n} follows  H{d}; headings צריך לא skip levels
+	H{n} follows an H{d}; headings should not skip levels	אחרי H{d} מופיעה H{n}; אין לדלג על רמות כותרת.
 	No document language is set	אין מסמך שפה הוא set
 	No page has text: the document appears to be images of pages	אין עמוד יש טקסט: ה מסמך appears ל להיות תמונות של עמודים
 	Page {p} doesn't tab in structure order	עמוד {p} doesn't לשונית ב מבנה order
@@ -2555,53 +2555,53 @@ animation effects	Off	כבוי
 	Signature is valid	חתימה הוא תקין
 	Signature validity is unknown	חתימה validity הוא לא ידוע
 	Signing time is from the clock on the signer's computer.	Signing שעה הוא מ ה clock על ה חותם's computer.
-	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.
-	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.
-	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.
-	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.
+	The ECDSA signature is not in canonical DER (trailing bytes, padding or a missing sign byte); it was read anyway.	חתימת ECDSA אינה מקודדת ב־DER קנוני (בתים עודפים, ריפוד או בית סימן חסר); היא נקראה בכל זאת.
+	The ECDSA signature is the raw r and s values instead of a DER sequence; it was read anyway.	חתימת ECDSA מכילה את ערכי r ו־s הגולמיים במקום רצף DER; היא נקראה בכל זאת.
+	The RSA signature value does not have the length of the key's modulus (leading zero bytes dropped or added); it was read anyway.	ערך חתימת RSA אינו באורך של המודולוס של המפתח (בתי אפס מובילים הוסרו או נוספו); הוא נקרא בכל זאת.
+	The RSA signature's DigestInfo has no NULL parameter (older signers write it so); it was read anyway.	ב־DigestInfo של חתימת RSA חסר פרמטר NULL (חותמים ישנים נהגו לכלול אותו); החתימה נקראה בכל זאת.
 	The certificate of {} does not allow this many CA certificates below it (path length), so it is not used to vouch for {}.	האישור הדיגיטלי של {} אינו מאפשר מספר כזה של אישורי CA תחתיו (אורך הנתיב), ולכן אינו משמש לאימות {}.
 	The certificate of {} is not a CA certificate that may issue certificates, so it is not used to vouch for {}.	האישור הדיגיטלי של {} אינו אישור CA שמורשה להנפיק אישורים, ולכן אינו משמש לאימות {}.
 	The certificate of {} has critical extensions PdfCraft does not recognize, so it is not used to vouch for {}.	באישור הדיגיטלי של {} יש הרחבות קריטיות ש־PdfCraft אינו מזהה, ולכן הוא אינו משמש לאימות {}.
 	The certificate of {} was not valid at the time of signing, so it is not used to vouch for {}.	האישור הדיגיטלי של {} לא היה תקף במועד החתימה, ולכן אינו משמש לאימות {}.
-	The checker found problems which may prevent the document from being fully accessible.	The checker found problems which may prevent the document from being fully accessible.
-	The document has been altered or corrupted since the signature was applied.	ה מסמך יש היה altered או corrupted since ה חתימה היה applied.
-	The document has been altered or corrupted since the timestamp was applied.	ה מסמך יש היה altered או corrupted since ה חותמת זמן היה applied.
-	The document has been altered since this signature was applied in ways it does not permit ({}).	The document has been altered since this signature was applied in ways it does not permit ({}).
-	The document has been altered since this timestamp was applied in ways it does not permit ({}).	The document has been altered since this timestamp was applied in ways it does not permit ({}).
-	The document has been modified since this signature was applied, but the changes are permitted ({}).	ה מסמך יש היה השתנה since זה חתימה היה applied, but ה שינויים הם permitted ({}).
-	The document has been modified since this timestamp was applied, but the changes are permitted ({}).	ה מסמך יש היה השתנה since זה חותמת זמן היה applied, but ה שינויים הם permitted ({}).
+	The checker found problems which may prevent the document from being fully accessible.	הבודק מצא בעיות שעלולות למנוע נגישות מלאה למסמך.
+	The document has been altered or corrupted since the signature was applied.	המסמך שונה או נפגם מאז שהוחלה החתימה.
+	The document has been altered or corrupted since the timestamp was applied.	המסמך שונה או נפגם מאז שנוספה חותמת הזמן.
+	The document has been altered since this signature was applied in ways it does not permit ({}).	המסמך שונה מאז שהוחלה חתימה זו, באופן שאינו מותר לפיה ({}).
+	The document has been altered since this timestamp was applied in ways it does not permit ({}).	המסמך שונה מאז שנוספה חותמת זמן זו, באופן שאינו מותר לפיה ({}).
+	The document has been modified since this signature was applied, but the changes are permitted ({}).	המסמך שונה מאז שהוחלה חתימה זו, אך השינויים מותרים ({}).
+	The document has been modified since this timestamp was applied, but the changes are permitted ({}).	המסמך שונה מאז שנוספה חותמת זמן זו, אך השינויים מותרים ({}).
 	The document has no tags (structure tree)	ה מסמך יש אין תגים (מבנה tree)
 	The document has no title	ה מסמך יש אין כותרת
-	The document isn't marked as tagged (MarkInfo Marked)	ה מסמך isn't marked כמו tagged (MarkInfo Marked)
+	The document isn't marked as tagged (MarkInfo Marked)	המסמך אינו מסומן כמסמך מתויג (MarkInfo Marked).
 	The document isn't tagged, so none of its content is	ה מסמך isn't tagged, so ללא של שלו תוכן הוא
 	The document's embedded revocation information shows that the signer's certificate has not been revoked.	מידע הביטול המוטמע במסמך מצביע על כך שהאישור הדיגיטלי של החותם לא בוטל.
 	The embedded timestamp token is valid and its authority is trusted; trusted time is {}.	אסימון חותמת הזמן המוטמע תקף והרשות שהנפיקה אותו מהימנה; הזמן המהימן הוא {}.
 	The font {} isn't embedded	ה גופן {} isn't מוטמע
 	The metadata doesn't identify the file as {}	ה נתוני מטא doesn't identify ה קובץ כמו {}
 	The security settings don't allow screen readers to read the text	ה אבטחה הגדרות don't allow מסך readers ל קריאה ה טקסט
-	The signature algorithm and the SignerInfo's digest algorithm name different hashes; the signature was made with the SignerInfo's.	The signature algorithm and the SignerInfo's digest algorithm name different hashes; the signature was made with the SignerInfo's.
-	The signature carries an unverified timestamp ({}): the timestamp authority is not in your list of trusted certificates, so the signing time claimed by the signer is used instead.	The signature carries an unverified timestamp ({}): the timestamp authority is not in your list of trusted certificates, so the signing time claimed by the signer is used instead.
+	The signature algorithm and the SignerInfo's digest algorithm name different hashes; the signature was made with the SignerInfo's.	אלגוריתם החתימה ואלגוריתם התקציר של SignerInfo מציינים פונקציות גיבוב שונות; החתימה נוצרה באמצעות האלגוריתם של SignerInfo.
+	The signature carries an unverified timestamp ({}): the timestamp authority is not in your list of trusted certificates, so the signing time claimed by the signer is used instead.	החתימה כוללת חותמת זמן שלא אומתה ({}): רשות חותמת הזמן אינה ברשימת האישורים המהימנים שלך, ולכן נעשה שימוש במועד החתימה שעליו הצהיר החותם.
 	The signature contents are not hexadecimal.	ה חתימה תוכן הם לא hexadecimal.
 	The signature could not be checked ({}).	ה חתימה יכול לא להיות checked ({}).
 	The signature could not be read ({}).	ה חתימה יכול לא להיות קריאה ({}).
 	The signature could not be verified ({}).	ה חתימה יכול לא להיות verified ({}).
 	The signature has no valid byte range.	ה חתימה יש אין תקין byte range.
 	The signature includes an embedded timestamp.	ה חתימה includes  מוטמע חותמת זמן.
-	The signature is BER-encoded (indefinite lengths) rather than DER; it was read leniently.	The signature is BER-encoded (indefinite lengths) rather than DER; it was read leniently.
-	The signature uses the legacy adbe.x509.rsa_sha1 format.	ה חתימה uses ה legacy adbe.x509.rsa_sha1 תבנית.
+	The signature is BER-encoded (indefinite lengths) rather than DER; it was read leniently.	החתימה מקודדת ב־BER (אורכים לא מוגדרים) במקום ב־DER; היא נקראה במצב סובלני.
+	The signature uses the legacy adbe.x509.rsa_sha1 format.	החתימה משתמשת בתבנית הישנה adbe.x509.rsa_sha1.
 	The signature value does not match the signer's certificate: the signature is corrupt.	ערך החתימה אינו תואם לאישור הדיגיטלי של החותם: החתימה פגומה.
-	The signature's byte range does not exclude exactly its contents.	ה חתימה's byte range מבצע לא exclude exactly שלו תוכן.
+	The signature's byte range does not exclude exactly its contents.	טווח הבתים של החתימה אינו מוציא בדיוק את התוכן שלה.
 	The signature's byte range does not match the file.	ה חתימה's byte range מבצע לא התאמה ה קובץ.
 	The signature's timestamp token could not be verified ({}).	ה חתימה's חותמת זמן token יכול לא להיות verified ({}).
 	The signature's timestamp token does not cover the signature value.	ה חתימה's חותמת זמן token מבצע לא cover ה חתימה ערך.
-	The signed content is a constructed (segmented) OCTET STRING, as BER allows; it was read anyway.	The signed content is a constructed (segmented) OCTET STRING, as BER allows; it was read anyway.
+	The signed content is a constructed (segmented) OCTET STRING, as BER allows; it was read anyway.	התוכן החתום הוא OCTET STRING בנוי (מחולק למקטעים), כפי שמאפשר BER; הוא נקרא בכל זאת.
 	The signer's certificate does not allow digital signatures (its key usage has neither digital signature nor non-repudiation).	האישור הדיגיטלי של החותם אינו מתיר חתימות דיגיטליות (בשימוש המפתח לא מוגדרים חתימה דיגיטלית או אי־התכחשות).
 	The signer's certificate has been revoked ({}).	ה חותם's אישור דיגיטלי יש היה revoked ({}).
 	The signer's certificate has critical extensions PdfCraft does not recognize ({}).	באישור הדיגיטלי של החותם יש הרחבות קריטיות ש־PdfCraft אינו מזהה ({}).
 	The signer's certificate is not in the signature.	ה חותם's אישור דיגיטלי הוא לא ב ה חתימה.
 	The signer's certificate is not issued for signing documents (its extended key usage has no document-signing purpose).	האישור הדיגיטלי של החותם לא הונפק לחתימת מסמכים (בשימוש המורחב במפתח אין מטרה של חתימת מסמכים).
 	The signer's certificate was not valid at the time of signing.	ה חותם's אישור דיגיטלי היה לא תקין ב ה שעה של signing.
-	The signer's identity is unknown because it has not been included in your list of trusted certificates and none of its parent certificates are trusted certificates.	ה חותם's זהות הוא לא ידוע because זה יש לא היה included ב שלך list של מהימן אישורים דיגיטליים ו ללא של שלו parent אישורים דיגיטליים הם מהימן אישורים דיגיטליים.
+	The signer's identity is unknown because it has not been included in your list of trusted certificates and none of its parent certificates are trusted certificates.	זהות החותם אינה ידועה משום שאינה כלולה ברשימת האישורים המהימנים שלך, ואף אחד מאישורי האב שלו אינו מהימן.
 	The signer's identity is valid.	ה חותם's זהות הוא תקין.
 	The timestamp authority's certificate was not valid at the time of timestamping.	האישור הדיגיטלי של רשות חותמת הזמן לא היה תקף במועד יצירת חותמת הזמן.
 	The timestamp authority's certificate is not issued for time stamping.	ה חותמת זמן authority's אישור דיגיטלי הוא לא issued עבור שעה stamping.
@@ -2610,7 +2610,7 @@ animation effects	Off	כבוי
 	The timestamp token could not be read ({}).	ה חותמת זמן token יכול לא להיות קריאה ({}).
 	The timestamp token is valid and its authority is trusted.	ה חותמת זמן token הוא תקין ו שלו authority הוא מהימן.
 	The timestamp token is valid, but the timestamp authority is not in your list of trusted certificates.	אסימון חותמת הזמן תקף, אך רשות חותמת הזמן אינה מופיעה ברשימת האישורים המהימנים שלך.
-	The timestamp's byte range does not exclude exactly its contents.	ה חותמת זמן's byte range מבצע לא exclude exactly שלו תוכן.
+	The timestamp's byte range does not exclude exactly its contents.	טווח הבתים של חותמת הזמן אינו מוציא בדיוק את התוכן שלה.
 	The timestamp's byte range does not match the file.	ה חותמת זמן's byte range מבצע לא התאמה ה קובץ.
 	The window shows the file name, not the title (Initial View > Show)	ה חלון shows ה שם הקובץ, לא ה כותרת (Initial תצוגה > הצגה)
 	This document has not been modified since this signature was applied.	זה מסמך יש לא היה השתנה since זה חתימה היה applied.
@@ -2639,7 +2639,7 @@ animation effects	Off	כבוי
 	page {n} is out of range (1–{count})	עמוד {n} הוא מחוץ של range (1–{count})
 	pages added or removed	עמודים נוסף או הוסר
 	rows have between {min} and {max} columns	שורות יש בין {min} ו {max} עמודות
-	the first heading is an H{n}; headings should not skip levels	ה ראשון heading הוא  H{n}; headings צריך לא skip levels
+	the first heading is an H{n}; headings should not skip levels	הכותרת הראשונה היא H{n}; אין לדלג על רמות כותרת.
 	the signed version could not be read	ה חתום גרסה יכול לא להיות קריאה
 	{n} pages and no bookmarks	{n} עמודים ו אין סימניות
 	{page} is not a page number or label	{page} הוא לא  עמוד מספר או תווית
@@ -2676,7 +2676,7 @@ animation effects	Off	כבוי
 	Import	ייבוא
 	Information	מידע
 	Loading…	בטעינה…
-	Mouse wheel scroll speed	Mouse wheel scroll speed
+	Mouse wheel scroll speed	מהירות הגלילה של גלגלת העכבר.
 	Move	העברה
 	Never	Never
 	New bookmark (⌘B)	חדש סימנייה (⌘B)
@@ -2759,4 +2759,4 @@ certificate	Version	גרסה
 	a column is too narrow: make the area wider, give the column more of it, or use fewer columns or less column spacing	עמודה צרה מדי: הרחב את האזור, הקצה לעמודה יותר מקום, או השתמש בפחות עמודות או בריווח קטן יותר ביניהן.
 	field names can't contain a period: {name}	שדה שמות לא ניתן מכיל  period: {name}
 	two cells would both be named {name}	שניים cells היה שניהם להיות named {name}
-	a field named {name} already exists	 שדה named {name} already exists
+	a field named {name} already exists	כבר קיים שדה בשם {name}.
