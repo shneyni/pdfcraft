@@ -229,7 +229,7 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Hebrew UI strings, compiled in by crates/ui-egui/src/i18n/mod.rs"
-sha256 = "e14c9f8cd57d931791bdc09d09e48bf620550efd12917e218427584f969fbf55"
+sha256 = "4fc771445823883f5a21a74c72d7eb3d1131b563f6f9adee09009aa2515c116c"
 [[asset]]
 path = "crates/ui-egui/src/i18n/ckb.tsv"
 title = "Central Kurdish (Sorani) interface translation catalog"
