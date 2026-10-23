@@ -358,7 +358,7 @@ key	Space	רווח
 	Fill & Sign: date	מילוי וחתימה: תאריך
 	Fill & Sign: sign	מילוי וחתימה: חתימה
 	Fill & Sign: initials	מילוי וחתימה: initials
-	JavaScript console…	JavaScript console…
+	JavaScript console…	מסוף JavaScript…
 	Document JavaScripts…	מסמך JavaScripts…
 	Recognize text…	זיהוי טקסט…
 	Recognize text in multiple files…	זיהוי טקסט ב multiple קבצים…
@@ -1957,7 +1957,7 @@ key	Space	רווח
 	Circle	עיגול
 	Diamond	מעוין
 	Square	ריבוע
-	Star	Star
+	Star	כוכב
 	{month} {y}	{month} {y}
 	Change {key}	שינוי {key}
 	Insert pages from {name}	הוספה עמודים מ {name}
@@ -1975,7 +1975,7 @@ key	Space	רווח
 	Add stamp	הוספה חותמת
 	Delete comment	מחיקה תגובה
 	Edit comment	עריכה תגובה
-	Erase	Erase
+	Erase	מחיקה
 	Lock comment	נעילה תגובה
 	Unlock comment	ביטול נעילה תגובה
 	Move comment	העברה תגובה
@@ -2012,7 +2012,7 @@ key	Space	רווח
 	Change link properties	שינוי קישור מאפיינים
 	Delete link	מחיקה קישור
 	Create link	יצירה קישור
-	Flatten	Flatten
+	Flatten	שיטוח
 	Add sticky note	הוספה sticky note
 	Add highlight	הוספה הדגשה
 	Add underline	הוספה קו תחתון
@@ -2061,7 +2061,7 @@ key	Space	רווח
 	Perimeter	היקף
 	Area	שטח
 	Drawing scale	ציור קנה מידה
-	Snapping	Snapping
+	Snapping	הצמדה
 	Export measurements	ייצוא measurements
 	Open a PDF to measure it.	פתיחה  PDF ל מדידה זה.
 	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	לחץ על הקודקודים. לחיצה על Enter או לחיצה כפולה מסיימת מדידת היקף או שטח. לחץ על הנקודה הראשונה כדי לסגור שטח.
@@ -2069,27 +2069,27 @@ key	Space	רווח
 	Angle	זווית
 	Click the first point to begin.	Click ה ראשון point ל begin.
 	Snap to drawing	Snap ל ציור
-	Endpoints	Endpoints
-	Midpoints	Midpoints
-	Intersections	Intersections
-	Paths	Paths
-	Sensitivity	Sensitivity
+	Endpoints	נקודות קצה
+	Midpoints	נקודות אמצע
+	Intersections	נקודות חיתוך
+	Paths	נתיבים
+	Sensitivity	רגישות
 	Unit	יחידה
-	Decimals	Decimals
+	Decimals	ספרות עשרוניות
 	Calibrate from two points	כיול מ שניים points
 	Entire page	Entire עמוד
 	Viewport rectangle in page points (x, y, width, height)	Viewport מלבן ב עמוד points (x, y, רוחב, גובה)
-	Viewport	Viewport
+	Viewport	אזור תצוגה
 	Apply scale	החלה קנה מידה
 	Saved measurements	נשמר measurements
 	Saved measurements.	נשמר measurements.
-	Endpoint	Endpoint
-	Midpoint	Midpoint
-	Intersection	Intersection
+	Endpoint	נקודת קצה
+	Midpoint	נקודת אמצע
+	Intersection	נקודת חיתוך
 	Path	נתיב
 	This drawing exceeds the snapping limit; only the first paths are used.	הציור חורג ממגבלת ההצמדה; נעשה שימוש בנתיבים הראשונים בלבד.
 	Some page content couldn't be read; snapping uses the rest.	כמה עמוד תוכן לא ניתן להיות קריאה; snapping uses ה rest.
-	Unsupported measurements	Unsupported measurements
+	Unsupported measurements	מדידות שאינן נתמכות
 	Label	תווית
 	{n} measurements use an unsupported format and are left out.	{n} measurements use  unsupported תבנית ו הם שמאל מחוץ.
 	This area has too many overlapping paths; intersection snapping is limited.	באזור זה יש יותר מדי נתיבים חופפים; הצמדה לנקודות חיתוך מוגבלת.
@@ -2128,7 +2128,7 @@ key	Space	רווח
 	Optimizing… cleaning up	Optimizing… cleaning למעלה
 	Optimizing… merging identical objects	Optimizing… merging identical אובייקטים
 	Optimizing… writing the copy	Optimizing… כתיבה ה העתקה
-	Cancelling…	Cancelling…
+	Cancelling…	הביטול מתבצע…
 	Created a PDF from {n} files	נוצר  PDF מ {n} קבצים
 	PDF, images and text	PDF, תמונות ו טקסט
 	Insert a file before page {label}	הוספה  קובץ לפני עמוד {label}
@@ -2143,11 +2143,11 @@ key	Space	רווח
 	Couldn't optimize the file	לא ניתן מיטוב ה קובץ
 	Files are combined in this order. Leave Pages empty to take every page.	קבצים הם משולב ב זה order. Leave עמודים ריק ל take כל עמוד.
 	Show	הצגה
-	Sort	Sort
+	Sort	מיון
 	Reverse the order	Reverse ה order
-	Grab bag	Grab bag
+	Grab bag	אוסף כללי
 	Table	טבלה
-	Username	Username
+	Username	שם משתמש
 	Display name	תצוגה שם
 	Real name	Real שם
 	Name (A–Z)	שם (–Z)
@@ -2171,15 +2171,15 @@ key	Space	רווח
 	No contributor data was built into this copy.	אין contributor נתונים היה built אל תוך זה העתקה.
 	No model credits were built into this copy.	אין model קרדיטים היו built אל תוך זה העתקה.
 	{n} contributors · {c} commits	{n} תורמים · {c} commits
-	Company	Company
-	Model	Model
+	Company	חברה
+	Model	מודל
 	% of all commits	% של כל commits
 	Lines +/−	שורות +/−
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} בקשות משיכה, {commits} קומיטים, +{added} / −{deleted} שורות (Δ {delta}), +{bin_added} / −{bin_deleted} קבצים בינאריים, {first} – {last}
 	None of those files can be made into a PDF; use PDFs, images or .txt files	אי אפשר ליצור PDF מאף אחד מהקבצים האלה; השתמש בקובצי PDF, תמונות או קובצי ‎.txt.
 	About	אודות
 	Contributors	תורמים
-	Models	Models
+	Models	מודלים
 	Only continue if you trust this document. An address can carry information from the document, such as what you typed into its form.	המשך רק אם המסמך מהימן בעיניך. כתובת יכולה להכיל מידע מהמסמך, כגון מה שהקלדת בטופס שלו.
 	Print single-sided. Keep the sheets in order, cut at the marks, then stack the piles left to right, top to bottom.	הדפס על צד אחד בלבד. שמור על סדר הגיליונות, חתוך לפי הסימונים ואז ערום את הערימות משמאל לימין ומלמעלה למטה.
 comment menu	Edit	עריכה
@@ -2201,7 +2201,7 @@ calendar date	November	נובמבר
 calendar date	December	דצמבר
 	Inserted text	Inserted טקסט
 	Add {what}	הוספה {what}
-	Use {what}	Use {what}
+	Use {what}	שימוש ב־{what}
 	Place saved {what}	Place נשמר {what}
 	Remove saved {what}	הסרה נשמר {what}
 	A link	 קישור
@@ -2228,10 +2228,10 @@ calendar date	December	דצמבר
 	Table rows belong directly in a table or its head, body or foot. Fix the table's tags.	שורות טבלה צריכות להופיע ישירות בטבלה או בחלק הכותרת, הגוף או התחתית שלה. תקן את תגי הטבלה.
 	Basic constraints	בסיסי constraints
 	Certificate authority	אישור דיגיטלי authority
-	End entity	End entity
-	SHA-1 digest	SHA-1 digest
-	SHA-256 digest	SHA-256 digest
-	Squiggly	Squiggly
+	End entity	ישות קצה
+	SHA-1 digest	תקציר SHA-1
+	SHA-256 digest	תקציר SHA-256
+	Squiggly	קו גלי
 	Home / End	דף הבית / End
 	H / Space (hold)	H / רווח (hold)
 	Line ending	קו ending
@@ -2243,7 +2243,7 @@ calendar date	December	דצמבר
 	Text, marks and signatures become part of the page. Other comments stay editable.	הטקסט, הסימונים והחתימות יהפכו לחלק מהעמוד. שאר התגובות יישארו ניתנות לעריכה.
 	Date format	תאריך תבנית
 	Fill & Sign dates	מילוי וחתימה dates
-	Pattern	Pattern
+	Pattern	תבנית
 	Today: {date}	היום: {date}
 	yyyy or yy year · m or mm month · mmm or mmmm month name · d or dd day · ddd or dddd weekday. H, h, M, s and t are time letters and can't be used on their own: put {escape} before a letter to show it as is.	yyyy או yy מציינים שנה · m או mm חודש · mmm או mmmm שם חודש · d או dd יום · ddd או dddd יום בשבוע. H, h, M, s ו־t הם סמני שעה שאין להשתמש בהם לבדם: יש להציב {escape} לפני אות כדי להציג אותה כפי שהיא.
 	Same as interface ({language})	אותו כמו ממשק ({language})
@@ -2287,8 +2287,8 @@ certificate	Subject	נושא האישור
 	Fill colour: none	Fill צבע: ללא
 	No fill	ללא מילוי
 	Some bookmarks are not shown here: the panel lists a limited number, nested a limited depth.	חלק מהסימניות אינן מוצגות כאן: הלוח מציג מספר מוגבל של סימניות ועד לרמת קינון מוגבלת.
-	Creator	Creator
-	Producer	Producer
+	Creator	יוצר
+	Producer	מפיק
 	Offset from centre	Offset מ centre
 	Add the files to combine	הוספה ה קבצים ל שילוב
 	Added the first {n} files in {folder}	נוסף ה ראשון {n} קבצים ב {folder}
@@ -2318,12 +2318,12 @@ certificate	Subject	נושא האישור
 	{who}, certificate issued by {issuer}.	{who}, אישור דיגיטלי issued על ידי {issuer}.
 	{who}, certificate issued by an unknown issuer.	{who}, אישור דיגיטלי issued על ידי  לא ידוע issuer.
 	Digital Signature	חתימה דיגיטלית
-	Non-Repudiation	Non-Repudiation
-	Key Encipherment	Key Encipherment
+	Non-Repudiation	אי־התכחשות
+	Key Encipherment	הצפנת מפתח
 	Data Encipherment	נתונים Encipherment
-	Key Agreement	Key Agreement
+	Key Agreement	הסכמת מפתח
 	Certificate Signing	אישור דיגיטלי Signing
-	CRL Signing	CRL Signing
+	CRL Signing	חתימת CRL
 	Encipher Only	Encipher רק
 	Decipher Only	Decipher רק
 	Done adding text	סיום adding טקסט
@@ -2334,7 +2334,7 @@ certificate	Subject	נושא האישור
 	Cut and stack needs Two-sided: Off. Print single-sided sheets.	פעולת גזירה וערימה מחייבת Two-sided: Off. הדפס על גיליונות חד־צדדיים.
 	Panel layout could not be restored: {error}	לוח פריסה יכול לא להיות שוחזר: {error}
 	Panel move was not applied: {error}	לוח העברה היה לא applied: {error}
-	Rendering…	Rendering…
+	Rendering…	העיבוד מתבצע…
 	Still rendering — this page is unusually complex…	העיבוד עדיין נמשך — העמוד הזה מורכב במיוחד…
 	English	אנגלית
 	Appearance mode	מצב מראה
@@ -2368,13 +2368,13 @@ animation effects	Off	כבוי
 	Permissions password	הרשאות סיסמה
 	“{name}” has security restrictions. Enter its permissions password to lift them.	ל־“{name}” יש הגבלות אבטחה. הזן את סיסמת ההרשאות שלו כדי להסיר אותן.
 	This document has no restrictions to lift	זה מסמך יש אין restrictions ל lift
-	Restrictions lifted	Restrictions lifted
+	Restrictions lifted	ההגבלות הוסרו
 	Couldn't unlock {name}: {e}	לא ניתן ביטול נעילה {name}: {e}
 	Clean-up	Clean-למעלה
 	Original	מקורי
-	Greyscale	Greyscale
+	Greyscale	גווני אפור
 	Black and white	שחור ו לבן
-	Reading colours	Reading colours
+	Reading colours	קריאת צבעים
 	Replace document colours	החלפה מסמך colours
 	Black on white	שחור על לבן
 	White on black	לבן על שחור
@@ -2424,8 +2424,8 @@ animation effects	Off	כבוי
 	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	חתום על דף נייר לבן וצלם אותו בתאורה בהירה ואחידה (השתמש במבזק). בחר את התמונה או גרור אותה לכאן: PdfCraft יזהה את החתימה ויסיר את הנייר.
 	Choose photo…	בחירה photo…
 	No photo chosen	אין photo נבחר
-	Photo	Photo
-	Ink sensitivity	Ink sensitivity
+	Photo	תמונה
+	Ink sensitivity	רגישות הדיו
 	No signature was found in the frame. Move the frame over the signature or raise the ink sensitivity.	לא נמצאה חתימה במסגרת. הזז את המסגרת מעל החתימה או הגדל את רגישות הדיו.
 	Couldn't use the photo: {e}	לא ניתן use ה photo: {e}
 	Close Tab	סגירת לשונית
@@ -2447,7 +2447,7 @@ animation effects	Off	כבוי
 	Restore	שחזור
 	Use system title bar	Use מערכת כותרת bar
 	Show a basic title bar for the window buttons instead of the tab strip. GNOME doesn't draw title bars for apps, so this one doesn't follow its theme.	הצג שורת כותרת בסיסית עבור לחצני החלון במקום את שורת הלשוניות. GNOME אינו מציג שורות כותרת לאפליקציות, ולכן שורה זו אינה תואמת לערכת הנושא שלו.
-	Allow	Allow
+	Allow	אפשר
 	Only allow this if you trust the source document.	רק allow זה אם אתה אמון ה מקור מסמך.
 	Open in Full Screen mode?	פתיחה ב מצב מסך מלא?
 	This document asks to open in Full Screen mode: the page fills the screen and nothing else shows. Press Esc at any time to leave it.	המסמך מבקש להיפתח במצב מסך מלא: העמוד ימלא את המסך ולא יוצג דבר נוסף. לחץ על Esc בכל עת כדי לצאת מהמצב.
@@ -2485,8 +2485,8 @@ animation effects	Off	כבוי
 	Word counting stopped unexpectedly.	מילה counting stopped unexpectedly.
 	Word count…	מילה כמות…
 @id	file.word_count	קובץ מילה כמות
-	Standard	Standard
-	Mobile	Mobile
+	Standard	תקני
+	Mobile	נייד
 	Merge image fragments	מיזוג תמונה fragments
 	Optimizing… merging image fragments	Optimizing… merging תמונה fragments
 	Side by side	Side על ידי side
@@ -2508,11 +2508,11 @@ animation effects	Off	כבוי
 	Pages selected	עמודים נבחר
 	Page properties	עמוד מאפיינים
 	Font	גופן
-	Bulleted list	Bulleted list
-	Numbered list	Numbered list
+	Bulleted list	רשימה עם תבליטים
+	Numbered list	רשימה ממוספרת
 	Alignment	יישור
-	Superscript	Superscript
-	Subscript	Subscript
+	Superscript	כתב עילי
+	Subscript	כתב תחתי
 	Paragraph spacing	פסקה מרווח
 	Less	פחות
 	Other options	אחר אפשרויות
@@ -2535,7 +2535,7 @@ animation effects	Off	כבוי
 	DeviceCMYK is used, but the PDF/A output intent isn't a CMYK profile	נעשה שימוש ב־DeviceCMYK, אך כוונת הפלט של PDF/A אינה פרופיל CMYK.
 	DeviceRGB is used, but the PDF/A output intent isn't an RGB profile	נעשה שימוש ב־DeviceRGB, אך כוונת הפלט של PDF/A אינה פרופיל RGB.
 	Field "{}" on page {p} has no description (tooltip)	שדה "{}" על עמוד {p} יש אין תיאור (tooltip)
-	Filename	Filename
+	Filename	שם הקובץ
 	Flatten Fill & Sign	Flatten מילוי וחתימה
 	Font (unnamed) on page {p} doesn't map its characters to Unicode	גופן (ללא שם) בעמוד {p} אינו ממפה את התווים שלו ל־Unicode.
 	Font {} on page {p} doesn't map its characters to Unicode	גופן {} על עמוד {p} doesn't map שלו תווים ל Unicode
@@ -2652,8 +2652,8 @@ animation effects	Off	כבוי
 	of	של
 	Add the PDFs to combine	הוספה ה PDFs ל שילוב
 	Added the first {n} PDFs in {folder}	נוסף ה ראשון {n} PDFs ב {folder}
-	Always	Always
-	Automatically	Automatically
+	Always	תמיד
+	Automatically	באופן אוטומטי
 	Choose a file…	בחירת קובץ…
 	Choose a folder…	בחירת תיקייה…
 	Choose…	בחירה…
@@ -2678,7 +2678,7 @@ animation effects	Off	כבוי
 	Loading…	בטעינה…
 	Mouse wheel scroll speed	מהירות הגלילה של גלגלת העכבר.
 	Move	העברה
-	Never	Never
+	Never	לעולם לא
 	New bookmark (⌘B)	חדש סימנייה (⌘B)
 	Next	הבא
 	Next (⌘G)	הבא (⌘G)
@@ -2687,7 +2687,7 @@ animation effects	Off	כבוי
 	On	פעיל
 	Open a PDF (⌘O)	פתיחה  PDF (⌘O)
 	Open folder	פתיחה תיקייה
-	Organize	Organize
+	Organize	ארגון
 	Page {n}	עמוד {n}
 	Page {n} of {total}	עמוד {n} של {total}
 	Paste	הדבקה
@@ -2734,8 +2734,8 @@ certificate	Public key	מפתח ציבורי
 certificate	Basic constraints	בסיסי constraints
 certificate	Key usage	Key שימוש
 certificate	Self-signed	Self-חתום
-certificate	SHA-1 digest	SHA-1 digest
-certificate	SHA-256 digest	SHA-256 digest
+certificate	SHA-1 digest	תקציר SHA-1
+certificate	SHA-256 digest	תקציר SHA-256
 certificate	Version	גרסה
 	The signature's signed attributes have no content type, which CMS requires; it was read anyway.	לתכונות החתומות של החתימה אין סוג תוכן, אף ש־CMS דורש אותו; החתימה נקראה בכל זאת.
 	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	חתימה זו משתמשת במפתח RSA שאורכו פחות מ־2048 סיביות, והוא כבר אינו נחשב חזק מספיק לחתימות. האימות עדיין מצליח, אך אין להסתמך עליו.
