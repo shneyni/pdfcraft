@@ -794,7 +794,7 @@ key	Space	רווח
 	maximum	מקסימום
 	of the following fields:	של ה following שדות:
 	Simplified field notation:	Simplified שדה notation:
-	Field names with + - * / and parentheses; put \\\\ before spaces in names.	שדה שמות עם + - * / ו parentheses; put \\\\ לפני spaces ב שמות.
+	Field names with + - * / and parentheses; put \\ before spaces in names.	שמות השדות יכולים לכלול + - * / וסוגריים; יש להוסיף \\ לפני רווחים בשמות.
 	Finding document fonts…	Finding מסמך גופנים…
 	Installed fonts…	Installed גופנים…
 	Keep source fonts	שמירה מקור גופנים
@@ -1908,7 +1908,7 @@ key	Space	רווח
 	the image is empty	ה תמונה הוא ריק
 	this file isn't XFDF, FDF, XML or text form data	הקובץ אינו נתוני טופס מסוג XFDF, FDF, XML או טקסט.
 	nothing in the file matches this document	nothing ב ה קובץ התאמות זה מסמך
-	This page couldn't be displayed.\\n{e}	זה עמוד לא ניתן להיות displayed.\\n{e}
+	This page couldn't be displayed.\n{e}	לא ניתן להציג את העמוד הזה.\n{e}
 	Go to page {p}	Go ל עמוד {p}
 	{s} action	{s} פעולה
 	Page {p} of {n}	עמוד {p} של {n}
