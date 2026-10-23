@@ -100,7 +100,7 @@
 	Split document…	פיצול מסמך…
 	Number pages…	מספר עמודים…
 	Keyboard shortcuts	קיצורי מקלדת
-	Join the ArtCraft Discord	Join ה ArtCraft Discord
+	Join the ArtCraft Discord	הצטרפות לשרת Discord של ArtCraft
 	PdfCraft web page	PdfCraft אינטרנט עמוד
 	PdfCraft on GitHub	PdfCraft על GitHub
 	ArtCraft website	ArtCraft אתר
@@ -147,7 +147,7 @@
 	Mixed	מעורב
 	Custom font	מותאם אישית גופן
 	Only checked properties will change. Mixed means the selected fields have different values.	רק המאפיינים שסומנו ישתנו. ״מעורב״ פירושו שלשדות שנבחרו יש ערכים שונים.
-	Shift- or Ctrl/Command-click to select several fields.	Shift- או Ctrl/פקודה-click ל בחירה כמה שדות.
+	Shift- or Ctrl/Command-click to select several fields.	כדי לבחור כמה שדות, החזק Shift או Ctrl/Command ולחץ עליהם.
 	Font size 0 uses automatic sizing.	גודל גופן 0 מפעיל שינוי גודל אוטומטי.
 	Character limit:	מגבלת תווים:
 	Character limit 0 means no limit. A comb of characters needs a limit.	מגבלת תווים 0 פירושה שאין מגבלה. תיבה משולבת של תווים מחייבת הגדרת מגבלה.
@@ -195,7 +195,7 @@ key	Space	רווח
 	No PDFs in this folder yet	אין עדיין קובצי PDF בתיקייה זו
 	Show less	הצגת פחות
 	Show {n} more	הצגה {n} עוד
-	The newest {n} of {total} PDFs	ה newest {n} של {total} PDFs
+	The newest {n} of {total} PDFs	{n} קובצי ה־PDF החדשים ביותר מתוך {total}
 	Pinned folders need the desktop app	הצמדת תיקיות זמינה באפליקציית שולחן העבודה בלבד
 	Choose a folder on this computer to pin	בחירת תיקייה במחשב הזה להצמדה
 	{folder} is already pinned to Home	{folder} כבר מוצמדת למסך הבית
@@ -208,7 +208,7 @@ key	Space	רווח
 	Double-click	לחיצה כפולה
 	Select a word	בחירת מילה
 	Clear selection / close find	ביטול הבחירה / סגירת החיפוש
-	Zoom in / out (also pinch or {key}-scroll)	הגדלה / מחוץ (גם pinch או {key}-scroll)
+	Zoom in / out (also pinch or {key}-scroll)	הגדלה או הקטנה (גם באמצעות צביטה או גלילה עם {key})
 	Rotate view	סיבוב התצוגה
 	First / last page	העמוד הראשון / האחרון
 	Previous / next page	העמוד הקודם / הבא
@@ -216,7 +216,7 @@ key	Space	רווח
 	Select all pages (Organize)	בחירת כל העמודים (ארגון)
 	Home	דף הבית
 	Open	פתיחה
-	Open a PDF ({key})	פתיחה  PDF ({key})
+	Open a PDF ({key})	פתיחת קובץ PDF ({key})
 	Dark gray theme	ערכת נושא אפורה כהה
 	Light theme	ערכת נושא בהירה
 	All tools	כל הכלים
@@ -321,7 +321,7 @@ key	Space	רווח
 	Add text	הוספת טקסט
 	Edit text & images	עריכת טקסט & תמונות
 	Add or edit links	הוספה או עריכה קישורים
-	Create links from URLs	יצירה קישורים מ URLs
+	Create links from URLs	יצירת קישורים מכתובות URL
 	Remove all links	הסרה כל קישורים
 	No links to remove	אין קישורים ל הסרה
 	Removed 1 link	הוסר 1 קישור
@@ -359,7 +359,7 @@ key	Space	רווח
 	Fill & Sign: sign	מילוי וחתימה: חתימה
 	Fill & Sign: initials	מילוי וחתימה: ראשי תיבות
 	JavaScript console…	מסוף JavaScript…
-	Document JavaScripts…	מסמך JavaScripts…
+	Document JavaScripts…	סקריפטים של JavaScript במסמך…
 	Recognize text…	זיהוי טקסט…
 	Recognize text in multiple files…	זיהוי טקסט במספר קבצים…
 	Check for accessibility…	בדיקת נגישות…
@@ -467,7 +467,7 @@ key	Space	רווח
 	Find text and redact	חיפוש טקסט ו השחרת מידע
 	Set properties	הגדרת מאפיינים
 	Sanitize document	ניקוי מסמך
-	Compress a PDF	Compress  PDF
+	Compress a PDF	דחיסת קובץ PDF
 	Optimize	מיטוב
 	Reduce file size	הקטנת גודל הקובץ
 	Advanced optimization	מתקדם מיטוב
@@ -515,12 +515,12 @@ key	Space	רווח
 	Archive documents	ארכוב מסמכים
 	Prepare for accessibility	הכנה לנגישות
 	Accessibility	נגישות
-	Automatically tag PDF	Automatically תג PDF
+	Automatically tag PDF	תיוג אוטומטי של PDF
 	Change reading options	שינוי אפשרויות הקריאה
 	Check for accessibility	בדיקת נגישות
 	Add alternate text	הוספת טקסט חלופי
 	Fix reading order	תיקון סדר הקריאה
-	Apply PDF standards	החלה PDF standards
+	Apply PDF standards	החלת תקני PDF
 	Standards	תקנים
 	Save as PDF/A	שמירה כמו PDF/
 	Save as PDF/X	שמירה כמו PDF/X
@@ -531,7 +531,7 @@ key	Space	רווח
 	Use JavaScript	שימוש ב־JavaScript
 	JavaScript	JavaScript
 	Console	מסוף
-	Document JavaScripts	מסמך JavaScripts
+	Document JavaScripts	סקריפטים של JavaScript במסמך
 	Document actions	מסמך פעולות
 	AI assistant	עוזר AI
 	Bring your own model (off by default)	שימוש במודל משלך (כבוי כברירת מחדל)
@@ -567,12 +567,12 @@ key	Space	רווח
 	Save changes to “{name}” before closing?	לשמור את השינויים ב־“{name}” לפני הסגירה?
 	Your changes will be lost if you don't save them.	השינויים יאבדו אם לא תשמור אותם.
 	Password required	נדרשת סיסמה
-	“{name}” is protected. Enter a password to open it.	“{name}” הוא מוגן. Enter  סיסמה ל פתיחה זה.
+	“{name}” is protected. Enter a password to open it.	“{name}” מוגן. הזן סיסמה כדי לפתוח אותו.
 	Password	סיסמה
 	Incorrect password. Try again.	הסיסמה שגויה. נסה שוב.
 	Recognize Text	זיהוי טקסט
 	Password protection will be applied when you save	ההגנה באמצעות סיסמה תופעל בעת השמירה
-	Saved the print-ready PDF to {path}	נשמר ה הדפסה-מוכן PDF ל {path}
+	Saved the print-ready PDF to {path}	קובץ ה־PDF המוכן להדפסה נשמר ב־{path}
 	Could not save: {e}	יכול לא שמירה: {e}
 	Earlier in tab order	מוקדם יותר בסדר המעבר בין השדות
 	Later in tab order	מאוחר יותר בסדר המעבר בין השדות
@@ -590,33 +590,33 @@ key	Space	רווח
 	Back to Prepare a form	חזרה ל הכנת טופס
 	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	עדיין אין שדה בטופס הזה שמחשב את ערכו. הגדר חישוב לשדה בכרטיסייה Calculate של המאפיינים שלו, והוא יופיע כאן.
 	{names} and {last}	{names} ו {last}
-	{field} reads no other field	{field} reads אין אחר שדה
+	{field} reads no other field	{field} אינו קורא נתונים משדות אחרים
 	{field} reads {fields}	{field} קורא את {fields}
-	No field reads it	אין שדה reads זה
+	No field reads it	אף שדה אינו קורא ממנו נתונים
 	The order saved in the PDF needs tidying	צריך לסדר מחדש את סדר החישוב שנשמר בקובץ ה־PDF.
-	Moves only what must move	Moves רק מה חייב העברה
-	Every field calculates after the fields it reads.	כל שדה calculates אחרי ה שדות זה reads.
+	Moves only what must move	מזיז רק את מה שחייבים להזיז
+	Every field calculates after the fields it reads.	כל שדה מחושב לאחר השדות שמהם הוא קורא נתונים.
 	Every field outside a loop calculates after the fields it reads.	כל שדה מחוץ  loop calculates אחרי ה שדות זה reads.
-	{field} reads its own value	{field} reads שלו own ערך
-	{fields} read each other	{fields} קריאה כל אחר
+	{field} reads its own value	{field} קורא את הערך של עצמו
+	{fields} read each other	השדות {fields} קוראים זה מזה
 	No order can fix a loop. Change one of the formulas.	אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר. שנה אחת מהנוסחאות.
-	Edit {field}'s formula	עריכה {field}'s formula
-	Order · top calculates first	Order · עליון calculates ראשון
+	Edit {field}'s formula	עריכת הנוסחה של {field}
+	Order · top calculates first	סדר החישוב · העליון מחושב ראשון
 	Script	סקריפט
 	Links on page	קישורים על עמוד
-	Show on the page which fields each field reads	הצגה על ה עמוד איזה שדות כל שדה reads
+	Show on the page which fields each field reads	הצגת השדות שכל שדה קורא מהם נתונים על גבי העמוד
 	Drag a field to move it, or select it and press {up} or {down}.	גרירה  שדה ל העברה זה, או בחירה זה ו press {up} או {down}.
 	From:	מ:
 	To:	ל:
-	High Resolution	High רזולוציה
+	High Resolution	רזולוציה גבוהה
 	Print	הדפסה
-	Verify to see what the document needs.	אימות ל see מה ה מסמך needs.
-	Set Page Boxes	Set עמוד Boxes
+	Verify to see what the document needs.	בצע בדיקה כדי לראות מה המסמך צריך.
+	Set Page Boxes	הגדרת תיבות העמוד
 	Signature panel	חתימה לוח
 	{month} {day}, {y}	{day} ב{month} {y}
 	The document's security settings don't allow filling in form fields	ה מסמך's אבטחה הגדרות don't allow filling ב שדות טופס
-	{name} is read-only	{name} הוא קריאה-רק
-	{name} has no action	{name} יש אין פעולה
+	{name} is read-only	הקובץ {name} הוא לקריאה בלבד
+	{name} has no action	ל־{name} אין פעולה
 	Previous month	הקודם חודש
 	Next month	הבא חודש
 	January	ינואר
@@ -632,7 +632,7 @@ key	Space	רווח
 	November	נובמבר
 	December	דצמבר
 	Done	סיום
-	This certificate is in your list of trusted certificates.	זה אישור דיגיטלי הוא ב שלך list של מהימן אישורים דיגיטליים.
+	This certificate is in your list of trusted certificates.	האישור הדיגיטלי הזה נמצא ברשימת האישורים המהימנים שלך.
 	This certificate is trusted through a certificate above it in the chain.	זה אישור דיגיטלי הוא מהימן דרך  אישור דיגיטלי above זה ב ה chain.
 	This certificate is not trusted. Signatures made with it show an unknown identity.	האישור הדיגיטלי הזה אינו מהימן. חתימות שנוצרו באמצעותו יוצגו עם זהות לא ידועה.
 	Add to Trusted Certificates	הוספה ל מהימן אישורים דיגיטליים
@@ -640,11 +640,11 @@ key	Space	רווח
 	PDF Optimizer	מיטוב PDF
 	Discard Objects	התעלמות אובייקטים
 	Discard User Data	התעלמות משתמש נתונים
-	Clean Up	Clean למעלה
+	Clean Up	ניקוי
 	Color Images	צבע תמונות
-	Grayscale Images	Grayscale תמונות
-	Bicubic downsampling to	Bicubic downsampling ל
-	for images above	עבור תמונות above
+	Grayscale Images	תמונות בגווני אפור
+	Bicubic downsampling to	הקטנת רזולוציה בשיטת Bicubic ל־
+	for images above	לתמונות שרזולוצייתן גבוהה מ־
 	Compression	דחיסה
 	ZIP	ZIP
 	Retain existing	שמירת הקיים
@@ -654,43 +654,43 @@ key	Space	רווח
 	Maximum	מקסימום
 	Each image is measured where pages draw it; an image is replaced only if the result is smaller.	כל תמונה נמדדת לפי הגודל שבו היא מוצגת בעמוד; תמונה תוחלף רק אם התוצאה קטנה יותר.
 	Discard all links, actions and JavaScript	התעלמות כל קישורים, פעולות ו JavaScript
-	Discard alternate images	התעלמות alternate תמונות
+	Discard alternate images	הסרת תמונות חלופיות
 	Discard embedded page thumbnails	התעלמות מוטמע תמונות ממוזערות של עמודים
 	Discard document tags	התעלמות מסמך תגים
 	Discard embedded print settings	התעלמות מוטמע הדפסה הגדרות
 	Discard bookmarks	התעלמות סימניות
 	Discard hidden layer content	התעלמות מוסתר שכבה תוכן
-	Discard all comments, forms and multimedia	התעלמות כל תגובות, צורות ו multimedia
+	Discard all comments, forms and multimedia	הסרת כל התגובות, הטפסים ותוכן המולטימדיה
 	Discard document information and metadata	התעלמות מסמך מידע ו נתוני מטא
 	Discard all object data (file attachments)	התעלמות כל אובייקט נתונים (קובץ קבצים מצורפים)
-	Discard private data of other applications	התעלמות private נתונים של אחר applications
+	Discard private data of other applications	הסרת נתונים פרטיים של יישומים אחרים
 	Discard hidden text	התעלמות מוסתר טקסט
 	Use Flate to encode streams that are not encoded	השתמש ב־Flate כדי לקודד זרמים שעדיין אינם מקודדים.
 	Remove invalid links and bookmarks	הסרה לא תקין קישורים ו סימניות
-	Remove unreferenced named destinations	הסרה unreferenced named destinations
-	Compress document structure (object streams)	Compress מסמך מבנה (אובייקט streams)
-	Remove unused objects and merge identical ones	הסרה unused אובייקטים ו מיזוג identical ones
-	Audit space usage…	Audit רווח שימוש…
-	Space Audit	רווח Audit
-	What takes up the space in this file, by kind of content.	מה takes למעלה ה רווח ב זה קובץ, על ידי סוג של תוכן.
+	Remove unreferenced named destinations	הסרת יעדים בעלי שם שאין אליהם הפניות
+	Compress document structure (object streams)	דחיסת מבנה המסמך (זרמי אובייקטים)
+	Remove unused objects and merge identical ones	הסרת אובייקטים שאינם בשימוש ומיזוג אובייקטים זהים
+	Audit space usage…	בדיקת ניצול שטח האחסון…
+	Space Audit	בדיקת ניצול שטח האחסון
+	What takes up the space in this file, by kind of content.	פירוט השטח שתופס כל סוג תוכן בקובץ הזה.
 	Bytes	בתים
-	Content Streams	תוכן Streams
+	Content Streams	זרמי תוכן
 	X Object Forms	X אובייקט צורות
-	Structure Info	מבנה Info
+	Structure Info	מידע על המבנה
 	Thumbnails	תמונות ממוזערות
 	Named Destinations	יעדים בעלי שם
-	Color Spaces	צבע Spaces
+	Color Spaces	מרחבי צבע
 	Shadings	הצללות
-	Patterns (graphics objects)	Patterns (graphics אובייקטים)
+	Patterns (graphics objects)	דפוסים (אובייקטים גרפיים)
 	Extended Graphics States	מצבי גרפיקה מורחבים
 	Embedded Files	מוטמע קבצים
-	Document Overhead	מסמך Overhead
+	Document Overhead	נתונים נלווים למסמך
 	Total	סך הכול
 	Text Field Properties	טקסט שדה מאפיינים
-	Check Box Properties	Check Box מאפיינים
-	Radio Button Properties	Radio לחצן מאפיינים
+	Check Box Properties	מאפייני תיבת סימון
+	Radio Button Properties	מאפייני לחצן בחירה
 	Dropdown Properties	רשימה נפתחת מאפיינים
-	List Box Properties	List Box מאפיינים
+	List Box Properties	מאפייני תיבת רשימה
 	Button Properties	לחצן מאפיינים
 	Digital Signature Properties	חתימה דיגיטלית מאפיינים
 	Position	מיקום
@@ -700,12 +700,12 @@ key	Space	רווח
 	Actions	פעולות
 	This field is locked. Unlock it to change its properties.	זה שדה הוא נעול. ביטול נעילה זה ל שינוי שלו מאפיינים.
 	Tooltip:	תיאור צף:
-	Common Properties	Common מאפיינים
+	Common Properties	מאפיינים משותפים
 	Read Only	קריאה רק
 	Required	נדרש
 	Font Size:	גודל גופן:
 	Text Color:	צבע הטקסט:
-	Borders and Colors	Borders ו Colors
+	Borders and Colors	גבולות וצבעים
 	Border Color:	צבע המסגרת:
 	Fill Color:	צבע המילוי:
 	No color	אין צבע
@@ -714,92 +714,92 @@ key	Space	רווח
 	Bottom:	תחתון:
 	Width:	רוחב:
 	Height:	גובה:
-	Points from the page's bottom-left corner.	Points מ ה עמוד's תחתון-שמאל corner.
+	Points from the page's bottom-left corner.	נקודות ביחס לפינה השמאלית התחתונה של העמוד.
 	Alignment:	יישור:
 	Default Value:	ברירת מחדל ערך:
-	Multi-line	Multi-קו
-	Scroll long text	Scroll long טקסט
-	Allow Rich Text Formatting	Allow עשיר טקסט עיצוב
-	Limit of	Limit של
+	Multi-line	רב־שורות
+	Scroll long text	גלילת טקסט ארוך
+	Allow Rich Text Formatting	אפשר עיצוב טקסט עשיר
+	Limit of	מגבלה של
 	characters	תווים
-	Field is used for file selection	שדה הוא used עבור קובץ בחירה
+	Field is used for file selection	השדה משמש לבחירת קובץ
 	Check spelling	בדיקת איות
-	Comb of	Comb של
+	Comb of	רשת תווים ברוחב
 	Export Value: {on}	ייצוא ערך: {on}
-	Check box is checked by default	Check box הוא checked על ידי ברירת מחדל
-	Button is checked by default	לחצן הוא checked על ידי ברירת מחדל
-	Buttons with the same name and value are selected in unison	לחצנים עם ה אותו שם ו ערך הם נבחר ב unison
+	Check box is checked by default	תיבת הסימון מסומנת כברירת מחדל
+	Button is checked by default	הלחצן מסומן כברירת מחדל
+	Buttons with the same name and value are selected in unison	לחצנים בעלי אותו שם וערך נבחרים יחד
 	Item:	פריט:
-	Item List	פריט List
+	Item List	רשימת פריטים
 	Up	למעלה
 	Delete {o}	מחיקה {o}
-	Add the choices people pick from.	הוספה ה choices people pick מ.
+	Add the choices people pick from.	הוספת האפשרויות שהמשתמשים יוכלו לבחור מהן.
 	Default:	ברירת מחדל:
 	(none)	(ללא)
-	Sort items	Sort פריטים
-	Allow user to enter custom text	Allow משתמש ל Enter מותאם אישית טקסט
-	Multiple selection	Multiple בחירה
-	Commit selected value immediately	Commit נבחר ערך מיד
+	Sort items	מיון פריטים
+	Allow user to enter custom text	אפשר למשתמש להזין טקסט מותאם אישית
+	Multiple selection	בחירה מרובה
+	Commit selected value immediately	אישור הערך שנבחר באופן מיידי
 	Number	מספר
 	Percentage	אחוז
 	Time	שעה
 	Special	מיוחד
-	Select format category:	בחירה תבנית category:
-	The value is shown as typed.	ה ערך הוא shown כמו typed.
+	Select format category:	בחירת קטגוריית התבנית:
+	The value is shown as typed.	הערך מוצג כפי שהוקלד.
 	Decimal places:	ספרות עשרוניות:
 	Separator style:	סגנון מפריד:
 	Currency symbol:	סמל מטבע:
 	Before the number	לפני ה מספר
-	Negative number style:	Negative מספר style:
+	Negative number style:	סגנון להצגת מספרים שליליים:
 	Format:	תבנית:
 	Custom:	מותאם אישית:
 	Zip Code	מיקוד
 	Zip Code + 4	מיקוד + 4
-	Phone Number	Phone מספר
-	Social Security Number	Social אבטחה מספר
+	Phone Number	מספר טלפון
+	Social Security Number	מספר ביטוח לאומי (SSN)
 	Arbitrary Mask	מסכה מותאמת אישית
 	Mask:	מסכה:
 	9 digit, A letter, O letter or digit, X any character	9 מציין ספרה, A אות, O אות או ספרה, ו־X כל תו.
 	Example: {sample}	דוגמה: {sample}
-	Field value is not validated	שדה ערך הוא לא validated
-	Field value is in range:	שדה ערך הוא ב range:
+	Field value is not validated	הערך בשדה אינו עובר בדיקת תקינות
+	Field value is in range:	ערך השדה נמצא בטווח:
 	Add an Action	הוספה  פעולה
-	Select Trigger:	בחירה Trigger:
-	Mouse Up	Mouse למעלה
-	Mouse Down	Mouse למטה
+	Select Trigger:	בחירת אירוע מפעיל:
+	Mouse Up	שחרור לחצן העכבר
+	Mouse Down	לחיצה על לחצן העכבר
 	Mouse Enter	כניסת עכבר
-	Mouse Exit	Mouse יציאה
-	On Focus	על Focus
-	On Blur	על Blur
+	Mouse Exit	יציאת הסמן
+	On Focus	בעת קבלת מיקוד
+	On Blur	בעת אובדן מיקוד
 	Select Action:	בחירה פעולה:
 	Open a web link	פתיחה  אינטרנט קישור
 	Reset a form	איפוס  טופס
-	Execute a menu item	Execute  תפריט פריט
+	Execute a menu item	הפעלת פריט בתפריט
 	Show a field	הצגה  שדה
 	Hide a field	הסתרה  שדה
-	Submit a form	Submit  טופס
-	Fields to reset (comma-separated; empty: all)	שדות ל איפוס (comma-separated; ריק: כל)
+	Submit a form	שליחת טופס
+	Fields to reset (comma-separated; empty: all)	שדות לאיפוס (מופרדים בפסיקים; שדה ריק: כולם)
 	Print, NextPage, PrevPage, FirstPage or LastPage	הדפסה, NextPage, PrevPage, FirstPage או LastPage.
-	Field names (comma-separated)	שדה שמות (comma-separated)
-	URL to submit to	URL ל submit ל
+	Field names (comma-separated)	שמות שדות (מופרדים בפסיקים)
+	URL to submit to	כתובת URL לשליחת הנתונים אליה
 	Script:	סקריפט:
 	Value:	ערך:
 	No actions	אין פעולות
-	Value is not calculated	ערך הוא לא calculated
+	Value is not calculated	הערך אינו מחושב
 	Value is the	ערך הוא ה
 	sum (+)	סכום (+)
 	product (x)	מכפלה (x)
 	average	ממוצע
 	minimum	מינימום
 	maximum	מקסימום
-	of the following fields:	של ה following שדות:
-	Simplified field notation:	Simplified שדה notation:
+	of the following fields:	מבין השדות הבאים:
+	Simplified field notation:	סימון שדות פשוט:
 	Field names with + - * / and parentheses; put \\ before spaces in names.	שמות השדות יכולים לכלול + - * / וסוגריים; יש להוסיף \\ לפני רווחים בשמות.
-	Finding document fonts…	Finding מסמך גופנים…
-	Installed fonts…	Installed גופנים…
+	Finding document fonts…	מחפש גופנים במסמך…
+	Installed fonts…	גופנים מותקנים…
 	Keep source fonts	שמירה מקור גופנים
-	Load font…	Load גופן…
-	No openly licensed document fonts found. Load a font file.	אין openly licensed מסמך גופנים נמצא. Load  גופן קובץ.
+	Load font…	טעינת גופן…
+	No openly licensed document fonts found. Load a font file.	לא נמצאו גופני מסמכים בעלי רישיון פתוח. טען קובץ גופן.
 	Format text	תבנית טקסט
 	Bold	מודגש
 	Italic	נטוי
@@ -807,14 +807,14 @@ key	Space	רווח
 	Centre	מרכז
 	Align right	יישור לימין
 	Justify	יישור
-	Thai and Arabic use regular fallback fonts when available.	Thai ו ערבית use רגיל חלופי גופנים כאשר זמין.
+	Thai and Arabic use regular fallback fonts when available.	עבור תאית וערבית נעשה שימוש בגופנים חלופיים רגילים, אם הם זמינים.
 	Edit image	עריכה תמונה
-	Rotate counterclockwise	סיבוב counterclockwise
-	Rotate clockwise	סיבוב clockwise
-	Flip horizontal	Flip אופקי
-	Flip vertical	Flip אנכי
+	Rotate counterclockwise	סיבוב נגד כיוון השעון
+	Rotate clockwise	סיבוב בכיוון השעון
+	Flip horizontal	היפוך אופקי
+	Flip vertical	היפוך אנכי
 	Replace image	החלפה תמונה
-	Crop (% trimmed from each side)	חיתוך (% trimmed מ כל side)
+	Crop (% trimmed from each side)	חיתוך (אחוז החיתוך מכל צד)
 	Click on the page to add text; each click starts a new box, and ✓ finishes. Drag items to move them, drag a corner to resize, double-click text to edit it.	לחץ בעמוד כדי להוסיף טקסט; כל לחיצה מתחילה תיבה חדשה, וסמן ✓ מסיים. גרור פריטים כדי להזיז אותם, גרור פינה כדי לשנות גודל ולחץ פעמיים על טקסט כדי לערוך אותו.
 	Choose an image	בחירה  תמונה
 	Export to Image	ייצוא ל תמונה
@@ -823,16 +823,16 @@ key	Space	רווח
 	Resolution	רזולוציה
 	Format	תבנית
 	Quality	איכות
-	One {f} file per page, named after the document.	אחד {f} קובץ per עמוד, named אחרי ה מסמך.
-	Exclude images smaller than	Exclude תמונות smaller מאשר
-	No limit	אין limit
+	One {f} file per page, named after the document.	קובץ {f} אחד לכל עמוד, בשם המבוסס על שם המסמך.
+	Exclude images smaller than	החרגת תמונות שקטנות מ־
+	No limit	ללא הגבלה
 	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	כל תמונה נשמרת פעם אחת בשם המבוסס על המסמך והעמוד. תמונות JPEG נשמרות ללא שינוי; שאר התמונות נשמרות כ־PNG.
 	Plain text in reading order; pages are separated by form feeds.	טקסט פשוט לפי סדר הקריאה; העמודים מופרדים באמצעות מעברי עמוד.
-	Create {what}	יצירה {what}
+	Create {what}	יצירת {what}
 	initials	ראשי תיבות
 	signature	חתימה
 	Create Custom Stamp	יצירה מותאם אישית חותמת
-	From {file}	מ {file}
+	From {file}	מ־{file}
 	Category:	קטגוריה:
 	e.g. My stamps	למשל: החותמות שלי
 	Name:	שם:
@@ -842,45 +842,45 @@ key	Space	רווח
 	Line spacing	קו מרווח
 	Character spacing	תו מרווח
 	Horizontal scale	אופקי קנה מידה
-	Rotate Clockwise	סיבוב Clockwise
-	Rotate Counterclockwise	סיבוב Counterclockwise
-	Flip Horizontal	Flip אופקי
-	Flip Vertical	Flip אנכי
+	Rotate Clockwise	סיבוב בכיוון השעון
+	Rotate Counterclockwise	סיבוב נגד כיוון השעון
+	Flip Horizontal	היפוך אופקי
+	Flip Vertical	היפוך אנכי
 	Replace Image…	החלפה תמונה…
 	Save Image As…	שמירה תמונה כמו…
 	Copy Image	העתקה תמונה
 	The image has been copied ({w} × {h} pixels)	ה תמונה יש היה הועתק ({w} × {h} פיקסלים)
 	Couldn't copy the image: {e}	לא ניתן העתקה ה תמונה: {e}
 	Copy Image in Original Format	העתקה תמונה ב מקורי תבנית
-	The image has been copied as a {ext} file	ה תמונה יש היה הועתק כמו  {ext} קובץ
+	The image has been copied as a {ext} file	התמונה הועתקה כקובץ {ext}
 	The page has changed; select the image again	ה עמוד יש השתנה; בחירה ה תמונה שוב
 	Check for updates	בדיקת עדכונים
-	No check has run yet.	אין check יש run yet.
-	Checking for a newer version…	Checking עבור  newer גרסה…
+	No check has run yet.	עדיין לא בוצעה בדיקה.
+	Checking for a newer version…	בודק אם קיימת גרסה חדשה יותר…
 	PdfCraft {v} is available.	PdfCraft {v} הוא זמין.
 	You have version {c}. Download the new version from its release page.	אתה יש גרסה {c}. הורדה ה חדש גרסה מ שלו הפצה עמוד.
 	PdfCraft {c} is up to date.	PdfCraft {c} הוא למעלה ל תאריך.
 	Couldn't check for updates: {e}	לא ניתן בדיקת עדכונים: {e}
-	You have version {c}. All releases are listed at {page}.	אתה יש גרסה {c}. כל releases הם listed ב {page}.
+	You have version {c}. All releases are listed at {page}.	הגרסה שברשותך היא {c}. רשימת כל הגרסאות זמינה בכתובת {page}.
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	בודק ב־GitHub מהי הגרסה העדכנית ביותר. דבר אינו יורד או מותקן באופן אוטומטי.
 	Download	הורדה
 	Later	מאוחר יותר
 	none	ללא
 	Declared conformance: {shown}	תאימות מוצהרת: {shown}
-	Output intent: {list}	פלט intent: {list}
+	Output intent: {list}	ייעוד הפלט: {list}
 	Conformance level:	רמת תאימות:
-	No problems found: the document conforms to {level}.	אין בעיות נמצא: ה מסמך conforms ל {level}.
+	No problems found: the document conforms to {level}.	לא נמצאו בעיות: המסמך תואם לרמה {level}.
 	 (page {p})	 (עמוד {p})
-	  · not fixable here	  · לא fixable here
+	  · not fixable here	  · לא ניתן לתקן כאן
 	Verify	אימות
 	Box	תיבה
 	Units	יחידות
-	Set to zero	Set ל zero
+	Set to zero	הגדרה לאפס
 	Current page ({n})	נוכחי עמוד ({n})
 	Subset	תת־קבוצה
 	Update	עדכון
 	Add	הוספה
-	{verb} Header and Footer	{verb} כותרת עליונה ו כותרת תחתונה
+	{verb} Header and Footer	{verb} כותרת עליונה ותחתונה
 	{verb} Watermark	{verb} סימן מים
 	{verb} Background	{verb} רקע
 	Margins (in)	שוליים (ב)
@@ -897,29 +897,29 @@ key	Space	רווח
 	Source	מקור
 	Fit to page	התאמה ל עמוד
 	Rotation	סיבוב
-	Appear behind page	Appear behind עמוד
-	Appear on top of page	Appear על עליון של עמוד
+	Appear behind page	הצגה מאחורי העמוד
+	Appear on top of page	הצגה מעל העמוד
 	From colour	מ צבע
-	Page Range Options	עמוד Range אפשרויות
+	Page Range Options	אפשרויות טווח העמודים
 	Preview: page {p} of {n}	תצוגה מקדימה: עמוד {p} של {n}
-	Applies to 1 page	Applies ל 1 עמוד
-	Applies to {n} pages	Applies ל {n} עמודים
-	Replaces the existing one on those pages.	Replaces ה existing אחד על אלה עמודים.
+	Applies to 1 page	חל על עמוד אחד
+	Applies to {n} pages	חל על {n} עמודים
+	Replaces the existing one on those pages.	מחליף את הפריט הקיים בעמודים האלה.
 	PDF or image	PDF או תמונה
 	No file chosen	אין קובץ נבחר
 	Page number	עמוד מספר
-	Scale relative to target page	קנה מידה relative ל יעד עמוד
+	Scale relative to target page	שינוי קנה מידה ביחס לעמוד היעד
 	Link Properties	קישור מאפיינים
 	Create Link	יצירה קישור
 	Link Appearance	קישור מראה
 	Link Type:	קישור סוג:
 	Visible Rectangle	גלוי מלבן
-	Invisible Rectangle	Invisible מלבן
-	Highlight Style:	הדגשה Style:
+	Invisible Rectangle	מלבן בלתי נראה
+	Highlight Style:	סגנון ההדגשה:
 	Invert	היפוך
 	Outline	מתאר
 	Inset	הטבעה פנימה
-	Line Thickness:	קו Thickness:
+	Line Thickness:	עובי הקו:
 	Thin	דק
 	Thick	עבה
 	Line Style:	סגנון הקו:
@@ -932,31 +932,31 @@ key	Space	רווח
 	Type the web address.	סוג ה אינטרנט כתובת.
 	This document has no signatures.	זה מסמך יש אין חתימות.
 	The Keychain's digital IDs couldn't be listed: {e}	לא ניתן להציג את המזהים הדיגיטליים שב־Keychain: {e}
-	Signed and saved to {path}	חתום ו נשמר ל {path}
-	Couldn't open revision {n}: {e}	לא ניתן פתיחה revision {n}: {e}
+	Signed and saved to {path}	נחתם ונשמר ב־{path}
+	Couldn't open revision {n}: {e}	לא ניתן לפתוח את מהדורה {n}: {e}
 	Couldn't open the signed version: {e}	לא ניתן פתיחה ה חתום גרסה: {e}
-	Sign with a Digital ID	חתימה עם  Digital ID
+	Sign with a Digital ID	חתימה באמצעות מזהה דיגיטלי
 	Choose the digital ID that you want to use for signing:	בחר את המזהה הדיגיטלי שבו ברצונך להשתמש לחתימה:
-	Keychain  ·  	Keychain  ·  
-	Windows store  ·  	Windows store  ·  
-	Issued by: 	Issued על ידי: 
-	, Expires: 	, Expires: 
-	Digitally signed by	Digitally חתום על ידי
+	Keychain  ·  	מחזיק המפתחות  ·  
+	Windows store  ·  	מאגר Windows  ·  
+	Issued by: 	הונפק על ידי: 
+	, Expires: 	, תוקף עד: 
+	Digitally signed by	נחתם דיגיטלית על ידי
 	DN: 	DN: 
 	Reason: 	סיבה: 
 	Location: 	מיקום: 
 	Date: 	תאריך: 
 	The labels are in English: the signature's font can't draw them in this language.	התוויות באנגלית: הגופן של החתימה אינו יכול להציג אותן בשפה זו.
-	No digital IDs yet.	אין digital IDs yet.
-	Configure New Digital ID	Configure חדש Digital ID
+	No digital IDs yet.	עדיין אין מזהים דיגיטליים.
+	Configure New Digital ID	הגדרת מזהה דיגיטלי חדש
 	Remove "{name}" from this list? The file itself is not deleted.	הסרה "{name}" מ זה list? ה קובץ itself הוא לא נמחק.
 	Continue	המשך
-	Configure a Digital ID for Signing	Configure  Digital ID עבור Signing
-	Use a Digital ID from a file	Use  Digital ID מ  קובץ
+	Configure a Digital ID for Signing	הגדרת מזהה דיגיטלי לחתימה
+	Use a Digital ID from a file	שימוש במזהה דיגיטלי מקובץ
 	Create a new Digital ID (self-signed, saved to a password-protected file)	יצירה  חדש Digital ID (self-חתום, נשמר ל  סיסמה-מוגן קובץ)
 	Name	שם
-	Organizational Unit	Organizational יחידה
-	Organization Name	Organization שם
+	Organizational Unit	יחידה ארגונית
+	Organization Name	שם הארגון
 	Email Address	דוא"ל כתובת
 	Country/Region	מדינה/אזור
 	Key Algorithm	אלגוריתם המפתח
@@ -965,101 +965,101 @@ key	Space	רווח
 	File (.p12, .pfx)	קובץ (.p12, .pfx)
 	Digital ID	מזהה דיגיטלי
 	Browse…	עיון…
-	{verb} as "{name}"	{verb} כמו "{name}"
+	{verb} as "{name}"	{verb} בשם "{name}"
 	Certify	אישור
-	The signature will be invisible.	ה חתימה יבצע להיות invisible.
-	The existing action will be preserved.	ה existing פעולה יבצע להיות preserved.
-	Distinguished name	Distinguished שם
+	The signature will be invisible.	החתימה תהיה בלתי נראית.
+	The existing action will be preserved.	הפעולה הקיימת תישמר.
+	Distinguished name	שם מובחן (Distinguished Name)
 	Labels	תוויות
 	Graphic	גרפיקה
 	Signer's name	חותם's שם
 	Fill & Sign signature	מילוי וחתימה חתימה
 	Choose image…	בחירה תמונה…
-	Permitted actions after certifying	Permitted פעולות אחרי certifying
+	Permitted actions after certifying	פעולות מותרות לאחר אישור המסמך
 	No changes allowed	אין שינויים מותר
-	Annotations, form fill-in, and digital signatures	Annotations, טופס fill-ב, ו digital חתימות
-	Form fill-in and digital signatures	טופס fill-ב ו digital חתימות
+	Annotations, form fill-in, and digital signatures	הערות, מילוי טפסים וחתימות דיגיטליות
+	Form fill-in and digital signatures	מילוי טפסים וחתימות דיגיטליות
 	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	המפתח נמצא ב־Keychain של macOS, שעשוי לבקש לאפשר ל־PdfCraft להשתמש בו.
 	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	המפתח נמצא במאגר האישורים של Windows, שעשוי לבקש לאפשר ל־PdfCraft להשתמש בו.
-	Digital ID password	Digital ID סיסמה
+	Digital ID password	סיסמת המזהה הדיגיטלי
 	Back	חזרה
 	Validate all	בדיקת תקינות כל
 	Sign this field…	חתימה זה שדה…
 	Signature is valid:	חתימה הוא תקין:
-	Signature validity is UNKNOWN:	חתימה validity הוא לא ידוע:
+	Signature validity is UNKNOWN:	תקפות החתימה אינה ידועה:
 	Signature is INVALID:	חתימה הוא לא תקין:
 	Signature Details	חתימה פרטים
 	Reason	סיבה
-	Signing time	Signing שעה
+	Signing time	מועד החתימה
 	Algorithm	אלגוריתם
 	Signer	חותם
-	Issued by	Issued על ידי
+	Issued by	הונפק על ידי
 	Valid	תקין
 	Field	שדה
-	Field: {field} on page {p}	שדה: {field} על עמוד {p}
+	Field: {field} on page {p}	שדה: {field}, בעמוד {p}
 	Add to trusted certificates	הוספה ל מהימן אישורים דיגיטליים
 	View signed version	תצוגה חתום גרסה
 	Show certificate…	הצגה אישור דיגיטלי…
 	Export certificate…	ייצוא אישור דיגיטלי…
-	Certificate Viewer	אישור דיגיטלי Viewer
+	Certificate Viewer	מציג האישורים הדיגיטליים
 	This dialog shows the details of a certificate and its chain.	זה חלון דו־שיח shows ה פרטים של  אישור דיגיטלי ו שלו chain.
 	Trust	אמון
-	Issued to	Issued ל
+	Issued to	הונפק עבור
 	Valid from	תקין מ
 	Valid to	תקין ל
-	Intended usage	Intended שימוש
+	Intended usage	שימוש מיועד
 	Any	כלשהו
 	Version	גרסה
-	Serial number	Serial מספר
+	Serial number	מספר סידורי
 	Issuer	מנפיק
 	Validity starts	תחילת תוקף
 	Validity ends	סיום תוקף
 	Public key	מפתח ציבורי
-	Key usage	Key שימוש
-	Not present	לא present
-	Self-signed	Self-חתום
+	Key usage	שימוש במפתח
+	Not present	אינו קיים
+	Self-signed	חתימה עצמית
 	Edit Action	עריכה פעולה
 	New Action	חדש פעולה
 	Action name:	פעולה שם:
 	Description:	תיאור:
 	Steps	שלבים
-	Add the steps this action runs, in order.	הוספה ה steps זה פעולה runs, ב order.
-	Add Step	הוספה Step
-	An action with this name already exists.	 פעולה עם זה שם already exists.
+	Add the steps this action runs, in order.	הוספת שלבי הפעולה לפי סדר ביצועם.
+	Add Step	הוספת שלב
+	An action with this name already exists.	כבר קיימת פעולה בשם הזה.
 	New Action…	חדש פעולה…
 	Edit…	עריכה…
 	Add watermark	הוספה סימן מים
 	Add header	הוספה כותרת עליונה
 	Add footer	הוספה כותרת תחתונה
-	Set document title	Set מסמך כותרת
-	Run a JavaScript	Run  JavaScript
-	Prepare for Distribution	Prepare עבור Distribution
+	Set document title	הגדרת כותרת המסמך
+	Run a JavaScript	הפעלת JavaScript
+	Prepare for Distribution	הכנה להפצה
 	Remove hidden information and flatten comments and form fields, so recipients see only the pages.	הסר מידע מוסתר ושַטח תגובות ושדות טופס, כדי שהנמענים יראו רק את העמודים.
 	Optimize Scanned Documents	מיטוב סרוק מסמכים
-	Make scans searchable, then make them smaller.	יצירה scans searchable, אז יצירה אותם smaller.
+	Make scans searchable, then make them smaller.	הפיכת סריקות לניתנות לחיפוש ולאחר מכן הקטנתן.
 	Add Page Numbers	הוספה עמוד מספרים
 	Number every page in the footer.	מספר כל עמוד ב ה כותרת תחתונה.
-	Mark as Confidential	Mark כמו Confidential
-	A diagonal CONFIDENTIAL watermark on every page.	 diagonal CONFIDENTIAL סימן מים על כל עמוד.
+	Mark as Confidential	סימון כסודי
+	A diagonal CONFIDENTIAL watermark on every page.	הוספת סימן מים אלכסוני CONFIDENTIAL בכל עמוד.
 	Sanitize Documents	ניקוי מסמכים
 	Remove hidden information, metadata, scripts and embedded content, and rewrite the files.	הסר מידע מוסתר, נתוני מטא, סקריפטים ותוכן מוטמע, ושכתב את הקבצים.
 	Type text	סוג טקסט
 	Text to insert	טקסט ל הוספה
-	Replacement text	Replacement טקסט
+	Replacement text	טקסט חלופי
 	Edit text…	עריכת טקסט…
-	Add a sticky note here	הוספת פתק נדבק here
-	{kind} Properties	{kind} מאפיינים
+	Add a sticky note here	הוספת פתק נדבק כאן
+	{kind} Properties	מאפייני {kind}
 	Appearance	מראה
 	General	כללי
-	Review History	Review היסטוריה
-	This comment's appearance can't be changed yet.	זה תגובה's מראה לא ניתן להיות השתנה yet.
+	Review History	סקירת היסטוריה
+	This comment's appearance can't be changed yet.	עדיין לא ניתן לשנות את המראה של התגובה הזאת.
 	Icon	סמל
 	Thickness	עובי
 	Modified	השתנה
-	No status has been set.	אין מצב יש היה set.
+	No status has been set.	לא הוגדר מצב.
 	Compare Files	השוואה קבצים
 	Old file:	ישן קובץ:
-	Open the older version first	פתיחה ה older גרסה ראשון
+	Open the older version first	יש לפתוח תחילה את הגרסה הקודמת
 	New file:	חדש קובץ:
 	Text is compared word by word; the differences are shown on the new file.	טקסט הוא compared מילה על ידי מילה; ה הבדלים הם shown על ה חדש קובץ.
 	Compare this file with an older version: Compare files… in All tools.	השוואה זה קובץ עם  older גרסה: השוואה קבצים… ב כל הכלים.
@@ -1069,16 +1069,16 @@ key	Space	רווח
 	Deleted	נמחק
 	Replaced	הוחלף
 	Visual	חזותי
-	Mark as comments	Mark כמו תגובות
+	Mark as comments	סימון כתגובות
 	Report…	דוח…
 	{kind} · page {p}	{kind} · עמוד {p}
-	Set Alternate Text	Set Alternate טקסט
-	This document has no tagged figures.	זה מסמך יש אין tagged figures.
+	Set Alternate Text	הגדרת טקסט חלופי
+	This document has no tagged figures.	אין במסמך הזה איורים מתויגים.
 	 on page {p}	 על עמוד {p}
-	Figure {i} of {n}{page}	Figure {i} של {n}{page}
+	Figure {i} of {n}{page}	איור {i} מתוך {n}{page}
 	No preview	אין תצוגה מקדימה
-	Alternate text	Alternate טקסט
-	Describe the figure	Describe ה figure
+	Alternate text	טקסט חלופי
+	Describe the figure	תיאור האיור
 	Decorative figure	איור דקורטיבי
 	Previous figure	הקודם figure
 	Next figure	הבא figure
@@ -2721,19 +2721,19 @@ calendar weekday	We	ד׳
 calendar weekday	Th	ה׳
 calendar weekday	Fr	ו׳
 calendar weekday	Sa	ש׳
-certificate	Issued to	Issued ל
-certificate	Issued by	Issued על ידי
+certificate	Issued to	הונפק עבור
+certificate	Issued by	הונפק על ידי
 certificate	Valid from	תקין מ
 certificate	Valid to	תקין ל
-certificate	Intended usage	Intended שימוש
-certificate	Serial number	Serial מספר
+certificate	Intended usage	שימוש מיועד
+certificate	Serial number	מספר סידורי
 certificate	Issuer	מנפיק
 certificate	Validity starts	תחילת תוקף
 certificate	Validity ends	סיום תוקף
 certificate	Public key	מפתח ציבורי
 certificate	Basic constraints	בסיסי constraints
-certificate	Key usage	Key שימוש
-certificate	Self-signed	Self-חתום
+certificate	Key usage	שימוש במפתח
+certificate	Self-signed	חתימה עצמית
 certificate	SHA-1 digest	תקציר SHA-1
 certificate	SHA-256 digest	תקציר SHA-256
 certificate	Version	גרסה
