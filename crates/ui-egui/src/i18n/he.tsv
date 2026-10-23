@@ -136,7 +136,7 @@
 	For page sizes and margins.	עבור עמוד sizes ו שוליים.
 	Open arrow	פתיחה חץ
 	Closed arrow	נסגר חץ
-	Butt	Butt
+	Butt	קצה שטוח
 	Reverse open arrow	Reverse פתיחה חץ
 	Reverse closed arrow	Reverse נסגר חץ
 	Slash	Slash
@@ -144,7 +144,7 @@
 	Scroll tabs right	Scroll לשוניות ימין
 	Shared Field Properties	Shared שדה מאפיינים
 	{n} fields selected	{n} שדות נבחר
-	Mixed	Mixed
+	Mixed	מעורב
 	Custom font	מותאם אישית גופן
 	Only checked properties will change. Mixed means the selected fields have different values.	רק המאפיינים שסומנו ישתנו. ״מעורב״ פירושו שלשדות שנבחרו יש ערכים שונים.
 	Shift- or Ctrl/Command-click to select several fields.	Shift- או Ctrl/פקודה-click ל בחירה כמה שדות.
@@ -183,7 +183,7 @@ key	Space	רווח
 	Resize panels	שינוי גודל לוחות
 	Resize panel window	שינוי גודל לוח חלון
 	Tools	כלים
-	Inspector	Inspector
+	Inspector	מפקח
 	Folders	תיקיות
 	Pin a folder…	הצמדת תיקייה…
 	Pin a folder to Home	הצמדת תיקייה למסך הבית
@@ -297,7 +297,7 @@ key	Space	רווח
 	Insert text	הוספה טקסט
 	Replace text	החלפה טקסט
 	Attach a file	Attach  קובץ
-	Erase drawings	Erase drawings
+	Erase drawings	מחיקת ציורים
 	Flatten comments	Flatten תגובות
 	Import comments…	ייבוא תגובות…
 	Add a stamp	הוספה  חותמת
@@ -378,8 +378,8 @@ key	Space	רווח
 	Export a PDF	ייצוא  PDF
 	Export to	ייצוא ל
 	Microsoft Word (.docx)	Microsoft מילה (.docx)
-	Spreadsheet (.xlsx)	Spreadsheet (.xlsx)
-	Presentation (.pptx)	Presentation (.pptx)
+	Spreadsheet (.xlsx)	גיליון אלקטרוני (.xlsx)
+	Presentation (.pptx)	מצגת (.pptx)
 	Image (PNG)	תמונה (PNG)
 	Export all images	ייצוא כל תמונות
 	HTML web page	HTML אינטרנט עמוד
@@ -387,14 +387,14 @@ key	Space	רווח
 	Text (plain)	טקסט (פשוט)
 	PostScript / EPS	PostScript / EPS
 	Fill & Sign	מילוי וחתימה
-	Fill	Fill
-	Checkmark	Checkmark
-	Cross	Cross
-	Dot	Dot
+	Fill	מילוי
+	Checkmark	סימן ביקורת
+	Cross	צלב
+	Dot	נקודה
 	Line	קו
 	Date	תאריך
 	Signature	חתימה
-	Initials	Initials
+	Initials	ראשי תיבות
 	Edit a PDF	עריכה  PDF
 	Modify page	Modify עמוד
 	Rotate pages	סיבוב עמודים
@@ -406,16 +406,16 @@ key	Space	רווח
 	Header and footer	כותרת עליונה ו כותרת תחתונה
 	Watermark	סימן מים
 	Link	קישור
-	Bates numbering	Bates numbering
+	Bates numbering	מספור Bates
 	Background	רקע
 	Attach file	Attach קובץ
 	Create a PDF	יצירה  PDF
 	Create from	יצירה מ
 	Single file	Single קובץ
 	Multiple files	Multiple קבצים
-	Separate PDFs	Separate PDFs
+	Separate PDFs	הפרדת קובצי PDF
 	Images	תמונות
-	Clipboard	Clipboard
+	Clipboard	לוח הגזירים
 	Blank page	ריק עמוד
 	Combine files	שילוב קבצים
 	Combine	שילוב
@@ -435,18 +435,18 @@ key	Space	רווח
 	Page transitions	עמוד transitions
 	Add comments	הוספה תגובות
 	Markup	סימון
-	Sticky note	Sticky note
+	Sticky note	פתק נדבק
 	Underline	קו תחתון
 	Strikethrough	קו חוצה
 	Squiggly underline	Squiggly קו תחתון
 	Text box	טקסט box
 	Drawing	ציור
 	Rectangle	מלבן
-	Oval	Oval
+	Oval	אליפסה
 	Arrow	חץ
 	Cloud	ענן
 	Stamp	חותמת
-	Review	Review
+	Review	סקירה
 	Comment list	תגובה list
 	Scan & OCR	סריקה & OCR
 	Recognize text	זיהוי טקסט
@@ -483,12 +483,12 @@ key	Space	רווח
 	Checkbox	תיבת סימון
 	Radio button	Radio לחצן
 	Drop-down list	שחרור-למטה list
-	List box	List box
+	List box	תיבת רשימה
 	Button	לחצן
 	Image field	תמונה שדה
 	Date field	תאריך שדה
 	Digital signature	חתימה דיגיטלית
-	Stamps	Stamps
+	Stamps	חותמות
 	Stamp palette	חותמת palette
 	Use a certificate	Use  אישור דיגיטלי
 	Certificates	אישורים דיגיטליים
@@ -496,10 +496,10 @@ key	Space	רווח
 	Use print production	Use הדפסה production
 	Print production	הדפסה production
 	Output preview	פלט תצוגה מקדימה
-	Preflight	Preflight
+	Preflight	בדיקה מקדימה
 	Convert colors	המרה colors
 	Add printer marks	הוספה מדפסת marks
-	Fix hairlines	Fix hairlines
+	Fix hairlines	תיקון קווים דקים
 	Measure objects	מדידה אובייקטים
 	Measure	מדידה
 	Measuring tool	Measuring כלי
@@ -519,27 +519,27 @@ key	Space	רווח
 	Change reading options	שינוי reading אפשרויות
 	Check for accessibility	Check עבור נגישות
 	Add alternate text	הוספה alternate טקסט
-	Fix reading order	Fix reading order
+	Fix reading order	תיקון סדר הקריאה
 	Apply PDF standards	החלה PDF standards
-	Standards	Standards
+	Standards	תקנים
 	Save as PDF/A	שמירה כמו PDF/
 	Save as PDF/X	שמירה כמו PDF/X
 	Save as PDF/UA	שמירה כמו PDF/UA
 	Add search index	הוספה חיפוש index
-	Index	Index
+	Index	אינדקס
 	Manage embedded index	Manage מוטמע index
-	Use JavaScript	Use JavaScript
+	Use JavaScript	שימוש ב־JavaScript
 	JavaScript	JavaScript
-	Console	Console
+	Console	מסוף
 	Document JavaScripts	מסמך JavaScripts
 	Document actions	מסמך פעולות
-	AI assistant	AI assistant
+	AI assistant	עוזר AI
 	Bring your own model (off by default)	הבאה שלך own model (off על ידי ברירת מחדל)
-	Summarize	Summarize
+	Summarize	סיכום
 	Ask about this document	Ask אודות זה מסמך
 	Translate	תרגום
 	pages	עמודים
-	Planned	Planned
+	Planned	מתוכנן
 	Planned for milestone	Planned עבור milestone
 	open to see what it will include	פתיחה ל see מה זה יבצע include
 	Optional: needs an AI provider you configure	רשות: needs  AI provider אתה configure
@@ -561,7 +561,7 @@ key	Space	רווח
 	Cancel	ביטול
 	Don't save	Don't שמירה
 	Apply	החלה
-	Run	Run
+	Run	הפעלה
 	Sanitize	ניקוי
 	Mark all	Mark כל
 	Save changes to “{name}” before closing?	שמירת שינויים ל “{name}” לפני בסגירה?
@@ -577,13 +577,13 @@ key	Space	רווח
 	Earlier in tab order	Earlier ב לשונית order
 	Later in tab order	Later ב לשונית order
 	Calculation order	חישוב order
-	Fix order	Fix order
+	Fix order	תיקון הסדר
 	Move only what must move, so every field calculates after the fields it reads.	יש להעביר רק את מה שנדרש, כדי שכל שדה יחושב לאחר השדות שמהם הוא קורא נתונים.
 	Earlier in calculation order	Earlier ב חישוב order
 	Later in calculation order	Later ב חישוב order
-	Too early	Too early
+	Too early	מוקדם מדי
 	Reads {name}, which calculates later, so it shows an old value.	הוא קורא את {name}, שמחושב בהמשך, ולכן מוצג ערך ישן.
-	Loop	Loop
+	Loop	לולאה
 	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	תלוי ב־{names}, שתלויים בו בחזרה. אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר; יש לשנות אחת מהנוסחאות.
 	Not in order	לא ב order
 	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	חסר מסדר החישוב שנשמר בקובץ ה־PDF; ייתכן שמציגי PDF אחרים לא יחשבו את הערך.
@@ -602,7 +602,7 @@ key	Space	רווח
 	No order can fix a loop. Change one of the formulas.	אי אפשר לפתור תלות מעגלית באמצעות שינוי הסדר. שנה אחת מהנוסחאות.
 	Edit {field}'s formula	עריכה {field}'s formula
 	Order · top calculates first	Order · עליון calculates ראשון
-	Script	Script
+	Script	סקריפט
 	Links on page	קישורים על עמוד
 	Show on the page which fields each field reads	הצגה על ה עמוד איזה שדות כל שדה reads
 	Drag a field to move it, or select it and press {up} or {down}.	גרירה  שדה ל העברה זה, או בחירה זה ו press {up} או {down}.
@@ -637,7 +637,7 @@ key	Space	רווח
 	This certificate is not trusted. Signatures made with it show an unknown identity.	האישור הדיגיטלי הזה אינו מהימן. חתימות שנוצרו באמצעותו יוצגו עם זהות לא ידועה.
 	Add to Trusted Certificates	הוספה ל מהימן אישורים דיגיטליים
 	Export…	ייצוא…
-	PDF Optimizer	PDF Optimizer
+	PDF Optimizer	מיטוב PDF
 	Discard Objects	התעלמות אובייקטים
 	Discard User Data	התעלמות משתמש נתונים
 	Clean Up	Clean למעלה
@@ -647,11 +647,11 @@ key	Space	רווח
 	for images above	עבור תמונות above
 	Compression	דחיסה
 	ZIP	ZIP
-	Retain existing	Retain existing
-	Minimum	Minimum
-	Low	Low
-	High	High
-	Maximum	Maximum
+	Retain existing	שמירת הקיים
+	Minimum	מינימום
+	Low	נמוך
+	High	גבוה
+	Maximum	מקסימום
 	Each image is measured where pages draw it; an image is replaced only if the result is smaller.	כל תמונה נמדדת לפי הגודל שבו היא מוצגת בעמוד; תמונה תוחלף רק אם התוצאה קטנה יותר.
 	Discard all links, actions and JavaScript	התעלמות כל קישורים, פעולות ו JavaScript
 	Discard alternate images	התעלמות alternate תמונות
@@ -673,16 +673,16 @@ key	Space	רווח
 	Audit space usage…	Audit רווח שימוש…
 	Space Audit	רווח Audit
 	What takes up the space in this file, by kind of content.	מה takes למעלה ה רווח ב זה קובץ, על ידי סוג של תוכן.
-	Bytes	Bytes
+	Bytes	בתים
 	Content Streams	תוכן Streams
 	X Object Forms	X אובייקט צורות
 	Structure Info	מבנה Info
 	Thumbnails	תמונות ממוזערות
-	Named Destinations	Named Destinations
+	Named Destinations	יעדים בעלי שם
 	Color Spaces	צבע Spaces
-	Shadings	Shadings
+	Shadings	הצללות
 	Patterns (graphics objects)	Patterns (graphics אובייקטים)
-	Extended Graphics States	Extended Graphics States
+	Extended Graphics States	מצבי גרפיקה מורחבים
 	Embedded Files	מוטמע קבצים
 	Document Overhead	מסמך Overhead
 	Total	סך הכול
@@ -699,7 +699,7 @@ key	Space	רווח
 	Calculate	חישוב
 	Actions	פעולות
 	This field is locked. Unlock it to change its properties.	זה שדה הוא נעול. ביטול נעילה זה ל שינוי שלו מאפיינים.
-	Tooltip:	Tooltip:
+	Tooltip:	תיאור צף:
 	Common Properties	Common מאפיינים
 	Read Only	קריאה רק
 	Required	נדרש
@@ -709,7 +709,7 @@ key	Space	רווח
 	Border Color:	צבע המסגרת:
 	Fill Color:	צבע המילוי:
 	No color	אין צבע
-	Beveled	Beveled
+	Beveled	משופע
 	Left:	שמאל:
 	Bottom:	תחתון:
 	Width:	רוחב:
@@ -723,7 +723,7 @@ key	Space	רווח
 	Limit of	Limit של
 	characters	תווים
 	Field is used for file selection	שדה הוא used עבור קובץ בחירה
-	Check spelling	Check spelling
+	Check spelling	בדיקת איות
 	Comb of	Comb של
 	Export Value: {on}	ייצוא ערך: {on}
 	Check box is checked by default	Check box הוא checked על ידי ברירת מחדל
@@ -743,31 +743,31 @@ key	Space	רווח
 	Number	מספר
 	Percentage	אחוז
 	Time	שעה
-	Special	Special
+	Special	מיוחד
 	Select format category:	בחירה תבנית category:
 	The value is shown as typed.	ה ערך הוא shown כמו typed.
-	Decimal places:	Decimal places:
-	Separator style:	Separator style:
-	Currency symbol:	Currency symbol:
+	Decimal places:	ספרות עשרוניות:
+	Separator style:	סגנון מפריד:
+	Currency symbol:	סמל מטבע:
 	Before the number	לפני ה מספר
 	Negative number style:	Negative מספר style:
 	Format:	תבנית:
 	Custom:	מותאם אישית:
-	Zip Code	Zip Code
-	Zip Code + 4	Zip Code + 4
+	Zip Code	מיקוד
+	Zip Code + 4	מיקוד + 4
 	Phone Number	Phone מספר
 	Social Security Number	Social אבטחה מספר
-	Arbitrary Mask	Arbitrary Mask
-	Mask:	Mask:
+	Arbitrary Mask	מסכה מותאמת אישית
+	Mask:	מסכה:
 	9 digit, A letter, O letter or digit, X any character	9 מציין ספרה, A אות, O אות או ספרה, ו־X כל תו.
-	Example: {sample}	Example: {sample}
+	Example: {sample}	דוגמה: {sample}
 	Field value is not validated	שדה ערך הוא לא validated
 	Field value is in range:	שדה ערך הוא ב range:
 	Add an Action	הוספה  פעולה
 	Select Trigger:	בחירה Trigger:
 	Mouse Up	Mouse למעלה
 	Mouse Down	Mouse למטה
-	Mouse Enter	Mouse Enter
+	Mouse Enter	כניסת עכבר
 	Mouse Exit	Mouse יציאה
 	On Focus	על Focus
 	On Blur	על Blur
@@ -782,16 +782,16 @@ key	Space	רווח
 	Print, NextPage, PrevPage, FirstPage or LastPage	הדפסה, NextPage, PrevPage, FirstPage או LastPage.
 	Field names (comma-separated)	שדה שמות (comma-separated)
 	URL to submit to	URL ל submit ל
-	Script:	Script:
+	Script:	סקריפט:
 	Value:	ערך:
 	No actions	אין פעולות
 	Value is not calculated	ערך הוא לא calculated
 	Value is the	ערך הוא ה
-	sum (+)	sum (+)
-	product (x)	product (x)
-	average	average
-	minimum	minimum
-	maximum	maximum
+	sum (+)	סכום (+)
+	product (x)	מכפלה (x)
+	average	ממוצע
+	minimum	מינימום
+	maximum	מקסימום
 	of the following fields:	של ה following שדות:
 	Simplified field notation:	Simplified שדה notation:
 	Field names with + - * / and parentheses; put \\\\ before spaces in names.	שדה שמות עם + - * / ו parentheses; put \\\\ לפני spaces ב שמות.
@@ -804,7 +804,7 @@ key	Space	רווח
 	Bold	מודגש
 	Italic	נטוי
 	Align left	יישור לשמאל
-	Centre	Centre
+	Centre	מרכז
 	Align right	יישור לימין
 	Justify	יישור
 	Thai and Arabic use regular fallback fonts when available.	Thai ו ערבית use רגיל חלופי גופנים כאשר זמין.
@@ -829,12 +829,12 @@ key	Space	רווח
 	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	כל תמונה נשמרת פעם אחת בשם המבוסס על המסמך והעמוד. תמונות JPEG נשמרות ללא שינוי; שאר התמונות נשמרות כ־PNG.
 	Plain text in reading order; pages are separated by form feeds.	טקסט פשוט לפי סדר הקריאה; העמודים מופרדים באמצעות מעברי עמוד.
 	Create {what}	יצירה {what}
-	initials	initials
+	initials	ראשי תיבות
 	signature	חתימה
 	Create Custom Stamp	יצירה מותאם אישית חותמת
 	From {file}	מ {file}
-	Category:	Category:
-	e.g. My stamps	e.g. My stamps
+	Category:	קטגוריה:
+	e.g. My stamps	למשל: החותמות שלי
 	Name:	שם:
 	Delete stamp	מחיקה חותמת
 	Create custom stamp…	יצירה מותאם אישית חותמת…
@@ -864,20 +864,20 @@ key	Space	רווח
 	You have version {c}. All releases are listed at {page}.	אתה יש גרסה {c}. כל releases הם listed ב {page}.
 	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	בודק ב־GitHub מהי הגרסה העדכנית ביותר. דבר אינו יורד או מותקן באופן אוטומטי.
 	Download	הורדה
-	Later	Later
+	Later	מאוחר יותר
 	none	ללא
-	Declared conformance: {shown}	Declared conformance: {shown}
+	Declared conformance: {shown}	תאימות מוצהרת: {shown}
 	Output intent: {list}	פלט intent: {list}
-	Conformance level:	Conformance level:
+	Conformance level:	רמת תאימות:
 	No problems found: the document conforms to {level}.	אין בעיות נמצא: ה מסמך conforms ל {level}.
 	 (page {p})	 (עמוד {p})
 	  · not fixable here	  · לא fixable here
 	Verify	אימות
-	Box	Box
+	Box	תיבה
 	Units	יחידות
 	Set to zero	Set ל zero
 	Current page ({n})	נוכחי עמוד ({n})
-	Subset	Subset
+	Subset	תת־קבוצה
 	Update	עדכון
 	Add	הוספה
 	{verb} Header and Footer	{verb} כותרת עליונה ו כותרת תחתונה
@@ -896,7 +896,7 @@ key	Space	רווח
 	Shrink the page content to make room for the header and footer	Shrink ה עמוד תוכן ל יצירה room עבור ה כותרת עליונה ו כותרת תחתונה
 	Source	מקור
 	Fit to page	התאמה ל עמוד
-	Rotation	Rotation
+	Rotation	סיבוב
 	Appear behind page	Appear behind עמוד
 	Appear on top of page	Appear על עליון של עמוד
 	From colour	מ צבע
@@ -916,15 +916,15 @@ key	Space	רווח
 	Visible Rectangle	גלוי מלבן
 	Invisible Rectangle	Invisible מלבן
 	Highlight Style:	הדגשה Style:
-	Invert	Invert
+	Invert	היפוך
 	Outline	מתאר
-	Inset	Inset
+	Inset	הטבעה פנימה
 	Line Thickness:	קו Thickness:
-	Thin	Thin
-	Thick	Thick
+	Thin	דק
+	Thick	עבה
 	Line Style:	סגנון הקו:
-	Solid	Solid
-	Dashed	Dashed
+	Solid	רציף
+	Dashed	מקווקו
 	Color:	צבע:
 	Link Action	קישור פעולה
 	Open a web page	פתיחה  אינטרנט עמוד
@@ -958,20 +958,20 @@ key	Space	רווח
 	Organizational Unit	Organizational יחידה
 	Organization Name	Organization שם
 	Email Address	דוא"ל כתובת
-	Country/Region	Country/Region
-	Key Algorithm	Key Algorithm
+	Country/Region	מדינה/אזור
+	Key Algorithm	אלגוריתם המפתח
 	Confirm Password	אישור הסיסמה
 	Valid for 5 years, for digital signatures. Self-signed IDs are usually not trusted by others.	תקף לחמש שנים עבור חתימות דיגיטליות. בדרך כלל, מזהים בחתימה עצמית אינם מהימנים בעיני אחרים.
 	File (.p12, .pfx)	קובץ (.p12, .pfx)
-	Digital ID	Digital ID
+	Digital ID	מזהה דיגיטלי
 	Browse…	עיון…
 	{verb} as "{name}"	{verb} כמו "{name}"
-	Certify	Certify
+	Certify	אישור
 	The signature will be invisible.	ה חתימה יבצע להיות invisible.
 	The existing action will be preserved.	ה existing פעולה יבצע להיות preserved.
 	Distinguished name	Distinguished שם
 	Labels	תוויות
-	Graphic	Graphic
+	Graphic	גרפיקה
 	Signer's name	חותם's שם
 	Fill & Sign signature	מילוי וחתימה חתימה
 	Choose image…	בחירה תמונה…
@@ -989,9 +989,9 @@ key	Space	רווח
 	Signature validity is UNKNOWN:	חתימה validity הוא לא ידוע:
 	Signature is INVALID:	חתימה הוא לא תקין:
 	Signature Details	חתימה פרטים
-	Reason	Reason
+	Reason	סיבה
 	Signing time	Signing שעה
-	Algorithm	Algorithm
+	Algorithm	אלגוריתם
 	Signer	חותם
 	Issued by	Issued על ידי
 	Valid	תקין
@@ -1011,10 +1011,10 @@ key	Space	רווח
 	Any	כלשהו
 	Version	גרסה
 	Serial number	Serial מספר
-	Issuer	Issuer
-	Validity starts	Validity starts
-	Validity ends	Validity ends
-	Public key	Public key
+	Issuer	מנפיק
+	Validity starts	תחילת תוקף
+	Validity ends	סיום תוקף
+	Public key	מפתח ציבורי
 	Key usage	Key שימוש
 	Not present	לא present
 	Self-signed	Self-חתום
@@ -1022,7 +1022,7 @@ key	Space	רווח
 	New Action	חדש פעולה
 	Action name:	פעולה שם:
 	Description:	תיאור:
-	Steps	Steps
+	Steps	שלבים
 	Add the steps this action runs, in order.	הוספה ה steps זה פעולה runs, ב order.
 	Add Step	הוספה Step
 	An action with this name already exists.	 פעולה עם זה שם already exists.
@@ -1053,8 +1053,8 @@ key	Space	רווח
 	General	כללי
 	Review History	Review היסטוריה
 	This comment's appearance can't be changed yet.	זה תגובה's מראה לא ניתן להיות השתנה yet.
-	Icon	Icon
-	Thickness	Thickness
+	Icon	סמל
+	Thickness	עובי
 	Modified	השתנה
 	No status has been set.	אין מצב יש היה set.
 	Compare Files	השוואה קבצים
@@ -1065,10 +1065,10 @@ key	Space	רווח
 	Compare this file with an older version: Compare files… in All tools.	השוואה זה קובץ עם  older גרסה: השוואה קבצים… ב כל הכלים.
 	No differences in the text.	אין הבדלים ב ה טקסט.
 	{n} {kind}	{n} {kind}
-	Inserted	Inserted
+	Inserted	הוכנס
 	Deleted	נמחק
 	Replaced	הוחלף
-	Visual	Visual
+	Visual	חזותי
 	Mark as comments	Mark כמו תגובות
 	Report…	דוח…
 	{kind} · page {p}	{kind} · עמוד {p}
@@ -1079,7 +1079,7 @@ key	Space	רווח
 	No preview	אין תצוגה מקדימה
 	Alternate text	Alternate טקסט
 	Describe the figure	Describe ה figure
-	Decorative figure	Decorative figure
+	Decorative figure	איור דקורטיבי
 	Previous figure	הקודם figure
 	Next figure	הבא figure
 	Save & Close	שמירה & סגירה
@@ -1108,10 +1108,10 @@ key	Space	רווח
 	Passed	עבר
 	Failed	נכשל
 	Needs manual check	Needs ידני check
-	Skipped	Skipped
-	Fix	Fix
-	Skip Rule	Skip Rule
-	Explain	Explain
+	Skipped	דולג
+	Fix	תיקון
+	Skip Rule	דילוג על כלל
+	Explain	הסבר
 	Check Again	Check שוב
 	Show Report	הצגה דוח
 	Options…	אפשרויות…
@@ -1120,8 +1120,8 @@ key	Space	רווח
 	Forms	צורות
 	Alternate Text	Alternate טקסט
 	Tables	טבלאות
-	Lists	Lists
-	Headings	Headings
+	Lists	רשימות
+	Headings	כותרות
 	Accessibility permission flag	נגישות הרשאה flag
 	Accessibility permission flag is set	נגישות הרשאה flag הוא set
 	Security settings must allow assistive technology to read the content ("Enable text access for screen reader devices"). Change the document's security to allow it.	הגדרות האבטחה חייבות לאפשר לטכנולוגיות מסייעות לקרוא את התוכן ("Enable text access for screen reader devices"). שנה את אבטחת המסמך כדי לאפשר זאת.
@@ -1130,7 +1130,7 @@ key	Space	רווח
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	אי אפשר להקריא או לחפש בעמודים שמכילים תמונות של טקסט בלבד. הפעל זיהוי טקסט (OCR) כדי להוסיף שכבת טקסט.
 	Document is tagged PDF	מסמך הוא tagged PDF
 	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	תגים מעניקים למסמך מבנה לוגי שטכנולוגיות מסייעות יכולות לעקוב אחריו. תייג את המסמך (Automatically tag PDF).
-	Logical Reading Order	Logical Reading Order
+	Logical Reading Order	סדר קריאה לוגי
 	Document structure provides a logical reading order	מבנה המסמך מספק סדר קריאה לוגי.
 	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	בדוק שהתגים נקראים בסדר שבו אדם שרואה היה קורא אותם. השתמש בכלי Reading Order או בלוח התגים כדי לתקן זאת.
 	Primary language	Primary שפה
@@ -1146,7 +1146,7 @@ key	Space	רווח
 	Tagged content	Tagged תוכן
 	All page content is tagged	כל עמוד תוכן הוא tagged
 	Everything on a page must be tagged or marked as an artifact (decoration, headers, footers). Tag the untagged content.	יש לתייג כל דבר בעמוד או לסמן אותו כארטיפקט (קישוט, כותרת עליונה או תחתונה). תייג את התוכן שטרם תויג.
-	Tagged annotations	Tagged annotations
+	Tagged annotations	הערות מתויגות
 	All annotations are tagged	כל annotations הם tagged
 	Comments, links and fields must be in the tag tree to be announced. Tag the annotations.	תגובות, קישורים ושדות חייבים להופיע בעץ התגים כדי שיוכרזו. תייג את ההערות.
 	Tab order	לשונית order
@@ -1155,7 +1155,7 @@ key	Space	רווח
 	Character encoding	תו encoding
 	Reliable character encoding is provided	Reliable תו encoding הוא provided
 	Fonts must map their characters to Unicode so text can be read and copied. Fix the fonts or recreate the PDF.	גופנים צריכים למפות את התווים שלהם ל־Unicode כדי שאפשר יהיה לקרוא ולהעתיק את הטקסט. תקן את הגופנים או צור מחדש את קובץ ה־PDF.
-	Tagged multimedia	Tagged multimedia
+	Tagged multimedia	מולטימדיה מתויגת
 	All multimedia objects are tagged	כל multimedia אובייקטים הם tagged
 	Video, sound and rich media must be tagged to be announced. Tag the multimedia annotations.	יש לתייג וידאו, שמע ומדיה עשירה כדי שיוכרזו. תייג את ההערות של רכיבי המולטימדיה.
 	Screen flicker	מסך flicker
@@ -1163,7 +1163,7 @@ key	Space	רווח
 	Animation that flashes can cause seizures. Check scripts and media for flicker.	הנפשה מהבהבת עלולה לגרום להתקפים. בדוק אם יש הבהובים בסקריפטים ובמדיה.
 	Scripts	Scripts
 	No inaccessible scripts	אין inaccessible scripts
-	Timed responses	Timed responses
+	Timed responses	תגובות מוגבלות בזמן
 	Page does not require timed responses	עמוד מבצע לא require timed responses
 	People may need more time to respond. Check that nothing has a time limit.	ייתכן שאנשים יזדקקו לזמן נוסף כדי להגיב. בדוק שאין מגבלת זמן.
 	Navigation links	ניווט קישורים
@@ -1184,7 +1184,7 @@ key	Space	רווח
 	Associated with content	Associated עם תוכן
 	Alternate text must be associated with some content	Alternate טקסט חייב להיות associated עם כמה תוכן
 	Alternate text on an element without page content is never reached. Remove it or attach the element to content.	לא מגיעים לטקסט חלופי של רכיב שאינו מכיל תוכן בעמוד. הסר אותו או קשר את הרכיב לתוכן.
-	Hides annotation	Hides annotation
+	Hides annotation	מסתיר הערה
 	Alternate text should not hide annotation	Alternate טקסט צריך לא הסתרה annotation
 	Alternate text on an element that contains a link or field hides that annotation from assistive technology. Move the alternate text.	טקסט חלופי של רכיב שמכיל קישור או שדה מסתיר את ההערה הזאת מטכנולוגיות מסייעות. העבר את הטקסט החלופי.
 	Other elements alternate text	אחר elements alternate טקסט
@@ -1193,10 +1193,10 @@ key	Space	רווח
 	Rows	שורות
 	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות צאצא של Table, THead, TBody או TFoot.
 	Table cells belong in a row. Fix the table's tags.	תאי טבלה צריכים להימצא בתוך שורה. תקן את התגים של הטבלה.
-	Headers	Headers
+	Headers	כותרות עליונות
 	Tables should have headers	טבלאות צריך יש headers
 	Header cells (TH) tell listeners what each column or row holds. Mark the header cells.	תאי כותרת (TH) מסבירים למאזינים מה מכילה כל שורה או עמודה. סמן את תאי הכותרת.
-	Regularity	Regularity
+	Regularity	סדירות
 	Tables must contain the same number of columns in each row and rows in each column	בכל שורות הטבלה צריך להיות אותו מספר עמודות, ובכל עמודותיה אותו מספר שורות.
 	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	טבלאות לא סדירות מקשות על ניווט בין תאים. הגדר אותו מספר תאים בכל שורה, כולל תאים המשתרעים על פני כמה שורות או עמודות.
 	Summary	סיכום
@@ -1208,7 +1208,7 @@ key	Space	רווח
 	Lbl and LBody	Lbl ו LBody
 	Lbl and LBody must be children of LI	Lbl ו LBody חייב להיות children של LI
 	List labels and bodies belong in a list item. Fix the list's tags.	תוויות וגופי רשימה צריכים להימצא בתוך פריט רשימה. תקן את התגים של הרשימה.
-	Appropriate nesting	Appropriate nesting
+	Appropriate nesting	קינון מתאים
 	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	רמות הכותרות לא אמורות לדלג (למשל H1 ואחריה H3). תייג מחדש את הכותרות.
 	TH and TD	TH ו TD
 	TH and TD must be children of TR	TH ו TD חייב להיות children של TR
@@ -1216,12 +1216,12 @@ key	Space	רווח
 	Pages from	עמודים מ
 	Single word or phrase	Single מילה או phrase
 	Text to find	טקסט ל חיפוש
-	Patterns	Patterns
+	Patterns	תבניות
 	Phone Numbers	Phone מספרים
 	Email Addresses	דוא"ל Addresses
-	Credit Cards	Credit Cards
+	Credit Cards	כרטיסי אשראי
 	Social Security Numbers	Social אבטחה מספרים
-	Dates	Dates
+	Dates	תאריכים
 	Text in images isn't found; recognise text (OCR) first.	טקסט ב תמונות isn't נמצא; recognise טקסט (OCR) ראשון.
 	No matches.	אין התאמות.
 	{n} match(es) marked for redaction.	{n} התאמה(es) marked עבור השחרת מידע.
@@ -1258,8 +1258,8 @@ key	Space	רווח
 	Printer:	מדפסת:
 	Save as PDF	שמירה כמו PDF
 	{name} (default)	{name} (ברירת מחדל)
-	Copies:	Copies:
-	Collate	Collate
+	Copies:	עותקים:
+	Collate	איסוף לפי סדר
 	Print in grayscale	הדפסה ב grayscale
 	Two-sided:	שניים-sided:
 	Off	כבוי
@@ -1275,14 +1275,14 @@ key	Space	רווח
 	Reverse pages	Reverse עמודים
 	Page Sizing & Handling	עמוד Sizing & Handling
 	Size	גודל
-	Poster	Poster
-	Multiple	Multiple
-	Booklet	Booklet
+	Poster	פוסטר
+	Multiple	מרובה
+	Booklet	חוברת
 	Fit	התאמה
 	Shrink oversized pages	Shrink oversized עמודים
 	Custom scale:	מותאם אישית קנה מידה:
 	Tile scale:	Tile קנה מידה:
-	Overlap:	Overlap:
+	Overlap:	חפיפה:
 	Cut marks	גזירה marks
 	Pages per sheet:	עמודים per גיליון:
 	Page order:	עמוד order:
@@ -1292,17 +1292,17 @@ key	Space	רווח
 	Vertical reversed	אנכי reversed
 	Print page border	הדפסה עמוד מסגרת
 	Auto-rotate pages	אוטומטי-סיבוב עמודים
-	Booklet subset:	Booklet subset:
+	Booklet subset:	טווח החוברת:
 	Both sides	שניהם sides
 	Front side only	Front side רק
 	Back side only	חזרה side רק
-	Binding:	Binding:
+	Binding:	כריכה:
 	Left	שמאל
 	Right	ימין
-	Orientation:	Orientation:
+	Orientation:	כיוון:
 	Auto portrait/landscape	אוטומטי portrait/landscape
-	Portrait	Portrait
-	Landscape	Landscape
+	Portrait	לאורך
+	Landscape	לרוחב
 	Comments & Forms	תגובות & צורות
 	Document	מסמך
 	Document and markups	מסמך ו markups
@@ -1341,20 +1341,20 @@ key	Space	רווח
 	Planned · {m}	Planned · {m}
 	Planned for milestone {m} — open to see what it will include	מתוכנן לאבן הדרך {m} — פתח כדי לראות מה היא תכלול.
 	Coming in milestone {m}. Items marked Ready work today.	יגיע באבן הדרך {m}. פריטים שמסומנים Ready זמינים כבר עכשיו.
-	1 mark	1 mark
-	{n} marks	{n} marks
-	Dynamic	Dynamic
+	1 mark	סימון אחד
+	{n} marks	{n} סימונים
+	Dynamic	דינמי
 	Sign Here	חתימה Here
-	Standard Business	Standard Business
+	Standard Business	עסקי רגיל
 	Choose a stamp, then click on the page to place it.	בחירה  חותמת, אז click על ה עמוד ל place זה.
-	Note	Note
-	Polyline	Polyline
+	Note	הערה
+	Polyline	קו שבור
 	Attachment	קובץ מצורף
-	Callout	Callout
-	Typewriter	Typewriter
-	Checked	Checked
-	Unchecked	Unchecked
-	Marked	Marked
+	Callout	הערת קריאה
+	Typewriter	מכונת כתיבה
+	Checked	מסומן
+	Unchecked	לא מסומן
+	Marked	מסומן
 	Locked	נעול
 	Search comments	חיפוש תגובות
 	Add a comment	הוספה  תגובה
@@ -1367,7 +1367,7 @@ key	Space	רווח
 	Mark with checkmark	Mark עם checkmark
 	Reply	מענה
 	Add a reply	הוספה  מענה
-	Post	Post
+	Post	פרסום
 	Page {label}	עמוד {label}
 	{kind} — click to show it on the page	{kind} — click ל הצגה זה על ה עמוד
 	Set status	Set מצב
@@ -1385,16 +1385,16 @@ key	Space	רווח
 	Export all to data file…	ייצוא כל ל נתונים קובץ…
 	Filter comments	Filter תגובות
 	Status	מצב
-	Accepted	Accepted
-	Rejected	Rejected
-	Cancelled	Cancelled
+	Accepted	התקבל
+	Rejected	נדחה
+	Cancelled	בוטל
 	Completed	הושלם
 	Show all	הצגת הכול
 	Yellow	צהוב
-	Orange	Orange
+	Orange	כתום
 	Red	אדום
-	Pink	Pink
-	Purple	Purple
+	Pink	ורוד
+	Purple	סגול
 	Blue	כחול
 	Light blue	בהיר כחול
 	Green	ירוק
@@ -1425,16 +1425,16 @@ key	Space	רווח
 	Next ({key})	הבא ({key})
 	Find options	חיפוש אפשרויות
 	Whole words only	Whole מילים רק
-	Case-sensitive	Case-sensitive
+	Case-sensitive	תלוי רישיות
 	Close (Esc)	סגירה (Esc)
 	Align	יישור
 	Top	עליון
 	Bottom	תחתון
 	Center horizontally	מרכז horizontally
 	Center vertically	מרכז vertically
-	Distribute	Distribute
-	Horizontally	Horizontally
-	Vertically	Vertically
+	Distribute	פיזור
+	Horizontally	אופקית
+	Vertically	אנכית
 	Set Fields to Same Size	Set שדות ל אותו גודל
 	Height	גובה
 	Width	רוחב
@@ -1450,16 +1450,16 @@ key	Space	רווח
 	Back to the document	חזרה ל ה מסמך
 	Protect Using Password	הגנה Using סיסמה
 	Requires user to enter a password for:	דורש משתמש ל Enter  סיסמה עבור:
-	Viewing	Viewing
+	Viewing	תצוגה
 	Editing	עריכה
 	Type Password	סוג סיסמה
 	Re-type Password	Re-סוג סיסמה
-	Strength: {s}	Strength: {s}
-	Strong	Strong
-	Medium	Medium
-	Weak	Weak
+	Strength: {s}	חוזק: {s}
+	Strong	חזק
+	Medium	בינוני
+	Weak	חלש
 	Advanced Options {chevron}	מתקדם אפשרויות {chevron}
-	Compatibility	Compatibility
+	Compatibility	תאימות
 	Acrobat X and later (256-bit AES)	Acrobat X ואילך (AES באורך 256 סיביות).
 	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ואילך (AES באורך 128 סיביות).
 	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 ו later (128-bit RC4)
@@ -1483,11 +1483,11 @@ key	Space	רווח
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	אפשר לפתוח את המסמך בלי סיסמה; סיסמה זו נדרשת לשינוי ההגבלות. היא תחול בעת השמירה.
 	Recover unsaved documents?	Recover unsaved מסמכים?
 	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft לא נסגר כראוי. השינויים במסמכים האלה נשמרו אוטומטית:
-	just now	just now
-	{n} min ago	{n} min ago
-	{n} h ago	{n} h ago
+	just now	הרגע
+	{n} min ago	לפני {n} דקות
+	{n} h ago	לפני {n} שעות
 	 · password-protected	 · סיסמה-מוגן
-	Recover	Recover
+	Recover	שחזור
 	Discard	התעלמות
 	Version {v}	גרסה {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	יישום PDF בקוד פתוח שנכתב ב־Rust. הרישיון הוא MIT או Apache-2.0.
@@ -1502,9 +1502,9 @@ key	Space	רווח
 	“{name}” changed on disk after it was opened or last saved. Saving now replaces that newer version with this one.	“{name}” השתנה בדיסק מאז שנפתח או נשמר לאחרונה. שמירה כעת תחליף את הגרסה החדשה יותר בגרסה זו.
 	Save anyway	שמירה anyway
 	Number pages	מספר עמודים
-	Style	Style
+	Style	סגנון
 	None (prefix only)	ללא (prefix רק)
-	Prefix	Prefix
+	Prefix	תחילית
 	Start	התחלה
 	Labels: {preview}. Later pages keep their labels.	תוויות: {preview}. Later עמודים שמירה שלהם תוויות.
 	Even and Odd Pages	Even ו Odd עמודים
@@ -1521,15 +1521,15 @@ key	Space	רווח
 	Extract pages as separate files	חילוץ עמודים כמו separate קבצים
 	Rotate Pages	סיבוב עמודים
 	Direction:	כיוון:
-	Clockwise 90 degrees	Clockwise 90 degrees
-	Counterclockwise 90 degrees	Counterclockwise 90 degrees
-	180 degrees	180 degrees
+	Clockwise 90 degrees	90 מעלות עם כיוון השעון
+	Counterclockwise 90 degrees	90 מעלות נגד כיוון השעון
+	180 degrees	180 מעלות
 	Pages:	עמודים:
 	All	הכול
 	Selection	בחירה
 	From	מ
 	Rotate:	סיבוב:
-	Repairs	Repairs
+	Repairs	תיקונים
 	Repair log	Repair יומן
 	Split document	פיצול מסמך
 	Number of pages	מספר של עמודים
@@ -1549,7 +1549,7 @@ key	Space	רווח
 	of {name}	של {name}
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	רק תוכן העמוד משתנה; הקישורים, התגובות, שדות הטופס והסימניות שבעמודים המקוריים נשארים.
 	The replacement file doesn't have that many pages.	ה replacement קובץ doesn't יש זה רבים עמודים.
-	Tagged PDF	Tagged PDF
+	Tagged PDF	PDF מתויג
 	Document Properties	מסמך מאפיינים
 	Description	תיאור
 	Initial View	Initial תצוגה
@@ -1560,7 +1560,7 @@ key	Space	רווח
 	Subject	נושא
 	Keywords	מילות מפתח
 	Application	יישום
-	PDF producer	PDF producer
+	PDF producer	מפיק PDF
 	Layout and Magnification	פריסה ו Magnification
 	Navigation tab	ניווט לשונית
 	Page Only	עמוד רק
@@ -1576,7 +1576,7 @@ key	Space	רווח
 	Two-Up Continuous (Facing)	שניים-למעלה Continuous (Facing)
 	Two-Up (Cover Page)	שניים-למעלה (Cover עמוד)
 	Two-Up Continuous (Cover Page)	שניים-למעלה Continuous (Cover עמוד)
-	Magnification	Magnification
+	Magnification	הגדלה
 	Actual Size	גודל בפועל
 	Fit Page	התאמה עמוד
 	Fit Width	התאמה רוחב
@@ -1597,10 +1597,10 @@ key	Space	רווח
 	Hide window controls	הסתרה חלון controls
 	Security method	אבטחה method
 	No security	אין אבטחה
-	Restrictions	Restrictions
+	Restrictions	הגבלות
 	None — everything is allowed	ללא — everything הוא מותר
 	Password security	סיסמה אבטחה
-	Encryption	Encryption
+	Encryption	הצפנה
 	Opened with	נפתח עם
 	— (protection is applied when you save)	— (הגנה הוא applied כאשר אתה שמירה)
 	Owner password (no restrictions apply)	Owner סיסמה (אין restrictions החלה)
@@ -1615,7 +1615,7 @@ key	Space	רווח
 	Document assembly	מסמך assembly
 	Content copying	תוכן copying
 	Content copying for accessibility	תוכן copying עבור נגישות
-	Commenting	Commenting
+	Commenting	הוספת תגובות
 	Filling of form fields	Filling של שדות טופס
 	No fonts are referenced by the pages.	אין גופנים הם referenced על ידי ה עמודים.
 	PDF version	PDF גרסה
@@ -1623,10 +1623,10 @@ key	Space	רווח
 	Page size	גודל עמוד
 	Yes	כן
 	No	אין
-	Revisions	Revisions
+	Revisions	מהדורות
 	View revision {n}	תצוגה revision {n}
 	Open the file as it was saved then	פתיחה ה קובץ כמו זה היה נשמר אז
-	Binding	Binding
+	Binding	כריכה
 	Left Edge	שמאל קצה
 	Right Edge	ימין קצה
 	Language	שפה
@@ -1720,8 +1720,8 @@ key	Space	רווח
 	Reset columns	איפוס עמודות
 	Remove {n} files	הסרה {n} קבצים
 	{n} selected	{n} נבחר
-	sorted ascending	sorted ascending
-	sorted descending	sorted descending
+	sorted ascending	ממויין בסדר עולה
+	sorted descending	ממויין בסדר יורד
 	Protected: the combined file won't keep its security settings	מוגן: ה משולב קובץ לא שמירה שלו אבטחה הגדרות
 	Add open documents	הוספה פתיחה מסמכים
 	All open documents	כל פתיחה מסמכים
@@ -1734,7 +1734,7 @@ key	Space	רווח
 	{name} can't be combined: {why}	{name} לא ניתן להיות משולב: {why}
 	Check the pages of {name}: {why}	Check ה עמודים של {name}: {why}
 	File name	שם הקובץ
-	Warnings	Warnings
+	Warnings	אזהרות
 	Drag to reorder	גרירה ל שינוי סדר
 	{k} of {n}	{k} של {n}
 	? of {n}	? של {n}
@@ -1793,8 +1793,8 @@ key	Space	רווח
 	is available	הוא זמין
 	is not available yet	הוא לא זמין yet
 	{label} failed: {e}	{label} נכשל: {e}
-	Undid {label}	Undid {label}
-	Redid {label}	Redid {label}
+	Undid {label}	בוטלה הפעולה {label}
+	Redid {label}	בוצעה מחדש הפעולה {label}
 	A document needs at least one page: copy instead	 מסמך needs ב הכי פחות אחד עמוד: העתקה instead
 	Cut {what}	גזירה {what}
 	Copied {what}	הועתק {what}
@@ -1804,7 +1804,7 @@ key	Space	רווח
 	Couldn't save {name}: {e}	לא ניתן שמירה {name}: {e}
 	Saved {name}	נשמר {name}
 	Saved, but reopening failed: {e}	נשמר, but reopening נכשל: {e}
-	Downloaded {name}	Downloaded {name}
+	Downloaded {name}	הורד {name}
 	Couldn't download {name}: {e}	לא ניתן הורדה {name}: {e}
 	Reverted to the last saved version	Reverted ל ה אחרון נשמר גרסה
 	That didn't work: an internal error stopped it ({m}). Your documents are unchanged.	הפעולה נכשלה עקב שגיאה פנימית ({m}). המסמכים שלך לא השתנו.
@@ -1840,14 +1840,14 @@ key	Space	רווח
 	What word or phrase would you like to search for?	מה מילה או phrase היה אתה like ל חיפוש עבור?
 	Searching… {s} of {p} pages	בחיפוש… {s} של {p} עמודים
 	 (searching… {s} of {p} pages)	 (בחיפוש… {s} של {p} עמודים)
-	1 instance	1 instance
-	{n} instances	{n} instances
+	1 instance	מופע אחד
+	{n} instances	{n} מופעים
 	Go to this result	Go ל זה תוצאה
 	Highlight	הדגשה
 	Draw	ציור
-	Polygon	Polygon
+	Polygon	מצולע
 	Connected lines	Connected שורות
-	Eraser	Eraser
+	Eraser	מחק
 	Sign	חתימה
 	Certified by {by}	Certified על ידי {by}
 	At least one signature is invalid.	ב הכי פחות אחד חתימה הוא לא תקין.
@@ -1858,13 +1858,13 @@ key	Space	רווח
 	This form also contains XFA data, which PdfCraft doesn't read yet. You can fill its fields, but Acrobat may show the XFA values instead.	הטופס מכיל גם נתוני XFA ש־PdfCraft עדיין אינו קורא. אפשר למלא את השדות, אך Acrobat עשוי להציג במקום זאת את ערכי ה־XFA.
 	This document contains {n} interactive form fields.	זה מסמך contains {n} interactive שדות טופס.
 	This file was damaged and has been repaired. Saving keeps the repaired version.	הקובץ ניזוק ותוקן. השמירה תשמור את הגרסה המתוקנת.
-	Dismiss	Dismiss
+	Dismiss	סגירה
 	Hide field highlights	הסתרה שדה highlights
 	Highlight fields	הדגשה שדות
 	Security settings	אבטחה הגדרות
 	Details	פרטים
 	Select (V)	בחירה (V)
-	Hand (H)	Hand (H)
+	Hand (H)	יד (H)
 	Delete pages (Delete)	מחיקה עמודים (מחיקה)
 	Insert a blank page after the selection	הוספה  ריק עמוד אחרי ה בחירה
 	Insert pages from a file…	הוספה עמודים מ  קובץ…
@@ -1879,10 +1879,10 @@ key	Space	רווח
 	Move up	העברה למעלה
 	Move down	העברה למטה
 	Indent	הזחה
-	Outdent	Outdent
+	Outdent	הקטנת הזחה
 	This document has no form fields.	זה מסמך יש אין שדות טופס.
 	Tab order: move a field with its arrows.	לשונית order: העברה  שדה עם שלו arrows.
-	Unplaced	Unplaced
+	Unplaced	לא ממוקם
 	Has JavaScript actions (run in M6)	יש JavaScript פעולות (run ב M6)
 	Page	עמוד
 	None	ללא
@@ -1919,12 +1919,12 @@ key	Space	רווח
 	Select a file for the stamp	בחירת קובץ עבור ה חותמת
 	JavaScript, e.g. getField("total").value	JavaScript, e.g. getField("סך הכול").ערך
 	Font: Helvetica	גופן: Helvetica
-	e.g. en-US	e.g. en-US
+	e.g. en-US	למשל en-US
 	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	מנוע תצוגה: hayro (bootstrap) · ממשק: egui · סמלים: Lucide (ISC) · גופנים: Inter, JetBrains Mono, Dancing Script (OFL)
 	CheckBox	תיבת סימון
-	Radio	Radio
-	PushButton	PushButton
-	Combo	Combo
+	Radio	לחצן בחירה
+	PushButton	לחצן
+	Combo	משולב
 	List	List
 	Unknown	לא ידוע
 	The document has no XMP metadata	ה מסמך יש אין XMP נתוני מטא
@@ -1951,12 +1951,12 @@ key	Space	רווח
 	Your name	שלך שם
 	Images and text (converted to PDF)	תמונות ו טקסט (הומר ל PDF)
 	Images and text	תמונות ו טקסט
-	Check Box Style:	Check Box Style:
+	Check Box Style:	סגנון תיבת סימון:
 	Button Style:	לחצן Style:
-	Check	Check
+	Check	בדיקה
 	Circle	עיגול
-	Diamond	Diamond
-	Square	Square
+	Diamond	מעוין
+	Square	ריבוע
 	Star	Star
 	{month} {y}	{month} {y}
 	Change {key}	שינוי {key}
@@ -2727,10 +2727,10 @@ certificate	Valid from	תקין מ
 certificate	Valid to	תקין ל
 certificate	Intended usage	Intended שימוש
 certificate	Serial number	Serial מספר
-certificate	Issuer	Issuer
-certificate	Validity starts	Validity starts
-certificate	Validity ends	Validity ends
-certificate	Public key	Public key
+certificate	Issuer	מנפיק
+certificate	Validity starts	תחילת תוקף
+certificate	Validity ends	סיום תוקף
+certificate	Public key	מפתח ציבורי
 certificate	Basic constraints	בסיסי constraints
 certificate	Key usage	Key שימוש
 certificate	Self-signed	Self-חתום
