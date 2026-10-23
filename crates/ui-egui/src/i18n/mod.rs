@@ -744,6 +744,9 @@ mod tests {
         assert_eq!(lang_from_tag("lo_LA.UTF-8"), Lang::from_code("lo"));
         assert_eq!(lang_from_tag("lo-LA"), Lang::from_code("lo"));
         assert_eq!(lang_from_tag("lo"), Lang::from_code("lo"));
+        assert_eq!(lang_from_tag("he"), Lang::from_code("he"));
+        assert_eq!(lang_from_tag("he-IL"), Lang::from_code("he"));
+        assert_eq!(lang_from_tag("he_IL.UTF-8"), Lang::from_code("he"));
         assert_eq!(lang_from_tag(""), None);
         assert_eq!(lang_from_tag("_"), None);
     }
@@ -988,6 +991,27 @@ mod tests {
         }
     }
 
+    /// Hebrew translates every registered command, menu and All tools label.
+    #[test]
+    fn hebrew_covers_commands_and_catalogue() {
+        let he = Lang::from_code("he").expect("he registered");
+        for command in pdfcraft_engine::commands::COMMANDS {
+            assert!(has(he, command.label), "missing command: {}", command.label);
+            if let Some(menu) = command.menu {
+                assert!(has(he, menu), "missing menu: {menu}");
+            }
+        }
+        for group in pdfcraft_engine::catalog::TOOL_GROUPS {
+            assert!(has(he, group.label), "missing group: {}", group.label);
+            for section in group.sections {
+                assert!(has(he, section.title), "missing section: {}", section.title);
+                for item in section.items {
+                    assert!(has(he, item.label), "missing item: {}", item.label);
+                }
+            }
+        }
+    }
+
     /// Every `tl!("…")` literal in the UI source (test modules aside), unescaped.
     /// Every label Shared Field Properties shows, including those it passes through a variable
     /// (flag labels, errors, the font label), exists in each full catalog.
@@ -1169,6 +1193,16 @@ mod tests {
         assert!(literals.len() > 900, "source scan found only {} literals", literals.len());
         let missing: Vec<_> = literals.iter().filter(|label| !has(JA(), label)).collect();
         assert!(missing.is_empty(), "untranslated Japanese UI literals: {missing:#?}");
+    }
+
+    /// Every UI literal must have a Hebrew catalog entry rather than silently fall back to English.
+    #[test]
+    fn hebrew_covers_ui_literals() {
+        let he = Lang::from_code("he").expect("he registered");
+        let literals = ui_literals();
+        assert!(literals.len() > 900, "source scan found only {} literals", literals.len());
+        let missing: Vec<_> = literals.iter().filter(|label| !has(he, label)).collect();
+        assert!(missing.is_empty(), "untranslated Hebrew UI literals: {missing:#?}");
     }
 
     /// Italian translates every registered command and every All tools group, section and item.
@@ -4208,12 +4242,13 @@ mod tests {
         }
     }
 
-    /// Preferences ▸ Date format ▸ Language offers exactly the interface languages, in order.
+    /// Date-stamp languages are a subset of interface languages because they affect text inserted into PDFs.
     #[test]
-    fn date_languages_are_the_interface_languages() {
+    fn date_languages_are_an_interface_subset() {
         let interface: Vec<(&str, &str)> = Lang::all().map(|l| (l.code(), l.name())).collect();
         let dates: Vec<(&str, &str)> = pdfcraft_engine::dates::DATE_LANGUAGES.iter().map(|l| (l.code, l.name)).collect();
-        assert_eq!(dates, interface);
+        assert!(dates.iter().all(|language| interface.contains(language)), "date languages must be registered interface languages");
+        assert!(!dates.iter().any(|(code, _)| *code == "he"), "Hebrew UI localization must not change the language of date text inserted into PDFs");
     }
 }
 
