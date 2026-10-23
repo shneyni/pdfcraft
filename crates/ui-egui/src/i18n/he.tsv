@@ -377,7 +377,7 @@ key	Space	רווח
 	Remove background	הסרה רקע
 	Export a PDF	ייצוא  PDF
 	Export to	ייצוא ל
-	Microsoft Word (.docx)	Microsoft מילה (.docx)
+	Microsoft Word (.docx)	Microsoft Word (.docx)
 	Spreadsheet (.xlsx)	גיליון אלקטרוני (.xlsx)
 	Presentation (.pptx)	מצגת (.pptx)
 	Image (PNG)	תמונה (PNG)
@@ -588,7 +588,7 @@ key	Space	רווח
 	Not in order	לא לפי הסדר
 	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	חסר מסדר החישוב שנשמר בקובץ ה־PDF; ייתכן שמציגי PDF אחרים לא יחשבו את הערך.
 	Back to Prepare a form	חזרה ל הכנת טופס
-	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	עדיין אין שדה בטופס הזה שמחשב את ערכו. הגדר חישוב לשדה בכרטיסייה Calculate של המאפיינים שלו, והוא יופיע כאן.
+	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	עדיין אין שדה בטופס הזה שמחשב את ערכו. הגדר חישוב לשדה בכרטיסייה ״חישוב״ במאפיינים שלו, והוא יוצג כאן.
 	{names} and {last}	{names} ו {last}
 	{field} reads no other field	{field} אינו קורא נתונים משדות אחרים
 	{field} reads {fields}	{field} קורא את {fields}
@@ -1124,20 +1124,20 @@ key	Space	רווח
 	Headings	כותרות
 	Accessibility permission flag	דגל הרשאת נגישות
 	Accessibility permission flag is set	דגל הרשאת הנגישות מוגדר
-	Security settings must allow assistive technology to read the content ("Enable text access for screen reader devices"). Change the document's security to allow it.	הגדרות האבטחה חייבות לאפשר לטכנולוגיות מסייעות לקרוא את התוכן ("Enable text access for screen reader devices"). שנה את אבטחת המסמך כדי לאפשר זאת.
+	Security settings must allow assistive technology to read the content ("Enable text access for screen reader devices"). Change the document's security to allow it.	הגדרות האבטחה צריכות לאפשר לטכנולוגיות מסייעות לקרוא את התוכן (״אפשר גישה לטקסט עבור קוראי מסך״). שנה את הגדרות האבטחה של המסמך כדי לאפשר זאת.
 	Image-only PDF	תמונה-רק PDF
 	Document is not image-only PDF	מסמך הוא לא תמונה-רק PDF
 	Pages that are only pictures of text can't be read aloud or searched. Recognize text (OCR) to add a text layer.	אי אפשר להקריא או לחפש בעמודים שמכילים תמונות של טקסט בלבד. הפעל זיהוי טקסט (OCR) כדי להוסיף שכבת טקסט.
 	Document is tagged PDF	המסמך הוא PDF מתויג
-	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	תגים מעניקים למסמך מבנה לוגי שטכנולוגיות מסייעות יכולות לעקוב אחריו. תייג את המסמך (Automatically tag PDF).
+	Tags give the document a logical structure that assistive technology follows. Tag the document (Automatically tag PDF).	תגים מעניקים למסמך מבנה לוגי שטכנולוגיות מסייעות יכולות לעקוב אחריו. תייג את המסמך באמצעות ״תיוג אוטומטי של PDF״.
 	Logical Reading Order	סדר קריאה לוגי
 	Document structure provides a logical reading order	מבנה המסמך מספק סדר קריאה לוגי.
-	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	בדוק שהתגים נקראים בסדר שבו אדם שרואה היה קורא אותם. השתמש בכלי Reading Order או בלוח התגים כדי לתקן זאת.
+	Check that the tags read in the order a sighted reader would. Use the Reading Order tool or the Tags panel to correct it.	ודא שהתגים נקראים בסדר שבו אדם רואה היה קורא אותם. השתמש בכלי ״סדר קריאה״ או בלוח התגים כדי לתקן זאת.
 	Primary language	שפה ראשית
 	Text language is specified	שפת הטקסט מוגדרת
-	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	קוראי מסך בוחרים את הקול לפי שפת המסמך. הגדר אותה דרך Document Properties > Advanced > Language.
+	Screen readers choose their voice from the document's language. Set it in Document Properties > Advanced > Language.	קוראי מסך בוחרים את הקול לפי שפת המסמך. הגדר אותה דרך ״מאפייני המסמך > מתקדם > שפה״.
 	Document title is showing in title bar	כותרת המסמך מוצגת בשורת הכותרת
-	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	על החלון להציג כותרת משמעותית במקום את שם הקובץ. הגדר כותרת ובחר Initial View > Show: Document Title.
+	The window should show a meaningful title rather than the file name. Set a title and Initial View > Show: Document Title.	על החלון להציג כותרת משמעותית במקום את שם הקובץ. הגדר כותרת ובחר ״תצוגה ראשונית > הצגה: כותרת המסמך״.
 	Bookmarks are present in large documents	יש סימניות במסמכים ארוכים
 	Documents of more than 20 pages need bookmarks for navigation. Add bookmarks for the main sections.	מסמכים בני יותר מ־20 עמודים זקוקים לסימניות לניווט. הוסף סימניות למקטעים הראשיים.
 	Color contrast	ניגודיות צבעים
@@ -1151,7 +1151,7 @@ key	Space	רווח
 	Comments, links and fields must be in the tag tree to be announced. Tag the annotations.	תגובות, קישורים ושדות חייבים להופיע בעץ התגים כדי שיוכרזו. תייג את ההערות.
 	Tab order	סדר מעבר בין שדות
 	Tab order is consistent with structure order	סדר המעבר בין השדות תואם לסדר המבני
-	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	הניווט באמצעות Tab בעמודים עם קישורים, תגובות או שדות צריך לפעול לפי סדר המבנה. התיקון מגדיר בכל עמוד את סדר Tab ל־Use Document Structure.
+	Pages with links, comments or fields should tab in structure order. The fix sets each page's tab order to Use Document Structure.	המעבר באמצעות Tab בעמודים עם קישורים, תגובות או שדות צריך להתבצע לפי סדר המבנה. התיקון מגדיר בכל עמוד את סדר המעבר ל״שימוש במבנה המסמך״.
 	Character encoding	קידוד תווים
 	Reliable character encoding is provided	סופק קידוד תווים אמין
 	Fonts must map their characters to Unicode so text can be read and copied. Fix the fonts or recreate the PDF.	גופנים צריכים למפות את התווים שלהם ל־Unicode כדי שאפשר יהיה לקרוא ולהעתיק את הטקסט. תקן את הגופנים או צור מחדש את קובץ ה־PDF.
@@ -1171,10 +1171,10 @@ key	Space	רווח
 	Repeated navigation links should be skippable. Check links that appear on every page.	צריך לאפשר לדלג על קישורי ניווט שחוזרים על עצמם. בדוק קישורים שמופיעים בכל עמוד.
 	Tagged form fields	שדות טופס מתויגים
 	All form fields are tagged	כל שדות הטופס מתויגים
-	Form fields must be in the tag tree (Form tags) to be announced. Tag the form fields.	שדות טופס צריכים להופיע בעץ התגים (תגי Form) כדי שיוכרזו. תייג את שדות הטופס.
+	Form fields must be in the tag tree (Form tags) to be announced. Tag the form fields.	שדות טופס צריכים להופיע בעץ התגים (תגי טופס) כדי שקוראי מסך יכריזו עליהם. תייג את שדות הטופס.
 	Field descriptions	תיאורי שדות
 	All form fields have description	כל שדות טופס יש תיאור
-	Each field needs a tooltip that says what to enter. Add one in Field Properties > General > Tooltip.	כל שדה צריך תיאור צף שמסביר מה יש להזין. הוסף אותו דרך Field Properties > General > Tooltip.
+	Each field needs a tooltip that says what to enter. Add one in Field Properties > General > Tooltip.	כל שדה צריך הסבר צף שמציין מה יש להזין. הוסף אותו דרך ״מאפייני השדה > כללי > הסבר צף״.
 	Figures alternate text	טקסט חלופי לאיורים
 	Figures require alternate text	איורים מחייבים טקסט חלופי
 	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	תמונות צריכות טקסט חלופי שמתאר אותן, או סימון שהן קישוטיות. הוסף טקסט חלופי לכל איור.
@@ -1201,7 +1201,7 @@ key	Space	רווח
 	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	טבלאות לא סדירות מקשות על ניווט בין תאים. הגדר אותו מספר תאים בכל שורה, כולל תאים המשתרעים על פני כמה שורות או עמודות.
 	Summary	סיכום
 	Tables must have a summary	טבלאות חייב יש  סיכום
-	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	סיכום מתאר את מטרת הטבלה ואת הפריסה שלה. הוסף מאפיין Summary לכל טבלה.
+	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	סיכום מתאר את מטרת הטבלה ואת הפריסה שלה. הוסף מאפיין סיכום לכל טבלה.
 	List items	פריטי רשימה
 	LI must be a child of L	LI חייב להיות צאצא של L
 	List items belong in a list. Fix the list's tags.	פריטי רשימה צריכים להימצא בתוך רשימה. תקן את התגים של הרשימה.
@@ -1963,15 +1963,15 @@ key	Space	רווח
 	Insert pages from {name}	הוספת עמודים מתוך {name}
 	Insert pages from {name} — 1 field renamed	הוספת עמודים מתוך {name} — שונה שם של שדה אחד
 	Insert pages from {name} — fields renamed	הוספה עמודים מ {name} — שדות שונה שם
-	Fill in {name}	Fill ב {name}
-	Set the image of {name}	Set ה תמונה של {name}
-	Edit script of {name}	עריכה script של {name}
+	Fill in {name}	מילוי {name}
+	Set the image of {name}	הגדרת התמונה של {name}
+	Edit script of {name}	עריכת הסקריפט של {name}
 	Import {name}	ייבוא {name}
 	Add bookmark	הוספת סימנייה
 	Rename bookmark	שינוי שם סימנייה
 	Delete bookmark	מחיקה סימנייה
 	Move bookmark	העברה סימנייה
-	Set bookmark destination	Set סימנייה destination
+	Set bookmark destination	הגדרת יעד הסימנייה
 	Add stamp	הוספה חותמת
 	Delete comment	מחיקה תגובה
 	Edit comment	עריכה תגובה
@@ -1985,19 +1985,19 @@ key	Space	רווח
 	Change field properties	שינוי שדה מאפיינים
 	Delete field	מחיקה שדה
 	Duplicate field	שכפול שדה
-	Set tab order	Set לשונית order
-	Set calculation order	Set חישוב order
-	Change initial view	שינוי initial תצוגה
-	Set alternate text	Set alternate טקסט
-	Mark figure as decorative	Mark figure כמו decorative
+	Set tab order	הגדרת סדר המעבר באמצעות Tab
+	Set calculation order	הגדרת סדר החישוב
+	Change initial view	שינוי התצוגה הראשונית
+	Set alternate text	הגדרת טקסט חלופי
+	Mark figure as decorative	סימון האיור כדקורטיבי
 	Run JavaScript	הפעלת JavaScript
 	Delete document JavaScript	מחיקה מסמך JavaScript
 	Edit document JavaScript	עריכה מסמך JavaScript
 	Edit text	עריכת טקסט
-	Load document font	Load מסמך גופן
+	Load document font	טעינת גופן למסמך
 	Move image	העברה תמונה
 	Rotate image	סיבוב תמונה
-	Flip image	Flip תמונה
+	Flip image	היפוך תמונה
 	Delete image	מחיקה תמונה
 	Add header & footer	הוספה כותרת עליונה & כותרת תחתונה
 	Update header & footer	עדכון כותרת עליונה & כותרת תחתונה
@@ -2007,68 +2007,68 @@ key	Space	רווח
 	Add image	הוספת תמונה
 	Edit content	עריכה תוכן
 	Delete content	מחיקה תוכן
-	Remove redaction marks	הסרה השחרת מידע marks
+	Remove redaction marks	הסרת סימוני השחרת מידע
 	Add link	הוספת קישור
 	Change link properties	שינוי קישור מאפיינים
 	Delete link	מחיקה קישור
 	Create link	יצירה קישור
 	Flatten	שיטוח
-	Add sticky note	הוספה sticky note
+	Add sticky note	הוספת פתק נדבק
 	Add highlight	הוספה הדגשה
 	Add underline	הוספה קו תחתון
 	Add strikethrough	הוספה קו חוצה
-	Add squiggly underline	הוספה squiggly קו תחתון
+	Add squiggly underline	הוספת קו תחתון גלי
 	Add rectangle	הוספה מלבן
-	Add oval	הוספה oval
+	Add oval	הוספת אליפסה
 	Add arrow	הוספה חץ
 	Add line	הוספה קו
 	Add drawing	הוספה ציור
-	Add text box	הוספת טקסט box
-	Add checkmark	הוספה checkmark
-	Add cross	הוספה cross
-	Add dot	הוספה dot
+	Add text box	הוספת תיבת טקסט
+	Add checkmark	הוספת סימן ביקורת
+	Add cross	הוספת סימן איקס
+	Add dot	הוספת נקודה
 	Add signature	הוספת חתימה
-	Add redaction mark	הוספה השחרת מידע mark
+	Add redaction mark	הוספת סימון השחרת מידע
 	Add cloud	הוספה ענן
-	Add polygon	הוספה polygon
-	Add connected lines	הוספה connected שורות
-	Add callout	הוספה callout
-	Add inserted text	הוספה inserted טקסט
+	Add polygon	הוספת מצולע
+	Add connected lines	הוספת קווים מחוברים
+	Add callout	הוספת בלון הסבר
+	Add inserted text	הוספת טקסט שהוכנס
 	Add file attachment	הוספה קובץ קובץ מצורף
-	Set status Accepted	Set מצב Accepted
-	Set status Rejected	Set מצב Rejected
-	Set status Cancelled	Set מצב Cancelled
-	Set status Completed	Set מצב הושלם
-	Set status None	Set מצב ללא
-	Set status Unmarked	Set מצב Unmarked
+	Set status Accepted	הגדרת מצב: התקבל
+	Set status Rejected	הגדרת מצב: נדחה
+	Set status Cancelled	הגדרת מצב: בוטל
+	Set status Completed	הגדרת מצב: הושלם
+	Set status None	הגדרת מצב: ללא
+	Set status Unmarked	הגדרת מצב: לא סומן
 	Save as PDF/A-1b	שמירה כמו PDF/-1b
 	Save as PDF/A-2b	שמירה כמו PDF/-2b
 	Save as PDF/A-3b	שמירה כמו PDF/-3b
 	Fill & Sign: change signature	מילוי וחתימה: שינוי חתימה
-	Fill & Sign: change initials	מילוי וחתימה: שינוי initials
+	Fill & Sign: change initials	מילוי וחתימה: שינוי ראשי התיבות
 	Fill & Sign: remove saved signature	מילוי וחתימה: הסרה נשמר חתימה
-	Fill & Sign: remove saved initials	מילוי וחתימה: הסרה נשמר initials
+	Fill & Sign: remove saved initials	מילוי וחתימה: הסרת ראשי התיבות שנשמרו
 	Change signature	שינוי חתימה
-	Change initials	שינוי initials
+	Change initials	שינוי ראשי התיבות
 	Measure distance	מדידה מרחק
 	Measure perimeter	מדידה היקף
 	Measure area	מדידה שטח
-	Set measurement scale	Set מדידה קנה מידה
+	Set measurement scale	הגדרת קנה מידה למדידה
 	Measurement information	מדידה מידע
-	Measurement snapping	מדידה snapping
-	Export measurements as CSV	ייצוא measurements כמו CSV
+	Measurement snapping	הצמדה בזמן מדידה
+	Export measurements as CSV	ייצוא מדידות כ־CSV
 	Distance	מרחק
 	Perimeter	היקף
 	Area	שטח
 	Drawing scale	ציור קנה מידה
 	Snapping	הצמדה
-	Export measurements	ייצוא measurements
+	Export measurements	ייצוא מדידות
 	Open a PDF to measure it.	פתיחה  PDF ל מדידה זה.
 	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	לחץ על הקודקודים. לחיצה על Enter או לחיצה כפולה מסיימת מדידת היקף או שטח. לחץ על הנקודה הראשונה כדי לסגור שטח.
 	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	Shift מגביל את הזווית למרווחים של 45 מעלות. Backspace מסיר קודקוד. Escape מבטל.
 	Angle	זווית
-	Click the first point to begin.	Click ה ראשון point ל begin.
-	Snap to drawing	Snap ל ציור
+	Click the first point to begin.	לחץ על הנקודה הראשונה כדי להתחיל.
+	Snap to drawing	הצמדה לציור
 	Endpoints	נקודות קצה
 	Midpoints	נקודות אמצע
 	Intersections	נקודות חיתוך
@@ -2076,58 +2076,58 @@ key	Space	רווח
 	Sensitivity	רגישות
 	Unit	יחידה
 	Decimals	ספרות עשרוניות
-	Calibrate from two points	כיול מ שניים points
-	Entire page	Entire עמוד
-	Viewport rectangle in page points (x, y, width, height)	Viewport מלבן ב עמוד points (x, y, רוחב, גובה)
+	Calibrate from two points	כיול באמצעות שתי נקודות
+	Entire page	העמוד כולו
+	Viewport rectangle in page points (x, y, width, height)	מלבן אזור התצוגה בנקודות עמוד (x, y, רוחב, גובה)
 	Viewport	אזור תצוגה
 	Apply scale	החלה קנה מידה
-	Saved measurements	נשמר measurements
-	Saved measurements.	נשמר measurements.
+	Saved measurements	מדידות שנשמרו
+	Saved measurements.	המדידות נשמרו.
 	Endpoint	נקודת קצה
 	Midpoint	נקודת אמצע
 	Intersection	נקודת חיתוך
 	Path	נתיב
 	This drawing exceeds the snapping limit; only the first paths are used.	הציור חורג ממגבלת ההצמדה; נעשה שימוש בנתיבים הראשונים בלבד.
-	Some page content couldn't be read; snapping uses the rest.	כמה עמוד תוכן לא ניתן להיות קריאה; snapping uses ה rest.
+	Some page content couldn't be read; snapping uses the rest.	לא ניתן לקרוא חלק מתוכן העמוד; ההצמדה תשתמש בשאר התוכן.
 	Unsupported measurements	מדידות שאינן נתמכות
 	Label	תווית
-	{n} measurements use an unsupported format and are left out.	{n} measurements use  unsupported תבנית ו הם שמאל מחוץ.
+	{n} measurements use an unsupported format and are left out.	{n} מדידות משתמשות בתבנית שאינה נתמכת ולכן הושמטו.
 	This area has too many overlapping paths; intersection snapping is limited.	באזור זה יש יותר מדי נתיבים חופפים; הצמדה לנקודות חיתוך מוגבלת.
-	This measurement needs at least {n} points.	זה מדידה needs ב הכי פחות {n} points.
+	This measurement needs at least {n} points.	למדידה זו דרושות לפחות {n} נקודות.
 	Change {what}	שינוי {what}
-	Cut and stack	גזירה ו stack
-	Default workspace mode	ברירת מחדל workspace מצב
+	Cut and stack	חיתוך וערימה
+	Default workspace mode	מצב ברירת המחדל של סביבת העבודה
 	Documents and view	מסמכים ו תצוגה
-	Open email app	פתיחה דוא"ל app
+	Open email app	פתיחת יישום הדוא״ל
 	Open link	פתיחה קישור
 	Open this web page?	פתיחה זה אינטרנט עמוד?
 	Scripts run in a sandbox without file or network access. A script that asks to open a web page needs your permission first. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	סקריפטים פועלים בסביבה מבודדת ללא גישה לקבצים או לרשת. סקריפט שמבקש לפתוח דף אינטרנט זקוק תחילה לאישור שלך. גם כש־JavaScript כבוי, פונקציות format, validate ו־calculate הסטנדרטיות של Acrobat ממשיכות לפעול.
-	Sign yourself	חתימה yourself
+	Sign yourself	חתימה עצמית
 	Used when opening PDFs. An explicit launch or control mode takes precedence for the session.	משמש בעת פתיחת קובצי PDF. מצב הפעלה או שליטה מפורש מקבל עדיפות במהלך ההפעלה הנוכחית.
 	Write this email?	כתיבה זה דוא"ל?
-	{who} in this document wants to open this address in your browser:	{who} ב זה מסמך wants ל פתיחה זה כתובת ב שלך browser:
-	{who} in this document wants to open your email app with this address:	{who} ב זה מסמך wants ל פתיחה שלך דוא"ל app עם זה כתובת:
+	{who} in this document wants to open this address in your browser:	{who} במסמך זה מבקש לפתוח את הכתובת הזאת בדפדפן שלך:
+	{who} in this document wants to open your email app with this address:	{who} במסמך זה מבקש לפתוח את יישום הדוא״ל שלך עם הכתובת הזאת:
 	This web address mixes letters from different alphabets, a common way to imitate another site's name.	כתובת האינטרנט הזאת משלבת אותיות מאלפביתים שונים — דרך נפוצה לחיקוי שם של אתר אחר.
 	This web address uses letters from another alphabet, which can look like familiar ones.	כתובת האינטרנט הזאת משתמשת באותיות מאלפבית אחר, שעלולות להיראות כמו אותיות מוכרות.
 	Create PDF from images	יצירה PDF מ תמונות
 	Selected image files: {count}	נבחר תמונה קבצים: {count}
-	Use image resolution	Use תמונה רזולוציה
+	Use image resolution	שימוש ברזולוציית התמונה
 	Use each image's embedded DPI; use 72 DPI when it is absent.	השתמש בערך ה־DPI המוטמע בכל תמונה; אם אין ערך כזה, השתמש ב־72 DPI.
 	Use 72 DPI (one point per pixel)	השתמש ב־72 DPI (נקודה אחת לכל פיקסל).
-	Use custom DPI	Use מותאם אישית DPI
-	DPI sets the printed page size without resampling the image.	DPI sets ה הודפס גודל עמוד ללא resampling ה תמונה.
+	Use custom DPI	שימוש ב־DPI מותאם אישית
+	DPI sets the printed page size without resampling the image.	ה־DPI קובע את גודל העמוד המודפס בלי לדגום מחדש את התמונה.
 	Create	יצירה
 	Dynamic XFA form laid out from its template: {pages}, {fields}.	טופס XFA דינמי שנפרס לפי התבנית שלו: {pages}, {fields}.
 	This form's scripts are turned off because one ran too long. Reopen the document to run them again.	הסקריפטים בטופס זה כובו משום שאחד מהם פעל זמן רב מדי. פתח מחדש את המסמך כדי להפעיל אותם שוב.
 	XFA form: its fields and its XFA data are kept in step, so other viewers show what you fill in.	טופס XFA: השדות ונתוני ה־XFA נשמרים מסונכרנים, כך שמציגים אחרים יראו את מה שמילאת.
-	Switch to two-page view first to show the cover page	Switch ל תצוגת שני עמודים ראשון ל הצגה ה cover עמוד
+	Switch to two-page view first to show the cover page	עבור תחילה לתצוגת שני עמודים כדי להציג את עמוד השער
 @plural	{n} page|{n} pages	עמוד {n}|שני עמודים ({n})|{n} עמודים
 @plural	{n} field|{n} fields	{n} שדה|{n} שדות|{n} שדות
-	Optimizing… removing user data	Optimizing… removing משתמש נתונים
-	Optimizing… image {d} of {t}	Optimizing… תמונה {d} של {t}
-	Optimizing… cleaning up	Optimizing… cleaning למעלה
-	Optimizing… merging identical objects	Optimizing… merging identical אובייקטים
-	Optimizing… writing the copy	Optimizing… כתיבה ה העתקה
+	Optimizing… removing user data	מבצע מיטוב… מסיר נתוני משתמש
+	Optimizing… image {d} of {t}	מבצע מיטוב… תמונה {d} מתוך {t}
+	Optimizing… cleaning up	מבצע מיטוב… מנקה
+	Optimizing… merging identical objects	מבצע מיטוב… ממזג אובייקטים זהים
+	Optimizing… writing the copy	מבצע מיטוב… כותב את העותק
 	Cancelling…	הביטול מתבצע…
 	Created a PDF from {n} files	נוצר  PDF מ {n} קבצים
 	PDF, images and text	PDF, תמונות ו טקסט
@@ -2138,45 +2138,45 @@ key	Space	רווח
 	No changes to save	אין שינויים ל שמירה
 	Created a PDF from {n} files; left out: {names}	נוצר  PDF מ {n} קבצים; שמאל מחוץ: {names}
 	Created a PDF from the first {n} files	נוצר  PDF מ ה ראשון {n} קבצים
-	Optimization is already running	מיטוב הוא already running
-	Optimization cancelled	מיטוב cancelled
+	Optimization is already running	פעולת המיטוב כבר מתבצעת
+	Optimization cancelled	פעולת המיטוב בוטלה
 	Couldn't optimize the file	לא ניתן מיטוב ה קובץ
-	Files are combined in this order. Leave Pages empty to take every page.	קבצים הם משולב ב זה order. Leave עמודים ריק ל take כל עמוד.
+	Files are combined in this order. Leave Pages empty to take every page.	הקבצים ישולבו לפי הסדר הזה. השאר את השדה ״עמודים״ ריק כדי לכלול את כל העמודים.
 	Show	הצגה
 	Sort	מיון
-	Reverse the order	Reverse ה order
+	Reverse the order	היפוך הסדר
 	Grab bag	אוסף כללי
 	Table	טבלה
 	Username	שם משתמש
 	Display name	תצוגה שם
-	Real name	Real שם
+	Real name	שם אמיתי
 	Name (A–Z)	שם (–Z)
-	Merged PRs	מוזג PRs
-	PRs	PRs
-	Commits	Commits
+	Merged PRs	בקשות משיכה (PR) שמוזגו
+	PRs	בקשות משיכה (PR)
+	Commits	קומיטים
 	Lines added	שורות נוסף
-	+LOC	+LOC
+	+LOC	+ שורות קוד
 	Lines deleted	שורות נמחק
-	−LOC	−LOC
-	Line delta	קו delta
-	ΔLOC	ΔLOC
-	Binary assets added	Binary assets נוסף
-	+Bin	+Bin
-	Binary assets removed	Binary assets הוסר
-	−Bin	−Bin
-	First commit	ראשון commit
+	−LOC	− שורות קוד
+	Line delta	הפרש שורות
+	ΔLOC	Δ שורות קוד
+	Binary assets added	נוספו נכסים בינאריים
+	+Bin	+ בינאריים
+	Binary assets removed	הוסרו נכסים בינאריים
+	−Bin	− בינאריים
+	First commit	הקומיט הראשון
 	First	ראשון
-	Last commit	אחרון commit
+	Last commit	הקומיט האחרון
 	Last	אחרון
-	No contributor data was built into this copy.	אין contributor נתונים היה built אל תוך זה העתקה.
-	No model credits were built into this copy.	אין model קרדיטים היו built אל תוך זה העתקה.
-	{n} contributors · {c} commits	{n} תורמים · {c} commits
+	No contributor data was built into this copy.	לא נכללו נתוני תורמים בעותק הזה.
+	No model credits were built into this copy.	לא נכללו פרטי קרדיט למודלים בעותק הזה.
+	{n} contributors · {c} commits	{n} תורמים · {c} קומיטים
 	Company	חברה
 	Model	מודל
-	% of all commits	% של כל commits
+	% of all commits	% מכלל הקומיטים
 	Lines +/−	שורות +/−
 	@{login}: {prs} PRs, {commits} commits, +{added} / −{deleted} lines (Δ {delta}), +{bin_added} / −{bin_deleted} binary assets, {first} – {last}	@{login}: {prs} בקשות משיכה, {commits} קומיטים, +{added} / −{deleted} שורות (Δ {delta}), +{bin_added} / −{bin_deleted} קבצים בינאריים, {first} – {last}
-	None of those files can be made into a PDF; use PDFs, images or .txt files	אי אפשר ליצור PDF מאף אחד מהקבצים האלה; השתמש בקובצי PDF, תמונות או קובצי ‎.txt.
+	None of those files can be made into a PDF; use PDFs, images or .txt files	לא ניתן ליצור PDF מאף אחד מהקבצים האלה; השתמש בקובצי PDF, תמונות או קובצי ‎.txt.
 	About	אודות
 	Contributors	תורמים
 	Models	מודלים
@@ -2199,50 +2199,50 @@ calendar date	September	ספטמבר
 calendar date	October	אוקטובר
 calendar date	November	נובמבר
 calendar date	December	דצמבר
-	Inserted text	Inserted טקסט
+	Inserted text	טקסט שהוכנס
 	Add {what}	הוספה {what}
 	Use {what}	שימוש ב־{what}
-	Place saved {what}	Place נשמר {what}
+	Place saved {what}	הצבת {what} שנשמר
 	Remove saved {what}	הסרה נשמר {what}
 	A link	 קישור
 	A button	 לחצן
-	A script	 script
-	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} ב זה מסמך tried ל פתיחה  כתובת PdfCraft לא פתיחה: {e}.
+	A script	סקריפט
+	{who} in this document tried to open an address PdfCraft won't open: {e}.	{who} במסמך זה ניסה לפתוח כתובת ש־PdfCraft אינו פותח: {e}.
 	{who} in this document tried to open an address PdfCraft won't open: {e}. Only web (http, https) and email (mailto) links open from documents.	{who} במסמך זה ניסה לפתוח כתובת ש־PdfCraft אינו פותח: {e}. מתוך מסמכים נפתחים רק קישורי אינטרנט (http, https) ודוא״ל (mailto).
-	Another file dialog is still open. Finish with it first.	נוסף קובץ חלון דו־שיח הוא still פתיחה. סיום עם זה ראשון.
-	Couldn't show the file picker. Please try again.	לא ניתן הצגה ה קובץ בורר. Please נסה שוב.
+	Another file dialog is still open. Finish with it first.	חלון בחירת קובץ אחר עדיין פתוח. יש לסיים להשתמש בו תחילה.
+	Couldn't show the file picker. Please try again.	לא ניתן להציג את בורר הקבצים. נסה שוב.
 	The document changed while you were choosing a file, so nothing was changed.	המסמך השתנה בזמן שבחרת קובץ, ולכן לא בוצעו שינויים.
 	The document was closed before it could be saved.	ה מסמך היה נסגר לפני זה יכול להיות נשמר.
 	The pages were extracted but not deleted, because the document changed while you were choosing a folder.	העמודים חולצו אך לא נמחקו, משום שהמסמך השתנה בזמן בחירת התיקייה.
 	That didn't work: an internal error stopped it ({m}).	הפעולה נכשלה בגלל שגיאה פנימית ({m}).
 	The Windows store's digital IDs couldn't be listed: {e}	לא ניתן להציג את המזהים הדיגיטליים שבמאגר Windows: {e}
 	Align fields	יישור שדות
-	Distribute fields	Distribute שדות
-	Match field sizes	התאמה שדה sizes
-	Mark for redaction	Mark עבור השחרת מידע
-	Mark pages for redaction	Mark עמודים עבור השחרת מידע
+	Distribute fields	פיזור שדות
+	Match field sizes	התאמת גדלי השדות
+	Mark for redaction	סימון להשחרת מידע
+	Mark pages for redaction	סימון עמודים להשחרת מידע
 	Change document properties	שינוי מסמך מאפיינים
-	Mark differences	Mark הבדלים
-	Run form script	Run טופס script
+	Mark differences	סימון הבדלים
+	Run form script	הפעלת סקריפט הטופס
 	Scripted content must be usable with a keyboard and assistive technology. Check the document's scripts.	תוכן שמופעל באמצעות סקריפטים צריך להיות נגיש באמצעות מקלדת וטכנולוגיות מסייעות. בדוק את הסקריפטים במסמך.
 	Table rows belong directly in a table or its head, body or foot. Fix the table's tags.	שורות טבלה צריכות להופיע ישירות בטבלה או בחלק הכותרת, הגוף או התחתית שלה. תקן את תגי הטבלה.
-	Basic constraints	בסיסי constraints
-	Certificate authority	אישור דיגיטלי authority
+	Basic constraints	אילוצים בסיסיים
+	Certificate authority	רשות אישורים
 	End entity	ישות קצה
 	SHA-1 digest	תקציר SHA-1
 	SHA-256 digest	תקציר SHA-256
 	Squiggly	קו גלי
 	Home / End	דף הבית / End
 	H / Space (hold)	H / רווח (hold)
-	Line ending	קו ending
+	Line ending	סיום שורה
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	ה PDF טקסט גופנים לא ניתן ציור “{c}” ({code}). בחירה נתמך טקסט.
-	Larger pages	Larger עמודים
-	Smaller pages	Smaller עמודים
+	Larger pages	עמודים גדולים יותר
+	Smaller pages	עמודים קטנים יותר
 	Reset page size	איפוס גודל עמוד
-	Flatten Fill & Sign when saving	Flatten מילוי וחתימה כאשר בשמירה
+	Flatten Fill & Sign when saving	שיטוח מילוי וחתימה בעת השמירה
 	Text, marks and signatures become part of the page. Other comments stay editable.	הטקסט, הסימונים והחתימות יהפכו לחלק מהעמוד. שאר התגובות יישארו ניתנות לעריכה.
 	Date format	תאריך תבנית
-	Fill & Sign dates	מילוי וחתימה dates
+	Fill & Sign dates	תאריכים במילוי וחתימה
 	Pattern	תבנית
 	Today: {date}	היום: {date}
 	yyyy or yy year · m or mm month · mmm or mmmm month name · d or dd day · ddd or dddd weekday. H, h, M, s and t are time letters and can't be used on their own: put {escape} before a letter to show it as is.	yyyy או yy מציינים שנה · m או mm חודש · mmm או mmmm שם חודש · d או dd יום · ddd או dddd יום בשבוע. H, h, M, s ו־t הם סמני שעה שאין להשתמש בהם לבדם: יש להציב {escape} לפני אות כדי להציג אותה כפי שהיא.
@@ -2250,12 +2250,12 @@ calendar date	December	דצמבר
 	{chars} can't be written into the PDF yet: Fill & Sign text is Western European only. Pick a numeric format such as dd.mm.yyyy.	עדיין אי אפשר לכתוב את {chars} לקובץ PDF: הטקסט בכלי Fill & Sign תומך רק בתווים מערב־אירופיים. בחר תבנית מספרית כגון dd.mm.yyyy.
 	Opens the printer driver's preferences. They are saved for every print from this computer; the copies, two-sided, grayscale and paper chosen here still apply.	פותח את ההעדפות של מנהל התקן המדפסת. הן נשמרות לכל עבודות ההדפסה מהמחשב הזה; מספר העותקים, הדפסה דו־צדדית, גווני אפור וסוג הנייר שנבחרו כאן ימשיכו לחול.
 	The printer driver's own settings for this print: paper tray, paper type, finishing and more.	ההגדרות של מנהל התקן המדפסת להדפסה זו: מגש הנייר, סוג הנייר, גימור ועוד.
-	Couldn't open the printer's preferences: {e}	לא ניתן פתיחה ה printer's העדפות: {e}
+	Couldn't open the printer's preferences: {e}	לא ניתן לפתוח את העדפות המדפסת: {e}
 	Printer properties	מדפסת מאפיינים
 	Reset to printer defaults	איפוס ל מדפסת ברירות מחדל
-	This printer offers no settings of its own.	זה מדפסת offers אין הגדרות של שלו own.
+	This printer offers no settings of its own.	למדפסת הזאת אין הגדרות משלה.
 certificate	Subject	נושא האישור
-	Comb of characters	Comb של תווים
+	Comb of characters	רשת תווים
 	The document changed while you were editing field properties.	המסמך השתנה בזמן שעריכת מאפייני השדות הייתה פתוחה.
 	The document is no longer open.	המסמך כבר אינו פתוח.
 	The field properties dialog is no longer open.	חלון מאפייני השדות כבר אינו פתוח.
@@ -2731,7 +2731,7 @@ certificate	Issuer	מנפיק
 certificate	Validity starts	תחילת תוקף
 certificate	Validity ends	סיום תוקף
 certificate	Public key	מפתח ציבורי
-certificate	Basic constraints	בסיסי constraints
+certificate	Basic constraints	אילוצים בסיסיים
 certificate	Key usage	שימוש במפתח
 certificate	Self-signed	חתימה עצמית
 certificate	SHA-1 digest	תקציר SHA-1
