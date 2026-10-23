@@ -689,6 +689,18 @@ fn name_sort_key(name: &str) -> String {
 
 #[cfg(test)]
 mod tests {
+    #[test]
+    fn hebrew_is_registered_as_rtl_with_three_plural_forms() {
+        let he = Lang::from_code("he").expect("Hebrew is registered");
+        assert!(he.rtl());
+        assert_eq!((he.0.plural)(1), 0);
+        assert_eq!((he.0.plural)(2), 1);
+        assert_eq!((he.0.plural)(0), 2);
+        assert_eq!((he.0.plural)(3), 2);
+        let (_, errors) = catalog::Catalog::parse(he.0.source, he.0.plural_forms());
+        assert!(errors.is_empty(), "Hebrew catalog errors: {errors:?}");
+    }
+
     use super::catalog::{Entry, parse_entries, placeholders};
     use super::*;
 
@@ -950,7 +962,7 @@ mod tests {
         let error = pdfcraft_engine::ocr::OcrError::NoModels.to_string();
         let notice = "Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.";
         assert!(include_str!("../ocr_ui.rs").contains(notice), "keep in step with ocr_ui.rs");
-        for code in ["bg", "cs", "de", "es", "fr", "hu", "ja", "ru", "te", "uk", "zh-hans", "zh-hant"] {
+        for code in ["bg", "cs", "de", "es", "fr", "he", "hu", "ja", "ru", "te", "uk", "zh-hans", "zh-hant"] {
             let lang = Lang::from_code(code).expect("registered");
             assert!(has(lang, notice) && has(lang, &error), "{code}");
         }
@@ -1013,7 +1025,7 @@ mod tests {
             labels.insert(label.to_string());
         }
         assert!(labels.len() > 20 && labels.contains("Comb of characters"), "the scan found the dialog's labels: {labels:?}");
-        for code in ["bg", "cs", "de", "es", "fr", "hu", "it", "ja", "pt-br", "ru", "te", "tr", "uk", "zh-hans", "zh-hant"] {
+        for code in ["bg", "cs", "de", "es", "fr", "he", "hu", "it", "ja", "pt-br", "ru", "te", "tr", "uk", "zh-hans", "zh-hant"] {
             let lang = Lang::from_code(code).expect("registered");
             let missing: Vec<_> = labels.iter().filter(|l| !has(lang, l)).collect();
             assert!(missing.is_empty(), "{code} lacks Shared Field Properties labels: {missing:#?}");
