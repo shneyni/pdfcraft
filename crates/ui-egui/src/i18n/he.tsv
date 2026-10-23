@@ -158,7 +158,7 @@
 	{n} word(s) or phrase(s)	{n} מילה(s) או phrase(s)
 	{name} is too large for a word list (at most 1 MB).	{name} הוא too large עבור  מילה list (ב רוב 1 MB).
 @plural	{n} object selected|{n} objects selected	{n} אובייקט נבחר|{n} אובייקטים נבחר|{n} אובייקטים נבחר
-@plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}
+@plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	שם שדה {n} מתנגש עם קבצים קודמים וישונה: {list}|שמות שני שדות ({n}) מתנגשים עם קבצים קודמים וישונו: {list}|שמות {n} שדות מתנגשים עם קבצים קודמים וישונו: {list}
 	Drag the selection to move it. Esc clears the selection.	גרירה ה בחירה ל העברה זה. Esc clears ה בחירה.
 	Shift-click to select several objects. Drag empty space to select an area.	Shift-click ל בחירה כמה אובייקטים. גרירה ריק רווח ל בחירה  שטח.
 	Select at most 1000 objects at a time.	בחירה ב רוב 1000 אובייקטים ב  שעה.
@@ -2413,13 +2413,13 @@ animation effects	Off	כבוי
 	no unused output name	אין unused פלט שם
 	no output folder was chosen	אין פלט תיקייה היה נבחר
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	Downloaded {n} PDF|Downloaded {n} PDFs|Downloaded {n} PDFs
-@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	{n} calculation now uses the new name.|{n} calculations now use the new name.
-@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.
+@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	החישוב של {n} שדה משתמש כעת בשם החדש.|החישוב של שני שדות ({n}) משתמש כעת בשם החדש.|החישוב של {n} שדות משתמש כעת בשם החדש.
+@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	סדר החישוב כולל רשומה אחת ({n}) שאינה מחשבת דבר. תיקון הסדר מסיר אותה.|סדר החישוב כולל שתי רשומות ({n}) שאינן מחשבות דבר. תיקון הסדר מסיר אותן.|סדר החישוב כולל {n} רשומות שאינן מחשבות דבר. תיקון הסדר מסיר אותן.
 @plural	{fields} reads it|{fields} read it	{fields} reads זה|{fields} קריאה זה|{fields} קריאה זה
 @plural	{n} field shows an old value|{n} fields show old values	{n} שדה shows  ישן ערך|{n} שדות הצגה ישן ערכים|{n} שדות הצגה ישן ערכים
-@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.
+@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	{field} מחושב לפני {fields}, שמהם הוא קורא נתונים.|{field} מחושב לפני {fields}, שמהם הוא קורא נתונים.|{field} מחושב לפני {fields}, שמהם הוא קורא נתונים.
 @plural	{n} more field calculates too early.|{n} more fields calculate too early.	{n} עוד שדה calculates too early.|{n} עוד שדות חישוב too early.|{n} עוד שדות חישוב too early.
-@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.
+@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	{fields} חסרים מסדר החישוב שנשמר בקובץ ה־PDF, ולכן ייתכן שמציגי PDF אחרים לא יחשבו אותם.|{fields} חסרים מסדר החישוב שנשמר בקובץ ה־PDF, ולכן ייתכן שמציגי PDF אחרים לא יחשבו אותם.|{fields} חסרים מסדר החישוב שנשמר בקובץ ה־PDF, ולכן ייתכן שמציגי PDF אחרים לא יחשבו אותם.
 	Scan	סריקה
 	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.
 	Choose photo…	בחירה photo…
