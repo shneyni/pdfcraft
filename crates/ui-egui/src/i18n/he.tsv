@@ -160,7 +160,7 @@
 @plural	{n} object selected|{n} objects selected	{n} אובייקט נבחר|{n} אובייקטים נבחר|{n} אובייקטים נבחר
 @plural	{n} field name collides with earlier files and will be renamed: {list}|{n} field names collide with earlier files and will be renamed: {list}	שם שדה {n} מתנגש עם שמות קיימים בקבצים קודמים וישונה שמו: {list}|שני שמות שדות ({n}) מתנגשים עם שמות קיימים בקבצים קודמים וישונו: {list}|שמות {n} שדות מתנגשים עם שמות קיימים בקבצים קודמים וישונו: {list}
 	Drag the selection to move it. Esc clears the selection.	גרור את הבחירה כדי להזיז אותה. מקש Esc מבטל את הבחירה.
-	Shift-click to select several objects. Drag empty space to select an area.	Shift-click ל בחירה כמה אובייקטים. גרירה ריק רווח ל בחירה  שטח.
+	Shift-click to select several objects. Drag empty space to select an area.	לחץ תוך החזקת Shift כדי לבחור כמה אובייקטים. גרור באזור ריק כדי לסמן אזור.
 	Select at most 1000 objects at a time.	בחירה ב רוב 1000 אובייקטים ב  שעה.
 	Finish or discard the text being edited before selecting several objects.	יש לסיים את עריכת הטקסט או לבטל אותה לפני בחירת כמה אובייקטים.
 	Move object	העברה אובייקט
@@ -225,7 +225,7 @@ key	Space	רווח
 	E-Sign	חתימה אלקטרונית
 	Print ({key})	הדפסה ({key})
 	Save (M4)	שמירה (M4)
-	Document properties ({key})	מסמך מאפיינים ({key})
+	Document properties ({key})	מאפייני המסמך ({key})
 	Find tools and commands	חיפוש כלים ופקודות
 	Fit to height	התאמה לגובה
 	Zoom in	הגדלה
@@ -1273,7 +1273,7 @@ key	Space	רווח
 	Odd pages only	עמודים אי־זוגיים בלבד
 	Even pages only	עמודים זוגיים בלבד
 	Reverse pages	היפוך סדר העמודים
-	Page Sizing & Handling	גודל עמוד ואופן הטיפול בו
+	Page Sizing & Handling	גודל העמוד ואופן הטיפול בו
 	Size	גודל
 	Poster	פוסטר
 	Multiple	מרובה
@@ -1340,13 +1340,13 @@ key	Space	רווח
 	Optional	רשות
 	Planned · {m}	מתוכנן · {m}
 	Planned for milestone {m} — open to see what it will include	מתוכנן לאבן הדרך {m} — פתח כדי לראות מה היא תכלול.
-	Coming in milestone {m}. Items marked Ready work today.	יגיע באבן הדרך {m}. פריטים שמסומנים Ready זמינים כבר עכשיו.
+	Coming in milestone {m}. Items marked Ready work today.	צפוי באבן הדרך {m}. פריטים המסומנים ״מוכן״ זמינים לשימוש כבר עכשיו.
 	1 mark	סימון אחד
 	{n} marks	{n} סימונים
 	Dynamic	דינמי
-	Sign Here	חתימה Here
+	Sign Here	חתימה כאן
 	Standard Business	עסקי רגיל
-	Choose a stamp, then click on the page to place it.	בחירה  חותמת, אז click על ה עמוד ל place זה.
+	Choose a stamp, then click on the page to place it.	בחר חותמת ולאחר מכן לחץ על העמוד כדי למקם אותה.
 	Note	הערה
 	Polyline	קו שבור
 	Attachment	קובץ מצורף
@@ -1358,32 +1358,32 @@ key	Space	רווח
 	Locked	נעול
 	Search comments	חיפוש תגובות
 	Add a comment	הוספה  תגובה
-	No comments yet.	אין תגובות yet.
+	No comments yet.	עדיין אין תגובות.
 	Pick a tool in the quick bar, or type above.	בחר כלי בסרגל המהיר או הקלד בשדה שלמעלה.
 	No comments match.	אין תגובות התאמה.
 	Unknown author	לא ידוע מחבר
 	No colour	אין צבע
-	Remove checkmark	הסרה checkmark
-	Mark with checkmark	Mark עם checkmark
+	Remove checkmark	הסרת סימן הביקורת
+	Mark with checkmark	סימון בסימן ביקורת
 	Reply	מענה
 	Add a reply	הוספה  מענה
 	Post	פרסום
 	Page {label}	עמוד {label}
-	{kind} — click to show it on the page	{kind} — click ל הצגה זה על ה עמוד
-	Set status	Set מצב
+	{kind} — click to show it on the page	{kind} — לחץ כדי להציג אותו בעמוד
+	Set status	הגדרת מצב
 	Copy text	העתקה טקסט
 	Properties…	מאפיינים…
 	Make Current Properties Default	יצירה נוכחי מאפיינים ברירת מחדל
 	Make Properties Default	יצירה מאפיינים ברירת מחדל
 	More options	אפשרויות נוספות
-	Sort by	Sort על ידי
+	Sort by	מיון לפי
 	Author	מחבר
 	Type	סוג
 	Colour	צבע
 	Show all comments	הצגת הכול תגובות
 	Create PDF comment summary…	יצירה PDF תגובה סיכום…
 	Export all to data file…	ייצוא כל ל נתונים קובץ…
-	Filter comments	Filter תגובות
+	Filter comments	סינון תגובות
 	Status	מצב
 	Accepted	התקבל
 	Rejected	נדחה
@@ -1402,17 +1402,17 @@ key	Space	רווח
 	Black	שחור
 	Bookmark options	סימנייה אפשרויות
 	Expand all bookmarks	הרחבה כל סימניות
-	Expand top-level bookmarks	הרחבה עליון-level סימניות
+	Expand top-level bookmarks	הרחבת הסימניות ברמה העליונה
 	Collapse all bookmarks	צמצום כל סימניות
-	New bookmark ({key})	חדש סימנייה ({key})
+	New bookmark ({key})	סימנייה חדשה ({key})
 	This document has no bookmarks.	זה מסמך יש אין סימניות.
 	This document has no layers.	זה מסמך יש אין שכבות.
 	This document has no attachments.	זה מסמך יש אין קבצים מצורפים.
 	Hide layer	הסתרה שכבה
 	Layer options	שכבה אפשרויות
-	Reset to Initial Visibility	איפוס ל Initial Visibility
+	Reset to Initial Visibility	איפוס לנראות הראשונית
 	Show layer	הצגה שכבה
-	Set layer visibility	Set שכבה visibility
+	Set layer visibility	הגדרת נראות השכבה
 	on page {label}	על עמוד {label}
 	Save attachment…	שמירה קובץ מצורף…
 	Open in a new tab	פתיחה ב  לשונית חדשה
@@ -1420,35 +1420,35 @@ key	Space	רווח
 	Find text	חיפוש טקסט
 	No matches	אין התאמות
 	Searching… {s}/{p}	בחיפוש… {s}/{p}
-	{c} of {n}{more}	{c} של {n}{more}
+	{c} of {n}{more}	{c} מתוך {n}{more}
 	Previous ({key})	הקודם ({key})
 	Next ({key})	הבא ({key})
 	Find options	חיפוש אפשרויות
-	Whole words only	Whole מילים רק
+	Whole words only	מילים שלמות בלבד
 	Case-sensitive	תלוי רישיות
 	Close (Esc)	סגירה (Esc)
 	Align	יישור
 	Top	עליון
 	Bottom	תחתון
-	Center horizontally	מרכז horizontally
-	Center vertically	מרכז vertically
+	Center horizontally	מרכוז אופקי
+	Center vertically	מרכוז אנכי
 	Distribute	פיזור
 	Horizontally	אופקית
 	Vertically	אנכית
-	Set Fields to Same Size	Set שדות ל אותו גודל
+	Set Fields to Same Size	הגדרת גודל זהה לשדות
 	Height	גובה
 	Width	רוחב
 	Both	שניהם
 	Duplicate…	שכפול…
 	All pages	כל עמודים
-	Odd pages	Odd עמודים
-	Even pages	Even עמודים
-	Landscape pages	Landscape עמודים
-	Portrait pages	Portrait עמודים
-	Move earlier	העברה earlier
-	Move later	העברה later
+	Odd pages	עמודים אי־זוגיים
+	Even pages	עמודים זוגיים
+	Landscape pages	עמודים לרוחב
+	Portrait pages	עמודים לאורך
+	Move earlier	הזזה למיקום מוקדם יותר
+	Move later	הזזה למיקום מאוחר יותר
 	Back to the document	חזרה ל ה מסמך
-	Protect Using Password	הגנה Using סיסמה
+	Protect Using Password	הגנה באמצעות סיסמה
 	Requires user to enter a password for:	דורש משתמש ל Enter  סיסמה עבור:
 	Viewing	תצוגה
 	Editing	עריכה
@@ -1458,30 +1458,30 @@ key	Space	רווח
 	Strong	חזק
 	Medium	בינוני
 	Weak	חלש
-	Advanced Options {chevron}	מתקדם אפשרויות {chevron}
+	Advanced Options {chevron}	אפשרויות מתקדמות {chevron}
 	Compatibility	תאימות
-	Acrobat X and later (256-bit AES)	Acrobat X ואילך (AES באורך 256 סיביות).
-	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ואילך (AES באורך 128 סיביות).
-	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 ו later (128-bit RC4)
-	Acrobat 3.0 and later (40-bit RC4)	Acrobat 3.0 ו later (40-bit RC4)
+	Acrobat X and later (256-bit AES)	Acrobat X ואילך (AES באורך 256 סיביות)
+	Acrobat 7.0 and later (128-bit AES)	Acrobat 7.0 ואילך (AES באורך 128 סיביות)
+	Acrobat 5.0 and later (128-bit RC4)	Acrobat 5.0 ואילך (RC4 באורך 128 סיביות)
+	Acrobat 3.0 and later (40-bit RC4)	Acrobat 3.0 ואילך (RC4 באורך 40 סיביות)
 	Encrypt	הצפנה
 	All document contents	כל מסמך תוכן
-	All document contents except metadata	כל מסמך תוכן except נתוני מטא
+	All document contents except metadata	כל תוכן המסמך למעט נתוני מטא
 	Printing allowed	בהדפסה מותר
-	Low Resolution (150 dpi)	Low רזולוציה (150 dpi)
+	Low Resolution (150 dpi)	רזולוציה נמוכה (150 dpi)
 	Changes allowed	שינויים מותר
-	Inserting, deleting, and rotating pages	Inserting, deleting, ו rotating עמודים
-	Filling in form fields and signing existing signature fields	Filling ב שדות טופס ו signing existing חתימה שדות
+	Inserting, deleting, and rotating pages	הוספה, מחיקה וסיבוב של עמודים
+	Filling in form fields and signing existing signature fields	מילוי שדות טופס וחתימה בשדות חתימה קיימים
 	Commenting, filling in form fields, and signing existing signature fields	הוספת תגובות, מילוי שדות טופס וחתימה בשדות חתימה קיימים.
-	Any except extracting pages	כלשהו except extracting עמודים
-	Enable copying of text, images, and other content	הפעלה copying של טקסט, תמונות, ו אחר תוכן
+	Any except extracting pages	כל פעולה למעט חילוץ עמודים
+	Enable copying of text, images, and other content	הפעלת האפשרות להעתיק טקסט, תמונות ותוכן אחר
 	Enable text access for screen reader devices for the visually impaired	הפעלת גישה לטקסט עבור קוראי מסך המשמשים אנשים עם לקות ראייה.
 	Type a password.	סוג  סיסמה.
-	The passwords don't match.	ה סיסמאות don't התאמה.
+	The passwords don't match.	הסיסמאות אינן תואמות.
 	This compatibility level supports only plain ASCII passwords.	רמת תאימות זו תומכת בסיסמאות ASCII פשוטות בלבד.
 	Anyone opening the document will need this password. It's applied when you save.	כל מי שיפתח את המסמך יזדקק לסיסמה הזאת. היא תחול בעת השמירה.
 	The document opens without a password; this password is needed to change the restrictions. It's applied when you save.	אפשר לפתוח את המסמך בלי סיסמה; סיסמה זו נדרשת לשינוי ההגבלות. היא תחול בעת השמירה.
-	Recover unsaved documents?	Recover unsaved מסמכים?
+	Recover unsaved documents?	לשחזר מסמכים שלא נשמרו?
 	PdfCraft didn't shut down normally. These documents had changes that were autosaved:	PdfCraft לא נסגר כראוי. השינויים במסמכים האלה נשמרו אוטומטית:
 	just now	הרגע
 	{n} min ago	לפני {n} דקות
@@ -1491,34 +1491,34 @@ key	Space	רווח
 	Discard	התעלמות
 	Version {v}	גרסה {v}
 	A clean-room, open-source PDF application written in Rust. MIT OR Apache-2.0.	יישום PDF בקוד פתוח שנכתב ב־Rust. הרישיון הוא MIT או Apache-2.0.
-	Part of	Part של
-	Summarize Options	Summarize אפשרויות
+	Part of	חלק מ־
+	Summarize Options	אפשרויות סיכום
 	Choose a layout:	בחירה  פריסה:
 	Comments only	תגובות רק
-	Sort comments by:	Sort תגובות על ידי:
+	Sort comments by:	מיון התגובות לפי:
 	Create PDF Comment Summary	יצירה PDF תגובה סיכום
 	Revert to the previously saved version of “{name}”? Changes since then can't be undone afterwards.	לחזור לגרסה השמורה הקודמת של “{name}”? לא ניתן יהיה לשחזר את השינויים שנעשו מאז.
 	Save over the changed file?	שמירה מעל ה השתנה קובץ?
 	“{name}” changed on disk after it was opened or last saved. Saving now replaces that newer version with this one.	“{name}” השתנה בדיסק מאז שנפתח או נשמר לאחרונה. שמירה כעת תחליף את הגרסה החדשה יותר בגרסה זו.
-	Save anyway	שמירה anyway
+	Save anyway	שמירה בכל זאת
 	Number pages	מספר עמודים
 	Style	סגנון
-	None (prefix only)	ללא (prefix רק)
+	None (prefix only)	ללא (תחילית בלבד)
 	Prefix	תחילית
 	Start	התחלה
-	Labels: {preview}. Later pages keep their labels.	תוויות: {preview}. Later עמודים שמירה שלהם תוויות.
-	Even and Odd Pages	Even ו Odd עמודים
-	Even Pages Only	Even עמודים רק
-	Odd Pages Only	Odd עמודים רק
-	Landscape and Portrait Pages	Landscape ו Portrait עמודים
-	Landscape Pages	Landscape עמודים
-	Portrait Pages	Portrait עמודים
+	Labels: {preview}. Later pages keep their labels.	תוויות: {preview}. העמודים הבאים ישמרו על התוויות שלהם.
+	Even and Odd Pages	עמודים זוגיים ואי־זוגיים
+	Even Pages Only	עמודים זוגיים בלבד
+	Odd Pages Only	עמודים אי־זוגיים בלבד
+	Landscape and Portrait Pages	עמודים לרוחב ולעורך
+	Landscape Pages	עמודים לרוחב
+	Portrait Pages	עמודים לאורך
 	Duplicate Field	שכפול שדה
-	Duplicate "{name}" onto:	שכפול "{name}" onto:
+	Duplicate "{name}" onto:	שכפול "{name}" אל:
 	1 page selected.	1 עמוד נבחר.
 	{n} pages selected.	{n} עמודים נבחר.
-	Delete pages after extracting	מחיקה עמודים אחרי extracting
-	Extract pages as separate files	חילוץ עמודים כמו separate קבצים
+	Delete pages after extracting	מחיקת העמודים לאחר חילוצם
+	Extract pages as separate files	חילוץ העמודים לקבצים נפרדים
 	Rotate Pages	סיבוב עמודים
 	Direction:	כיוון:
 	Clockwise 90 degrees	90 מעלות עם כיוון השעון
@@ -1530,29 +1530,29 @@ key	Space	רווח
 	From	מ
 	Rotate:	סיבוב:
 	Repairs	תיקונים
-	Repair log	Repair יומן
+	Repair log	יומן תיקונים
 	Split document	פיצול מסמך
 	Number of pages	מספר של עמודים
-	Pages per file	עמודים per קובץ
+	Pages per file	עמודים לכל קובץ
 	File size	גודל הקובץ
 	At most	ב רוב
-	Top-level bookmarks ({n})	עליון-level סימניות ({n})
-	Before each selected page (select pages in Organize)	לפני כל נבחר עמוד (בחירה עמודים ב Organize)
-	Creates 1 file from {n} pages.	Creates 1 קובץ מ {n} עמודים.
-	Creates {f} files from {n} pages.	Creates {f} קבצים מ {n} עמודים.
-	Each file holds as many of the {n} pages as fit.	כל קובץ holds כמו רבים של ה {n} עמודים כמו התאמה.
+	Top-level bookmarks ({n})	סימניות ברמה העליונה ({n})
+	Before each selected page (select pages in Organize)	לפני כל עמוד שנבחר (בחר עמודים בכלי ״ארגון״)
+	Creates 1 file from {n} pages.	יוצר קובץ אחד מ־{n} עמודים.
+	Creates {f} files from {n} pages.	יוצר {f} קבצים מ־{n} עמודים.
+	Each file holds as many of the {n} pages as fit.	כל קובץ מכיל כמה שיותר מתוך {n} העמודים שנכנסים בו.
 	Replace Pages	החלפה עמודים
 	Original: replace pages	מקורי: החלפה עמודים
 	to	ל
 	to {n}	ל {n}
-	Replacement: pages of {name}	Replacement: עמודים של {name}
+	Replacement: pages of {name}	החלפה: עמודים מתוך {name}
 	of {name}	של {name}
 	Only the page content changes: links, comments, form fields and bookmarks on the original pages stay.	רק תוכן העמוד משתנה; הקישורים, התגובות, שדות הטופס והסימניות שבעמודים המקוריים נשארים.
-	The replacement file doesn't have that many pages.	ה replacement קובץ doesn't יש זה רבים עמודים.
+	The replacement file doesn't have that many pages.	בקובץ החלופי אין מספר עמודים מספיק.
 	Tagged PDF	PDF מתויג
 	Document Properties	מסמך מאפיינים
 	Description	תיאור
-	Initial View	Initial תצוגה
+	Initial View	תצוגה ראשונית
 	Security	אבטחה
 	Fonts	גופנים
 	Advanced	מתקדם
@@ -1561,7 +1561,7 @@ key	Space	רווח
 	Keywords	מילות מפתח
 	Application	יישום
 	PDF producer	מפיק PDF
-	Layout and Magnification	פריסה ו Magnification
+	Layout and Magnification	פריסה והגדלה
 	Navigation tab	ניווט לשונית
 	Page Only	עמוד רק
 	Bookmarks Panel and Page	סימניות לוח ו עמוד
@@ -1571,11 +1571,11 @@ key	Space	רווח
 	Page layout	עמוד פריסה
 	Default	ברירת מחדל
 	Single Page	עמוד יחיד
-	Single Page Continuous	עמוד יחיד Continuous
-	Two-Up (Facing)	שניים-למעלה (Facing)
-	Two-Up Continuous (Facing)	שניים-למעלה Continuous (Facing)
-	Two-Up (Cover Page)	שניים-למעלה (Cover עמוד)
-	Two-Up Continuous (Cover Page)	שניים-למעלה Continuous (Cover עמוד)
+	Single Page Continuous	עמוד יחיד בגלילה רציפה
+	Two-Up (Facing)	שני עמודים זה לצד זה
+	Two-Up Continuous (Facing)	שני עמודים זה לצד זה בגלילה רציפה
+	Two-Up (Cover Page)	שני עמודים זה לצד זה (עמוד שער)
+	Two-Up Continuous (Cover Page)	שני עמודים זה לצד זה בגלילה רציפה (עמוד שער)
 	Magnification	הגדלה
 	Actual Size	גודל בפועל
 	Fit Page	התאמה עמוד
@@ -2258,7 +2258,7 @@ certificate	Subject	נושא האישור
 	Comb of characters	Comb של תווים
 	The document changed while you were editing field properties.	המסמך השתנה בזמן שעריכת מאפייני השדות הייתה פתוחה.
 	The document is no longer open.	המסמך כבר אינו פתוח.
-	The field properties dialog is no longer open.	חלון מאפייני השדה כבר אינו פתוח.
+	The field properties dialog is no longer open.	חלון מאפייני השדות כבר אינו פתוח.
 	The field properties could not be changed.	ה שדה מאפיינים יכול לא להיות השתנה.
 	The selected fields could not be found. Select them again.	ה נבחר שדות יכול לא להיות נמצא. בחירה אותם שוב.
 	The field {name} no longer exists.	השדה {name} כבר אינו קיים.
@@ -2393,13 +2393,13 @@ animation effects	Off	כבוי
 	Preparing sheet {done} of {total} for printing…	מכין גיליון {done} מתוך {total} להדפסה…
 	Opening the browser's print dialog…	פותח את חלון ההדפסה של הדפדפן…
 	Couldn't print from the browser ({e}); downloaded {name} to print instead	ההדפסה מהדפדפן נכשלה ({e}); במקום זאת הורד {name} כדי להדפיס אותו.
-	Tools panel side	מיקום לוח הכלים
+	Tools panel side	צד לוח הכלים
 	Add comment	הוספת תגובה
 	Change tag properties	שינוי תג מאפיינים
 	Tags panel	תגים לוח
 	Tags	תגים
 	Tag type	תג סוג
-	Actual text	הטקסט בפועל
+	Actual text	טקסט בפועל
 	Find a tag	חיפוש  תג
 	Collapse tag	צמצום תג
 	Expand tag	הרחבה תג
@@ -2410,7 +2410,7 @@ animation effects	Off	כבוי
 	Save or revert changes before selecting another tag.	שמור את השינויים או החזר את הגרסה השמורה לפני בחירת תג אחר.
 	Left out: {names}	הושמטו: {names}
 	already a PDF	כבר קובץ PDF
-	no unused output name	אין שם פלט פנוי
+	no unused output name	לא נותר שם פלט פנוי
 	no output folder was chosen	אין פלט תיקייה היה נבחר
 @plural	Downloaded {n} PDF|Downloaded {n} PDFs	הורד קובץ PDF אחד ({n})|הורדו שני קובצי PDF ({n})|הורדו {n} קובצי PDF
 @plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	החישוב של {n} שדה משתמש כעת בשם החדש.|החישוב של שני שדות ({n}) משתמש כעת בשם החדש.|החישוב של {n} שדות משתמש כעת בשם החדש.
@@ -2466,14 +2466,14 @@ animation effects	Off	כבוי
 	No untagged content was found.	לא נמצא תוכן לא מתויג.
 	Found {n} untagged content problems.	נמצאו {n} בעיות בתוכן לא מתויג.
 	Tag form fields	תג שדות טופס
-	Mark as artifact	סימון כפריט גרפי שאינו תוכן
+	Mark as artifact	סימון כפריט גרפי דקורטיבי
 	Remove this leaf tag from reading order and mark its direct content as an artifact	הסר את תג העלה מסדר הקריאה וסמן את התוכן הישיר שלו כארטיפקט.
-	Mark content as artifact	סימון התוכן כפריט גרפי שאינו תוכן
+	Mark content as artifact	סימון התוכן כפריט גרפי דקורטיבי
 	Word count	מילה כמות
 	Current page only	נוכחי עמוד רק
 	Exclude tagged tables	החרגת טבלאות מתויגות
 	Exclude tagged code blocks	החרגת מקטעי קוד מתויגים.
-	Exclude image/OCR text	החרגת טקסט מתמונות או מ־OCR
+	Exclude image/OCR text	החרגת טקסט מתמונות או מטקסט OCR
 	Exclusions use PDF tags. Untagged tables and code remain included. Image exclusion also removes invisible text.	ההחרגות משתמשות בתגי PDF. טבלאות וקוד ללא תגים יישארו כלולים. החרגת תמונה מסירה גם טקסט בלתי נראה.
 	Words	מילים
 	Characters	תווים
@@ -2491,7 +2491,7 @@ animation effects	Off	כבוי
 	Optimizing… merging image fragments	מייעל… ממזג מקטעי תמונה
 	Side by side	זה לצד זה
 	New file only	חדש קובץ רק
-	Old file: {name}	קובץ ישן: {name}
+	Old file: {name}	קובץ קודם: {name}
 	New file: {name}	קובץ חדש: {name}
 	Print as image	הדפסה כמו תמונה
 	Resolution:	רזולוציה:
@@ -2543,7 +2543,7 @@ animation effects	Off	כבוי
 	H{n} follows an H{d}; headings should not skip levels	אחרי H{d} מופיעה H{n}; אין לדלג על רמות כותרת.
 	No document language is set	לא הוגדרה שפת מסמך
 	No page has text: the document appears to be images of pages	אין טקסט באף עמוד: נראה שהמסמך מורכב מתמונות של עמודים
-	Page {p} doesn't tab in structure order	סדר המעבר באמצעות Tab בעמוד {p} אינו תואם לסדר המבני
+	Page {p} doesn't tab in structure order	סדר המעבר בין שדות בעמוד {p} אינו תואם לסדר המבני
 	Page {p}: {n} untagged content item	עמוד {p}: פריט תוכן אחד לא מתויג מתוך {n}
 	Page {p}: {n} untagged content items	עמוד {p}: {n} פריטי תוכן לא מתויגים
 	Page {} has additional actions	לעמוד {} יש פעולות נוספות
