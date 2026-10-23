@@ -278,7 +278,7 @@ key	Space	רווח
 	Search tools and commands…	חיפוש כלים ו פקודות…
 	No matching tools	לא נמצאו כלים תואמים
 	Tool	כלי
-	Command	Command
+	Command	פקודה
 	Add a sticky note	הוספת פתק נדבק
 	Add a text box	הוספת תיבת טקסט
 	Highlight text	הדגשת טקסט
@@ -591,7 +591,7 @@ key	Space	רווח
 	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	עדיין אין שדה בטופס הזה שמחשב את ערכו. הגדר חישוב לשדה בכרטיסייה Calculate של המאפיינים שלו, והוא יופיע כאן.
 	{names} and {last}	{names} ו {last}
 	{field} reads no other field	{field} reads אין אחר שדה
-	{field} reads {fields}	{field} reads {fields}
+	{field} reads {fields}	{field} קורא את {fields}
 	No field reads it	אין שדה reads זה
 	The order saved in the PDF needs tidying	צריך לסדר מחדש את סדר החישוב שנשמר בקובץ ה־PDF.
 	Moves only what must move	Moves רק מה חייב העברה
@@ -613,7 +613,7 @@ key	Space	רווח
 	Verify to see what the document needs.	אימות ל see מה ה מסמך needs.
 	Set Page Boxes	Set עמוד Boxes
 	Signature panel	חתימה לוח
-	{month} {day}, {y}	{month} {day}, {y}
+	{month} {day}, {y}	{day} ב{month} {y}
 	The document's security settings don't allow filling in form fields	ה מסמך's אבטחה הגדרות don't allow filling ב שדות טופס
 	{name} is read-only	{name} הוא קריאה-רק
 	{name} has no action	{name} יש אין פעולה
@@ -943,7 +943,7 @@ key	Space	רווח
 	, Expires: 	, Expires: 
 	Digitally signed by	Digitally חתום על ידי
 	DN: 	DN: 
-	Reason: 	Reason: 
+	Reason: 	סיבה: 
 	Location: 	מיקום: 
 	Date: 	תאריך: 
 	The labels are in English: the signature's font can't draw them in this language.	התוויות באנגלית: הגופן של החתימה אינו יכול להציג אותן בשפה זו.
@@ -1161,7 +1161,7 @@ key	Space	רווח
 	Screen flicker	מסך flicker
 	Page will not cause screen flicker	עמוד יבצע לא cause מסך flicker
 	Animation that flashes can cause seizures. Check scripts and media for flicker.	הנפשה מהבהבת עלולה לגרום להתקפים. בדוק אם יש הבהובים בסקריפטים ובמדיה.
-	Scripts	Scripts
+	Scripts	סקריפטים
 	No inaccessible scripts	אין inaccessible scripts
 	Timed responses	תגובות מוגבלות בזמן
 	Page does not require timed responses	עמוד מבצע לא require timed responses
@@ -1317,7 +1317,7 @@ key	Space	רווח
 	Document sanitized. Save to finish: saving rewrites the whole file.	מסמך sanitized. שמירה ל סיום: בשמירה rewrites ה whole קובץ.
 	Applied 1 redaction mark. Save to remove the content from the file.	Applied 1 השחרת מידע mark. שמירה ל הסרה ה תוכן מ ה קובץ.
 	Applied {n} redaction marks. Save to remove the content from the file.	Applied {n} השחרת מידע marks. שמירה ל הסרה ה תוכן מ ה קובץ.
-	JavaScript Console	JavaScript Console
+	JavaScript Console	מסוף JavaScript
 	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript כבוי (העדפות ▸ JavaScript).
 	Output appears here.	פלט appears here.
 	Script Name:	Script שם:
@@ -1338,7 +1338,7 @@ key	Space	רווח
 	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	זיהוי טקסט אינו מותקן: קובצי המודלים חסרים. התקן מחדש את PdfCraft או הגדר את PDFCRAFT_MODELS לתיקייה שמכילה אותם.
 	Settings	הגדרות
 	Optional	רשות
-	Planned · {m}	Planned · {m}
+	Planned · {m}	מתוכנן · {m}
 	Planned for milestone {m} — open to see what it will include	מתוכנן לאבן הדרך {m} — פתח כדי לראות מה היא תכלול.
 	Coming in milestone {m}. Items marked Ready work today.	יגיע באבן הדרך {m}. פריטים שמסומנים Ready זמינים כבר עכשיו.
 	1 mark	סימון אחד
@@ -1925,7 +1925,7 @@ key	Space	רווח
 	Radio	לחצן בחירה
 	PushButton	לחצן
 	Combo	משולב
-	List	List
+	List	רשימה
 	Unknown	לא ידוע
 	The document has no XMP metadata	ה מסמך יש אין XMP נתוני מטא
 	The title in the metadata and the document information differ	ה כותרת ב ה נתוני מטא ו ה מסמך מידע differ
@@ -1990,7 +1990,7 @@ key	Space	רווח
 	Change initial view	שינוי initial תצוגה
 	Set alternate text	Set alternate טקסט
 	Mark figure as decorative	Mark figure כמו decorative
-	Run JavaScript	Run JavaScript
+	Run JavaScript	הפעלת JavaScript
 	Delete document JavaScript	מחיקה מסמך JavaScript
 	Edit document JavaScript	עריכה מסמך JavaScript
 	Edit text	עריכת טקסט
@@ -2344,9 +2344,9 @@ certificate	Subject	נושא האישור
 	Dark theme	ערכת נושא כהה
 	Appearance settings…	הגדרות מראה…
 	Scroll speed (mouse wheel and arrow keys)	מהירות הגלילה (גלגלת העכבר ומקשי החצים).
-scroll speed	Slow	Slow
-scroll speed	Normal	Normal
-scroll speed	Fast	Fast
+scroll speed	Slow	איטי
+scroll speed	Normal	רגיל
+scroll speed	Fast	מהיר
 	Animation effects	הנפשה אפקטים
 animation effects	On	פעיל
 animation effects	Off	כבוי
@@ -2644,7 +2644,7 @@ animation effects	Off	כבוי
 	{n} pages and no bookmarks	{n} עמודים ו אין סימניות
 	{page} is not a page number or label	{page} הוא לא  עמוד מספר או תווית
 	{ty} element on page {p}: {what}	{ty} element על עמוד {p}: {what}
-	{ty} element: {what}	{ty} element: {what}
+	{ty} element: {what}	רכיב {ty}: {what}
 	{} annotation on page {p} isn't tagged	{} annotation על עמוד {p} isn't tagged
 	{} annotations aren't allowed	{} annotations aren't מותר
 	… and {n} more	… ו {n} עוד
@@ -2714,13 +2714,13 @@ animation effects	Off	כבוי
 @plural	{n} file|{n} files	קובץ {n}|שני קבצים ({n})|{n} קבצים
 @plural	{n} result|{n} results	תוצאה {n}|שתי תוצאות ({n})|{n} תוצאות
 theme	Appearance	מראה
-calendar weekday	Su	Su
-calendar weekday	Mo	Mo
-calendar weekday	Tu	Tu
-calendar weekday	We	אנחנו
-calendar weekday	Th	Th
-calendar weekday	Fr	Fr
-calendar weekday	Sa	Sa
+calendar weekday	Su	א׳
+calendar weekday	Mo	ב׳
+calendar weekday	Tu	ג׳
+calendar weekday	We	ד׳
+calendar weekday	Th	ה׳
+calendar weekday	Fr	ו׳
+calendar weekday	Sa	ש׳
 certificate	Issued to	Issued ל
 certificate	Issued by	Issued על ידי
 certificate	Valid from	תקין מ
@@ -2750,7 +2750,7 @@ certificate	Version	גרסה
 	Column spacing	עמודה מרווח
 	First row number	ראשון שורה מספר
 	Column widths	עמודה widths
-	Distribute evenly	Distribute evenly
+	Distribute evenly	פיזור אחיד
 	Field names	שדה שמות
 	N or {row} is the row number, {col} the column number, {seq} the cell number. With none of them, the row number goes last.	N או {row} מציינים את מספר השורה, {col} את מספר העמודה ו־{seq} את מספר התא. אם אף אחד מהם אינו מופיע, מספר השורה יוצג בסוף.
 	Column {n}	עמודה {n}
