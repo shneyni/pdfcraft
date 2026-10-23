@@ -1695,7 +1695,7 @@ key	Space	רווח
 	Sent to {printer}	נשלח אל {printer}
 	Sent to {printer}: {msg}	נשלח אל {printer}: {msg}
 	Choose a folder for the searchable files	בחירת תיקייה לשמירת הקבצים הניתנים לחיפוש
-	Files are combined from top to bottom. Leave Pages empty to take every page.	הקבצים משולבים מלמעלה למטה. השאר את השדה Pages ריק כדי לכלול את כל העמודים.
+	Files are combined from top to bottom. Leave Pages empty to take every page.	הקבצים משולבים מלמעלה למטה. השאר את השדה ״עמודים״ ריק כדי לכלול את כל העמודים.
 	Unlock…	ביטול נעילה…
 	Select a password-protected file first	בחירה  סיסמה-מוגן קובץ ראשון
 	Enter the permissions password to allow combining	הזן את סיסמת ההרשאות כדי לאפשר שילוב קבצים.
@@ -1914,7 +1914,7 @@ key	Space	רווח
 	Page {p} of {n}	עמוד {p} של {n}
 	1 page selected	1 עמוד נבחר
 	{n} pages selected	{n} עמודים נבחר
-	{name} — unsaved changes	{name} — unsaved שינויים
+	{name} — unsaved changes	{name} — שינויים שלא נשמרו
 	{kind} field	שדה {kind}
 	Select a file for the stamp	בחירת קובץ עבור ה חותמת
 	JavaScript, e.g. getField("total").value	JavaScript, למשל getField("total").value
@@ -2233,7 +2233,7 @@ calendar date	December	דצמבר
 	SHA-256 digest	תקציר SHA-256
 	Squiggly	קו גלי
 	Home / End	דף הבית / End
-	H / Space (hold)	H / רווח (hold)
+	H / Space (hold)	H / רווח (החזק)
 	Line ending	סיום שורה
 	The PDF text fonts can't draw “{c}” ({code}). Choose supported text.	ה PDF טקסט גופנים לא ניתן ציור “{c}” ({code}). בחירה נתמך טקסט.
 	Larger pages	עמודים גדולים יותר
@@ -2242,7 +2242,7 @@ calendar date	December	דצמבר
 	Flatten Fill & Sign when saving	שיטוח מילוי וחתימה בעת השמירה
 	Text, marks and signatures become part of the page. Other comments stay editable.	הטקסט, הסימונים והחתימות יהפכו לחלק מהעמוד. שאר התגובות יישארו ניתנות לעריכה.
 	Date format	תאריך תבנית
-	Fill & Sign dates	תאריכים במילוי וחתימה
+	Fill & Sign dates	תאריכים בכלי מילוי וחתימה
 	Pattern	תבנית
 	Today: {date}	היום: {date}
 	yyyy or yy year · m or mm month · mmm or mmmm month name · d or dd day · ddd or dddd weekday. H, h, M, s and t are time letters and can't be used on their own: put {escape} before a letter to show it as is.	yyyy או yy מציינים שנה · m או mm חודש · mmm או mmmm שם חודש · d או dd יום · ddd או dddd יום בשבוע. H, h, M, s ו־t הם סמני שעה שאין להשתמש בהם לבדם: יש להציב {escape} לפני אות כדי להציג אותה כפי שהיא.
@@ -2661,11 +2661,11 @@ animation effects	Off	כבוי
 	Comment	תגובה
 	Comment and review	תגובות וסקירה
 	Copied to clipboard	הועתק ללוח הגזירים
-	Copy to clipboard	העתקה ל clipboard
+	Copy to clipboard	העתקה ללוח הגזירים
 	Create folder	יצירה תיקייה
 	Disabled	מושבת
 	Document properties (⌘D)	מסמך מאפיינים (⌘D)
-	Drop PDFs or folders here, or choose them.	שחרור PDFs או תיקיות here, או בחירה אותם.
+	Drop PDFs or folders here, or choose them.	גרור לכאן קובצי PDF או תיקיות, או בחר אותם.
 	Duplicate	שכפול
 	Enabled	מופעל
 	Error	שגיאה
@@ -2682,7 +2682,7 @@ animation effects	Off	כבוי
 	New bookmark (⌘B)	חדש סימנייה (⌘B)
 	Next	הבא
 	Next (⌘G)	הבא (⌘G)
-	No PDFs found in {folder}	אין PDFs נמצא ב {folder}
+	No PDFs found in {folder}	לא נמצאו קובצי PDF ב־{folder}
 	No results	אין תוצאות
 	On	פעיל
 	Open a PDF (⌘O)	פתיחה  PDF (⌘O)
@@ -2708,7 +2708,7 @@ animation effects	Off	כבוי
 	Theme	ערכת נושא
 	Warning	אזהרה
 	Zoom in (⌘+)	הגדלה (⌘+)
-	Zoom in / out (also pinch or ⌘-scroll)	הגדלה / מחוץ (גם pinch או ⌘-scroll)
+	Zoom in / out (also pinch or ⌘-scroll)	הגדלה או הקטנה (גם בצביטה או בגלילה עם ⌘)
 	Zoom out (⌘−)	הקטנה (⌘−)
 @plural	{n} comment|{n} comments	תגובה {n}|שתי תגובות ({n})|{n} תגובות
 @plural	{n} file|{n} files	קובץ {n}|שני קבצים ({n})|{n} קבצים
@@ -2741,7 +2741,7 @@ certificate	Version	גרסה
 	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	חתימה זו משתמשת במפתח RSA שאורכו פחות מ־2048 סיביות, והוא כבר אינו נחשב חזק מספיק לחתימות. האימות עדיין מצליח, אך אין להסתמך עליו.
 	The signature's signed attributes have no message digest, so the signature does not cover the document.	לתכונות החתומות של החתימה אין תקציר הודעה, ולכן החתימה אינה מכסה את המסמך.
 	The signature's signed attributes name a content type other than data, so it is not a signature of the document.	בתכונות החתומות של החתימה צוין סוג תוכן שאינו data, ולכן זו אינה חתימה של המסמך.
-	Remove {standard} identification	הסרה {standard} identification
+	Remove {standard} identification	הסרת זיהוי התקן {standard}
 	Add text field table	הוספת טבלת שדות טקסט
 	Text field table	טבלת שדות טקסט
 	Text Field Table	טבלת שדות טקסט
@@ -2757,6 +2757,6 @@ certificate	Version	גרסה
 	Add fields	הוספת שדות
 	the rows are too short: make the area taller, or use fewer rows or less row spacing	השורות קצרות מדי: הגדל את גובה האזור או השתמש בפחות שורות או בריווח קטן יותר ביניהן.
 	a column is too narrow: make the area wider, give the column more of it, or use fewer columns or less column spacing	עמודה צרה מדי: הרחב את האזור, הקצה לעמודה יותר מקום, או השתמש בפחות עמודות או בריווח קטן יותר ביניהן.
-	field names can't contain a period: {name}	שדה שמות לא ניתן מכיל  period: {name}
-	two cells would both be named {name}	שניים cells היה שניהם להיות named {name}
+	field names can't contain a period: {name}	שמות שדות אינם יכולים להכיל נקודה: {name}
+	two cells would both be named {name}	שני תאים יקבלו את אותו שם: {name}
 	a field named {name} already exists	כבר קיים שדה בשם {name}.
