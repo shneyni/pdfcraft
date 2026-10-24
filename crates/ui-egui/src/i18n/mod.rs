@@ -60,7 +60,11 @@ fn plural_none(_: u64) -> usize {
 
 /// Hebrew counts: one (1), two (2), and other (0, 3+).
 fn plural_hebrew(n: u64) -> usize {
-    match n { 1 => 0, 2 => 1, _ => 2 }
+    match n {
+        1 => 0,
+        2 => 1,
+        _ => 2,
+    }
 }
 
 /// Romanian (CLDR `ro`): 1 is `one`; 0 and numbers whose last two digits are 1–19 (2, 19, 101,
@@ -4107,7 +4111,7 @@ mod tests {
         assert_eq!(ar.name(), "العربية");
         assert!(ar.rtl());
         let rtl: Vec<&str> = Lang::all().filter(|l| l.rtl()).map(|l| l.code()).collect();
-        assert_eq!(rtl, ["ar", "ckb"], "Arabic and Kurdish are the right-to-left languages");
+        assert_eq!(rtl, ["ar", "he", "ckb"], "Arabic, Hebrew and Kurdish are the right-to-left languages");
         assert_eq!(normalize_pref("AR"), Some("ar"));
         for tag in ["ar", "ar-MA", "ar_EG.UTF-8", "AR-sa", "ar_DZ@variant"] {
             assert_eq!(lang_from_tag(tag), Some(ar), "{tag}");
