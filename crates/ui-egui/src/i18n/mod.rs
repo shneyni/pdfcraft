@@ -58,6 +58,15 @@ fn plural_none(_: u64) -> usize {
     0
 }
 
+/// Hebrew counts: one (1), two (2), and other (0, 3+).
+fn plural_hebrew(n: u64) -> usize {
+    match n {
+        1 => 0,
+        2 => 1,
+        _ => 2,
+    }
+}
+
 /// Romanian (CLDR `ro`): 1 is `one`; 0 and numbers whose last two digits are 1–19 (2, 19, 101,
 /// 119) are `few`; everything else (20, 100, 120) is `other`, the form with "de" ("20 de pagini").
 fn plural_ro(n: u64) -> usize {
@@ -159,7 +168,7 @@ fn plural_sl(n: u64) -> usize {
 }
 
 /// The registry. English first: it is the fallback and the source language.
-pub static LANGUAGES: [LangInfo; 34] = [
+pub static LANGUAGES: [LangInfo; 35] = [
     LangInfo { code: "en", name: "English", source: "", plural: plural_one_other, rtl: false, catalog: OnceLock::new() },
     LangInfo { code: "ja", name: "日本語", source: include_str!("ja.tsv"), plural: plural_none, rtl: false, catalog: OnceLock::new() },
     // Simplified Chinese; `zh`, `zh-CN`, `zh-SG` and `zh-Hans-*` locales resolve here (see `candidates`).
@@ -210,6 +219,8 @@ pub static LANGUAGES: [LangInfo; 34] = [
     // Arabic (Modern Standard, Western digits); every `ar-*` locale (`ar-MA`, `ar-EG`, `ar-SA` ...)
     // resolves here. Right to left: see `LangInfo::rtl`.
     LangInfo { code: "ar", name: "العربية", source: include_str!("ar.tsv"), plural: plural_arabic, rtl: true, catalog: OnceLock::new() },
+    // Hebrew has one, two and other count forms and uses the RTL display-order path.
+    LangInfo { code: "he", name: "עברית", source: include_str!("he.tsv"), plural: plural_hebrew, rtl: true, catalog: OnceLock::new() },
     // Central Kurdish (Sorani); every `ckb-*` locale (`ckb-IQ`, `ckb-IR`) resolves here. Right to
     // left like Arabic: see `LangInfo::rtl`. CLDR `ckb` counts have two forms (one, other).
     LangInfo {
@@ -682,6 +693,18 @@ fn name_sort_key(name: &str) -> String {
 
 #[cfg(test)]
 mod tests {
+    #[test]
+    fn hebrew_is_registered_as_rtl_with_three_plural_forms() {
+        let he = Lang::from_code("he").expect("Hebrew is registered");
+        assert!(he.rtl());
+        assert_eq!((he.0.plural)(1), 0);
+        assert_eq!((he.0.plural)(2), 1);
+        assert_eq!((he.0.plural)(0), 2);
+        assert_eq!((he.0.plural)(3), 2);
+        let (_, errors) = catalog::Catalog::parse(he.0.source, he.0.plural_forms());
+        assert!(errors.is_empty(), "Hebrew catalog errors: {errors:?}");
+    }
+
     use super::catalog::{Entry, parse_entries, placeholders};
     use super::*;
 
@@ -725,6 +748,9 @@ mod tests {
         assert_eq!(lang_from_tag("lo_LA.UTF-8"), Lang::from_code("lo"));
         assert_eq!(lang_from_tag("lo-LA"), Lang::from_code("lo"));
         assert_eq!(lang_from_tag("lo"), Lang::from_code("lo"));
+        assert_eq!(lang_from_tag("he"), Lang::from_code("he"));
+        assert_eq!(lang_from_tag("he-IL"), Lang::from_code("he"));
+        assert_eq!(lang_from_tag("he_IL.UTF-8"), Lang::from_code("he"));
         assert_eq!(lang_from_tag(""), None);
         assert_eq!(lang_from_tag("_"), None);
     }
@@ -943,7 +969,7 @@ mod tests {
         let error = pdfcraft_engine::ocr::OcrError::NoModels.to_string();
         let notice = "Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.";
         assert!(include_str!("../ocr_ui.rs").contains(notice), "keep in step with ocr_ui.rs");
-        for code in ["bg", "cs", "de", "es", "fr", "hu", "ja", "ru", "te", "uk", "zh-hans", "zh-hant"] {
+        for code in ["bg", "cs", "de", "es", "fr", "he", "hu", "ja", "ru", "te", "uk", "zh-hans", "zh-hant"] {
             let lang = Lang::from_code(code).expect("registered");
             assert!(has(lang, notice) && has(lang, &error), "{code}");
         }
@@ -964,6 +990,27 @@ mod tests {
                 assert!(has(JA(), section.title), "missing section: {}", section.title);
                 for item in section.items {
                     assert!(has(JA(), item.label), "missing item: {}", item.label);
+                }
+            }
+        }
+    }
+
+    /// Hebrew translates every registered command, menu and All tools label.
+    #[test]
+    fn hebrew_covers_commands_and_catalogue() {
+        let he = Lang::from_code("he").expect("he registered");
+        for command in pdfcraft_engine::commands::COMMANDS {
+            assert!(has(he, command.label), "missing command: {}", command.label);
+            if let Some(menu) = command.menu {
+                assert!(has(he, menu), "missing menu: {menu}");
+            }
+        }
+        for group in pdfcraft_engine::catalog::TOOL_GROUPS {
+            assert!(has(he, group.label), "missing group: {}", group.label);
+            for section in group.sections {
+                assert!(has(he, section.title), "missing section: {}", section.title);
+                for item in section.items {
+                    assert!(has(he, item.label), "missing item: {}", item.label);
                 }
             }
         }
@@ -1006,7 +1053,7 @@ mod tests {
             labels.insert(label.to_string());
         }
         assert!(labels.len() > 20 && labels.contains("Comb of characters"), "the scan found the dialog's labels: {labels:?}");
-        for code in ["bg", "cs", "de", "es", "fr", "hu", "it", "ja", "pt-br", "ru", "te", "tr", "uk", "zh-hans", "zh-hant"] {
+        for code in ["bg", "cs", "de", "es", "fr", "he", "hu", "it", "ja", "pt-br", "ru", "te", "tr", "uk", "zh-hans", "zh-hant"] {
             let lang = Lang::from_code(code).expect("registered");
             let missing: Vec<_> = labels.iter().filter(|l| !has(lang, l)).collect();
             assert!(missing.is_empty(), "{code} lacks Shared Field Properties labels: {missing:#?}");
@@ -1150,6 +1197,16 @@ mod tests {
         assert!(literals.len() > 900, "source scan found only {} literals", literals.len());
         let missing: Vec<_> = literals.iter().filter(|label| !has(JA(), label)).collect();
         assert!(missing.is_empty(), "untranslated Japanese UI literals: {missing:#?}");
+    }
+
+    /// Every UI literal must have a Hebrew catalog entry rather than silently fall back to English.
+    #[test]
+    fn hebrew_covers_ui_literals() {
+        let he = Lang::from_code("he").expect("he registered");
+        let literals = ui_literals();
+        assert!(literals.len() > 900, "source scan found only {} literals", literals.len());
+        let missing: Vec<_> = literals.iter().filter(|label| !has(he, label)).collect();
+        assert!(missing.is_empty(), "untranslated Hebrew UI literals: {missing:#?}");
     }
 
     /// Italian translates every registered command and every All tools group, section and item.
@@ -4054,7 +4111,7 @@ mod tests {
         assert_eq!(ar.name(), "العربية");
         assert!(ar.rtl());
         let rtl: Vec<&str> = Lang::all().filter(|l| l.rtl()).map(|l| l.code()).collect();
-        assert_eq!(rtl, ["ar", "ckb"], "Arabic and Kurdish are the right-to-left languages");
+        assert_eq!(rtl, ["ar", "he", "ckb"], "Arabic, Hebrew and Kurdish are the right-to-left languages");
         assert_eq!(normalize_pref("AR"), Some("ar"));
         for tag in ["ar", "ar-MA", "ar_EG.UTF-8", "AR-sa", "ar_DZ@variant"] {
             assert_eq!(lang_from_tag(tag), Some(ar), "{tag}");
@@ -4189,12 +4246,13 @@ mod tests {
         }
     }
 
-    /// Preferences ▸ Date format ▸ Language offers exactly the interface languages, in order.
+    /// Date-stamp languages are a subset of interface languages because they affect text inserted into PDFs.
     #[test]
-    fn date_languages_are_the_interface_languages() {
+    fn date_languages_are_an_interface_subset() {
         let interface: Vec<(&str, &str)> = Lang::all().map(|l| (l.code(), l.name())).collect();
         let dates: Vec<(&str, &str)> = pdfcraft_engine::dates::DATE_LANGUAGES.iter().map(|l| (l.code, l.name)).collect();
-        assert_eq!(dates, interface);
+        assert!(dates.iter().all(|language| interface.contains(language)), "date languages must be registered interface languages");
+        assert!(!dates.iter().any(|(code, _)| *code == "he"), "Hebrew UI localization must not change the language of date text inserted into PDFs");
     }
 }
 

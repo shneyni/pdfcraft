@@ -1,6 +1,6 @@
 # Localization parity
 
-> **Last reviewed:** 2026-10-21 · **Last updated:** 2026-10-21 · **Change:** minor (Brazilian Portuguese now covers the 2,674-key catalog union; twelve-language mean still rounds to ≈68%; Spanish 100% of the current key union) · **Target:** Adobe Acrobat Pro (Acrobat DC, continuous track 26.002.21931, macOS)
+> **Last reviewed:** 2026-10-23 · **Last updated:** 2026-10-23 · **Change:** Hebrew (`he`) UI catalog added as an AI-assisted draft; some long messages remain English and RTL layout remains partial · **Target:** Adobe Acrobat Pro (Acrobat DC, continuous track 26.002.21931, macOS)
 
 Per-language status of PdfCraft's interface against Acrobat Pro's. How translations work and how to
 add a language: [localization.md](localization.md). Summary in [ROADMAP.md](../ROADMAP.md).
@@ -79,10 +79,11 @@ help/docs polish (catalog and script work are already done), not missing UI stri
 | Catalan | `ca` | 2,592 entries | partial: no translated help, engine error details in English; native-speaker review by the contributor | no |
 | Romanian | `ro` | 2,673 entries (every bundled key) | partial; AI-assisted, not yet reviewed line by line by a native speaker | no |
 | Norwegian Bokmål | `nb` | 2,674 entries | partial; native-speaker terminology review by the contributor ([#1836](https://github.com/storytold/pdfcraft/pull/1836)), not yet line by line | yes |
+| Hebrew | `he` | 2,758 catalog entries; some long messages remain English | partial; RTL layout not mirrored; native-speaker review pending | yes (Middle East edition) |
 
-**19 other languages** ship (33 catalogs plus English = **34** interface languages in Preferences).
+**20 other languages** ship (34 catalogs plus English = **35** interface languages in Preferences).
 The entry counts without percentages were measured on 2026-10-12–14 (Norwegian Bokmål on 2026-10-18); they are not percentages of the older 2,143-key snapshot above. Their presence does not imply a detailed linguistic or runtime review.
-Acrobat languages PdfCraft lacks: Danish, Dutch, Swedish, Hebrew. Vietnamese is shipped here but not by Acrobat.
+Acrobat languages PdfCraft lacks: Danish, Dutch and Swedish. Vietnamese is shipped here but not by Acrobat.
 
 ## Revision history
 

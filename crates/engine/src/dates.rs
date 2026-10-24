@@ -61,8 +61,8 @@ const CKB_MONTHS: [&str; 12] =
     ["کانوونی دووەم", "شوبات", "ئازار", "نیسان", "ئایار", "حوزەیران", "تەممووز", "ئاب", "ئەیلوول", "تشرینی یەکەم", "تشرینی دووەم", "کانوونی یەکەم"];
 const CKB_DAYS: [&str; 7] = ["یەکشەممە", "دووشەممە", "سێشەممە", "چوارشەممە", "پێنجشەممە", "هەینی", "شەممە"];
 
-/// The languages month and weekday names can be written in (Preferences ▸ Date format ▸ Language):
-/// the interface languages, in the same order and with the same names.
+/// Languages available for month and weekday names in date stamps (Preferences ▸ Date format ▸ Language).
+/// This is intentionally a subset of interface languages: changing this list affects date text written into PDFs.
 pub static DATE_LANGUAGES: [DateLanguage; 34] = [
     DateLanguage {
         code: "en",
