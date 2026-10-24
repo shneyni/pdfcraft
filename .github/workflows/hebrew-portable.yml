@@ -49,7 +49,7 @@ jobs:
         with:
           name: pdfcraft-hebrew-windows-x64
           path: |
-            target/windows-package/pdfcraft-*-windows-x64-portable.zip
+            dist/release/pdfcraft-*-windows-x64-portable.zip
             dist/release/pdfcraft-*-windows-x64.msi
           if-no-files-found: error
           retention-days: 14
