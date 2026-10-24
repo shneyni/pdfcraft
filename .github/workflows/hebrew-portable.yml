@@ -44,6 +44,15 @@ jobs:
         shell: pwsh
         run: ./packaging/windows/package.ps1 -Arch x64
 
+      - name: Verify portable archive and installer exist
+        shell: pwsh
+        run: |
+          $required = @('dist/release/pdfcraft-0.13.0-windows-x64-portable.zip', 'dist/release/pdfcraft-0.13.0-windows-x64.msi')
+          foreach ($file in $required) {
+            if (-not (Test-Path $file)) { throw "Required package is missing: $file" }
+            Write-Output "Found $file"
+          }
+
       - name: Upload portable app and installer
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
