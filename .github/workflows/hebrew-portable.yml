@@ -1,0 +1,55 @@
+name: Hebrew Windows portable build
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: Git branch, tag, or commit to package
+        type: string
+        required: true
+        default: main
+
+permissions:
+  contents: read
+
+jobs:
+  portable-x64:
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.head.ref == 'localization/hebrew-ui'
+    runs-on: windows-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha || inputs.ref }}
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@686976e191b89faba57d3206551f0f330d8cb249 # stable
+        with:
+          toolchain: stable
+
+      - name: Cache Rust dependencies
+        uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+
+      - name: Install WiX v5
+        shell: pwsh
+        run: |
+          dotnet tool install --global wix --version 5.0.2
+          Add-Content -Path $env:GITHUB_PATH -Value (Join-Path $env:USERPROFILE '.dotnet\tools')
+
+      - name: Build Windows x64 app and portable package
+        shell: pwsh
+        run: ./packaging/windows/package.ps1 -Arch x64
+
+      - name: Upload portable app and installer
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: pdfcraft-hebrew-windows-x64
+          path: |
+            target/windows-package/pdfcraft-*-windows-x64-portable.zip
+            dist/release/pdfcraft-*-windows-x64.msi
+          if-no-files-found: error
+          retention-days: 14
