@@ -62,3 +62,5 @@ jobs:
             dist/release/pdfcraft-*-windows-x64.msi
           if-no-files-found: error
           retention-days: 14
+
+# Re-trigger portable packaging after correcting the artifact paths.
