@@ -2484,7 +2484,7 @@ animation effects	Off	כבוי
 	Counting words… {n} pages read	סופר מילים… נקראו {n} עמודים
 	Word counting stopped unexpectedly.	ספירת המילים נעצרה באופן בלתי צפוי.
 	Word count…	מילה כמות…
-@id	file.word_count	קובץ מילה כמות
+@id	file.word_count	ספירת מילים בקובץ…
 	Standard	תקני
 	Mobile	נייד
 	Merge image fragments	מיזוג מקטעי תמונה
