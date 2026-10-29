@@ -551,3 +551,192 @@
 	sum (+)	סכום (+)
 	product (x)	מכפלה (x)
 	average	ממוצע
+	maximum	מקסימום
+	of the following fields:	מהשדות הבאים:
+	Simplified field notation:	סימון שדה פשוט:
+	Field names with + - * / and parentheses; put \\ before spaces in names.	שמות שדות עם הסימנים + - * / וסוגריים; יש להוסיף \\ לפני רווחים בשמות.
+	Finding document fonts…	מחפש גופנים במסמך…
+	Installed fonts…	גופנים מותקנים…
+	Keep source fonts	שמירת גופני המקור
+	Load font…	טעינת גופן…
+	No openly licensed document fonts found. Load a font file.	לא נמצאו גופנים ברישיון פתוח למסמכים. יש לטעון קובץ גופן.
+	Format text	עיצוב טקסט
+	Bold	מודגש
+	Italic	נטוי
+	Align left	יישור לשמאל
+	Centre	מרכוז
+	Align right	יישור לימין
+	Justify	יישור לשני הצדדים
+	Thai and Arabic use regular fallback fonts when available.	לתאילנדית ולערבית נעשה שימוש בגופני fallback רגילים, אם הם זמינים.
+	Edit image	עריכת תמונה
+	Rotate counterclockwise	סיבוב נגד כיוון השעון
+	Rotate clockwise	סיבוב עם כיוון השעון
+	Flip horizontal	היפוך אופקי
+	Flip vertical	היפוך אנכי
+	Replace image	החלפת תמונה
+	Crop (% trimmed from each side)	חיתוך (% שיוסרו מכל צד)
+	Click on the page to add text; each click starts a new box, and ✓ finishes. Drag items to move them, drag a corner to resize, double-click text to edit it.	לחץ בעמוד כדי להוסיף טקסט; כל לחיצה יוצרת תיבה חדשה, וסימן ✓ מסיים. גרור פריטים כדי להזיז אותם, גרור פינה כדי לשנות גודל, ולחץ פעמיים על טקסט כדי לערוך אותו.
+	Choose an image	בחירת תמונה
+	Export to Image	ייצוא לתמונה
+	Export to Text	ייצוא לטקסט
+	Export All Images	ייצוא כל התמונות
+	Resolution	רזולוציה
+	Format	תבנית
+	Quality	איכות
+	One {f} file per page, named after the document.	קובץ {f} אחד לכל עמוד, בשם המסמך.
+	Exclude images smaller than	התעלמות מתמונות שקטנות מ־
+	No limit	ללא הגבלה
+	Each image once, named after the document and page. JPEG images are saved unchanged; others as PNG.	כל תמונה מיוצאת פעם אחת, בשם המסמך והעמוד. תמונות JPEG נשמרות ללא שינוי; אחרות נשמרות כ־PNG.
+	Plain text in reading order; pages are separated by form feeds.	טקסט פשוט לפי סדר הקריאה; העמודים מופרדים בתווי מעבר עמוד.
+	Create {what}	יצירת {what}
+	initials	ראשי תיבות
+	signature	חתימה
+	Create Custom Stamp	יצירת חותמת מותאמת אישית
+	From {file}	מתוך {file}
+	Category:	קטגוריה:
+	e.g. My stamps	לדוגמה: החותמות שלי
+	Name:	שם:
+	Custom	מותאם אישית
+	Delete stamp	מחיקת חותמת
+	Create custom stamp…	יצירת חותמת מותאמת אישית…
+	From a PDF page or an image	מתוך עמוד PDF או תמונה
+	Line spacing	מרווח בין שורות
+	Character spacing	מרווח בין תווים
+	Horizontal scale	קנה מידה אופקי
+	Rotate Clockwise	סיבוב עם כיוון השעון
+	Rotate Counterclockwise	סיבוב נגד כיוון השעון
+	Flip Horizontal	היפוך אופקי
+	Flip Vertical	היפוך אנכי
+	Replace Image…	החלפת תמונה…
+	Save Image As…	שמירת תמונה בשם…
+	Copy Image	העתקת תמונה
+	The image has been copied ({w} × {h} pixels)	התמונה הועתקה ({w} × {h} פיקסלים)
+	Couldn't copy the image: {e}	לא ניתן היה להעתיק את התמונה: {e}
+	Copy Image in Original Format	העתקת תמונה בפורמט המקורי
+	The image has been copied as a {ext} file	התמונה הועתקה כקובץ {ext}
+	The page has changed; select the image again	העמוד השתנה; יש לבחור את התמונה שוב
+	Check for updates	בדיקת עדכונים
+	No check has run yet.	עדיין לא בוצעה בדיקה.
+	Checking for a newer version…	בודק אם קיימת גרסה חדשה יותר…
+	PdfCraft {v} is available.	גרסת PdfCraft {v} זמינה.
+	You have version {c}. Download the new version from its release page.	מותקנת אצלך גרסה {c}. הורד את הגרסה החדשה מדף ההפצה שלה.
+	PdfCraft {c} is up to date.	PdfCraft {c} היא הגרסה העדכנית.
+	Couldn't check for updates: {e}	בדיקת העדכונים נכשלה: {e}
+	You have version {c}. All releases are listed at {page}.	מותקנת אצלך גרסה {c}. כל הגרסאות מפורטות בכתובת {page}.
+	Asks GitHub for the latest release. Nothing is downloaded or installed automatically.	בודק ב־GitHub מהי הגרסה האחרונה. שום דבר אינו מורד או מותקן אוטומטית.
+	Download	הורדה
+	Later	מאוחר יותר
+	none	ללא
+	Declared conformance: {shown}	תאימות מוצהרת: {shown}
+	Output intent: {list}	כוונת פלט: {list}
+	Conformance level:	רמת תאימות:
+	No problems found: the document conforms to {level}.	לא נמצאו בעיות: המסמך תואם לתקן {level}.
+	 (page {p})	 (עמוד {p})
+	  · not fixable here	  · לא ניתן לתקן כאן
+	Verify	אימות
+	Box	תיבה
+	Units	יחידות
+	Set to zero	איפוס
+	Current page ({n})	העמוד הנוכחי ({n})
+	Subset	תת־קבוצה
+	Update	עדכון
+	Add	הוספה
+	{verb} Header and Footer	{verb} כותרת עליונה ותחתונה
+	{verb} Watermark	{verb} סימן מים
+	{verb} Background	{verb} רקע
+	Margins (in)	שוליים (באינץ׳)
+	Left Header Text	טקסט הכותרת העליונה השמאלית
+	Center Header Text	טקסט הכותרת העליונה במרכז
+	Right Header Text	טקסט הכותרת העליונה הימנית
+	Left Footer Text	טקסט הכותרת התחתונה השמאלית
+	Center Footer Text	טקסט הכותרת התחתונה במרכז
+	Right Footer Text	טקסט הכותרת התחתונה הימנית
+	Insert Page Number	הוספת מספר עמוד
+	Insert Date	הוספת תאריך
+	Start page number	מספר העמוד ההתחלתי
+	Source	מקור
+	Fit to page	התאמה לעמוד
+	Rotation	סיבוב
+	Appear behind page	הצגה מאחורי העמוד
+	Appear on top of page	הצגה מעל העמוד
+	Offset from centre	היסט מהמרכז
+	From colour	מצבע
+	Page Range Options	אפשרויות טווח עמודים
+	Preview: page {p} of {n}	תצוגה מקדימה: עמוד {p} מתוך {n}
+	Applies to 1 page	חל על עמוד אחד
+	Applies to {n} pages	חל על {n} עמודים
+	Replaces the existing one on those pages.	מחליף את הפריט הקיים בעמודים האלה.
+	PDF or image	PDF או תמונה
+	No file chosen	לא נבחר קובץ
+	Page number	מספר עמוד
+	Scale relative to target page	שינוי קנה מידה ביחס לעמוד היעד
+	Link Properties	מאפייני קישור
+	Create Link	יצירת קישור
+	Link Appearance	מראה הקישור
+	Link Type:	סוג הקישור:
+	Visible Rectangle	מלבן גלוי
+	Invisible Rectangle	מלבן בלתי נראה
+	Highlight Style:	סגנון הדגשה:
+	Invert	היפוך צבעים
+	Outline	קו מתאר
+	Inset	שקוע פנימה
+	Line Thickness:	עובי הקו:
+	Thin	דק
+	Thick	עבה
+	Line Style:	סגנון הקו:
+	Solid	רציף
+	Dashed	מקווקו
+	Color:	צבע:
+	Link Action	פעולת הקישור
+	Open a web page	פתיחת דף אינטרנט
+	Go to a page view	מעבר לתצוגת עמוד
+	Type the web address.	יש להקליד את כתובת האינטרנט.
+	This document has no signatures.	אין חתימות במסמך זה.
+	The Keychain's digital IDs couldn't be listed: {e}	לא ניתן היה להציג את המזהים הדיגיטליים שבצרור המפתחות: {e}
+	Signed and saved to {path}	נחתם ונשמר ב־{path}
+	Couldn't open revision {n}: {e}	לא ניתן היה לפתוח את המהדורה {n}: {e}
+	Couldn't open the signed version: {e}	לא ניתן היה לפתוח את הגרסה החתומה: {e}
+	Sign with a Digital ID	חתימה באמצעות מזהה דיגיטלי
+	Choose the digital ID that you want to use for signing:	יש לבחור את המזהה הדיגיטלי שישמש לחתימה:
+	Keychain  ·  	צרור מפתחות  ·  
+	Windows store  ·  	מאגר Windows  ·  
+	Issued by: 	הונפק על ידי: 
+	, Expires: 	, תוקף עד: 
+	No digital IDs yet.	עדיין אין מזהים דיגיטליים.
+	Configure New Digital ID	הגדרת מזהה דיגיטלי חדש
+	Remove "{name}" from this list? The file itself is not deleted.	להסיר את „{name}” מהרשימה? הקובץ עצמו לא יימחק.
+	Continue	המשך
+	Configure a Digital ID for Signing	הגדרת מזהה דיגיטלי לחתימה
+	Use a Digital ID from a file	שימוש במזהה דיגיטלי מקובץ
+	Create a new Digital ID (self-signed, saved to a password-protected file)	יצירת מזהה דיגיטלי חדש (חתימה עצמית, יישמר בקובץ המוגן בסיסמה)
+	Name	שם
+	Organizational Unit	יחידה ארגונית
+	Organization Name	שם הארגון
+	Email Address	כתובת דוא״ל
+	Country/Region	מדינה/אזור
+	Key Algorithm	אלגוריתם מפתח
+	Confirm Password	אימות סיסמה
+	Valid for 5 years, for digital signatures. Self-signed IDs are usually not trusted by others.	תקף לחמש שנים עבור חתימות דיגיטליות. בדרך כלל אין אמון של אחרים במזהים שנחתמו בחתימה עצמית.
+	File (.p12, .pfx)	קובץ (.p12, .pfx)
+	Digital ID	מזהה דיגיטלי
+	Browse…	עיון…
+	{verb} as "{name}"	{verb} בשם „{name}”
+	Certify	אישור
+	The signature will be invisible.	החתימה תהיה בלתי נראית.
+	The existing action will be preserved.	הפעולה הקיימת תישמר.
+	Distinguished name	שם ייחודי
+	Labels	תוויות
+	Graphic	גרפיקה
+	Signer's name	שם החותם
+	Fill & Sign signature	חתימת „מילוי וחתימה”
+	Choose image…	בחירת תמונה…
+	Permitted actions after certifying	פעולות מותרות לאחר האישור
+	No changes allowed	אין לאפשר שינויים
+	Annotations, form fill-in, and digital signatures	הערות, מילוי טפסים וחתימות דיגיטליות
+	Form fill-in and digital signatures	מילוי טפסים וחתימות דיגיטליות
+	The key is in the macOS Keychain, which may ask to allow PdfCraft to use it.	המפתח נמצא בצרור המפתחות של macOS, וייתכן שתתבקש לאשר ל־PdfCraft להשתמש בו.
+	The key is in the Windows certificate store, which may ask to allow PdfCraft to use it.	המפתח נמצא במאגר האישורים של Windows, וייתכן שתתבקש לאשר ל־PdfCraft להשתמש בו.
+	Digital ID password	סיסמת המזהה הדיגיטלי
+	Back	חזרה
+	Validate all	אימות הכול
+	Sign this field…	חתימה על שדה זה…
