@@ -776,13 +776,14 @@ fn paper_choice_survives_cancel_and_settings_restore() {
     h.get_by_label("A4").click();
     h.run_steps(2);
     assert_eq!(h.state().print_draft.paper, a4);
-    // Only paper should be added to persistence; these choices still belong to this session.
+    // Paper and booklet binding are remembered; other job-specific choices remain per-session.
     let draft = &mut h.state_mut().print_draft;
     draft.copies = 5;
     draft.which = pdfcraft_ui_egui::PrintWhich::Range;
     draft.range = "1".into();
     draft.orientation = Orientation::Landscape;
     draft.grayscale = true;
+    draft.binding = pdfcraft_engine::print::Binding::Right;
     let before_cancel = draft.clone();
     h.get_by_label("Cancel").click();
     h.run_steps(2);
@@ -791,15 +792,21 @@ fn paper_choice_survives_cancel_and_settings_restore() {
     let saved = h.state().persist();
     let json: serde_json::Value = serde_json::from_str(&saved).unwrap();
     assert_eq!(json["print_paper"], "A4", "store the canonical name, not its position");
+    assert_eq!(json["print_binding"], "Right", "store the booklet binding side");
     let mut app = PdfCraftApp::new();
     app.restore(&saved);
-    let expected = pdfcraft_ui_egui::PrintDraft { paper: a4, ..Default::default() };
-    assert_eq!(app.print_draft, expected, "no other print preference becomes persistent");
+    let expected = pdfcraft_ui_egui::PrintDraft {
+        paper: a4,
+        binding: pdfcraft_engine::print::Binding::Right,
+        ..Default::default()
+    };
+    assert_eq!(app.print_draft, expected, "only paper and booklet binding become persistent");
     let mut restarted = harness_with_settings(Some(saved));
     assert!(restarted.state_mut().execute("print.dialog"));
     restarted.run_steps(3);
     restarted.get_by_value("A4");
     assert_eq!(restarted.state().print_draft.paper, a4);
+    assert_eq!(restarted.state().print_draft.binding, pdfcraft_engine::print::Binding::Right);
     restarted.get_by_value("A4").click();
     restarted.run_steps(2);
     restarted.get_by_label("US Letter").click();
