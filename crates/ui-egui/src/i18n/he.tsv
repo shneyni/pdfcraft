@@ -929,3 +929,181 @@
 	Field descriptions	תיאורי שדות
 	All form fields have description	לכל שדות הטופס יש תיאור
 	Each field needs a tooltip that says what to enter. Add one in Field Properties > General > Tooltip.	לכל שדה דרוש תיאור שמציין מה יש להזין. יש להוסיף אותו במאפייני השדה > כללי > תיאור כלי.
+	Figures require alternate text	איורים זקוקים לטקסט חלופי
+	Pictures need alternate text that describes them, or must be marked decorative. Add alternate text to each figure.	יש להוסיף לכל תמונה טקסט חלופי שמתאר אותה או לסמן אותה כדקורטיבית. יש להוסיף טקסט חלופי לכל איור.
+	Nested alternate text	טקסט חלופי מקונן
+	Alternate text that will never be read	טקסט חלופי שלא ייקרא לעולם
+	Alternate text inside an element that already has alternate text is never read. Remove the inner alternate text.	טקסט חלופי בתוך רכיב שכבר יש לו טקסט חלופי לא ייקרא. יש להסיר את הטקסט החלופי הפנימי.
+	Associated with content	משויך לתוכן
+	Alternate text must be associated with some content	יש לשייך טקסט חלופי לתוכן כלשהו
+	Alternate text on an element without page content is never reached. Remove it or attach the element to content.	לא ניתן להגיע לטקסט חלופי ברכיב שאין לו תוכן בעמוד. יש להסיר אותו או לשייך את הרכיב לתוכן.
+	Hides annotation	מסתיר הערה
+	Alternate text should not hide annotation	טקסט חלופי לא אמור להסתיר הערה
+	Alternate text on an element that contains a link or field hides that annotation from assistive technology. Move the alternate text.	טקסט חלופי ברכיב שמכיל קישור או שדה מסתיר את ההערה מטכנולוגיה מסייעת. יש להעביר את הטקסט החלופי.
+	Other elements alternate text	טקסט חלופי לרכיבים אחרים
+	Other elements that require alternate text	רכיבים אחרים שזקוקים לטקסט חלופי
+	Formulas and similar non-text elements need alternate text. Add alternate text to them.	נוסחאות ורכיבים דומים שאינם טקסט זקוקים לטקסט חלופי. יש להוסיף להם טקסט חלופי.
+	Rows	שורות
+	TR must be a child of Table, THead, TBody, or TFoot	TR חייב להיות רכיב בן של Table, ‏THead, ‏TBody או TFoot
+	Table cells belong in a row. Fix the table's tags.	תאי טבלה צריכים להשתייך לשורה. יש לתקן את תגיות הטבלה.
+	Headers	כותרות
+	Tables should have headers	לטבלאות צריכות להיות כותרות
+	Header cells (TH) tell listeners what each column or row holds. Mark the header cells.	תאי כותרת (TH) מסבירים מה מכילה כל עמודה או שורה. יש לסמן את תאי הכותרת.
+	Regularity	אחידות
+	Tables must contain the same number of columns in each row and rows in each column	בכל שורת טבלה צריך להיות אותו מספר עמודות ובכל עמודה אותו מספר שורות
+	Irregular tables confuse cell navigation. Give every row the same number of cells (counting spans).	טבלאות לא אחידות מקשות על ניווט בין התאים. יש להגדיר לכל שורה אותו מספר תאים, כולל תאים ממוזגים.
+	Summary	סיכום
+	Tables must have a summary	לטבלאות חייב להיות סיכום
+	A summary describes the table's purpose and layout. Add a Summary attribute to each table.	הסיכום מתאר את מטרת הטבלה ואת המבנה שלה. יש להוסיף מאפיין Summary לכל טבלה.
+	List items	פריטי רשימה
+	LI must be a child of L	LI חייב להיות רכיב בן של L
+	List items belong in a list. Fix the list's tags.	פריטי רשימה צריכים להשתייך לרשימה. יש לתקן את תגיות הרשימה.
+	Lbl and LBody	Lbl ו־LBody
+	Lbl and LBody must be children of LI	Lbl ו־LBody חייבים להיות רכיבים בני LI
+	List labels and bodies belong in a list item. Fix the list's tags.	תוויות ותוכן של רשימה צריכים להשתייך לפריט רשימה. יש לתקן את תגיות הרשימה.
+	Appropriate nesting	קינון מתאים
+	Heading levels shouldn't skip (an H1 followed by an H3). Retag the headings.	אין לדלג על רמות כותרת (למשל H1 ולאחריו H3). יש לתייג מחדש את הכותרות.
+	TH and TD	TH ו־TD
+	TH and TD must be children of TR	TH ו־TD חייבים להיות רכיבים בני TR
+	Mark Page Range	סימון טווח עמודים
+	Pages from	עמודים מ־
+	Single word or phrase	מילה או ביטוי יחיד
+	Text to find	טקסט לחיפוש
+	Patterns	תבניות
+	Phone Numbers	מספרי טלפון
+	Email Addresses	כתובות דוא״ל
+	Credit Cards	כרטיסי אשראי
+	Social Security Numbers	מספרי ביטוח לאומי
+	Dates	תאריכים
+	Text in images isn't found; recognise text (OCR) first.	טקסט בתוך תמונות לא נמצא; יש לזהות אותו תחילה באמצעות OCR.
+	No matches.	לא נמצאו התאמות.
+	Some bookmarks are not shown here: the panel lists a limited number, nested a limited depth.	חלק מהסימניות אינן מוצגות כאן: החלונית מציגה מספר מוגבל של סימניות ורמות קינון.
+	{n} match(es) marked for redaction.	סומנו {n} התאמות להשחרה.
+	Multiple words or phrases	כמה מילים או ביטויים
+	One word or phrase per line	מילה או ביטוי אחד בכל שורה
+	Import list…	ייבוא רשימה…
+	{n} word(s) or phrase(s)	{n} מילים או ביטויים
+	{name} is too large for a word list (at most 1 MB).	{name} גדול מדי לרשימת מילים (הגודל המרבי הוא 1 MB).
+	Redaction Tool Properties	מאפייני כלי ההשחרה
+	Redacted area fill colour:	צבע המילוי של האזור המושחר:
+	Use overlay text	שימוש בטקסט שכבה
+	Custom text:	טקסט מותאם אישית:
+	Redaction code:	קוד השחרה:
+	Font:	גופן:
+	Font size:	גודל גופן:
+	Auto-size text to fit redaction region	התאמה אוטומטית של גודל הטקסט לאזור ההשחרה
+	Font colour:	צבע הגופן:
+	Repeat overlay text	חזרה על טקסט השכבה
+	Text alignment:	יישור הטקסט:
+	Center	מרכז
+	Apply redactions	החלת ההשחרות
+	You are about to apply 1 redaction mark. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	עומדת להתבצע השחרה אחת. הטקסט, התמונות והציורים שמתחת לסימונים, וכן הערות ושדות טופס שחופפים להם, יוסרו לצמיתות.
+	You are about to apply {n} redaction marks. Text, images and drawings under the marks, and comments and form fields that overlap them, are removed permanently.	עומדות להתבצע {n} השחרות. הטקסט, התמונות והציורים שמתחת לסימונים, וכן הערות ושדות טופס שחופפים להם, יוסרו לצמיתות.
+	Save the document afterwards: saving rewrites the whole file so no trace of the removed content stays in it.	לאחר מכן יש לשמור את המסמך: השמירה כותבת את הקובץ כולו מחדש כדי שלא יישאר זכר לתוכן שהוסר.
+	Select the items to remove from this document.	יש לבחור את הפריטים להסרה מהמסמך.
+	Metadata	מטא־נתונים
+	File attachments	קבצים מצורפים
+	Comments and markups	הערות וסימונים
+	Hidden text	טקסט מוסתר
+	Hidden layers	שכבות מוסתרות
+	Links, actions and JavaScripts	קישורים, פעולות וסקריפטים של JavaScript
+	Private data of other applications	נתונים פרטיים של יישומים אחרים
+	None found	לא נמצאו פריטים
+	Form fields are flattened: their values stay visible. Saving rewrites the whole file.	שדות הטופס משוטחים והערכים שלהם נשארים גלויים. השמירה כותבת את הקובץ כולו מחדש.
+	Remove	הסרה
+	Sanitizing removes hidden information from the document: metadata, file attachments, comments, form fields (flattened), hidden text and layers, bookmarks, links, actions and scripts, and private application data.	ניקוי המסמך מסיר מידע מוסתר: מטא־נתונים, קבצים מצורפים, הערות, שדות טופס (שמשוטחים), טקסט ושכבות מוסתרים, סימניות, קישורים, פעולות וסקריפטים ונתוני יישומים פרטיים.
+	Save the document afterwards; saving rewrites the whole file so nothing removed stays in it.	יש לשמור את המסמך לאחר מכן; השמירה כותבת את כל הקובץ מחדש כדי ששום תוכן שהוסר לא יישאר בו.
+	Printer:	מדפסת:
+	Save as PDF	שמירה כ־PDF
+	{name} (default)	{name} (ברירת מחדל)
+	Copies:	עותקים:
+	Collate	איסוף לפי סדר
+	Print in grayscale	הדפסה בגווני אפור
+	Two-sided:	הדפסה דו־צדדית:
+	Off	כבוי
+	Flip on long edge	היפוך לפי הקצה הארוך
+	Flip on short edge	היפוך לפי הקצה הקצר
+	Paper:	נייר:
+	Pages to Print	עמודים להדפסה
+	More options:	אפשרויות נוספות:
+	All pages in range	כל העמודים בטווח
+	Odd pages only	עמודים אי־זוגיים בלבד
+	Even pages only	עמודים זוגיים בלבד
+	Reverse pages	הדפסה בסדר עמודים הפוך
+	Page Sizing & Handling	גודל העמוד וטיפול בו
+	Size	גודל
+	Poster	פוסטר
+	Multiple	מרובה
+	Booklet	חוברת
+	Fit	התאמה
+	Shrink oversized pages	הקטנת עמודים גדולים מדי
+	Custom scale:	קנה מידה מותאם אישית:
+	Tile scale:	קנה מידה לריצוף:
+	Overlap:	חפיפה:
+	Cut marks	סימני חיתוך
+	Pages per sheet:	עמודים בכל גיליון:
+	Page order:	סדר העמודים:
+	Horizontal	אופקי
+	Horizontal reversed	אופקי הפוך
+	Vertical	אנכי
+	Vertical reversed	אנכי הפוך
+	Print page border	הדפסת גבול העמוד
+	Auto-rotate pages	סיבוב עמודים אוטומטי
+	Booklet subset:	חלקי החוברת:
+	Both sides	שני הצדדים
+	Front side only	הצד הקדמי בלבד
+	Back side only	הצד האחורי בלבד
+	Binding:	צד הכריכה:
+	Left	שמאל
+	Right	ימין
+	Orientation:	כיוון:
+	Auto portrait/landscape	כיוון לאורך/לרוחב אוטומטי
+	Portrait	לאורך
+	Landscape	לרוחב
+	Comments & Forms	הערות וטפסים
+	Document	מסמך
+	Document and markups	מסמך וסימונים
+	Document and stamps	מסמך וחותמות
+	Form fields only	שדות טופס בלבד
+	Previous sheet	הגיליון הקודם
+	Next sheet	הגיליון הבא
+	No sheets	אין גיליונות
+	Sheet {s} of {n}	גיליון {s} מתוך {n}
+	Removed 1 hidden item. Save to remove them from the file.	הוסר פריט מוסתר אחד. יש לשמור כדי להסירו מהקובץ.
+	Removed {n} hidden items. Save to remove them from the file.	הוסרו {n} פריטים מוסתרים. יש לשמור כדי להסירם מהקובץ.
+	Document sanitized. Save to finish: saving rewrites the whole file.	המסמך נוקה. יש לשמור כדי לסיים: השמירה כותבת את כל הקובץ מחדש.
+	Applied 1 redaction mark. Save to remove the content from the file.	בוצעה השחרה אחת. יש לשמור כדי להסיר את התוכן מהקובץ.
+	Applied {n} redaction marks. Save to remove the content from the file.	בוצעו {n} השחרות. יש לשמור כדי להסיר את התוכן מהקובץ.
+	JavaScript Console	מסוף JavaScript
+	JavaScript is turned off (Preferences ▸ JavaScript).	JavaScript כבוי (העדפות > JavaScript).
+	Output appears here.	הפלט יופיע כאן.
+	Script Name:	שם הסקריפט:
+	This document has no document-level scripts.	במסמך זה אין סקריפטים ברמת המסמך.
+	No form fields were detected	לא זוהו שדות טופס
+	Detected 1 form field	זוהה שדה טופס אחד
+	Detected {n} form fields	זוהו {n} שדות טופס
+	{field}: {e}	{field}: {e}
+	Current page	העמוד הנוכחי
+	Selected pages	העמודים שנבחרו
+	Document language	שפת המסמך
+	Output	פלט
+	Searchable Image (Exact)	תמונה ניתנת לחיפוש (מדויקת)
+	Adds invisible text over each word; the page image is not changed	מוסיף טקסט בלתי נראה מעל כל מילה; תמונת העמוד אינה משתנה
+	Downsample to	הפחתת רזולוציה עד
+	Also recognize pages that already have text	זיהוי גם בעמודים שכבר מכילים טקסט
+	Pictures on those pages are recognized too; words already in the page's text are not added again	גם תמונות בעמודים אלה יזוהו; מילים שכבר מופיעות בטקסט של העמוד לא יתווספו שוב
+	Text recognition isn't installed: its model files are missing. Reinstall PdfCraft, or set PDFCRAFT_MODELS to the folder that holds them.	זיהוי הטקסט אינו מותקן: קובצי המודל חסרים. יש להתקין מחדש את PdfCraft או להגדיר את PDFCRAFT_MODELS לתיקייה שמכילה אותם.
+	Optional	אופציונלי
+	Planned · {m}	מתוכנן · {m}
+	Planned for milestone {m} — open to see what it will include	מתוכנן לאבן הדרך {m} — יש לפתוח כדי לראות מה ייכלל בה
+	Coming in milestone {m}. Items marked Ready work today.	יגיע באבן הדרך {m}. פריטים המסומנים „מוכן” כבר פועלים.
+	1 mark	סימון אחד
+	{n} marks	{n} סימונים
+	Dynamic	דינמי
+	Sign Here	חתימה כאן
+	Standard Business	עסקי סטנדרטי
+	Choose a stamp, then click on the page to place it.	יש לבחור חותמת ואז ללחוץ בעמוד כדי למקם אותה.
+	Note	הערה
+	Polyline	קו שבור
+	Attachment	קובץ מצורף
+	Callout	בועת הסבר
