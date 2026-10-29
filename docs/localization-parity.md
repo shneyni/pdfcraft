@@ -104,3 +104,8 @@ Acrobat languages PdfCraft lacks: Danish, Dutch, Swedish, Hebrew. Vietnamese is 
 | 2026-10-15 | minor | Norwegian Bokmål added as an interface and date language with a 2,674-entry catalog |
 | 2026-10-12 | minor | Added current counts for Kazakh, Polish, Slovenian, Greek, Turkish and Lithuanian; retained existing language assessments and the original percentage snapshot |
 | 2026-10-10 | major | Created. Catalog counts measured from `crates/ui-egui/src/i18n/*.tsv` against the 2,143-key union; Acrobat's localizations from its bundle's `.lproj` and Sequences folder names |
+
+
+## Hebrew
+
+Hebrew (`he`) is registered with the existing text bidi shaping while this fork keeps the original button and panel placement. The initial catalog translates the main menus, home screen, common tools and many dialogs; the remaining keys fall back to English until the catalog is expanded and reviewed by a native Hebrew speaker.
