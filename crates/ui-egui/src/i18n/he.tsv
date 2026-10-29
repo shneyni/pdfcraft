@@ -2426,3 +2426,197 @@ animation effects	Off	כבוי
 	Copy to clipboard	העתקה ללוח הגזירים
 	Copied to clipboard	הועתק ללוח הגזירים
 	Organize	ארגון
+	Search results	תוצאות חיפוש
+	No results	אין תוצאות
+	Page {n} of {total}	עמוד {n} מתוך {total}
+calendar weekday	Su	א׳
+calendar weekday	Mo	ב׳
+calendar weekday	Tu	ג׳
+calendar weekday	We	ד׳
+calendar weekday	Th	ה׳
+calendar weekday	Fr	ו׳
+calendar weekday	Sa	ש׳
+certificate	Issued to	הונפק עבור
+certificate	Issued by	הונפק על ידי
+certificate	Valid from	תקף מתאריך
+certificate	Valid to	תקף עד
+certificate	Intended usage	שימוש מיועד
+certificate	Version	גרסה
+certificate	Serial number	מספר סידורי
+certificate	Issuer	מנפיק
+certificate	Validity starts	תחילת התוקף
+certificate	Validity ends	סיום התוקף
+certificate	Public key	מפתח ציבורי
+certificate	Basic constraints	אילוצים בסיסיים
+certificate	Key usage	שימוש במפתח
+certificate	Self-signed	חתימה עצמית
+certificate	SHA-1 digest	תקציר SHA-1
+certificate	SHA-256 digest	תקציר SHA-256
+@plural	{n} file|{n} files	{n} קובץ|{n} קבצים|{n} קבצים
+@plural	{n} comment|{n} comments	{n} הערה|{n} הערות|{n} הערות
+@plural	{n} result|{n} results	{n} תוצאה|{n} תוצאות|{n} תוצאות
+	Hide hover previews for highlights without comment text	הסתרת תצוגה מקדימה בריחוף מעל סימונים שאין להם טקסט הערה
+	Set page transitions	הגדרת מעברי עמודים
+	What takes up the space in this file, by kind of content.	החלוקה של נפח הקובץ לפי סוג התוכן.
+	Digitally signed by	נחתם דיגיטלית על ידי
+	DN: 	DN: 
+	Reason: 	סיבה: 
+	Location: 	מיקום: 
+	Date: 	תאריך: 
+	The labels are in English: the signature's font can't draw them in this language.	התוויות באנגלית: גופן החתימה אינו יכול להציג אותן בשפה זו.
+	Font size	גודל גופן
+	Make Properties Default	הגדרת המאפיינים כברירת מחדל
+	Save over the changed file?	לשמור במקום הקובץ שהשתנה?
+	“{name}” changed on disk after it was opened or last saved. Saving now replaces that newer version with this one.	„{name}” השתנה בדיסק מאז שנפתח או נשמר בפעם האחרונה. שמירה כעת תחליף את הגרסה החדשה יותר בגרסה זו.
+	Save anyway	לשמור בכל זאת
+	Sending sheet {s} of {n} to {printer}…	שולח גיליון {s} מתוך {n} למדפסת {printer}…
+	No printers were found. Check that the printer is installed and the print spooler is running, then open Print again.	לא נמצאו מדפסות. יש לבדוק שהמדפסת מותקנת וששירות ההדפסה פועל, ואז לפתוח שוב את חלון ההדפסה.
+	Collapse all pages	צמצום כל העמודים
+	Expand all pages	הרחבת כל העמודים
+	This file changed on disk. Reload shows the new version and drops your unsaved changes; Save replaces it with this version.	הקובץ השתנה בדיסק. טעינה מחדש תציג את הגרסה החדשה ותבטל שינויים שלא נשמרו; שמירה תחליף אותה בגרסה זו.
+	Scroll speed (mouse wheel and arrow keys)	מהירות גלילה (גלגלת העכבר ומקשי החצים)
+	Cut Image	חיתוך תמונה
+	Redact Image	השחרת תמונה
+	Create Link…	יצירת קישור…
+	Recognize Text…	זיהוי טקסט…
+	Open in Full Screen mode?	לפתוח במצב מסך מלא?
+	This document asks to open in Full Screen mode: the page fills the screen and nothing else shows. Press Esc at any time to leave it.	מסמך זה מבקש להיפתח במצב מסך מלא: העמוד ימלא את המסך ושום דבר אחר לא יוצג. יש ללחוץ על Esc בכל עת כדי לצאת.
+	Full Screen	מסך מלא
+	Not now	לא עכשיו
+	You are viewing the signed version of “{from}” (revision {rev}). It is a snapshot: changes here won't affect the original.	אתה מציג את הגרסה החתומה של „{from}” (מהדורה {rev}). זהו צילום מצב; שינויים כאן לא ישפיעו על המקור.
+	You are viewing revision {rev} of “{from}”. It is a snapshot: changes here won't affect the original.	אתה מציג את מהדורה {rev} של „{from}”. זהו צילום מצב; שינויים כאן לא ישפיעו על המקור.
+	Turn upside down (180°)	הפיכה על הראש (180°)
+	4 x 6 in label (101.6 x 152.4 mm)	תווית בגודל 4 × 6 אינץ׳ (101.6 × 152.4 מ״מ)
+	Cuts each page to its printed area, turns it upright and fits it to the sheet without stretching. One label per sheet.	חותך כל עמוד לאזור המודפס, מסובב אותו למצב אנכי ומתאים אותו לגיליון בלי למתוח. תווית אחת לכל גיליון.
+	Find untagged content	חיפוש תוכן שאינו מתויג
+	No untagged content was found.	לא נמצא תוכן שאינו מתויג.
+	Found {n} untagged content problems.	נמצאו {n} בעיות של תוכן שאינו מתויג.
+	Tag form fields	תיוג שדות טופס
+	Mark as artifact	סימון כפריט שאינו תוכן
+	Remove this leaf tag from reading order and mark its direct content as an artifact	הסרת תגית העלה הזו מסדר הקריאה וסימון התוכן הישיר שלה כפריט שאינו תוכן
+	Mark content as artifact	סימון התוכן כפריט שאינו תוכן
+	Word count	ספירת מילים
+	Current page only	העמוד הנוכחי בלבד
+	Exclude tagged tables	החרגת טבלאות מתויגות
+	Exclude tagged code blocks	החרגת קטעי קוד מתויגים
+	Exclude image/OCR text	החרגת טקסט מתמונות ומ־OCR
+	Exclusions use PDF tags. Untagged tables and code remain included. Image exclusion also removes invisible text.	ההחרגות משתמשות בתגיות PDF. טבלאות וקוד שאינם מתויגים נכללים עדיין. החרגת תמונות מסירה גם טקסט בלתי נראה.
+	Words	מילים
+	Characters	תווים
+	Characters without spaces	תווים ללא רווחים
+	Pages counted	עמודים שנספרו
+	Some pages contain no countable text. Scanned images need OCR first.	בחלק מהעמודים אין טקסט שניתן לספור. יש להפעיל OCR על תמונות סרוקות תחילה.
+	Some content could not be classified safely and was kept in the count.	לא ניתן היה לסווג חלק מהתוכן באופן בטוח ולכן הוא נכלל בספירה.
+	Counting words… {n} pages read	סופר מילים… נקראו {n} עמודים
+	Word counting stopped unexpectedly.	ספירת המילים נעצרה באופן בלתי צפוי.
+	Word count…	ספירת מילים…
+@id	file.word_count	ספירת מילים…
+	Standard	רגיל
+	Mobile	נייד
+	Merge image fragments	מיזוג חלקי תמונה
+	Optimizing… merging image fragments	מיטוב… מיזוג חלקי תמונה
+	Side by side	זה לצד זה
+	New file only	הקובץ החדש בלבד
+	Old file: {name}	הקובץ הישן: {name}
+	New file: {name}	הקובץ החדש: {name}
+	Print as image	הדפסה כתמונה
+	Resolution:	רזולוציה:
+	Use it when a printer skips text, shading or transparency. The print is no longer searchable text; with Print in grayscale, the pictures are grey.	השתמש בכך כאשר המדפסת משמיטה טקסט, הצללות או שקיפות. הטקסט בתדפיס כבר לא ניתן לחיפוש; בהדפסה בגווני אפור גם התמונות יהיו בגווני אפור.
+	Crop Image	חיתוך תמונה
+	Remove Crop	הסרת החיתוך
+	Trim the picture with its handles; Enter or Done applies	חתוך את התמונה באמצעות הידיות שלה; Enter או „סיום” מחיל את החיתוך
+	Redaction mark appearance	מראה סימון ההשחרה
+	Outline colour:	צבע קו המתאר:
+	Fill colour:	צבע המילוי:
+	Shown while the pointer is over a mark.	מוצג כאשר המצביע נמצא מעל סימון.
+	Opacity:	אטימות:
+	Make properties default	הגדרת המאפיינים כברירת מחדל
+	Pages selected	עמודים שנבחרו
+	Page properties	מאפייני עמוד
+	Create & Edit	יצירה ועריכה
+	Review & Compare	סקירה והשוואה
+	Forms & Signatures	טפסים וחתימות
+	Protect & Standardize	הגנה ותקנון
+	Customize & Automate	התאמה אישית ואוטומציה
+	No tools match your search.	לא נמצאו כלים התואמים לחיפוש שלך.
+	Expand all tools	הרחבת כל הכלים
+	Collapse all tools	צמצום כל הכלים
+	The password must have at least 8 characters.	הסיסמה חייבת להכיל שמונה תווים לפחות.
+theme	Appearance	מראה
+	the name is not a plain file name	השם אינו שם קובץ פשוט
+	Zoom — type a percentage and press Enter	הגדלה — יש להקליד אחוז וללחוץ על Enter
+	Calculation order	סדר החישוב
+	Fix order	תיקון הסדר
+	Move only what must move, so every field calculates after the fields it reads.	הזז רק את מה שנחוץ, כדי שכל שדה יחושב לאחר השדות שהוא קורא.
+	Earlier in calculation order	מוקדם יותר בסדר החישוב
+	Later in calculation order	מאוחר יותר בסדר החישוב
+	Too early	מוקדם מדי
+	Reads {name}, which calculates later, so it shows an old value.	קורא את {name}, שמחושב מאוחר יותר, ולכן מציג ערך ישן.
+	Loop	לולאה
+	Reads {names}, which read it back. No order can fix a loop: change one of the formulas.	קורא את {names}, שקוראים אותו בחזרה. אי אפשר לתקן לולאה באמצעות סדר; יש לשנות אחת מהנוסחאות.
+	Not in order	לא לפי הסדר
+	Missing from the calculation order saved in the PDF: other PDF viewers may not calculate it.	חסר מסדר החישוב שנשמר ב־PDF; מציגי PDF אחרים עלולים שלא לחשב אותו.
+	Back to Prepare a form	חזרה להכנת טופס
+	No field in this form calculates its value yet. Give a field a calculation on the Calculate tab of its properties, and it shows here.	אף שדה בטופס זה עדיין אינו מחשב את ערכו. יש להגדיר חישוב לשדה בלשונית „חישוב” של מאפייניו, ואז הוא יוצג כאן.
+	{names} and {last}	{names} ו־{last}
+	{field} reads no other field	{field} אינו קורא שדות אחרים
+	{field} reads {fields}	{field} קורא את {fields}
+	No field reads it	אף שדה אינו קורא אותו
+	The order saved in the PDF needs tidying	יש לסדר מחדש את הסדר שנשמר ב־PDF
+	Moves only what must move	מזיז רק את מה שחייבים
+	Every field calculates after the fields it reads.	כל שדה מחושב לאחר השדות שהוא קורא.
+	Every field outside a loop calculates after the fields it reads.	כל שדה שאינו בלולאה מחושב לאחר השדות שהוא קורא.
+	{field} reads its own value	{field} קורא את הערך של עצמו
+	{fields} read each other	{fields} קוראים זה את זה
+	No order can fix a loop. Change one of the formulas.	אי אפשר לתקן לולאה באמצעות סדר. יש לשנות אחת מהנוסחאות.
+	Edit {field}'s formula	עריכת הנוסחה של {field}
+	Order · top calculates first	סדר · העליון מחושב ראשון
+	Script	סקריפט
+	Links on page	קישורים בעמוד
+	Show on the page which fields each field reads	הצגת השדות שכל שדה קורא בעמוד
+	Drag a field to move it, or select it and press {up} or {down}.	גרור שדה כדי להזיז אותו, או בחר אותו ולחץ על {up} או {down}.
+	Set calculation order	הגדרת סדר החישוב
+@plural	{n} calculation now uses the new name.|{n} calculations now use the new name.	חישוב אחד ({n}) משתמש כעת בשם החדש|{n} חישובים משתמשים כעת בשם החדש|{n} חישובים משתמשים כעת בשם החדש
+@plural	The calculation order has {n} entry that calculates nothing. Fix order removes it.|The calculation order has {n} entries that calculate nothing. Fix order removes them.	בסדר החישוב יש רשומה אחת ({n}) שאינה מחשבת דבר; תיקון הסדר יסיר אותה|בסדר החישוב יש {n} רשומות שאינן מחשבות דבר; תיקון הסדר יסיר אותן|בסדר החישוב יש {n} רשומות שאינן מחשבות דבר; תיקון הסדר יסיר אותן
+@plural	{fields} reads it|{fields} read it	{fields} קורא אותו|{fields} קוראים אותו|{fields} קוראים אותו
+@plural	{n} field shows an old value|{n} fields show old values	שדה אחד ({n}) מציג ערך ישן|{n} שדות מציגים ערכים ישנים|{n} שדות מציגים ערכים ישנים
+@plural	{field} calculates before {fields}, which it reads.|{field} calculates before {fields}, which it reads.	{field} מחושב לפני השדה {fields} שהוא קורא|{field} מחושב לפני השדות {fields} שהוא קורא|{field} מחושב לפני השדות {fields} שהוא קורא
+@plural	{n} more field calculates too early.|{n} more fields calculate too early.	שדה נוסף אחד ({n}) מחושב מוקדם מדי|{n} שדות נוספים מחושבים מוקדם מדי|{n} שדות נוספים מחושבים מוקדם מדי
+@plural	{fields} is missing from the order saved in the PDF, so other PDF viewers may not calculate it.|{fields} are missing from the order saved in the PDF, so other PDF viewers may not calculate them.	{fields} חסר בסדר שנשמר ב־PDF ולכן מציגי PDF אחרים עלולים שלא לחשב אותו|{fields} חסרים בסדר שנשמר ב־PDF ולכן מציגי PDF אחרים עלולים שלא לחשב אותם|{fields} חסרים בסדר שנשמר ב־PDF ולכן מציגי PDF אחרים עלולים שלא לחשב אותם
+	Bulleted list	רשימת תבליטים
+	Numbered list	רשימה ממוספרת
+	Alignment	יישור
+	Superscript	כתב עילי
+	Subscript	כתב תחתי
+	Paragraph spacing	מרווח בין פסקאות
+	Less	פחות
+	Other options	אפשרויות נוספות
+	Always use my default zoom and page layout	תמיד להשתמש בהגדלה ובפריסת העמוד המוגדרות כברירת מחדל
+	Larger thumbnails	תמונות ממוזערות גדולות יותר
+	Layer options	אפשרויות שכבה
+	Printer default	ברירת המחדל של המדפסת
+	Reading the printer's settings…	קורא את הגדרות המדפסת…
+	Reset to Initial Visibility	איפוס לנראות ההתחלתית
+	Shrink the page content to make room for the header and footer	הקטנת תוכן העמוד כדי לפנות מקום לכותרת העליונה והתחתונה
+	Smaller thumbnails	תמונות ממוזערות קטנות יותר
+	The document's security settings don't allow printing	הגדרות האבטחה של המסמך אינן מאפשרות הדפסה
+	Thumbnail size	גודל תמונה ממוזערת
+	Reshape comment	שינוי צורת הערה
+	The signature's signed attributes have no content type, which CMS requires; it was read anyway.	לתכונות החתימה החתומות אין סוג תוכן, שנדרש על ידי CMS; היא נקראה בכל זאת.
+	This signature uses an RSA key shorter than 2048 bits, which is no longer considered strong enough for signatures. It still validates, but it should not be relied on.	חתימה זו משתמשת במפתח RSA קצר מ־2048 סיביות, שאינו נחשב עוד חזק דיו לחתימות. היא עדיין עוברת אימות, אך אין להסתמך עליה.
+	The signature's signed attributes have no message digest, so the signature does not cover the document.	לתכונות החתימה החתומות אין תקציר הודעה, ולכן החתימה אינה מכסה את המסמך.
+	The signature's signed attributes name a content type other than data, so it is not a signature of the document.	תכונות החתימה החתומות מציינות סוג תוכן שאינו נתונים, ולכן זו אינה חתימה על המסמך.
+	Remove {standard} identification	הסרת זיהוי {standard}
+	Add text field table	הוספת טבלת שדות טקסט
+	Text field table	טבלת שדות טקסט
+	Text Field Table	טבלת שדות טקסט
+	Columns	עמודות
+	Row spacing	מרווח בין שורות
+	Column spacing	מרווח בין עמודות
+	First row number	מספר השורה הראשונה
+	Column widths	רוחב העמודות
+	Distribute evenly	פיזור שווה
+	Field names	שמות שדות
+	N or {row} is the row number, {col} the column number and {seq} the cell number. With none of them, the row number goes last.	N או {row} הוא מספר השורה, {col} הוא מספר העמודה ו־{seq} הוא מספר התא. אם לא מופיע אף אחד מהם, מספר השורה יתווסף בסוף.
+	Column {n}	עמודה {n}
+	Add fields	הוספת שדות
