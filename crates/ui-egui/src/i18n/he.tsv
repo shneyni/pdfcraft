@@ -362,3 +362,192 @@
 	Password	סיסמה
 	Incorrect password. Try again.	הסיסמה שגויה. נסה שוב.
 	Recognize Text	זיהוי טקסט
+	Saved the print-ready PDF to {path}	קובץ ה־PDF המוכן להדפסה נשמר ב־{path}
+	Could not save: {e}	השמירה נכשלה: {e}
+	Earlier in tab order	מוקדם יותר בסדר המעבר
+	Later in tab order	מאוחר יותר בסדר המעבר
+	From:	מאת:
+	To:	עד:
+	High Resolution	רזולוציה גבוהה
+	Print	הדפסה
+	Verify to see what the document needs.	יש לבדוק כדי לראות מה המסמך צריך.
+	Set Page Boxes	הגדרת תיבות עמוד
+	Signature panel	חלונית חתימות
+	{month} {day}, {y}	{day} ב{month} {y}
+	The document's security settings don't allow filling in form fields	הגדרות האבטחה של המסמך אינן מאפשרות למלא שדות טופס
+	{name} is read-only	{name} נמצא במצב קריאה בלבד
+	{name} has no action	לא הוגדרה פעולה עבור {name}
+	Previous month	החודש הקודם
+	Next month	החודש הבא
+	January	ינואר
+	February	פברואר
+	March	מרץ
+	April	אפריל
+	May	מאי
+	June	יוני
+	July	יולי
+	August	אוגוסט
+	September	ספטמבר
+	October	אוקטובר
+	November	נובמבר
+	December	דצמבר
+	Done	סיום
+	This certificate is in your list of trusted certificates.	האישור נמצא ברשימת האישורים המהימנים שלך.
+	This certificate is trusted through a certificate above it in the chain.	האישור מהימן בזכות אישור שמופיע מעליו בשרשרת.
+	This certificate is not trusted. Signatures made with it show an unknown identity.	האישור אינו מהימן. חתימות שנוצרו באמצעותו יציגו זהות לא ידועה.
+	Add to Trusted Certificates	הוספה לאישורים מהימנים
+	Export…	ייצוא…
+	PDF Optimizer	מיטוב PDF
+	Discard Objects	הסרת אובייקטים
+	Discard User Data	הסרת נתוני משתמש
+	Clean Up	ניקוי
+	Color Images	תמונות צבעוניות
+	Grayscale Images	תמונות בגווני אפור
+	Bicubic downsampling to	דגימה מופחתת בשיטה דו־קובית לרזולוציה
+	for images above	לתמונות שרזולוצייתן גבוהה מ־
+	Compression	דחיסה
+	ZIP	ZIP
+	Retain existing	שמירה על הקיים
+	Minimum	מינימום
+	Low	נמוכה
+	High	גבוהה
+	Maximum	מקסימום
+	Each image is measured where pages draw it; an image is replaced only if the result is smaller.	כל תמונה נמדדת לפי גודלה בעמוד; התמונה תוחלף רק אם התוצאה תהיה קטנה יותר.
+	Discard all links, actions and JavaScript	הסרת כל הקישורים, הפעולות וקוד JavaScript
+	Discard alternate images	הסרת תמונות חלופיות
+	Discard embedded page thumbnails	הסרת תמונות ממוזערות מוטמעות של עמודים
+	Discard document tags	הסרת תגיות המסמך
+	Discard embedded print settings	הסרת הגדרות הדפסה מוטמעות
+	Discard bookmarks	הסרת סימניות
+	Discard hidden layer content	הסרת תוכן של שכבות מוסתרות
+	Discard all comments, forms and multimedia	הסרת כל ההערות, הטפסים ותוכן המולטימדיה
+	Discard document information and metadata	הסרת פרטי המסמך והמטא־נתונים
+	Discard all object data (file attachments)	הסרת נתוני כל האובייקטים (קבצים מצורפים)
+	Discard private data of other applications	הסרת נתונים פרטיים של יישומים אחרים
+	Discard hidden text	הסרת טקסט מוסתר
+	Use Flate to encode streams that are not encoded	שימוש ב־Flate לקידוד זרמים שאינם מקודדים
+	In streams that use LZW encoding, use Flate instead	שימוש ב־Flate במקום LZW בזרמים המקודדים ב־LZW
+	Remove invalid links and bookmarks	הסרת קישורים וסימניות לא תקינים
+	Remove unreferenced named destinations	הסרת יעדים בעלי שם שאין אליהם הפניה
+	Compress document structure (object streams)	דחיסת מבנה המסמך (זרמי אובייקטים)
+	Remove unused objects and merge identical ones	הסרת אובייקטים שאינם בשימוש ומיזוג אובייקטים זהים
+	Audit space usage…	בדיקת שימוש במקום…
+	Space Audit	בדיקת שימוש במקום
+	Bytes	בתים
+	Content Streams	זרמי תוכן
+	X Object Forms	טופסי XObject
+	Structure Info	מידע על המבנה
+	Thumbnails	תמונות ממוזערות
+	Named Destinations	יעדים בעלי שם
+	Color Spaces	מרחבי צבע
+	Shadings	הצללות
+	Patterns (graphics objects)	דפוסים (אובייקטים גרפיים)
+	Extended Graphics States	מצבי גרפיקה מורחבים
+	Embedded Files	קבצים מוטמעים
+	Document Overhead	תקורת המסמך
+	Total	סה״כ
+	Text Field Properties	מאפייני שדה טקסט
+	Check Box Properties	מאפייני תיבת סימון
+	Radio Button Properties	מאפייני כפתור בחירה
+	Dropdown Properties	מאפייני רשימה נפתחת
+	List Box Properties	מאפייני תיבת רשימה
+	Button Properties	מאפייני כפתור
+	Digital Signature Properties	מאפייני חתימה דיגיטלית
+	Position	מיקום
+	Options	אפשרויות
+	Validate	אימות
+	Calculate	חישוב
+	Actions	פעולות
+	This field is locked. Unlock it to change its properties.	השדה נעול. יש לבטל את הנעילה כדי לשנות את מאפייניו.
+	Tooltip:	תיאור כלי:
+	Common Properties	מאפיינים כלליים
+	Read Only	קריאה בלבד
+	Required	נדרש
+	Font Size:	גודל גופן:
+	Auto	אוטומטי
+	Text Color:	צבע הטקסט:
+	Borders and Colors	גבולות וצבעים
+	Border Color:	צבע הגבול:
+	Fill Color:	צבע המילוי:
+	No color	ללא צבע
+	Beveled	משופע
+	Left:	שמאל:
+	Bottom:	תחתית:
+	Width:	רוחב:
+	Height:	גובה:
+	Points from the page's bottom-left corner.	בנקודות, מהפינה השמאלית התחתונה של העמוד.
+	Alignment:	יישור:
+	Default Value:	ערך ברירת מחדל:
+	Multi-line	רב־שורות
+	Scroll long text	גלילה בטקסט ארוך
+	Allow Rich Text Formatting	אפשר עיצוב טקסט עשיר
+	Limit of	מגבלה של
+	characters	תווים
+	Field is used for file selection	השדה משמש לבחירת קובץ
+	Check spelling	בדיקת איות
+	Comb of	תאי תווים
+	Export Value: {on}	ערך הייצוא: {on}
+	Check box is checked by default	תיבת הסימון מסומנת כברירת מחדל
+	Button is checked by default	הכפתור מסומן כברירת מחדל
+	Buttons with the same name and value are selected in unison	כפתורים בעלי אותו שם וערך נבחרים יחד
+	Item:	פריט:
+	Item List	רשימת פריטים
+	Up	למעלה
+	Delete {o}	מחיקת {o}
+	Add the choices people pick from.	יש להוסיף את האפשרויות שמהן המשתמשים יבחרו.
+	Default:	ברירת מחדל:
+	(none)	(ללא)
+	Sort items	מיון פריטים
+	Allow user to enter custom text	אפשר למשתמש להזין טקסט מותאם אישית
+	Multiple selection	בחירה מרובה
+	Commit selected value immediately	אישור הערך שנבחר מיד
+	Number	מספר
+	Percentage	אחוז
+	Time	שעה
+	Special	מיוחד
+	Select format category:	בחירת קטגוריית עיצוב:
+	The value is shown as typed.	הערך מוצג כפי שהוקלד.
+	Decimal places:	ספרות אחרי הנקודה:
+	Separator style:	סגנון מפריד:
+	Currency symbol:	סמל מטבע:
+	Before the number	לפני המספר
+	Negative number style:	סגנון מספר שלילי:
+	Format:	תבנית:
+	Custom:	מותאם אישית:
+	Zip Code	מיקוד
+	Zip Code + 4	מיקוד + 4
+	Phone Number	מספר טלפון
+	Social Security Number	מספר ביטוח לאומי
+	Arbitrary Mask	מסכה מותאמת
+	Mask:	מסכה:
+	9 digit, A letter, O letter or digit, X any character	9 ספרה, A אות, O אות או ספרה, X כל תו
+	Example: {sample}	דוגמה: {sample}
+	Field value is not validated	ערך השדה אינו עובר אימות
+	Field value is in range:	ערך השדה נמצא בטווח:
+	Add an Action	הוספת פעולה
+	Select Trigger:	בחירת אירוע מפעיל:
+	Mouse Up	שחרור לחצן העכבר
+	Mouse Down	לחיצה על לחצן העכבר
+	Mouse Enter	כניסת העכבר לאזור
+	Mouse Exit	יציאת העכבר מהאזור
+	On Focus	בעת קבלת מיקוד
+	On Blur	בעת אובדן מיקוד
+	Select Action:	בחירת פעולה:
+	Open a web link	פתיחת קישור אינטרנט
+	Reset a form	איפוס טופס
+	Execute a menu item	הפעלת פריט בתפריט
+	Show a field	הצגת שדה
+	Hide a field	הסתרת שדה
+	Submit a form	שליחת טופס
+	Fields to reset (comma-separated; empty: all)	שדות לאיפוס (מופרדים בפסיקים; ריק: כולם)
+	Print, NextPage, PrevPage, FirstPage or LastPage	Print, NextPage, PrevPage, FirstPage או LastPage
+	Field names (comma-separated)	שמות שדות (מופרדים בפסיקים)
+	URL to submit to	כתובת URL לשליחה
+	Script:	סקריפט:
+	Value:	ערך:
+	No actions	אין פעולות
+	Value is not calculated	הערך אינו מחושב
+	Value is the	הערך הוא
+	sum (+)	סכום (+)
+	product (x)	מכפלה (x)
+	average	ממוצע
