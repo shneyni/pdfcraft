@@ -1044,6 +1044,42 @@ fn arabic_plurals_follow_the_six_cldr_forms() {
     assert_eq!([100, 101, 102, 200, 1000, u64::MAX - 13].map(form), [5; 6]);
 }
 
+fn hebrew() -> Lang {
+    Lang::from_code("he").expect("he registered")
+}
+
+/// Hebrew can be selected from preferences and detected from standard system locale tags.
+/// The fork keeps stock control placement unchanged while displaying Hebrew strings.
+#[test]
+fn hebrew_is_registered_and_persists_without_mirroring_the_ui_layout() {
+    let he = hebrew();
+    assert_eq!(he.name(), "עברית");
+    assert!(!he.rtl(), "Hebrew translation must not mirror the existing button layout");
+    assert_eq!(he.0.plural_forms(), 3);
+    assert_eq!([1, 2, 3, 0].map(|n| (he.0.plural)(n)), [0, 1, 2, 2]);
+    assert_eq!(normalize_pref("HE"), Some("he"));
+    for tag in ["he", "he-IL", "he_IL.UTF-8", "HE-il"] {
+        assert_eq!(lang_from_tag(tag), Some(he), "{tag}");
+    }
+    assert_eq!(tr(he, "Save"), "שמירה");
+    assert_eq!(tr(he, "Cancel"), "ביטול");
+    assert_eq!(tr(he, "File"), "קובץ");
+    assert_eq!(tr(he, "no such label"), "no such label");
+    let previous = current();
+    set_current(he);
+    assert_eq!(t("Save"), "שמירה");
+    set_current(previous);
+
+    let mut app = crate::PdfCraftApp::default();
+    app.set_option("language", "HE").unwrap();
+    assert_eq!(app.language, "he");
+    let mut restored = crate::PdfCraftApp::default();
+    restored.restore(&app.persist());
+    assert_eq!(restored.language, "he");
+    assert!(restored.set_option("language", "xx").is_err());
+    assert_eq!(restored.language, "he");
+}
+
 fn persian() -> Lang {
     Lang::from_code("fa").expect("fa registered")
 }
