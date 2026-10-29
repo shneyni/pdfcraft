@@ -1,0 +1,175 @@
+# Hebrew (he) catalog. Columns, separated by a TAB: context <TAB> source <TAB> translation
+#
+# Clean-room Hebrew UI translation. Document contents, file names, command IDs and protocol
+# strings remain unchanged. Placeholders and the original ellipsis are preserved.
+	Menu	תפריט
+	File	קובץ
+	Edit	עריכה
+	Pages	עמודים
+	View	תצוגה
+	Help	עזרה
+	Preferences	העדפות
+	Preferences…	העדפות…
+	Interface language	שפת הממשק
+	Interface size	גודל הממשק
+	Auto ({percent}%)	אוטומטי ({percent}%)
+	Auto follows the system's text size. Pages always render at the display's full resolution.	המצב האוטומטי משתמש בגודל הטקסט של המערכת. העמודים מוצגים תמיד ברזולוציה המלאה של המסך.
+	Identity	זהות
+	Name on new comments	השם שיופיע בהערות חדשות
+	Open…	פתיחה…
+	Open Recent	פתיחה אחרונה
+	Pin folder to Home…	הצמדת תיקייה לדף הבית…
+	Folders	תיקיות
+	Pin a folder…	הצמדת תיקייה…
+	Pin a folder to Home	הצמדת תיקייה לדף הבית
+	Pin a folder to list its newest PDFs here, such as where your scanner or a synced cloud drive saves them.	אפשר להצמיד תיקייה כדי שקובצי ה־PDF החדשים שבה יופיעו כאן, למשל תיקייה שבה הסורק או כונן ענן מסונכרן שומרים קבצים.
+	Unpin	ביטול הצמדה
+	Unpin {folder}	ביטול ההצמדה של {folder}
+	Looking for PDFs…	מחפש קובצי PDF…
+	This folder isn't available right now. It may have moved, or its drive or cloud sync is offline.	התיקייה אינה זמינה כרגע. ייתכן שהועברה, שהכונן שלה אינו מחובר או שסנכרון הענן אינו פעיל.
+	No PDFs in this folder yet	אין עדיין קובצי PDF בתיקייה זו
+	Show less	הצגת פחות
+	Show {n} more	הצגת {n} נוספים
+	The newest {n} of {total} PDFs	{n} קובצי ה־PDF החדשים ביותר מתוך {total}
+	Pinned folders need the desktop app	הצמדת תיקיות זמינה באפליקציית שולחן העבודה
+	Choose a folder on this computer to pin	בחר תיקייה במחשב זה להצמדה
+	{folder} is already pinned to Home	{folder} כבר מוצמדת לדף הבית
+	You can pin up to {n} folders. Unpin one first.	אפשר להצמיד עד {n} תיקיות. יש לבטל תחילה הצמדה של תיקייה אחרת.
+	Pinned {folder} to Home	{folder} הוצמדה לדף הבית
+	No recent files	אין קבצים אחרונים
+	New blank PDF	קובץ PDF ריק חדש
+	Create PDF from file…	יצירת PDF מקובץ…
+	Create PDF from images…	יצירת PDF מתמונות…
+	Create PDF from clipboard	יצירת PDF מלוח הגזירים
+	Combine files…	שילוב קבצים…
+	Save	שמירה
+	Save as…	שמירה בשם…
+	Close file	סגירת קובץ
+	Close all	סגירת הכול
+	Revert	חזרה לגרסה השמורה
+	Print…	הדפסה…
+	Document properties…	מאפייני המסמך…
+	Undo	ביטול פעולה
+	Redo	ביצוע חוזר
+	Find…	חיפוש…
+	Advanced search…	חיפוש מתקדם…
+	Copy pages	העתקת עמודים
+	Cut pages	גזירת עמודים
+	Paste pages	הדבקת עמודים
+	Fit visible	התאמה לאזור הנראה
+	Marquee zoom	הגדלה לפי אזור
+	Take a snapshot	צילום תמונת מצב
+	Column select	בחירת עמודה
+	Full screen mode	מצב מסך מלא
+	Read mode	מצב קריאה
+	Next tab	הלשונית הבאה
+	Previous tab	הלשונית הקודמת
+	Switch light / dark theme	מעבר לערכת נושא בהירה / כהה
+	Comments panel	חלונית הערות
+	Form fields panel	חלונית שדות הטופס
+	Clear form	ניקוי הטופס
+	Find tools and commands…	חיפוש כלים ופקודות…
+	Zoom	שינוי הגדלה
+	Actual size	גודל מקורי
+	Zoom to page level	התאמה לעמוד
+	Fit to width	התאמה לרוחב
+	Display theme	ערכת נושא לתצוגה
+	Side panels	חלוניות צד
+	Enable Acrobat JavaScript	הפעלת JavaScript של Acrobat
+	OK	אישור
+	Join our Discord	הצטרפות ל־Discord שלנו
+	Close	סגירה
+	Next / previous match	התוצאה הבאה / הקודמת
+	Copy selected text	העתקת הטקסט שנבחר
+	Double-click	לחיצה כפולה
+	Select a word	בחירת מילה
+	Clear selection / close find	ביטול הבחירה / סגירת החיפוש
+	Zoom in / out (also pinch or {key}-scroll)	הגדלה / הקטנה (גם בצביטה או בגלילה עם {key})
+	Rotate view	סיבוב התצוגה
+	First / last page	העמוד הראשון / האחרון
+	Previous / next page	העמוד הקודם / הבא
+	Delete selected pages (Organize)	מחיקת העמודים שנבחרו (ארגון)
+	Select all pages (Organize)	בחירת כל העמודים (ארגון)
+	Home	דף הבית
+	Open	פתיחה
+	Open a PDF ({key})	פתיחת PDF ({key})
+	Dark gray theme	ערכת נושא אפורה כהה
+	Light theme	ערכת נושא בהירה
+	Appearance mode	מצב מראה
+	Light	בהיר
+	Dark	כהה
+	Active	פעיל
+	Dark theme	ערכת נושא כהה
+	Appearance settings…	הגדרות מראה…
+	All tools	כל הכלים
+	Read	קריאה
+	Convert	המרה
+	E-Sign	חתימה אלקטרונית
+	Print ({key})	הדפסה ({key})
+	Save ({key})	שמירה ({key})
+	Document properties ({key})	מאפייני המסמך ({key})
+	Find tools and commands	חיפוש כלים ופקודות
+	Fit to height	התאמה לגובה
+	Zoom in	הגדלה
+	Zoom out	הקטנה
+	Rotate view clockwise	סיבוב התצוגה עם כיוון השעון
+	Rotate view counterclockwise	סיבוב התצוגה נגד כיוון השעון
+	Page navigation	ניווט בין עמודים
+	Previous view	התצוגה הקודמת
+	Next view	התצוגה הבאה
+	Page display	תצוגת העמוד
+	Continuous scrolling	גלילה רציפה
+	Show gaps between pages	הצגת רווחים בין עמודים
+	Hide gaps to join page edges. Margins inside the PDF remain unchanged.	הסתרת הרווחים כדי להצמיד את קצוות העמודים. השוליים בתוך קובץ ה־PDF לא ישתנו.
+	Two-page view	תצוגת שני עמודים
+	Single page	עמוד יחיד
+	Show cover page in two-page view	הצגת עמוד השער בתצוגת שני עמודים
+	Use system setting	שימוש בהגדרת המערכת
+	Light gray	אפור בהיר
+	Dark gray	אפור כהה
+	Comments	הערות
+	Bookmarks	סימניות
+	Fields	שדות
+	Layers	שכבות
+	Attachments	קבצים מצורפים
+	Signatures	חתימות
+	Accessibility Checker	בודק נגישות
+	Search	חיפוש
+	Compare	השוואה
+	Page thumbnails	תמונות ממוזערות של עמודים
+	Form fields	שדות טופס
+	Zoom out ({key})	הקטנה ({key})
+	Zoom in ({key})	הגדלה ({key})
+	Rotate view clockwise ({key})	סיבוב התצוגה עם כיוון השעון ({key})
+	Toggle fit page / fit width	מעבר בין התאמה לעמוד להתאמה לרוחב
+	Next page	העמוד הבא
+	Previous page	העמוד הקודם
+	Current page — type a page number or label (such as iv) and press Enter	העמוד הנוכחי — יש להקליד מספר עמוד או תווית (כגון iv) וללחוץ על Enter
+	Welcome to PdfCraft	ברוכים הבאים ל־PdfCraft
+	An open-source PDF workbench — local, private, and scriptable.	סביבת עבודה בקוד פתוח לקובצי PDF — מקומית, פרטית וניתנת לתכנות.
+	Join the ArtCraft community	הצטרפות לקהילת ArtCraft
+	Get help, share feedback and follow development on Discord.	קבלת עזרה, שליחת משוב ומעקב אחר הפיתוח ב־Discord.
+	Recommended tools	כלים מומלצים
+	Use now	שימוש כעת
+	Open file	פתיחת קובץ
+	Recent	אחרונים
+	Files you open in PdfCraft appear here. Drop a PDF anywhere to open it.	קבצים שנפתחים ב־PdfCraft יופיעו כאן. אפשר לגרור קובץ PDF לכל מקום בחלון כדי לפתוח אותו.
+	Privacy	פרטיות
+	PdfCraft works offline. No telemetry, no account, and no cloud processing unless you add a provider.	PdfCraft פועל גם ללא חיבור לרשת. אין איסוף נתוני שימוש, אין צורך בחשבון ואין עיבוד בענן, אלא אם מוסיפים ספק שירות.
+	Scripts run in a sandbox without file or network access. With JavaScript off, Acrobat's standard format, validate and calculate functions still work.	סקריפטים פועלים בסביבה מבודדת ללא גישה לקבצים או לרשת. גם כש־JavaScript כבוי, פונקציות העיצוב, האימות והחישוב התקניות של Acrobat ממשיכות לפעול.
+	Back to all tools	חזרה לכל הכלים
+	Close panel	סגירת חלונית
+	View less	הצגת פחות
+	View more	הצגת יותר
+	Available	זמין
+	Ready	מוכן
+	Search tools and commands…	חיפוש כלים ופקודות…
+# Accessible names for inputs that have no visible label.
+	Added text	טקסט שנוסף
+	Link URL	כתובת URL של קישור
+	Search tools and commands	חיפוש כלים ופקודות
+	Text editing line	שורת עריכת טקסט
+	Text to place	טקסט להוספה
+	Tooltip	תיאור כלי
+	Words or phrases to redact	מילים או ביטויים להשחרה
+	No matching tools	לא נמצאו כלים תואמים
