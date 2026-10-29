@@ -249,7 +249,7 @@ pub static LANGUAGES: [LangInfo; 36] = [
     LangInfo { code: "fa", name: "فارسی", source: include_str!("i18n/fa.tsv"), plural: plural_fr, rtl: true, catalog: OnceLock::new() },
     // Hebrew UI labels use the existing bidi text shaping while retaining PdfCraft's current
     // control placement and toolbar layout in this fork.
-    LangInfo { code: "he", name: "עברית", source: include_str!("i18n/he.tsv"), plural: plural_hebrew, rtl: false, catalog: OnceLock::new() },
+    LangInfo { code: "he", name: "עברית", source: include_str!("i18n/he.tsv"), plural: plural_hebrew, rtl: true, catalog: OnceLock::new() },
     // Polish; every `pl-*` locale (`pl-pl`, `pl_pl.UTF-8`) resolves here.
     LangInfo { code: "pl", name: "Polski", source: include_str!("i18n/pl.tsv"), plural: plural_polish, rtl: false, catalog: OnceLock::new() },
     // Slovene; every `sl-*` locale (`sl-SI`) resolves here. Four plural forms (one, two, few, other).
@@ -446,6 +446,13 @@ impl Lang {
     /// shapes and reorders each run for display (see [`LangInfo::rtl`]).
     pub fn rtl(self) -> bool {
         self.0.rtl
+    }
+
+    /// Whether the stock egui chrome (menus, combo boxes, scroll bars and headers) should mirror.
+    /// Hebrew uses right-to-left text direction but, in this fork, retains the existing control
+    /// and button placement rather than mirroring the entire interface.
+    pub fn mirrors_chrome(self) -> bool {
+        self.rtl() && self.code() != "he"
     }
 
     fn catalog(self) -> &'static Catalog {
