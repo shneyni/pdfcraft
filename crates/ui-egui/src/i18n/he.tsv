@@ -2047,3 +2047,193 @@ certificate	Subject	נושא
 	Scroll tabs right	גלילת הלשוניות ימינה
 	Shared Field Properties	מאפייני שדה משותפים
 	{n} fields selected	נבחרו {n} שדות
+	Mixed	מעורב
+	Custom font	גופן מותאם אישית
+	Only checked properties will change. Mixed means the selected fields have different values.	רק המאפיינים שסומנו ישתנו. „מעורב” פירושו שלשדות שנבחרו יש ערכים שונים.
+	Shift- or Ctrl/Command-click to select several fields.	יש ללחוץ תוך החזקת Shift או Ctrl/Command כדי לבחור כמה שדות.
+	Font size 0 uses automatic sizing.	גודל גופן 0 משתמש בהתאמה אוטומטית.
+	Character limit:	מגבלת תווים:
+	Character limit 0 means no limit. A comb of characters needs a limit.	מגבלת תווים 0 פירושה שאין מגבלה. רשת תווים מחייבת הגבלת תווים.
+	To change locked fields, also set Locked to No.	כדי לשנות שדות נעולים, יש להגדיר גם „נעול” ל„לא”.
+	Comb of characters	רשת תווים
+	The document changed while you were editing field properties.	המסמך השתנה בזמן עריכת מאפייני השדה.
+	The document is no longer open.	המסמך אינו פתוח עוד.
+	The field properties dialog is no longer open.	חלון מאפייני השדה אינו פתוח עוד.
+	The field properties could not be changed.	לא ניתן היה לשנות את מאפייני השדה.
+	The selected fields could not be found. Select them again.	לא ניתן למצוא את השדות שנבחרו. יש לבחור אותם שוב.
+	The field {name} no longer exists.	השדה {name} אינו קיים עוד.
+	A selected field has no widget on any page, so the fields can't be edited together.	לאחד השדות שנבחרו אין רכיב תצוגה באף עמוד, ולכן אי אפשר לערוך את השדות יחד.
+	Text recognition isn't installed: its models are missing (run `cargo xtask models`, or set PDFCRAFT_MODELS).	זיהוי הטקסט אינו מותקן: המודלים חסרים (יש להריץ `cargo xtask models` או להגדיר את PDFCRAFT_MODELS).
+	 ({n} at {dpi} dpi, the largest size they can be drawn at)	 ({n} ברזולוציה {dpi} dpi, הגודל המרבי שבו ניתן לצייר אותם)
+	Margins	שוליים
+	For page sizes and margins.	עבור גדלי עמודים ושוליים.
+@plural	{n} object selected|{n} objects selected	נבחר אובייקט אחד ({n})|נבחרו {n} אובייקטים|נבחרו {n} אובייקטים
+	Drag the selection to move it. Esc clears the selection.	גרור את הבחירה כדי להזיז אותה. Esc מנקה את הבחירה.
+	Shift-click to select several objects. Drag empty space to select an area.	יש ללחוץ תוך החזקת Shift כדי לבחור כמה אובייקטים. גרור באזור ריק כדי לבחור אזור.
+	Select at most 1000 objects at a time.	ניתן לבחור עד 1000 אובייקטים בכל פעם.
+	Finish or discard the text being edited before selecting several objects.	יש לסיים את עריכת הטקסט או לבטל אותה לפני בחירת מספר אובייקטים.
+	Move object	הזזת אובייקט
+	Move objects	הזזת אובייקטים
+	Vertical text cannot be moved with this selection.	אי אפשר להזיז טקסט אנכי באמצעות בחירה זו.
+	Text used as a clipping path cannot be moved with this selection.	אי אפשר להזיז טקסט המשמש כנתיב חיתוך באמצעות בחירה זו.
+	These objects could not be moved. Select them again and try a smaller move.	לא ניתן להזיז אובייקטים אלה. יש לבחור אותם שוב ולנסות הזזה קטנה יותר.
+	This page contains objects that cannot be selected together.	עמוד זה מכיל אובייקטים שאי אפשר לבחור יחד.
+	Fill colour	צבע מילוי
+	No fill	ללא מילוי
+	Fill colour: none	צבע מילוי: ללא
+key	Ctrl	Ctrl
+key	Shift	Shift
+key	Delete	Delete
+key	Esc	Esc
+key	Home	Home
+key	End	End
+key	Space	רווח
+	Grid view	תצוגת רשת
+	List view	תצוגת רשימה
+	Files are combined in the order shown. Drag them to change it.	הקבצים משולבים בסדר שמוצג. יש לגרור אותם כדי לשנות את הסדר.
+	Preview unavailable: {e}	התצוגה המקדימה אינה זמינה: {e}
+	Pages: {k} of {n}	עמודים: {k} מתוך {n}
+	Check the pages	בדיקת העמודים
+	Switch to List view to change the pages it takes.	יש לעבור לתצוגת רשימה כדי לשנות אילו עמודים ייכללו.
+	Expand all	הרחבת הכול
+	Collapse all	צמצום הכול
+	Remove page	הסרת עמוד
+	Remove {n} pages	הסרת {n} עמודים
+	Reset panel layout	איפוס פריסת החלוניות
+	Float panel	הפיכת החלונית לצפה
+	Move to group	העברה לקבוצה
+	Panels	חלוניות
+	Resize panels	שינוי גודל החלוניות
+	Resize panel window	שינוי גודל חלון החלונית
+	PDF page: {size}	עמוד PDF: {size}
+	Match page at 100%	התאמה לעמוד ב־100%
+	PDF scale: {scale}%	קנה מידה של PDF: ‏{scale}%
+	Printer paper and scaling may differ. Check driver settings.	הנייר והקנה מידה של המדפסת עשויים להיות שונים. יש לבדוק את הגדרות מנהל ההתקן.
+	Drawing scale changes. Use Actual size for full-scale plans.	קנה המידה של השרטוט משתנה. יש לבחור „גודל מקורי” עבור תוכניות בקנה מידה מלא.
+	Reload documents when their files change on disk	טעינה מחדש של מסמכים כאשר הקבצים שלהם משתנים בדיסק
+	Don't show again	לא להציג שוב
+	Show a notice when a document is secured	הצגת הודעה כאשר מסמך מאובטח
+	This file changed on disk. Reload it to see the new version; your unsaved changes will be lost.	קובץ זה השתנה בדיסק. יש לטעון אותו מחדש כדי לראות את הגרסה החדשה; שינויים שלא נשמרו יאבדו.
+	Reload	טעינה מחדש
+	Couldn't reload {name}: {e}	לא ניתן לטעון מחדש את {name}: {e}
+	Select page {label}	בחירת עמוד {label}
+	Rotate page {label} counterclockwise	סיבוב עמוד {label} נגד כיוון השעון
+	Rotate page {label} clockwise	סיבוב עמוד {label} עם כיוון השעון
+	Delete page {label}	מחיקת עמוד {label}
+	Mouse wheel scroll speed	מהירות הגלילה בגלגלת העכבר
+scroll speed	Slow	איטית
+scroll speed	Normal	רגילה
+scroll speed	Fast	מהירה
+	Animation effects	אפקטים של אנימציה
+animation effects	On	מופעל
+animation effects	Off	כבוי
+	Enhance camera image	שיפור תמונת מצלמה
+	Drag the corners onto the document's edges, then choose Enhance page.	גרור את הפינות לקצוות המסמך ואז בחר „שיפור עמוד”.
+	Enhance page	שיפור עמוד
+	Done adding text	הוספת הטקסט הסתיימה
+	Discard this text (Esc)	ביטול הטקסט הזה (Esc)
+	Clean-up	ניקוי
+	Original	מקורי
+	Greyscale	גווני אפור
+	Black and white	שחור ולבן
+	Reading colours	צבעי קריאה
+	Replace document colours	החלפת צבעי המסמך
+	Black on white	שחור על לבן
+	White on black	לבן על שחור
+	Yellow on black	צהוב על שחור
+	Green on black	ירוק על שחור
+	Page background	רקע העמוד
+	Only change the colour of black text or line art	שינוי הצבע של טקסט שחור או של גרפיקה קווית בלבד
+	Change the colour of line art as well as text	שינוי הצבע של גרפיקה קווית בנוסף לטקסט
+	Colours are remapped while rendering; the document itself never changes.	הצבעים ממופים מחדש בזמן הרינדור; המסמך עצמו אינו משתנה.
+	This printer's driver doesn't take two-sided settings from other programs, so its own setting applies. Change it in Properties…	מנהל ההתקן של מדפסת זו אינו מקבל הגדרות דו־צדדיות מתוכנות אחרות, ולכן חלה ההגדרה שלו. ניתן לשנות אותה במאפיינים…
+	Browser's print dialog	חלון ההדפסה של הדפדפן
+	Copies, two-sided printing and colour are chosen in the browser's print dialog.	מספר העותקים, הדפסה דו־צדדית וצבע נבחרים בחלון ההדפסה של הדפדפן.
+	Preparing {n} sheets for printing…	מכין {n} גיליונות להדפסה…
+	Preparing sheet {done} of {total} for printing…	מכין גיליון {done} מתוך {total} להדפסה…
+	Opening the browser's print dialog…	פותח את חלון ההדפסה של הדפדפן…
+	Couldn't print from the browser ({e}); downloaded {name} to print instead	לא ניתן היה להדפיס מהדפדפן ({e}); הורד את {name} כדי להדפיס במקום זאת
+	Tools panel side	הצד שבו מופיעה חלונית הכלים
+	Add comment	הוספת הערה
+	Change tag properties	שינוי מאפייני תגית
+	Tags panel	חלונית התגיות
+	Tags	תגיות
+	Tag type	סוג תגית
+	Actual text	טקסט בפועל
+	Find a tag	חיפוש תגית
+	Collapse tag	צמצום תגית
+	Expand tag	הרחבת תגית
+	Revert changes	ביטול השינויים
+	Save tag properties	שמירת מאפייני התגית
+	This document has no editable structure tags.	אין במסמך זה תגיות מבנה הניתנות לעריכה.
+	{n} tags	{n} תגיות
+	Save or revert changes before selecting another tag.	יש לשמור או לבטל את השינויים לפני בחירת תגית אחרת.
+	Left out: {names}	הושמטו: {names}
+	already a PDF	כבר קובץ PDF
+	no unused output name	אין שם פלט פנוי
+	no output folder was chosen	לא נבחרה תיקיית פלט
+@plural	Downloaded {n} PDF|Downloaded {n} PDFs	הורד {n} קובץ PDF|הורדו {n} קובצי PDF|הורדו {n} קובצי PDF
+	Scan	סריקה
+	Sign a sheet of white paper and take a photo of it in bright, even light (use the flash). Choose the photo or drop it here: PdfCraft finds the signature and removes the paper.	חתום על דף נייר לבן וצלם אותו בתאורה בהירה ואחידה (השתמש במבזק). בחר את התמונה או גרור אותה לכאן: PdfCraft יאתר את החתימה ויסיר את הנייר.
+	Choose photo…	בחירת תמונה…
+	No photo chosen	לא נבחרה תמונה
+	Photo	תמונה
+	Ink sensitivity	רגישות הדיו
+	No signature was found in the frame. Move the frame over the signature or raise the ink sensitivity.	לא נמצאה חתימה במסגרת. יש להזיז את המסגרת מעל החתימה או להעלות את רגישות הדיו.
+	Couldn't use the photo: {e}	לא ניתן להשתמש בתמונה: {e}
+	Close Tab	סגירת לשונית
+	Reopen Closed Tab	פתיחה מחדש של לשונית שנסגרה
+	Reveal in Finder	הצגה ב־Finder
+	Reveal in File Explorer	הצגה בסייר הקבצים
+	Other colour…	צבע אחר…
+	Recent colours	צבעים אחרונים
+	Couldn't follow linked PDF: {reason}	לא ניתן לעבור אל קובץ ה־PDF המקושר: {reason}
+	The linked PDF opened, but its named destination was not applied.	קובץ ה־PDF המקושר נפתח, אך היעד בעל השם שלו לא הוחל.
+	The linked PDF opened, but its page destination was out of range.	קובץ ה־PDF המקושר נפתח, אך עמוד היעד שלו מחוץ לטווח.
+	Local cross-PDF links require the desktop app	קישורים מקומיים בין קובצי PDF דורשים את יישום שולחן העבודה
+	Minimize	מזעור
+	Maximize	הגדלה
+	Restore	שחזור
+	Use system title bar	שימוש בשורת הכותרת של המערכת
+	Show a basic title bar for the window buttons instead of the tab strip. GNOME doesn't draw title bars for apps, so this one doesn't follow its theme.	הצגת שורת כותרת בסיסית עבור כפתורי החלון במקום שורת הלשוניות. GNOME אינו מצייר שורות כותרת ליישומים ולכן שורה זו אינה תואמת לערכת הנושא שלו.
+	Allow	אפשר
+	Only allow this if you trust the source document.	יש לאפשר זאת רק אם מסמך המקור מהימן.
+	Open this local PDF?	לפתוח את קובץ ה־PDF המקומי הזה?
+	This document is trying to open a local file:	מסמך זה מנסה לפתוח קובץ מקומי:
+	Move tag earlier	העברת תגית למיקום מוקדם יותר
+	Move tag later	העברת תגית למיקום מאוחר יותר
+	Tools	כלים
+	Inspector	מפקח
+	Save (M4)	שמירה (M4)
+	Only the document's owner can change its security (open it with the permissions password)	רק בעל המסמך יכול לשנות את האבטחה שלו (יש לפתוח באמצעות סיסמת ההרשאות)
+	Creator	יוצר
+	Producer	מפיק
+	Enter a name.	יש להזין שם.
+	The password must have at least 6 characters.	הסיסמה חייבת להכיל לפחות 6 תווים.
+	The passwords do not match.	הסיסמאות אינן תואמות.
+	There is no folder to save the digital ID in.	אין תיקייה לשמירת המזהה הדיגיטלי.
+	The password is incorrect.	הסיסמה שגויה.
+	Choose a digital ID.	יש לבחור מזהה דיגיטלי.
+	Unsigned signature field: {name}	שדה חתימה לא חתום: {name}
+	Rev. {rev}: Signed by {name}	מהדורה {rev}: נחתמה על ידי {name}
+	Rev. {rev}: Signed by an unknown signer	מהדורה {rev}: נחתמה על ידי חותם לא ידוע
+	Rev. {rev}: Certified by {name}	מהדורה {rev}: אושרה על ידי {name}
+	Rev. {rev}: Certified by an unknown signer	מהדורה {rev}: אושרה על ידי חותם לא ידוע
+	{who}, certificate issued by {issuer}.	{who}, האישור הונפק על ידי {issuer}.
+	{who}, certificate issued by an unknown issuer.	{who}, האישור הונפק על ידי גורם לא ידוע.
+	Digital Signature	חתימה דיגיטלית
+	Non-Repudiation	אי־התכחשות
+	Key Encipherment	הצפנת מפתח
+	Data Encipherment	הצפנת נתונים
+	Key Agreement	הסכמת מפתחות
+	Certificate Signing	חתימת אישור
+	CRL Signing	חתימת CRL
+	Encipher Only	הצפנה בלבד
+	Decipher Only	פענוח בלבד
+	Enter a page number	יש להזין מספר עמוד
+	Enter a URL	יש להזין כתובת URL
+	Enter the field names	יש להזין את שמות השדות
+	Cut and stack needs Two-sided: Off. Print single-sided sheets.	חיתוך וערימה דורשים שהדפסה דו־צדדית תהיה כבויה. יש להדפיס גיליונות חד־צדדיים.
+	Panel layout could not be restored: {error}	לא ניתן לשחזר את פריסת החלוניות: {error}
+	Panel move was not applied: {error}	העברת החלונית לא בוצעה: {error}
+	Rendering…	מרנדר…
