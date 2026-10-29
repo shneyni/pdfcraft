@@ -173,3 +173,192 @@
 	Tooltip	תיאור כלי
 	Words or phrases to redact	מילים או ביטויים להשחרה
 	No matching tools	לא נמצאו כלים תואמים
+	HTML web page	דף אינטרנט HTML
+	Rich Text Format (.rtf)	Rich Text Format ‏(.rtf)
+	Text (plain)	טקסט פשוט
+	PostScript / EPS	PostScript / EPS
+	Fill & Sign	מילוי וחתימה
+	Fill	מילוי
+	Checkmark	סימן וי
+	Cross	צלב
+	Dot	נקודה
+	Line	קו
+	Date	תאריך
+	Signature	חתימה
+	Initials	ראשי תיבות
+	Edit a PDF	עריכת PDF
+	Modify page	שינוי עמוד
+	Rotate pages	סיבוב עמודים
+	Insert pages	הוספת עמודים
+	Extract pages	חילוץ עמודים
+	Add content	הוספת תוכן
+	Text	טקסט
+	Image	תמונה
+	Header and footer	כותרת עליונה ותחתונה
+	Watermark	סימן מים
+	Link	קישור
+	Bates numbering	מספור Bates
+	Background	רקע
+	Attach file	צירוף קובץ
+	Create a PDF	יצירת PDF
+	Create from	יצירה מתוך
+	Single file	קובץ יחיד
+	Multiple files	קבצים מרובים
+	Separate PDFs	קובצי PDF נפרדים
+	Images	תמונות
+	Clipboard	לוח הגזירים
+	Blank page	עמוד ריק
+	Combine files	שילוב קבצים
+	Combine	שילוב
+	Add files to combine	הוספת קבצים לשילוב
+	Page options	אפשרויות עמוד
+	Page grid	רשת העמודים
+	Rotate	סיבוב
+	Delete	מחיקה
+	Extract	חילוץ
+	Insert	הוספה
+	Replace	החלפה
+	Split	פיצול
+	More	עוד
+	Set page boxes	הגדרת תיבות עמוד
+	Page labels	תוויות עמודים
+	Page transitions	מעברי עמודים
+	Add comments	הוספת הערות
+	Markup	סימון
+	Sticky note	פתקית
+	Underline	קו תחתון
+	Strikethrough	קו חוצה
+	Squiggly underline	קו תחתון גלי
+	Text box	תיבת טקסט
+	Drawing	ציור
+	Rectangle	מלבן
+	Oval	אליפסה
+	Arrow	חץ
+	Cloud	ענן
+	Stamp	חותמת
+	Review	סקירה
+	Comment list	רשימת הערות
+	Scan & OCR	סריקה וזיהוי תווים (OCR)
+	Recognize text	זיהוי טקסט
+	In this file	בקובץ זה
+	In multiple files	בכמה קבצים
+	Enhance scanned file	שיפור קובץ סרוק
+	Correct recognized text	תיקון הטקסט שזוהה
+	Protect a PDF	הגנה על PDF
+	Protect	הגנה
+	Protect with password	הגנה באמצעות סיסמה
+	Remove hidden information	הסרת מידע מוסתר
+	Advanced options	אפשרויות מתקדמות
+	Encrypt with certificate	הצפנה באמצעות אישור
+	Security properties	מאפייני אבטחה
+	Redact a PDF	השחרת תוכן ב־PDF
+	Redact	השחרה
+	Redact pages	השחרת עמודים
+	Find text and redact	חיפוש והשחרת טקסט
+	Set properties	הגדרת מאפיינים
+	Sanitize document	ניקוי המסמך
+	Compress a PDF	דחיסת PDF
+	Optimize	מיטוב
+	Reduce file size	הקטנת גודל הקובץ
+	Advanced optimization	מיטוב מתקדם
+	Audit space usage	בדיקת השימוש במקום
+	Field list	רשימת שדות
+	Field properties	מאפייני השדה
+	Tab order by rows	סדר מעבר לפי שורות
+	Tab order by columns	סדר מעבר לפי עמודות
+	Import data	ייבוא נתונים
+	Export data	ייצוא נתונים
+	Add form components	הוספת רכיבי טופס
+	Text field	שדה טקסט
+	Checkbox	תיבת סימון
+	Radio button	כפתור בחירה
+	Drop-down list	רשימה נפתחת
+	List box	תיבת רשימה
+	Button	כפתור
+	Image field	שדה תמונה
+	Date field	שדה תאריך
+	Digital signature	חתימה דיגיטלית
+	Stamps	חותמות
+	Stamp palette	לוח חותמות
+	Use a certificate	שימוש באישור
+	Certificates	אישורים
+	Timestamp	חותמת זמן
+	Use print production	שימוש בכלי הפקה לדפוס
+	Print production	הפקה לדפוס
+	Output preview	תצוגה מקדימה של הפלט
+	Preflight	בדיקה מקדימה
+	Convert colors	המרת צבעים
+	Add printer marks	הוספת סימני דפוס
+	Fix hairlines	תיקון קווים דקים
+	Measure objects	מדידת אובייקטים
+	Measure	מדידה
+	Measuring tool	כלי מדידה
+	Geospatial location	מיקום גאוגרפי
+	Compare files	השוואת קבצים
+	Select files to compare	בחירת קבצים להשוואה
+	Use guided actions	שימוש בפעולות מודרכות
+	Actions list	רשימת פעולות
+	Action Wizard	אשף פעולות
+	Make accessible	התאמה לנגישות
+	Prepare for distribution	הכנה להפצה
+	Optimize scanned documents	מיטוב מסמכים סרוקים
+	Archive documents	ארכוב מסמכים
+	Prepare for accessibility	הכנה לנגישות
+	Accessibility	נגישות
+	Automatically tag PDF	תיוג אוטומטי של PDF
+	Change reading options	שינוי אפשרויות הקריאה
+	Check for accessibility	בדיקת נגישות
+	Add alternate text	הוספת טקסט חלופי
+	Fix reading order	תיקון סדר הקריאה
+	Apply PDF standards	החלת תקני PDF
+	Standards	תקנים
+	Save as PDF/A	שמירה כ־PDF/A
+	Save as PDF/X	שמירה כ־PDF/X
+	Save as PDF/UA	שמירה כ־PDF/UA
+	Add search index	הוספת אינדקס חיפוש
+	Index	אינדקס
+	Manage embedded index	ניהול אינדקס מוטמע
+	Use JavaScript	שימוש ב־JavaScript
+	JavaScript	JavaScript
+	Console	מסוף
+	Document JavaScripts	סקריפטים של JavaScript במסמך
+	Document actions	פעולות מסמך
+	AI assistant	עוזר בינה מלאכותית
+	Bring your own model (off by default)	שימוש במודל משלך (כבוי כברירת מחדל)
+	Summarize	סיכום
+	Ask about this document	שאלות על המסמך
+	Translate	תרגום
+	pages	עמודים
+	Planned	מתוכנן
+	Planned for milestone	מתוכנן לאבן הדרך
+	open to see what it will include	פתח כדי לראות מה ייכלל
+	Optional: needs an AI provider you configure	רשות: נדרש ספק בינה מלאכותית שתגדיר
+	Coming in milestone	ייכלל באבן הדרך
+	Items marked Ready work today.	הפריטים המסומנים „מוכן” כבר פועלים.
+	Preview	תצוגה מקדימה
+	Edit fields	עריכת שדות
+	Try the form as people filling it in will see it	בדיקת הטופס כפי שיוצג למי שימלא אותו
+	Redact all	השחרת הכול
+	Clear all	ניקוי הכול
+	Rotate page	סיבוב עמוד
+	Delete page	מחיקת עמוד
+	Move page	העברת עמוד
+	Move pages	העברת עמודים
+	Duplicate page	שכפול עמוד
+	Replace page	החלפת עמוד
+	Replace pages	החלפת עמודים
+	Crop page	חיתוך עמוד
+	Cancel	ביטול
+	Don't save	לא לשמור
+	Apply	החלה
+	Run	הפעלה
+	Clear	ניקוי
+	Sanitize	ניקוי
+	Mark all	סימון הכול
+	Save changes to “{name}” before closing?	לשמור את השינויים בקובץ „{name}” לפני הסגירה?
+	Your changes will be lost if you don't save them.	השינויים יאבדו אם לא תשמור אותם.
+	Password required	נדרשת סיסמה
+	“{name}” is protected. Enter a password to open it.	הקובץ „{name}” מוגן. יש להזין סיסמה כדי לפתוח אותו.
+	Password	סיסמה
+	Incorrect password. Try again.	הסיסמה שגויה. נסה שוב.
+	Recognize Text	זיהוי טקסט
