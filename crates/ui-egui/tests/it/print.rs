@@ -893,6 +893,40 @@ fn restored_paper_keeps_preview_and_saved_sheet_dimensions() {
     std::fs::remove_file(out).unwrap();
 }
 
+#[test]
+fn booklet_binding_restore_accepts_only_known_sides() {
+    use pdfcraft_engine::print::Binding;
+
+    for (side, expected) in [("Left", Binding::Left), ("Right", Binding::Right)] {
+        let mut app = PdfCraftApp::new();
+        app.restore(&serde_json::json!({"print_binding": side}).to_string());
+        assert_eq!(app.print_draft.binding, expected, "{side}");
+        assert_eq!(
+            serde_json::from_str::<serde_json::Value>(&app.persist()).unwrap()["print_binding"],
+            side
+        );
+    }
+
+    for invalid in [
+        r#"{"print_binding":null}"#,
+        r#"{"print_binding":true}"#,
+        r#"{"print_binding":[]}"#,
+        r#"{"print_binding":{}}"#,
+        r#"{"print_binding":"left"}"#,
+        r#"{"print_binding":"right"}"#,
+        r#"{"print_binding":"unknown"}"#,
+    ] {
+        let mut app = PdfCraftApp::new();
+        let factory = app.print_draft.binding;
+        app.restore(invalid);
+        assert_eq!(app.print_draft.binding, factory, "{invalid}");
+
+        app.print_draft.binding = Binding::Right;
+        app.restore(invalid);
+        assert_eq!(app.print_draft.binding, Binding::Right, "invalid input must not replace a valid choice: {invalid}");
+    }
+}
+
 /// #2707: a booklet decides two-sided itself, as Acrobat does (its Print dialog hides Two-sided
 /// while Booklet is chosen): the job flips on the short edge for both sides and prints
 /// one-sided for the front or back only, and the Two-sided choice is kept for other layouts.
