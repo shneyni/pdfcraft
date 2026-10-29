@@ -1671,3 +1671,192 @@
 	this file isn't XFDF, FDF, XML or text form data	קובץ זה אינו נתוני טופס בפורמט XFDF, FDF, XML או טקסט
 	nothing in the file matches this document	שום דבר בקובץ אינו תואם למסמך זה
 	Go to page {p}	מעבר לעמוד {p}
+	Page {p} of {n}	עמוד {p} מתוך {n}
+	1 page selected	נבחר עמוד אחד
+	{n} pages selected	נבחרו {n} עמודים
+	{name} — unsaved changes	{name} — שינויים שלא נשמרו
+	{kind} field	שדה מסוג {kind}
+	Select a file for the stamp	בחירת קובץ לחותמת
+	JavaScript, e.g. getField("total").value	JavaScript, לדוגמה getField("total").value
+	Font: Helvetica	גופן: Helvetica
+	e.g. en-US	לדוגמה en-US
+	Rendering: hayro (bootstrap) · UI: egui · Icons: Lucide (ISC) · Fonts: Inter, JetBrains Mono, Dancing Script (OFL)	רינדור: hayro (bootstrap) · ממשק: egui · סמלים: Lucide (ISC) · גופנים: Inter, JetBrains Mono, Dancing Script (OFL)
+	CheckBox	תיבת סימון
+	Radio	כפתור בחירה
+	PushButton	כפתור
+	Combo	תיבה משולבת
+	List	רשימה
+	Unknown	לא ידוע
+	The document has no XMP metadata	למסמך אין מטא־נתוני XMP
+	The title in the metadata and the document information differ	הכותרת במטא־נתונים שונה מהכותרת בפרטי המסמך
+	The document is encrypted	המסמך מוצפן
+	Device colour is used, but there is no PDF/A output intent	נעשה שימוש בצבע התקן, אך לא הוגדר פרופיל פלט עבור PDF/A
+	DeviceCMYK is used: it needs a CMYK output intent (not added automatically)	נעשה שימוש ב־DeviceCMYK: נדרש פרופיל פלט CMYK (אינו מתווסף אוטומטית)
+	The document has additional actions (/AA)	למסמך יש פעולות נוספות (/AA)
+	The document has document-level JavaScript	למסמך יש JavaScript ברמת המסמך
+	The form asks viewers to make appearances (NeedAppearances)	הטופס מבקש מתוכנות הצפייה ליצור מראי שדות (NeedAppearances)
+	A form field has additional actions	לשדה טופס יש פעולות נוספות
+	A stream uses LZW compression	זרם משתמש בדחיסת LZW
+	A stream refers to an external file	זרם מפנה לקובץ חיצוני
+	An image asks to be interpolated	תמונה מבקשת לבצע אינטרפולציה
+	An image has alternates or OPI information	לתמונה יש חלופות או מידע OPI
+	PostScript XObjects aren't allowed	אסור להשתמש באובייקטי XObject מסוג PostScript
+	Embedded files must be PDF/A files themselves (use PDF/A-3 for others)	קבצים מוטמעים חייבים להיות בעצמם קובצי PDF/A (לשאר יש להשתמש ב־PDF/A-3)
+	An embedded file has no AFRelationship	לקובץ מוטמע אין ערך AFRelationship
+	Select Icon	בחירת סמל
+	Choose images	בחירת תמונות
+	{dpi} pixels/inch	{dpi} פיקסלים לאינץ׳
+	Type your {what}.	הקלד את {what}.
+	Draw your {what} below.	צייר את {what} למטה.
+	Your name	השם שלך
+	Images and text (converted to PDF)	תמונות וטקסט (יומרו ל־PDF)
+	Images and text	תמונות וטקסט
+	Check Box Style:	סגנון תיבת הסימון:
+	Button Style:	סגנון הכפתור:
+	Check	סימן וי
+	Circle	עיגול
+	Diamond	מעוין
+	Square	ריבוע
+	Star	כוכב
+	{month} {y}	{month} {y}
+	Change {key}	שינוי {key}
+	Insert pages from {name}	הוספת עמודים מתוך {name}
+	Insert pages from {name} — 1 field renamed	הוספת עמודים מתוך {name} — שם של שדה אחד שונה
+	Insert pages from {name} — fields renamed	הוספת עמודים מתוך {name} — שמות שדות שונו
+	Fill in {name}	מילוי {name}
+	Set the image of {name}	הגדרת התמונה של {name}
+	Edit script of {name}	עריכת הסקריפט של {name}
+	Import {name}	ייבוא {name}
+	Add bookmark	הוספת סימנייה
+	Rename bookmark	שינוי שם סימנייה
+	Delete bookmark	מחיקת סימנייה
+	Move bookmark	העברת סימנייה
+	Set bookmark destination	הגדרת יעד לסימנייה
+	Add stamp	הוספת חותמת
+	Delete comment	מחיקת הערה
+	Edit comment	עריכת הערה
+	Erase	מחיקה
+	Lock comment	נעילת הערה
+	Unlock comment	ביטול נעילת הערה
+	Move comment	העברת הערה
+	Resize comment	שינוי גודל הערה
+	Change comment properties	שינוי מאפייני הערה
+	Add field	הוספת שדה
+	Change field properties	שינוי מאפייני שדה
+	Delete field	מחיקת שדה
+	Duplicate field	שכפול שדה
+	Set tab order	הגדרת סדר מעבר עם Tab
+	Change initial view	שינוי התצוגה הראשונית
+	Set alternate text	הגדרת טקסט חלופי
+	Mark figure as decorative	סימון איור כדקורטיבי
+	Run JavaScript	הרצת JavaScript
+	Delete document JavaScript	מחיקת JavaScript מהמסמך
+	Edit document JavaScript	עריכת JavaScript במסמך
+	Edit text	עריכת טקסט
+	Load document font	טעינת גופן למסמך
+	Move image	הזזת תמונה
+	Rotate image	סיבוב תמונה
+	Flip image	היפוך תמונה
+	Delete image	מחיקת תמונה
+	Add header & footer	הוספת כותרת עליונה ותחתונה
+	Update header & footer	עדכון כותרת עליונה ותחתונה
+	Update watermark	עדכון סימן מים
+	Add background	הוספת רקע
+	Update background	עדכון רקע
+	Add image	הוספת תמונה
+	Edit content	עריכת תוכן
+	Delete content	מחיקת תוכן
+	Remove redaction marks	הסרת סימוני השחרה
+	Add link	הוספת קישור
+	Change link properties	שינוי מאפייני קישור
+	Delete link	מחיקת קישור
+	Create link	יצירת קישור
+	Flatten	השטחה
+	Add sticky note	הוספת פתקית
+	Add highlight	הוספת הדגשה
+	Add underline	הוספת קו תחתון
+	Add strikethrough	הוספת קו חוצה
+	Add squiggly underline	הוספת קו תחתון גלי
+	Add rectangle	הוספת מלבן
+	Add oval	הוספת אליפסה
+	Add arrow	הוספת חץ
+	Add line	הוספת קו
+	Add drawing	הוספת ציור
+	Add text box	הוספת תיבת טקסט
+	Add checkmark	הוספת סימן וי
+	Add cross	הוספת צלב
+	Add dot	הוספת נקודה
+	Add signature	הוספת חתימה
+	Add redaction mark	הוספת סימון השחרה
+	Add cloud	הוספת ענן
+	Add polygon	הוספת מצולע
+	Add connected lines	הוספת קווים מחוברים
+	Add callout	הוספת תיבת הסבר
+	Add inserted text	הוספת טקסט מוכנס
+	Add file attachment	הוספת קובץ מצורף
+	Set status Accepted	הגדרת מצב: התקבל
+	Set status Rejected	הגדרת מצב: נדחה
+	Set status Cancelled	הגדרת מצב: בוטל
+	Set status Completed	הגדרת מצב: הושלם
+	Set status None	הגדרת מצב: ללא
+	Set status Unmarked	הגדרת מצב: לא מסומן
+	Save as PDF/A-1b	שמירה כ־PDF/A-1b
+	Save as PDF/A-2b	שמירה כ־PDF/A-2b
+	Save as PDF/A-3b	שמירה כ־PDF/A-3b
+	Fill & Sign: change signature	מילוי וחתימה: שינוי חתימה
+	Fill & Sign: change initials	מילוי וחתימה: שינוי ראשי תיבות
+	Fill & Sign: remove saved signature	מילוי וחתימה: הסרת חתימה שמורה
+	Fill & Sign: remove saved initials	מילוי וחתימה: הסרת ראשי תיבות שמורות
+	Change signature	שינוי חתימה
+	Change initials	שינוי ראשי תיבות
+	Measure distance	מדידת מרחק
+	Measure perimeter	מדידת היקף
+	Measure area	מדידת שטח
+	Set measurement scale	הגדרת קנה מידה למדידה
+	Measurement information	מידע על המדידה
+	Measurement snapping	הצמדה במדידה
+	Export measurements as CSV	ייצוא מדידות כ־CSV
+	Distance	מרחק
+	Perimeter	היקף
+	Area	שטח
+	Drawing scale	קנה מידה של השרטוט
+	Scale	קנה מידה
+	Common scales	קני מידה נפוצים
+	Enter a scale such as 1:50.	יש להזין קנה מידה, לדוגמה 1:50.
+	Applying a scale switches units to m / mm.	החלת קנה המידה משנה את היחידות ל־m / mm.
+	Snapping	הצמדה
+	Export measurements	ייצוא מדידות
+	Open a PDF to measure it.	יש לפתוח קובץ PDF כדי למדוד אותו.
+	Click vertices. Enter or double-click finishes a perimeter or area. Click the first point to close an area.	לחץ על קודקודים. לחיצה על Enter או לחיצה כפולה מסיימת מדידת היקף או שטח. לחץ על הנקודה הראשונה כדי לסגור שטח.
+	Shift constrains to 45 degrees. Backspace removes a vertex. Escape cancels.	Shift מגביל לזוויות של 45 מעלות. Backspace מסיר קודקוד. Escape מבטל.
+	Angle	זווית
+	Click the first point to begin.	לחץ על הנקודה הראשונה כדי להתחיל.
+	Snap to drawing	הצמדה לשרטוט
+	Endpoints	נקודות קצה
+	Midpoints	נקודות אמצע
+	Intersections	נקודות חיתוך
+	Paths	נתיבים
+	Sensitivity	רגישות
+	Unit	יחידה
+	Decimals	ספרות עשרוניות
+	Calibrate from two points	כיול באמצעות שתי נקודות
+	Entire page	כל העמוד
+	Viewport rectangle in page points (x, y, width, height)	מלבן אזור התצוגה בנקודות עמוד (x, y, רוחב, גובה)
+	Viewport	אזור תצוגה
+	Apply scale	החלת קנה מידה
+	Saved measurements	מדידות שמורות
+	Saved measurements.	המדידות נשמרו.
+	Endpoint	נקודת קצה
+	Midpoint	נקודת אמצע
+	Intersection	נקודת חיתוך
+	Path	נתיב
+	This drawing exceeds the snapping limit; only the first paths are used.	השרטוט חורג ממגבלת ההצמדה; נעשה שימוש בנתיבים הראשונים בלבד.
+	Some page content couldn't be read; snapping uses the rest.	לא ניתן לקרוא חלק מתוכן העמוד; ההצמדה משתמשת בשאר התוכן.
+	Unsupported measurements	מדידות שאינן נתמכות
+	Label	תווית
+	{n} measurements use an unsupported format and are left out.	{n} מדידות משתמשות בפורמט שאינו נתמך ולכן לא נכללו.
+	This area has too many overlapping paths; intersection snapping is limited.	באזור זה יש יותר מדי נתיבים חופפים; ההצמדה לנקודות חיתוך מוגבלת.
+	This measurement needs at least {n} points.	המדידה דורשת לפחות {n} נקודות.
+	Change {what}	שינוי {what}
+	Cut and stack	חיתוך וערימה
+	Default workspace mode	מצב ברירת המחדל של סביבת העבודה
