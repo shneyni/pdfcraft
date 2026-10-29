@@ -994,7 +994,8 @@ fn arabic_is_registered_and_persists() {
     assert_eq!(ar.name(), "العربية");
     assert!(ar.rtl());
     let rtl: Vec<&str> = Lang::all().filter(|l| l.rtl()).map(|l| l.code()).collect();
-    assert_eq!(rtl, ["ar", "ckb", "fa"], "Arabic, Kurdish and Persian are the right-to-left languages");
+    assert_eq!(rtl, ["ar", "ckb", "fa", "he"], "Arabic, Kurdish, Persian and Hebrew use right-to-left text direction");
+    assert!(ar.mirrors_chrome(), "Arabic keeps existing RTL chrome mirroring");
     assert_eq!(normalize_pref("AR"), Some("ar"));
     for tag in ["ar", "ar-MA", "ar_EG.UTF-8", "AR-sa", "ar_DZ@variant"] {
         assert_eq!(lang_from_tag(tag), Some(ar), "{tag}");
@@ -1054,7 +1055,8 @@ fn hebrew() -> Lang {
 fn hebrew_is_registered_and_persists_without_mirroring_the_ui_layout() {
     let he = hebrew();
     assert_eq!(he.name(), "עברית");
-    assert!(!he.rtl(), "Hebrew translation must not mirror the existing button layout");
+    assert!(he.rtl(), "Hebrew text needs the existing RTL paragraph direction");
+    assert!(!he.mirrors_chrome(), "Hebrew must preserve the existing button and panel layout");
     assert_eq!(he.0.plural_forms(), 3);
     assert_eq!([1, 2, 3, 0].map(|n| (he.0.plural)(n)), [0, 1, 2, 2]);
     assert_eq!(normalize_pref("HE"), Some("he"));
