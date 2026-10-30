@@ -22,7 +22,7 @@ permissions:
 
 concurrency:
   group: hebrew-windows-msi-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   windows-msi:
@@ -71,11 +71,11 @@ jobs:
 
       - name: Test the Hebrew catalog and RTL behavior
         shell: pwsh
-        run: cargo test --locked -p pdfcraft-ui-egui
+        run: cargo test --locked -p pdfcraft-ui-egui --lib
 
       - name: Test date and locale data
         shell: pwsh
-        run: cargo test --locked -p pdfcraft-engine
+        run: cargo test --locked -p pdfcraft-engine --lib
 
       - name: Build, validate and package MSI
         shell: pwsh
