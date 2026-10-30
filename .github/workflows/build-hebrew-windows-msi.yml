@@ -80,6 +80,7 @@ jobs:
       - name: Build, validate and package MSI
         shell: pwsh
         env:
+          PDFCRAFT_DEFAULT_LANGUAGE: he
           WINDOWS_CERTIFICATE: ${{ secrets.WINDOWS_CERTIFICATE }}
           WINDOWS_CERTIFICATE_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
