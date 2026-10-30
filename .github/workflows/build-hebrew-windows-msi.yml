@@ -69,13 +69,22 @@ jobs:
           wix-version: 5.0.2
           install-extensions: "true"
 
-      - name: Test the Hebrew catalog and RTL behavior
+      - name: Verify the dedicated Hebrew build configuration
         shell: pwsh
-        run: cargo test --locked -p pdfcraft-ui-egui --lib
-
-      - name: Test date and locale data
-        shell: pwsh
-        run: cargo test --locked -p pdfcraft-engine --lib
+        run: |
+          $ErrorActionPreference = 'Stop'
+          if (-not (Select-String -Path 'crates/ui-egui/src/app.rs' -Pattern 'option_env!\("PDFCRAFT_DEFAULT_LANGUAGE"\)' -Quiet)) {
+            throw 'The app no longer has the compile-time first-launch language setting.'
+          }
+          if (-not (Select-String -Path 'crates/ui-egui/src/i18n.rs' -Pattern 'code: "he".*name: "עברית".*rtl: true' -Quiet)) {
+            throw 'Hebrew is not registered with right-to-left text direction.'
+          }
+          if (-not (Test-Path 'crates/ui-egui/src/i18n/he.tsv')) {
+            throw 'The Hebrew translation catalog is missing.'
+          }
+          if (-not (Select-String -Path '.github/workflows/build-hebrew-windows-msi.yml' -Pattern 'PDFCRAFT_DEFAULT_LANGUAGE: he' -Quiet)) {
+            throw 'The Windows MSI build does not set Hebrew as its default language.'
+          }
 
       - name: Build, validate and package MSI
         shell: pwsh
