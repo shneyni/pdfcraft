@@ -21,7 +21,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: hebrew-windows-msi-${{ github.ref }}
+  group: hebrew-windows-msi-${{ github.sha }}
   cancel-in-progress: true
 
 jobs:
