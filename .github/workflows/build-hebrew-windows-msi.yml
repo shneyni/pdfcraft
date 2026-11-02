@@ -24,7 +24,7 @@ jobs:
       CARGO_INCREMENTAL: 0
       CARGO_NET_RETRY: 10
       RUST_BACKTRACE: 1
-      PDFCRAFT_VERSION: "0.15.0-hebrew.1"
+      PDFCRAFT_VERSION: "0.17.0-hebrew.1"
       PDFCRAFT_BUILD_SHA: ${{ github.sha }}
       CRAFT_FONTS_DIR: ${{ github.workspace }}/craft-fonts
       CRAFT_FONTS_REQUIRED: "1"
@@ -101,7 +101,7 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          $msi = Join-Path $PWD 'dist/release/pdfcraft-0.15.0-hebrew.1-windows-x64.msi'
+          $msi = Join-Path $PWD 'dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi'
           if (-not (Test-Path -LiteralPath $msi)) {
             throw "Expected MSI was not created: $msi"
           }
@@ -118,7 +118,7 @@ jobs:
             Set-Content -LiteralPath "$msi.sha256" -Encoding ascii
           $info = [ordered]@{
             product = 'PdfCraft Hebrew preview'
-            version = '0.15.0-hebrew.1'
+            version = '0.17.0-hebrew.1'
             architecture = 'x64'
             source_commit = $env:GITHUB_SHA
             font_catalog_commit = 'b076417b5880bd4154bd22f00695b1d28c6bea83'
@@ -135,8 +135,8 @@ jobs:
         with:
           name: PdfCraft-Hebrew-MSI-windows-x64
           path: |
-            dist/release/pdfcraft-0.15.0-hebrew.1-windows-x64.msi
-            dist/release/pdfcraft-0.15.0-hebrew.1-windows-x64.msi.sha256
+            dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi
+            dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi.sha256
             dist/release/pdfcraft-hebrew-build-info.json
           if-no-files-found: error
           retention-days: 30

@@ -382,9 +382,8 @@ fn plurals_and_placeholders() {
 
 #[test]
 fn language_persists_and_invalid_input_keeps_current_language() {
-    let default = option_env!("PDFCRAFT_DEFAULT_LANGUAGE").and_then(normalize_pref).unwrap_or(AUTO);
     let mut app = crate::PdfCraftApp::default();
-    assert_eq!(app.language, default);
+    assert_eq!(app.language, AUTO);
     app.set_option("language", "JA").unwrap();
     assert_eq!(app.language, "ja");
     assert!(app.set_option("language", "xx").is_err());
@@ -399,7 +398,7 @@ fn language_persists_and_invalid_input_keeps_current_language() {
     // Settings written before the system-locale default (no key) follow the system.
     let mut legacy = crate::PdfCraftApp::default();
     legacy.restore("{}");
-    assert_eq!(legacy.language, default);
+    assert_eq!(legacy.language, AUTO);
 }
 
 #[test]
@@ -1085,6 +1084,32 @@ fn hebrew_is_registered_and_persists_without_mirroring_the_ui_layout() {
 
 fn persian() -> Lang {
     Lang::from_code("fa").expect("fa registered")
+}
+
+/// The release-pinned Hebrew face includes the combining marks used in ordinary niqqud.
+#[test]
+fn hebrew_face_covers_common_niqqud_marks() {
+    let faces: Vec<String> = pdfcraft_fonts::ui_hebrew_fonts().iter().map(|f| f.name()).collect();
+    if faces.is_empty() {
+        eprintln!("skipping Hebrew glyph checks: build with CRAFT_FONTS_DIR and a Hebrew face to run them");
+        return;
+    }
+
+    // Sheva, dagesh, tsere, qamats, holam and shin dot.
+    let sample = "שָׁלוֹם עוֹלָם בְּרֵאשִׁית";
+    let mut hebrew_only = crate::theme::font_definitions();
+    for family in hebrew_only.families.values_mut() {
+        family.retain(|name| !pdfcraft_fonts::CRAFT_FONTS.iter().any(|face| face.name() == *name) || faces.contains(name));
+    }
+
+    use egui::epaint::text::{Fonts, TextOptions};
+    for (build, defs) in [("all faces", crate::theme::font_definitions()), ("Hebrew face only", hebrew_only)] {
+        let mut fonts = Fonts::new(TextOptions::default(), defs);
+        for id in [egui::FontId::proportional(13.0), egui::FontId::monospace(13.0), crate::theme::medium(13.0), crate::theme::semibold(17.0)] {
+            let missing: std::collections::BTreeSet<char> = sample.chars().filter(|c| !c.is_whitespace() && !fonts.has_glyphs(&id, &c.to_string())).collect();
+            assert!(missing.is_empty(), "{build}: {id:?} lacks Hebrew letters or niqqud marks {missing:?}");
+        }
+    }
 }
 
 #[test]
