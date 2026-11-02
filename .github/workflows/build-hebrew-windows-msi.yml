@@ -82,7 +82,8 @@ jobs:
         shell: pwsh
         env:
           PDFCRAFT_DEFAULT_LANGUAGE: he
-        run: cargo test --locked -p pdfcraft-ui-egui --test it print::
+        run: |
+          cargo test --locked -p pdfcraft-ui-egui --test it print::
 
       - name: Build, validate and package MSI
         shell: pwsh
