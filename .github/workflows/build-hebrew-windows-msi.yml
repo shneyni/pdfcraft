@@ -24,7 +24,7 @@ jobs:
       CARGO_INCREMENTAL: 0
       CARGO_NET_RETRY: 10
       RUST_BACKTRACE: 1
-      PDFCRAFT_VERSION: "0.17.0-hebrew.1"
+      PDFCRAFT_VERSION: "0.17.0"
       PDFCRAFT_BUILD_SHA: ${{ github.sha }}
       CRAFT_FONTS_DIR: ${{ github.workspace }}/craft-fonts
       CRAFT_FONTS_REQUIRED: "1"
@@ -78,6 +78,12 @@ jobs:
           PDFCRAFT_DEFAULT_LANGUAGE: he
         run: cargo test --locked -p pdfcraft-ui-egui --lib
 
+      - name: Test booklet binding persistence on Windows
+        shell: pwsh
+        env:
+          PDFCRAFT_DEFAULT_LANGUAGE: he
+        run: cargo test --locked -p pdfcraft-ui-egui --test it print::
+
       - name: Build, validate and package MSI
         shell: pwsh
         env:
@@ -101,7 +107,7 @@ jobs:
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          $msi = Join-Path $PWD 'dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi'
+          $msi = Join-Path $PWD 'dist/release/pdfcraft-0.17.0-windows-x64.msi'
           if (-not (Test-Path -LiteralPath $msi)) {
             throw "Expected MSI was not created: $msi"
           }
@@ -117,8 +123,8 @@ jobs:
           "$hash  $([IO.Path]::GetFileName($msi))" |
             Set-Content -LiteralPath "$msi.sha256" -Encoding ascii
           $info = [ordered]@{
-            product = 'PdfCraft Hebrew preview'
-            version = '0.17.0-hebrew.1'
+            product = 'PdfCraft Hebrew'
+            version = '0.17.0'
             architecture = 'x64'
             source_commit = $env:GITHUB_SHA
             font_catalog_commit = 'b076417b5880bd4154bd22f00695b1d28c6bea83'
@@ -133,10 +139,10 @@ jobs:
       - name: Upload the standalone MSI
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: PdfCraft-Hebrew-MSI-windows-x64
+          name: PdfCraft-Hebrew-MSI-v0.17.0-windows-x64
           path: |
-            dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi
-            dist/release/pdfcraft-0.17.0-hebrew.1-windows-x64.msi.sha256
+            dist/release/pdfcraft-0.17.0-windows-x64.msi
+            dist/release/pdfcraft-0.17.0-windows-x64.msi.sha256
             dist/release/pdfcraft-hebrew-build-info.json
           if-no-files-found: error
           retention-days: 30

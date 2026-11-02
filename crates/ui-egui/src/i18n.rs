@@ -16,7 +16,7 @@
 //! placeholders, plural forms) pick it up from the registry.
 //!
 //! # Looking strings up
-//! - [`tl!`](crate::tl) / [`t`]: a plain string in the current language. [`tr`]: in a given one.
+//! - `tl!` / [`t`]: a plain string in the current language. [`tr`]: in a given one.
 //! - [`tr_ctx`] (`tl_ctx!` in UI code): when one English word needs different translations.
 //! - [`tr_id`]: a command-id keyed string with the English label as fallback (menu items), so a
 //!   translation survives rewording of the English text and can differ per command.
@@ -247,8 +247,7 @@ pub static LANGUAGES: [LangInfo; 36] = [
     // to left like Arabic: see `LangInfo::rtl`. CLDR `fa` counts have two forms (one: i = 0 or n = 1,
     // other), which for whole counts is the French rule, so `@plural` entries list two forms.
     LangInfo { code: "fa", name: "فارسی", source: include_str!("i18n/fa.tsv"), plural: plural_fr, rtl: true, catalog: OnceLock::new() },
-    // Hebrew UI labels use the existing bidi text shaping while retaining PdfCraft's current
-    // control placement and toolbar layout in this fork.
+    // Hebrew UI labels use the existing bidi text shaping while retaining the stock control placement.
     LangInfo { code: "he", name: "עברית", source: include_str!("i18n/he.tsv"), plural: plural_hebrew, rtl: true, catalog: OnceLock::new() },
     // Polish; every `pl-*` locale (`pl-pl`, `pl_pl.UTF-8`) resolves here.
     LangInfo { code: "pl", name: "Polski", source: include_str!("i18n/pl.tsv"), plural: plural_polish, rtl: false, catalog: OnceLock::new() },
@@ -449,8 +448,7 @@ impl Lang {
     }
 
     /// Whether the stock egui chrome (menus, combo boxes, scroll bars and headers) should mirror.
-    /// Hebrew uses right-to-left text direction but, in this fork, retains the existing control
-    /// and button placement rather than mirroring the entire interface.
+    /// Hebrew uses RTL text direction but retains the existing control and button placement.
     pub fn mirrors_chrome(self) -> bool {
         self.rtl() && self.code() != "he"
     }

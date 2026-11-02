@@ -1082,6 +1082,7 @@ fn hebrew_is_registered_and_persists_without_mirroring_the_ui_layout() {
     assert_eq!(restored.language, "he");
 }
 
+
 fn persian() -> Lang {
     Lang::from_code("fa").expect("fa registered")
 }
@@ -1111,6 +1112,7 @@ fn hebrew_face_covers_common_niqqud_marks() {
         }
     }
 }
+
 
 #[test]
 fn persian_is_registered_and_persists() {
@@ -1280,4 +1282,13 @@ fn date_languages_are_the_interface_languages() {
     let interface: Vec<(&str, &str)> = Lang::all().map(|l| (l.code(), l.name())).collect();
     let dates: Vec<(&str, &str)> = pdfcraft_engine::dates::DATE_LANGUAGES.iter().map(|l| (l.code, l.name)).collect();
     assert_eq!(dates, interface);
+}
+
+#[test]
+fn image_paste_and_home_notifications_are_translated() {
+    for language in Lang::all().filter(|l| *l != Lang::EN) {
+        for source in ["Search…", "Image pasted", "No image on clipboard to paste", "Pinned {tool} to Home", "Unpinned {tool} from Home"] {
+            assert!(language.catalog().plain(source).is_some(), "{}: {source}", language.code());
+        }
+    }
 }

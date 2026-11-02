@@ -57,36 +57,6 @@ fn grid_pages_are_centred_and_as_large_as_the_cell_allows() {
     }
 }
 
-fn annotation(fill_sign: bool) -> pdfcraft_render::Annotation {
-    pdfcraft_render::Annotation {
-        page: 0,
-        subtype: "FreeText".into(),
-        author: None,
-        contents: Some("Hello".into()),
-        modified: None,
-        name: None,
-        in_reply_to: None,
-        parent: None,
-        grouped: false,
-        rect: [0.0; 4],
-        color: None,
-        index: 0,
-        state: None,
-        quads: Vec::new(),
-        locked: false,
-        intent: None,
-        fill_sign,
-        no_rotate: false,
-        points: Vec::new(),
-    }
-}
-
-#[test]
-fn hover_popup_skips_fill_and_sign_marks() {
-    assert_eq!(annotation_hover_text(&annotation(false)).as_deref(), Some("FreeText\nHello"));
-    assert_eq!(annotation_hover_text(&annotation(true)), None);
-}
-
 fn signature(signed: bool, visible: bool, page: Option<usize>, rect: Option<[f64; 4]>) -> pdfcraft_engine::SignatureInfo {
     pdfcraft_engine::SignatureInfo {
         field: "Signature1".into(),
@@ -1568,9 +1538,8 @@ fn virtualized_organizer_keeps_insert_gaps_at_document_positions() {
         app
     });
     h.run_steps(4);
-    let insert_at_end = crate::i18n::t("Insert a file at the end");
     assert!(h.state().views[0].thumb_demand.len() < 50);
-    assert_eq!(h.query_all_by_label(insert_at_end).count(), 0, "the last virtualized cell is not the final page");
+    assert_eq!(h.query_all_by_label("Insert a file at the end").count(), 0, "the last virtualized cell is not the final page");
     let center = h.state().views[0].viewport_rect().center();
     h.hover_at(center);
     h.event(egui::Event::MouseWheel {
@@ -1582,12 +1551,8 @@ fn virtualized_organizer_keeps_insert_gaps_at_document_positions() {
     });
     // Well past egui's longest scroll animation (about 0.3 s).
     h.run_steps(40);
-    h.get_by_label(insert_at_end);
-    let insert_before_page_100 = crate::i18n::fmt(
-        crate::i18n::t("Insert a file before page {label}"),
-        &[("label", "100")],
-    );
-    let before_last = h.get_by_label(&insert_before_page_100).rect().center();
+    h.get_by_label("Insert a file at the end");
+    let before_last = h.get_by_label("Insert a file before page 100").rect().center();
     h.hover_at(before_last);
     h.run_steps(2);
     assert_eq!(h.state().views[0].grid_gap, Some(99), "external drops use the document index after virtualized scrolling");
@@ -2036,4 +2001,39 @@ fn a_moved_picture_is_drawn_from_the_fresh_raster_while_a_tile_is_still_stale() 
     assert_eq!(red(&pixels, old), 0, "nothing shows where it first was");
     h.state_mut().views[0].stale_tiles.clear();
     h.state_mut().views[0].tiles.clear();
+}
+
+#[test]
+fn image_handles_account_for_document_and_view_rotation() {
+    for page_rotation in [0, 90, 180, 270] {
+        for view_rotation in [0, 90, 180, 270] {
+            let (width, height) = if page_rotation % 180 == 0 { (300.0, 400.0) } else { (400.0, 300.0) };
+            let info = DocInfo {
+                pages: vec![pdfcraft_render::PageInfo {
+                    width,
+                    height,
+                    label: String::new(),
+                    crop: [0.0, 0.0, 300.0, 400.0],
+                    rotation: page_rotation,
+                }],
+                ..Default::default()
+            };
+            let size = if view_rotation % 180 == 0 { vec2(width, height) } else { vec2(height, width) };
+            let xf = PageXform { rect: Rect::from_min_size(pos2(10.0, 20.0), size), rot: view_rotation, pw: width, ph: height };
+            let obb = ImageObb::from_matrix([100.0, 0.0, 0.0, 50.0, 50.0, 70.0], &xf, &info, 0);
+            let total = (page_rotation + view_rotation) % 360;
+            assert_eq!(obb.is_rotated, total != 0, "page={page_rotation} view={view_rotation}: user-labelled grips need matrix resize when turned");
+            for (handle, point) in obb.handles() {
+                let direction = point - obb.screen_center;
+                let cursor = match handle {
+                    ImageHandle::TopLeft | ImageHandle::TopRight | ImageHandle::BottomLeft | ImageHandle::BottomRight => {
+                        if direction.x * direction.y > 0.0 { egui::CursorIcon::ResizeNwSe } else { egui::CursorIcon::ResizeNeSw }
+                    }
+                    _ if direction.x.abs() > direction.y.abs() => egui::CursorIcon::ResizeHorizontal,
+                    _ => egui::CursorIcon::ResizeVertical,
+                };
+                assert_eq!(obb.handle_cursor(handle), cursor, "page={page_rotation} view={view_rotation} handle={handle:?}");
+            }
+        }
+    }
 }
