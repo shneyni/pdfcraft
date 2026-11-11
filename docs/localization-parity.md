@@ -1,6 +1,6 @@
 # Localization parity
 
-> **Last reviewed:** 2026-11-03 · **Last updated:** 2026-11-03 · **Change:** minor (every catalog restated from `cargo xtask i18n-report` on `main` at `14ae839a`: 2,897 strings in the report's denominator; Hindi, Indonesian, Korean, Thai, Lao and Central Kurdish listed with their catalogs. Scores and estimates unchanged) · **Target:** Adobe Acrobat Pro (Acrobat DC, continuous track 26.002.21931, macOS)
+> **Last reviewed:** 2026-11-03 · **Last updated:** 2026-11-11 · **Change:** Hebrew registered as an interface and date language; coverage is not yet remeasured. The 2,897-string denominator and scores below remain the report from 2026-11-03. · **Target:** Adobe Acrobat Pro (Acrobat DC, continuous track 26.002.21931, macOS)
 
 Per-language status of PdfCraft's interface against Acrobat Pro's. How translations work and how to
 add a language: [localization.md](localization.md). Summary in [ROADMAP.md](../ROADMAP.md).
@@ -92,6 +92,7 @@ help/docs polish: their script work is done, and each catalog lacks 46 strings o
 | Romanian | `ro` | 2,849 (98.3%) | partial; AI-assisted, not yet reviewed line by line by a native speaker | no |
 | Norwegian Bokmål | `nb` | 2,758 (95.2%) | partial; native-speaker terminology review by the contributor ([#1836](https://github.com/storytold/pdfcraft/pull/1836)), not yet line by line | yes |
 | Persian | `fa` | 2,801 (96.7%) | partial; AI-assisted, not yet reviewed line by line by a native speaker | no |
+| Hebrew | `he` | not yet measured (coverage report pending) | partial; RTL text with the original, unmirrored control layout; update-dialog translations await the upstream catalog merge and pin bump | yes (Middle East edition) |
 | Central Kurdish (Sorani) | `ckb` | 2,754 (95.1%) | partial; right-to-left like Arabic | no |
 | Thai | `th` | 2,751 (95.0%) | partial | no |
 | Lao | `lo` | 2,504 (86.4%) | partial | no |
