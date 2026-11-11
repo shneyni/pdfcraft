@@ -89,6 +89,10 @@ fn tags_map_to_languages() {
     needs_catalogs!();
     assert_eq!(lang_from_tag("ja_JP.UTF-8"), Some(JA()));
     assert_eq!(lang_from_tag("ja-JP"), Some(JA()));
+    let he = Lang::from_code("he").expect("he registered");
+    for tag in ["he", "he-IL", "he_IL.UTF-8", "HE-il"] {
+        assert_eq!(lang_from_tag(tag), Some(he), "{tag}");
+    }
     assert_eq!(lang_from_tag("fr_FR"), Lang::from_code("fr"));
     assert_eq!(lang_from_tag("fr_CA.UTF-8"), Lang::from_code("fr"));
     assert_eq!(lang_from_tag("fr-BE"), Lang::from_code("fr"));
@@ -107,6 +111,7 @@ fn candidates_walk_from_specific_to_general() {
     assert_eq!(candidates("pt_BR.UTF-8"), ["pt-br", "pt"]);
     assert_eq!(candidates("pt_PT.UTF-8"), ["pt-pt", "pt-br", "pt"]);
     assert_eq!(candidates("pt"), ["pt-br", "pt"]);
+    assert_eq!(candidates("he_IL.UTF-8"), ["he-il", "he"]);
     assert_eq!(candidates("zh_TW"), ["zh-tw", "zh-hant", "zh"]);
     assert_eq!(candidates("zh-CN"), ["zh-cn", "zh-hans", "zh"]);
     assert_eq!(candidates("zh-Hant-HK"), ["zh-hant-hk", "zh-hant", "zh"]);
@@ -1270,7 +1275,7 @@ fn arabic_is_registered_and_persists() {
     assert_eq!(ar.name(), "العربية");
     assert!(ar.rtl());
     let rtl: Vec<&str> = Lang::all().filter(|l| l.rtl()).map(|l| l.code()).collect();
-    assert_eq!(rtl, ["ar", "ckb", "fa"], "Arabic, Kurdish and Persian are the right-to-left languages");
+    assert_eq!(rtl, ["ar", "ckb", "fa", "he"], "Arabic, Kurdish, Persian and Hebrew use right-to-left text");
     assert_eq!(normalize_pref("AR"), Some("ar"));
     for tag in ["ar", "ar-MA", "ar_EG.UTF-8", "AR-sa", "ar_DZ@variant"] {
         assert_eq!(lang_from_tag(tag), Some(ar), "{tag}");
@@ -1286,6 +1291,26 @@ fn arabic_is_registered_and_persists() {
     assert_eq!(restored.language, "ar");
     assert!(restored.set_option("language", "xx").is_err());
     assert_eq!(restored.language, "ar");
+}
+
+#[test]
+fn hebrew_is_registered_for_rtl_text_without_mirroring_chrome() {
+    needs_catalogs!();
+    let he = Lang::from_code("he").expect("he registered");
+    assert_eq!(he.name(), "עברית");
+    assert_eq!(he.english_name(), "Hebrew");
+    assert!(he.rtl(), "Hebrew labels need right-to-left paragraph direction");
+    assert!(!he.mirror_chrome(), "Hebrew keeps the original control and menu positions");
+    assert!(arabic().mirror_chrome(), "existing Arabic chrome behavior stays unchanged");
+    for tag in ["he", "he-IL", "he_IL.UTF-8"] {
+        assert_eq!(lang_from_tag(tag), Some(he), "{tag}");
+    }
+    let mut app = crate::PdfCraftApp::default();
+    app.set_option("language", "he").unwrap();
+    assert_eq!(app.language, "he");
+    let mut restored = crate::PdfCraftApp::default();
+    restored.restore(&app.persist());
+    assert_eq!(restored.language, "he");
 }
 
 /// Catalog lookups stay in logical order; the egui 0.37 fork owns bidi shaping and display
