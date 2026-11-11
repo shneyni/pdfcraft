@@ -23,9 +23,13 @@ fn source(answer: Result<Option<&str>, &str>) -> UpdateSource {
 }
 
 fn harness(answer: Result<Option<&str>, &str>) -> Harness<'static, PdfCraftApp> {
+    harness_for(answer, "en")
+}
+
+fn harness_for(answer: Result<Option<&str>, &str>, language: &'static str) -> Harness<'static, PdfCraftApp> {
     Harness::builder().with_size(egui::vec2(1200.0, 800.0)).build_eframe(move |_cc| {
         let mut app = PdfCraftApp::new();
-        app.set_option("language", "en").unwrap();
+        app.set_option("language", language).unwrap();
         app.set_update_source(source(answer));
         app
     })
@@ -38,7 +42,7 @@ fn settle(h: &mut Harness<'static, PdfCraftApp>) {
     let deadline = std::time::Instant::now() + std::time::Duration::from_secs(30);
     loop {
         h.run_steps(2);
-        if h.query_by_label_contains("Checking for updates").is_none() {
+        if h.query_by_label_contains("Checking for updates").is_none() && h.query_by_label_contains("בודק אם קיימים עדכונים").is_none() {
             break;
         }
         assert!(std::time::Instant::now() < deadline, "timed out waiting for the update check");
@@ -55,6 +59,17 @@ fn a_newer_release_is_offered_for_download() {
     h.get_by_label_contains("PdfCraft 99.0.0 is available");
     h.get_by_label("DOWNLOAD");
     h.get_by_label("LATER").click();
+    h.run_steps(3);
+    assert!(h.query_by_label_contains("is available").is_none(), "Later closes the dialog");
+}
+
+#[test]
+fn update_actions_are_translated_in_hebrew() {
+    let mut h = harness_for(Ok(Some("v99.0.0")), "he");
+    h.state_mut().execute("help.check_updates");
+    settle(&mut h);
+    h.get_by_label("הורדה");
+    h.get_by_label("מאוחר יותר").click();
     h.run_steps(3);
     assert!(h.query_by_label_contains("is available").is_none(), "Later closes the dialog");
 }

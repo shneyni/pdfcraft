@@ -1,0 +1,94 @@
+name: Hebrew MSI
+
+on:
+  push:
+    branches:
+      - build/hebrew-msi
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-msi:
+    name: Build PdfCraft Hebrew MSI (Windows x64)
+    runs-on: windows-latest
+    timeout-minutes: 90
+    env:
+      CARGO_TERM_COLOR: always
+      CARGO_INCREMENTAL: 0
+      RUST_BACKTRACE: 1
+      PDFCRAFT_BUILD_SHA: ${{ github.sha }}
+    steps:
+      - name: Check out PdfCraft
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Check out pinned Hebrew catalogs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: shneyni/craft-i18n
+          ref: ad062697cabd909d8d1f37437e6d1a7df4449ead
+          path: craft-i18n
+          persist-credentials: false
+
+      - name: Check out pinned craft-fonts
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: storytold/craft-fonts
+          ref: b076417b5880bd4154bd22f00695b1d28c6bea83
+          path: craft-fonts
+          persist-credentials: false
+
+      - name: Verify and configure translation/font inputs
+        shell: pwsh
+        run: |
+          $expected = 'ad062697cabd909d8d1f37437e6d1a7df4449ead'
+          $pinned = (Get-Content 'craft-i18n.rev' -Raw).Trim()
+          $actual = (git -C craft-i18n rev-parse HEAD).Trim()
+          if ($pinned -ne $expected -or $actual -ne $expected) {
+            throw "Hebrew catalog pin mismatch: file=$pinned checkout=$actual expected=$expected"
+          }
+          "CRAFT_I18N_DIR=$env:GITHUB_WORKSPACE\craft-i18n" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          'CRAFT_I18N_REQUIRED=1' | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          "CRAFT_FONTS_DIR=$env:GITHUB_WORKSPACE\craft-fonts" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          'CRAFT_FONTS_REQUIRED=1' | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@683b588c487a69d01f6c6ddf40f036ff682cc2c8 # v1
+        with:
+          toolchain: stable
+          targets: x86_64-pc-windows-msvc
+
+      - name: Restore Rust build cache
+        uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+        with:
+          key: hebrew-msi-x64
+
+      - name: Install WiX v5
+        shell: pwsh
+        run: |
+          dotnet tool install --global wix --version 5.0.2
+          "$env:USERPROFILE\.dotnet\tools" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Build and package MSI
+        shell: pwsh
+        run: ./packaging/windows/package.ps1 -Arch x64
+
+      - name: Verify MSI and record SHA-256
+        shell: pwsh
+        run: |
+          $files = @(Get-ChildItem 'dist/release/pdfcraft-*-windows-x64.msi' -File)
+          if ($files.Count -ne 1) { throw "Expected exactly one x64 MSI, found $($files.Count)" }
+          $hash = Get-FileHash $files[0].FullName -Algorithm SHA256
+          "**MSI:** $($files[0].Name)" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8 -Append
+          "**SHA-256:** ``$($hash.Hash)``" | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8 -Append
+
+      - name: Upload MSI artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: pdfcraft-hebrew-windows-x64-msi
+          path: dist/release/pdfcraft-*-windows-x64.msi
+          if-no-files-found: error
+          retention-days: 30

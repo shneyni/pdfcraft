@@ -12,6 +12,12 @@ use crate::PdfCraftApp;
 /// Where every PdfCraft release is listed.
 pub const RELEASES_PAGE: &str = "https://github.com/storytold/pdfcraft/releases";
 
+/// Translate craft-update strings with the interface language currently selected in PdfCraft.
+#[cfg(not(target_arch = "wasm32"))]
+fn update_translate(text: &str, args: &[(&str, &str)]) -> String {
+    crate::i18n::fmt(crate::i18n::t(text), args)
+}
+
 /// Stands in for the network in tests.
 #[cfg(not(target_arch = "wasm32"))]
 pub type UpdateSource = CheckSource;
@@ -55,7 +61,7 @@ impl Default for Updates {
     fn default() -> Self {
         Self {
             #[cfg(not(target_arch = "wasm32"))]
-            updater: Updater::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION")),
+            updater: Updater::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION")).with_translator(update_translate),
             open: false,
             #[cfg(not(target_arch = "wasm32"))]
             startup_check: false,
@@ -119,7 +125,7 @@ impl PdfCraftApp {
     /// Replaces the network with `source` (tests).
     #[cfg(not(target_arch = "wasm32"))]
     pub fn set_update_source(&mut self, source: UpdateSource) {
-        self.updates.updater = Updater::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION")).with_source(source);
+        self.updates.updater = Updater::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION")).with_translator(update_translate).with_source(source);
     }
 
     /// Help ▸ Check for updates: ask for the latest release and show the outcome.
@@ -171,7 +177,7 @@ pub(crate) fn dialog(app: &mut PdfCraftApp, ctx: &egui::Context) {
             app.updates.open = false;
         }
         if app.updates.open {
-            let dialog = CheckResultDialog::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION"));
+            let dialog = CheckResultDialog::new(&crate::UPDATE_APP, env!("CARGO_PKG_VERSION")).with_translator(update_translate);
             let response = dialog.show(ctx, app.updates.updater.status());
             answer_result(app, ctx, response);
         }
@@ -221,6 +227,18 @@ mod tests {
     use pdfcraft_engine::{Edit, FieldValue};
     use std::path::PathBuf;
     use std::sync::Arc;
+
+    #[test]
+    fn update_strings_follow_the_active_interface_language() {
+        let previous = crate::i18n::current();
+        let he = crate::i18n::Lang::from_code("he").expect("he registered");
+        crate::i18n::set_current(he);
+        assert_eq!(update_translate("Later", &[]), "מאוחר יותר");
+        let message = update_translate("The update could not be installed: {reason}", &[("reason", "disk full")]);
+        assert!(message.contains("disk full") && !message.contains("{reason}"), "{message}");
+        crate::i18n::set_current(previous);
+        assert_eq!(update_translate("Later", &[]), "Later");
+    }
 
     /// An app with one open document holding a form, and with `dirty` an unsaved change to it.
     fn app(dirty: bool) -> PdfCraftApp {

@@ -63,7 +63,7 @@ const CKB_DAYS: [&str; 7] = ["یەکشەممە", "دووشەممە", "سێشەم
 
 /// The languages month and weekday names can be written in (Preferences ▸ Date format ▸ Language):
 /// the interface languages, in the same order and with the same names.
-pub static DATE_LANGUAGES: [DateLanguage; 35] = [
+pub static DATE_LANGUAGES: [DateLanguage; 36] = [
     DateLanguage {
         code: "en",
         name: "English",
@@ -277,6 +277,19 @@ pub static DATE_LANGUAGES: [DateLanguage; 35] = [
         months_short: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوئیه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"],
         days: ["یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه", "جمعه", "شنبه"],
         days_short: ["یک", "دو", "سه", "چه", "پن", "جم", "شن"],
+    },
+    // Hebrew uses genitive month forms after a day number (14 בנובמבר 2023).
+    DateLanguage {
+        code: "he",
+        name: "עברית",
+        months: ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"],
+        months_with_day: Some([
+            "בינואר", "בפברואר", "במרץ", "באפריל", "במאי", "ביוני",
+            "ביולי", "באוגוסט", "בספטמבר", "באוקטובר", "בנובמבר", "בדצמבר",
+        ]),
+        months_short: ["ינו׳", "פבר׳", "מרץ", "אפר׳", "מאי", "יונ׳", "יול׳", "אוג׳", "ספט׳", "אוק׳", "נוב׳", "דצמ׳"],
+        days: ["יום ראשון", "יום שני", "יום שלישי", "יום רביעי", "יום חמישי", "יום שישי", "שבת"],
+        days_short: ["א׳", "ב׳", "ג׳", "ד׳", "ה׳", "ו׳", "ש׳"],
     },
     DateLanguage {
         code: "pl",
@@ -889,6 +902,9 @@ mod tests {
         assert_eq!(in_lang("ddd d mmm", "it"), "sab 7 mar");
         assert_eq!(in_lang("dddd, d mmmm", "te"), "శనివారం, 7 మార్చి");
         assert_eq!(in_lang("dddd, d mmmm", "ar"), "السبت, 7 مارس");
+        assert_eq!(in_lang("dddd d mmmm yyyy", "he"), "שבת 7 במרץ 2026");
+        assert_eq!(in_lang("mmmm yyyy", "he"), "מרץ 2026");
+        assert_eq!(in_lang("ddd d mmm", "he"), "ש׳ 7 מרץ");
         assert_eq!(in_lang("yyyy\\年mmmmd\\日 dddd", "ja"), "2026年3月7日 土曜日");
         assert_eq!(in_lang("yyyy\\年mmmmd\\日 dddd", "zh-hans"), "2026年三月7日 星期六");
         assert_eq!(in_lang("ddd", "zh-hant"), "週六");

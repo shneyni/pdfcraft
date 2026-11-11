@@ -66,7 +66,7 @@ pub struct LangInfo {
 }
 
 /// How many languages [`LANGUAGES`] lists.
-const LANGUAGE_COUNT: usize = 35;
+const LANGUAGE_COUNT: usize = 36;
 
 /// The languages PdfCraft offers. English first: it is the fallback and the source language.
 pub static LANGUAGES: [LangInfo; LANGUAGE_COUNT] = [
@@ -110,6 +110,9 @@ pub static LANGUAGES: [LangInfo; LANGUAGE_COUNT] = [
     // to left like Arabic: see `LangInfo::rtl`. CLDR `fa` counts have two forms (one: i = 0 or n = 1,
     // other), which for whole counts is the French rule, so `@plural` entries list two forms.
     LangInfo { code: "fa", rtl: true },
+    // Hebrew text is right to left; unlike Arabic, Kurdish and Persian, Hebrew keeps the original
+    // left-to-right stock chrome and control placement.
+    LangInfo { code: "he", rtl: true },
     // Polish; every `pl-*` locale (`pl-pl`, `pl_pl.UTF-8`) resolves here.
     LangInfo { code: "pl", rtl: false },
     // Slovene; every `sl-*` locale (`sl-SI`) resolves here. Four plural forms (one, two, few, other).
@@ -261,6 +264,7 @@ impl Lang {
             "ar" => "Arabic",
             "ckb" => "Central Kurdish",
             "fa" => "Persian",
+            "he" => "Hebrew",
             "pl" => "Polish",
             "sl" => "Slovenian",
             "el" => "Greek",
@@ -295,6 +299,12 @@ impl Lang {
     /// shapes and reorders each run for display (see [`LangInfo::rtl`]).
     pub fn rtl(self) -> bool {
         self.info().is_some_and(|l| l.rtl)
+    }
+
+    /// Whether stock egui chrome (menus, combo boxes, scroll bars and headers) mirrors for this
+    /// language. Hebrew text is RTL, but its controls retain PdfCraft's original layout.
+    pub fn mirror_chrome(self) -> bool {
+        self.rtl() && self.code() != "he"
     }
 
     /// Whether PdfCraft's own catalog (`pdfcraft.tsv`, not the shared `common.tsv`) has the row
