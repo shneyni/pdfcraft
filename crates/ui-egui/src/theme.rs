@@ -422,13 +422,13 @@ pub fn semibold(size: f32) -> FontId {
     FontId::new(size, FontFamily::Name("semibold".into()))
 }
 
-/// Install the palette, widget styling, text sizes and right-to-left flag for the chosen theme.
+/// Install the palette, widget styling, text sizes and chrome direction for the chosen theme.
 pub fn apply(ctx: &egui::Context, kind: ThemeKind) {
     // Keep the native window inherited. A concrete egui theme pins macOS's
     // NSWindow appearance and prevents winit from delivering ThemeChanged.
     // Our saved choice owns the palette; both egui branches receive it below.
     ctx.set_theme(egui::ThemePreference::System);
-    let rtl = crate::i18n::current().rtl();
+    let rtl = crate::i18n::current().mirror_chrome();
     let t = Tokens::for_kind(kind);
     ctx.data_mut(|d| d.insert_temp(egui::Id::unique("pdfcraft-theme"), t));
     let mut v = if t.dark() { Visuals::dark() } else { Visuals::light() };
@@ -472,8 +472,8 @@ pub fn apply(ctx: &egui::Context, kind: ThemeKind) {
     }
     ctx.set_visuals(v);
     ctx.global_style_mut(|s| {
-        // RTL languages mirror stock chrome (menus, combo boxes, scroll bars, headers).
-        // Labels still get their paragraph direction explicitly from `bidi::ui_direction`.
+        // Arabic, Kurdish and Persian mirror stock chrome (menus, combo boxes, scroll bars, headers).
+        // Hebrew keeps the original chrome layout while `bidi::ui_direction` still lays its text RTL.
         s.right_to_left = rtl;
         s.spacing.item_spacing = egui::vec2(8.0, 6.0);
         s.spacing.button_padding = egui::vec2(10.0, 5.0);
