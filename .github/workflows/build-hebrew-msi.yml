@@ -1,0 +1,49 @@
+name: Hebrew MSI build (isolated)
+
+on:
+  push:
+    branches: [build-hebrew-msi-2026-11]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-msi:
+    runs-on: windows-2022
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Install WiX 5
+        shell: pwsh
+        run: dotnet tool install --global wix --version 5.0.2
+      - name: Fetch pinned craft-fonts
+        shell: pwsh
+        run: |
+          git clone https://github.com/storytold/craft-fonts "$env:RUNNER_TEMP\craft-fonts"
+          git -C "$env:RUNNER_TEMP\craft-fonts" checkout b076417b5880bd4154bd22f00695b1d28c6bea83
+      - name: Fetch pinned Hebrew translation catalogs
+        shell: pwsh
+        run: |
+          git clone https://github.com/storytold/craft-i18n "$env:RUNNER_TEMP\craft-i18n"
+          git -C "$env:RUNNER_TEMP\craft-i18n" checkout 866aff71dd63d8369eb100b9c432b5af1400c22a
+      - name: Build and package Windows x64 MSI
+        shell: pwsh
+        env:
+          CRAFT_FONTS_DIR: ${{ runner.temp }}\craft-fonts
+          CRAFT_FONTS_REQUIRED: "1"
+          CRAFT_I18N_DIR: ${{ runner.temp }}\craft-i18n
+          CRAFT_I18N_REQUIRED: "1"
+          PDFCRAFT_BUILD_SHA: ${{ github.sha }}
+        run: |
+          $env:PATH += ";$env:USERPROFILE\.dotnet\tools"
+          pwsh -NoProfile -ExecutionPolicy Bypass -File packaging/windows/package.ps1 -Arch x64
+      - name: Upload MSI
+        uses: actions/upload-artifact@v4
+        with:
+          name: PdfCraft-Hebrew-MSI
+          path: dist/release/*.msi
+          if-no-files-found: error
+          retention-days: 14
