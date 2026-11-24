@@ -492,6 +492,59 @@ fn turkish_keeps_its_dotted_and_dotless_i_when_changing_case() {
     assert_eq!(in_sentence("Image"), "image");
 }
 
+
+#[test]
+fn hebrew_is_registered_and_persists() {
+    needs_catalogs!();
+    let he = Lang::from_code("he").expect("he registered");
+    assert_eq!(he.name(), "עברית");
+    assert_eq!(he.english_name(), "Hebrew");
+    assert_eq!(tr(he, "Save as…"), "שמירה בשם…");
+    assert!(he.rtl());
+    for tag in ["he", "he-IL", "he_IL.UTF-8"] {
+        assert_eq!(lang_from_tag(tag), Some(he), "{tag}");
+    }
+    assert_eq!(normalize_pref("HE"), Some("he"));
+    assert_eq!(first_supported("he-IL\r\nen-US"), Some(he));
+    let rtl: Vec<&str> = Lang::all().filter(|l| l.rtl()).map(|l| l.code()).collect();
+    assert_eq!(rtl, ["he", "ar", "ckb", "fa"]);
+    let ctx = egui::Context::default();
+    let mut app = crate::PdfCraftApp::for_unit_tests();
+    app.set_option(&ctx, "language", "HE").unwrap();
+    assert_eq!(app.language, "he");
+    let mut restored = crate::PdfCraftApp::for_unit_tests();
+    restored.apply_settings(&app.settings_snapshot());
+    assert_eq!(restored.language, "he");
+    assert_eq!(trn(he, 1, "Delete {n} field", "Delete {n} fields"), "מחיקת שדה 1");
+    assert_eq!(trn(he, 2, "Delete {n} field", "Delete {n} fields"), "מחיקת 2 שדות");
+    assert_eq!(trn(he, 3, "Delete {n} field", "Delete {n} fields"), "מחיקת 3 שדות");
+}
+
+/// Every Hebrew catalog label and the language name have glyphs with the bundled face,
+/// including when that face is the only craft-fonts face in the web fallback.
+#[test]
+fn hebrew_labels_have_glyphs() {
+    let hebrew: Vec<String> = pdfcraft_fonts::ui_hebrew_fonts().iter().map(|f| f.name()).collect();
+    if hebrew.is_empty() {
+        eprintln!("skipping Hebrew glyph checks: build with CRAFT_FONTS_DIR and a Hebrew face to run them");
+        return;
+    }
+    needs_catalogs!();
+    let he = Lang::from_code("he").expect("he registered");
+    let labels: String = he.catalog_texts().flat_map(|text| text.chars()).chain(he.name().chars()).filter(|c| !c.is_control()).collect();
+    let mut hebrew_only = crate::theme::font_definitions();
+    for family in hebrew_only.families.values_mut() {
+        family.retain(|name| !pdfcraft_fonts::CRAFT_FONTS.iter().any(|face| face.name() == *name) || hebrew.contains(name));
+    }
+    use egui::epaint::text::{Fonts, TextOptions};
+    for (build, defs) in [("all faces", crate::theme::font_definitions()), ("Hebrew face only", hebrew_only)] {
+        let mut fonts = Fonts::new(TextOptions::default(), defs);
+        for id in [egui::FontId::proportional(13.0), egui::FontId::monospace(13.0), crate::theme::medium(13.0), crate::theme::semibold(17.0)] {
+            assert!(fonts.has_glyphs(&id, &labels), "{build}: {id:?} lacks a Hebrew label glyph");
+        }
+    }
+}
+
 fn arabic() -> Lang {
     Lang::from_code("ar").expect("ar registered")
 }
@@ -661,15 +714,15 @@ fn translation_gaps_report() {
 const REPORT_START: &str = "=== translation gaps ===";
 const REPORT_END: &str = "=== end of translation gaps ===";
 
-/// Preferences ▸ Date format ▸ Language offers exactly the interface languages, in order, with
-/// the interface's names for them when the catalogs are embedded.
+/// Preferences ▸ Date format ▸ Language offers the date-capable interface languages, in order,
+/// with the interface's names for them when the catalogs are embedded.
 #[test]
-fn date_languages_are_the_interface_languages() {
-    let interface: Vec<&str> = LANGUAGES.iter().map(|l| l.code).collect();
+fn date_languages_match_date_capable_interface_languages() {
+    let interface: Vec<&str> = LANGUAGES.iter().filter(|l| l.code != "he").map(|l| l.code).collect();
     let dates: Vec<&str> = pdfcraft_engine::dates::DATE_LANGUAGES.iter().map(|l| l.code).collect();
     assert_eq!(dates, interface);
     needs_catalogs!();
-    let interface: Vec<(&str, &str)> = Lang::all().map(|l| (l.code(), l.name())).collect();
+    let interface: Vec<(&str, &str)> = Lang::all().filter(|l| l.code() != "he").map(|l| (l.code(), l.name())).collect();
     let dates: Vec<(&str, &str)> = pdfcraft_engine::dates::DATE_LANGUAGES.iter().map(|l| (l.code, l.name)).collect();
     assert_eq!(dates, interface);
 }
