@@ -520,28 +520,27 @@ fn hebrew_is_registered_and_persists() {
     assert_eq!(trn(he, 3, "Delete {n} field", "Delete {n} fields"), "מחיקת 3 שדות");
 }
 
-/// Every Hebrew catalog label and the language name have glyphs with the bundled face,
-/// including when that face is the only craft-fonts face in the web fallback.
+/// Every Hebrew catalog label and the language name have glyphs in the installed UI font stack.
 #[test]
 fn hebrew_labels_have_glyphs() {
-    let hebrew: Vec<String> = pdfcraft_fonts::ui_hebrew_fonts().iter().map(|f| f.name()).collect();
-    if hebrew.is_empty() {
+    needs_catalogs!();
+    if pdfcraft_fonts::ui_hebrew_fonts().is_empty() {
         eprintln!("skipping Hebrew glyph checks: build with CRAFT_FONTS_DIR and a Hebrew face to run them");
         return;
     }
-    needs_catalogs!();
     let he = Lang::from_code("he").expect("he registered");
     let labels: String = he.catalog_texts().flat_map(|text| text.chars()).chain(he.name().chars()).filter(|c| !c.is_control()).collect();
-    let mut hebrew_only = crate::theme::font_definitions();
-    for family in hebrew_only.families.values_mut() {
-        family.retain(|name| !pdfcraft_fonts::CRAFT_FONTS.iter().any(|face| face.name() == *name) || hebrew.contains(name));
-    }
-    use egui::epaint::text::{Fonts, TextOptions};
-    for (build, defs) in [("all faces", crate::theme::font_definitions()), ("Hebrew face only", hebrew_only)] {
-        let mut fonts = Fonts::new(TextOptions::default(), defs);
-        for id in [egui::FontId::proportional(13.0), egui::FontId::monospace(13.0), crate::theme::medium(13.0), crate::theme::semibold(17.0)] {
-            assert!(fonts.has_glyphs(&id, &labels), "{build}: {id:?} lacks a Hebrew label glyph");
-        }
+    let stack = crate::fonts::ui_fonts(he).stack();
+    use craft::ui::fonts::{FontRef, Sample, missing_glyphs};
+    let sample = Sample::new("he", "Hebrew interface catalog", &labels);
+    for (name, family) in [
+        ("proportional", FontRef::proportional()),
+        ("monospace", FontRef::monospace()),
+        ("medium", FontRef::named("medium")),
+        ("semibold", FontRef::named(craft::ui::fonts::SEMIBOLD)),
+    ] {
+        let missing = missing_glyphs(&stack, &family, std::iter::once(sample), false);
+        assert!(missing.is_empty(), "{name}: missing Hebrew interface glyphs: {missing:?}");
     }
 }
 
